@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page050/bg.jpg)}
+.para-content{width: 289px;}
+.cnt-wrap{position: absolute;right: 0;top: 0;bottom:0; width: calc(100% - 289px);height: 100%;}
+.cnt-wrap .font-ka{font-size: 25px;position: absolute;left:63px;top:57px;color:#fff}
+.cnt-wrap .font-ka>span{position: relative;}
+.cnt-wrap .font-ka>span+span{margin-left: 18px;}
+.cnt-wrap .para{width: 323px;font-size: 15px;line-height: 25px;text-indent: 1em;}
+[class*=fwd].font-mi{font-size: 20px;line-height: 18px;}

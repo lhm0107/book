@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page056/bg.jpg)}
+.ch-1-hd {padding-left: 155px; justify-content: space-between}
+.btn-ch-idea {margin:86px 0  0 0px}
+.ch-goal {width: auto; margin-left: 155px}
+.ch-goal-title {margin: 0; margin-bottom: 20px}
+.ch-goal-list>li {padding-bottom: 15px}
+.think-title {position: absolute; left: 62px; top: 400px}
+.icon-hand {margin-left: 11px}
+
+/* 5-2 중단원 추가사항 */
+.social-5-2 .ch-goal .ch-goal-title{color:#143861}
+.social-5-2 .ch-goal .ch-goal-title>span{color:#00a5b1}
+.social-5-2 #num>span{background-color:#21b8c5}
+/* 생각이 활짝 캐릭터 없는거 파란색 */
+.social-5-2 .think-title>strong.sm{width: 70px;height:59px;background: url(../images/common/page-think-label-blue-02.png) no-repeat 0 0 / 100% auto}
+.social-5-2 .think-title>strong.sm+.font-dt{padding:15px 0 0 18px}
+
+/* list style */
+.ch-goal-list.ch-goal-list-bul>li{width: 100%;border-top: 0;font-size: 15px;font-weight:400;text-indent: 1.467em;position: relative;padding-top: 0}
+.ch-goal-list.ch-goal-list-bul>li::before{content:"";position: absolute;left:0;top:1px;width:13px;height: 13px;border:4px solid #fff;border-radius: 50%}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page025/bg.jpg)}
+
+.para{text-indent:.9em}
+.para-first>*:first-child {margin-top: -3px;margin-bottom: 4px;}
+.para-first>*:last-child{width:260px}

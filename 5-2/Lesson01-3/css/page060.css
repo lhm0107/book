@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page060/bg.jpg)}
+.para-wrp {padding-left: 155px}
+.content-bottom {position: absolute;left:96px; top:682px}
+.content-bottom .font-mi {font-size: 20px}
+.lst-type-num {margin-left: 31px; margin-top: 12px}
+.lst-type-num>li {letter-spacing: -12.5}
+.lst-type-num>li+li {margin-top: 5px}
+.text-circle {width: 18px; font-size: 13px}
+.btn-subject {position: absolute; top:0; right: -35px}

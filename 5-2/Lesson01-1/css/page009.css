@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page009/bg.png)}
+.timeline{position:absolute;top: 96px;left: 388px;font-size:14px;font-weight:700;font-family: 'KoPubDotum', sans-serif;}
+.timeline span{display: inline-block;min-width: 68px;padding: 7px 6px;background:#fff;border-radius: 33px;line-height: 20px;font-size: 14px;text-align: center;}
+.timeline span b{display: inline-block;vertical-align: top;line-height: 20px;font-size: 16px;}
+.timeline li+li{margin-top:26px;}
+.timeline li:nth-child(3), .timeline li:nth-child(5), .timeline li:nth-child(7), .timeline li:nth-child(8), .timeline li:nth-child(12){margin-top:27px;}
+.timeline li:nth-child(9){margin-top:25px;}
+
+
+.social-5-2 .icon-chapter-1{background-image: url(../images/common/chapter1-2.png);}
+.social-5-2 .icon-chapter-2{background-image: url(../images/common/chapter2-2.png);}
+.social-5-2 .icon-chapter-3{background-image: url(../images/common/chapter3-2.png);}

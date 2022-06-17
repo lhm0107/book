@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page008/bg.png);}
+.animate__animated {position: absolute;}
+.animate__fadeIn {animation-delay: 0.5s;}

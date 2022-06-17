@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page066/bg.jpg)}
+.left-wrp {width: 347px;padding-right: 25px}
+.row .font-dt {font-size: 15px; line-height: 25px}
+.content-bottom .font-dt span {font-weight: 700}
+.content-bottom .row.top {margin-top: 40px; margin-bottom: 43px}
+.word-bubble {width: 320px; height: 781.5px}
+.fwd1 {text-align: center;line-height: 25px; color:#fff}
+
+.word-bubble button {position: absolute}
+.bubble-box1{width: 145px;height: 119.5px;background-image: url(../images/page066/b1.png);padding-top: 16px}
+#interFadeIn>div {line-height: 18px; font-size: 20px}

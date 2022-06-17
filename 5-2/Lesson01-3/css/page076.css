@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.media1 .arrange-answer {letter-spacing: -0.009em; line-height: 1.6em;}
+.media1 div[class*=arrange-label] {margin-right: 36px;}
+.media1 .last {letter-spacing: -0.021em; margin-top: -5px;}
+.line1{left: 100%;top: -16px}
+.line2{left: 100%;top:0x}
+.i1 {left: -25px; bottom:-21px}
+
+.media2 .media-body div[class*=arrange-label] {width: 145px !important; padding: 4.5px 4px;}
+.media2 .media-body.arrange-label-line {margin-right: 10px;}
+.media2 .media-body .arrange-test .form-control {max-width: 76.5px !important; width: 76.5px !important;}
+/* 공통적용 필요 사항*/
+[class*=arrange-label] {width: 110px;}
+[class*=arrange-label]:before {height: 30px;}
+.arrange-test .form-control {max-width: 100px;}

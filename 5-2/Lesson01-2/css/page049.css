@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page049/bg.jpg)}
+.para-content{position: absolute;}
+.para-title{font-size: 19px;border-bottom: 2px solid #ffc155;display: inline-block;}
+.para-content .para{text-indent: 0.8em;margin-top: 5px;}
+[class*=fwd].font-mi{line-height: 18px;}
+[class*=fwd].font-dt{text-indent: 0;text-align: center;font-size: 14px;line-height: 23px;}
+.pc1{width: 511px;}
+.lst-type-bull.font-mi{position: absolute;}
+.lst-type-bull.font-mi>li{font-size: 20px;line-height: 25px;margin-top: 0;letter-spacing: -0.02em;padding-left: 11px;}
+.lst-type-bull>li:before{top:50%;transform: translateY(-50%);background-color: #000;}
+.fwd1 {width:375px;font-size: 15px;line-height: 25px !important;text-align:justify !important;text-indent:1em !important;transform: rotate(6.5deg);left:66px;top:39px}
+.dic-left .explanation:before{left: 21px}

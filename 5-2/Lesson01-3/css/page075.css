@@ -1,0 +1,8 @@
+@charset "utf-8";
+.sect-do-content {padding-right: 0;}
+.word-bubble img {position: relative; right:-5px; width: calc(100% + 40px);}
+.word-bubble .font-dt {font-size: 14px; line-height: 25px;}
+.fwd.font-mi {font-size: 20px; line-height: 18px; text-indent: 0;}
+.fwd.font-mi span {padding-left: 36px;}
+.layer-side-chk .media-body [class*=icon-btn], .layer-side-chk .media-body .layer {right: 0;}
+textarea.form-control {min-height: 30px; height: 30px; width: 566.5px;}

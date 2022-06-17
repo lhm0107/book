@@ -1,0 +1,7 @@
+@charset "utf-8";
+#wrap {background-image: url(../images/page073/bg.jpg)}
+.para.top {margin-top: 139px}
+.col-wide {margin-left: 0 !important; margin-right: auto}
+.content-bottom .d-flex {flex-direction: column; align-items: flex-end; padding-left: 44px}
+.content-bottom .para {line-height: 27px}
+.ohyes-title {margin-bottom: 15px}

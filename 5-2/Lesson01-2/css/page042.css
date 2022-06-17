@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.sect-do-explore{margin-top: -10px;}
+.sect-do-content{padding-left: 0;padding-right: 0;}
+.sect-do-content>.word-bubble{margin-top: -81px;}
+.indent-0{text-indent: 0;margin-left: -63px;}
+.ls25{letter-spacing: -0.02em;}
+.fwd-1{text-align: justify !important;text-indent: 1em !important;line-height: 20px !important;font-size: 12px !important;z-index: 2;}
+.numbering-wrap{padding-left: 65px;}
+[class*=fwd].font-mi{line-height: 18px !important}

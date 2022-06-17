@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page051/bg.jpg)}
+.para-content{width: 288px;}
+.cnt-wrap{position: absolute;left: 0;top: 50px;bottom:0; width: calc(100% - 289px);height: 100%;}
+
+.cnt-wrap .para{width: 319px;font-size: 15px;line-height: 25px;text-indent: 1em;}
+[class*=fwd].font-mi{font-size: 20px;line-height: 18px;}

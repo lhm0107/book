@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page052/bg.jpg)}
+.cnt-wrap{position: relative;height: 100%;}
+.font-dt.para{font-size: 17px;line-height: 32px;width:353px;text-indent:0.7em}
+[class*=fwd].font-mi{font-size: 20px;line-height: 18px;}
+.fwd-dsc{font-size: 15px !important;line-height: 20px !important;text-indent: 0 !important;text-align: center;}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+.content-top {position: relative; margin-left: -50px; margin-right: 25px}
+.content-top .fwd1 {text-indent: 0; font-size: 11px; line-height: 11px; font-style: italic; color:#0075b3}
+.content-top .fwd2 {text-indent: 0; font-size: 13.04px; line-height: 13.04px; font-weight: 700;}
+.content-top .fwd3 {font-size: 20px; line-height: 18px}
+.content-top .font-dt {font-size: 15px; line-height: 15px; margin-top: 10px; margin-left: 25px}
+
+.wars {padding-top: 37px;}
+.years {position: relative;}
+.years .font-coo {text-indent: 0; line-height: 15px; font-size: 12.5px; font-weight: 500; color:#fff}
+.years p {margin-bottom: 17.5px}
+.years p span {margin-left: 2px}
+
+.war-name {padding-left: 8px; padding-top: 6px; font-size: 15px; line-height: 15px; font-weight: 700;}
+.war-name p {margin-bottom: 18px;}
+.para-wrp {padding-left: 25px;}
+
+.bubble-box1{width: 193.5px;height: 103px;background-image: url(../images/page074/b1.png);padding-top: 17px}
+.bubble-box2{width: 158px;height: 122.5px;background-image: url(../images/page074/b2.png);padding-top: 26px}
+

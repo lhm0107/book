@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.col.w400{flex:0 0 401px;max-width: 401px;}
+.sect-do-content{padding-right: 0;}
+.sect-do-content .word-bubble .font-ka{color: #fff;letter-spacing:-0.02em;}
+textarea.form-control{height: 30px !important;min-height: 0;}

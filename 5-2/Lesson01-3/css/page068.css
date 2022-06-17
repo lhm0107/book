@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page068/bg.jpg)}
+.word-bubble button {position: absolute}
+.bubble-box1{width: 109px;height: 73px;background-image: url(../images/page068/b1.png);padding-top: 16px}
+.bubble-box2{width: 122px;height: 95px;background-image: url(../images/page068/b2.png);padding-top: 16px}
+#interFadeIn>div {line-height: 18px; font-size: 20px}
+
+.para-wrp {padding-left: 155px}
+
+.interaction {position: relative}
+.text-circle {background: #6c7582;font-weight: 400}
+.interaction .text-circle {position: absolute}

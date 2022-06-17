@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page024/bg.jpg)}
+.curiosity-hd{display: flex;}
+.curiosity-label{width: 155px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0;flex-shrink: 0;margin-right: -11px;}
+.curiosity-title{margin-top: 20px;font-family: 'Katuri',sans-serif;font-size: 21px;color:#213d5d;line-height:1.6190;}
+.curiosity-hd>.col {margin-top: -3px;padding-left: 11px;}
+.curiosity-hd .para{text-indent: .9em;}
+.curiosity-hd .para-title{margin-bottom: 3px;}
+
+.word-bubble{height:760px}
+.word-bubble>*{position: absolute}
+.word-bubble .font-coo{line-height: 2;font-size: 18px;color:#fff;}
+.word-bubble .font-ka{font-size: 17px;color:#143861}
+[class*=fwd]{width: 352px;font-size: 17px;line-height: 1.588235;text-indent: 0.9em;letter-spacing: -.01em;}
+[class*=fwd].font-mi{width:auto;line-height: .9;}

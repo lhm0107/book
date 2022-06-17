@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.fwd2 {text-indent: 0; text-align: center; line-height: 25px}
+.tb tr>* {padding: 0} 
+.tb tr> th {word-break: normal; text-align: left; padding: 0 10px;letter-spacing: -0.078em}
+.tb .form-control {min-height: 30px; height: 30px; margin: 0; padding: 0; border:1px solid #a8b6bd; border-radius: 3px; width:100%}
+.tb tr> td {padding: 10px 9px; font-size: 12px}
+.sample-text {display: flex; text-align: left}
+.bg-ylw {background: #fbf6d8 !important}
+.btn-subject {position:absolute; top:0; right:0}

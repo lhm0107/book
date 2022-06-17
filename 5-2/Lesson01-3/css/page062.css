@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.para-wrap {padding-left: 158px}
+.content-bottom {margin-top: 45px}
+.media-body {padding-left: 45px}
+.media-body .para {font-size: 17px; line-height: 27px}
+.fwd1 {font-size: 17px; text-indent: 0; line-height: 17px}
+.fwd1 span {margin-left: -10px}
+.fwd2 {line-height: 25px; width: 276px}
+.fwd2.last {width: 346px}

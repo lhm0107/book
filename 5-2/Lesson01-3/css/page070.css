@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page070/bg.jpg)}
+.word-bubble {margin-top: 14px}
+.icon-btn-video {position: absolute; right: 0}
+.word-bubble .font-ka {line-height: 15px;color:#fff}
+.word-bubble .font-serif {width: 270px; line-height: 25px}
+.word-bubble .font-dt {text-indent: 0; font-weight: 700}
+.word-bubble .font-mi {line-height: 25px; font-size: 22px}
+
+.content-bottom .font-dt {font-size: 17px; line-height: 32px}
+.content-bottom {margin-top: 296px}
+.content-bottom .fwd {position: relative}

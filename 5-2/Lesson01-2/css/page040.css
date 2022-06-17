@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page040/bg.jpg)}
+.wrapper{display: flex;flex-direction: column;}
+.dl-item{position: absolute;left: 0;top:0;font-size: 15px;line-height: 25px;text-align: center;}
+.dl-item dt{font-weight: 700;}
+.lh25 {line-height: 25px;}

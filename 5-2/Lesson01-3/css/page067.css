@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page067/bg.jpg)}
+
+.word-bubble button {position: absolute}
+.bubble-box1{width: 109px;height: 73px;background-image: url(../images/page067/b1.png);padding-top: 16px}
+.bubble-box2{width: 122px;height: 95px;background-image: url(../images/page067/b2.png);padding-top: 16px}
+.bubble-box3{width: 101px;height: 72px;background-image: url(../images/page067/b3.png);padding-top: 16px}
+.bubble-box4{width: 137px;height: 108.5px;background-image: url(../images/page067/b4.png);padding-top: 16px}
+.bubble-box5{width: 106px;height: 85px;background-image: url(../images/page067/b5.png);padding-top: 16px}
+#interFadeIn>div {line-height: 18px; font-size: 20px}

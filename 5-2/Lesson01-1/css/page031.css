@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page031/bg.jpg)}
+.para{padding-right:2px;text-indent:.9em}
+.word-bubble{margin:7px 0 42px 2px;}
+.bottom-content .word-bubble{margin: 0 0 0 8px;}
+.word-bubble .font-ka{color:#fff;letter-spacing: -.025em;}

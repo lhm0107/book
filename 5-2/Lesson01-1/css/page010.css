@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page010/bg.jpg)}
+.wrapper>.font-serif{top: 498px;left: 116px;font-style: italic;letter-spacing: 5px;}
+.wrapper>.font-serif+.font-serif{top: 828px;left: 670px;white-space: nowrap;}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page011/bg.jpg)}
+.content{position: absolute;top: 185px;left: 421px;width: 201px;line-height: 27px;}
+.content .font-netmarble{font-size: 18px;line-height: 16px;margin-bottom: 10px}
+.content .text-indent{font-weight: 700;}
+.content .text-indent+div{padding: 133px 0 0 2px;}
+.icon-face-wh{float:left;margin: 6px 6px 0 5px}
+.wrapper>.font-serif{top: 182px;left: 63px;font-style: italic;letter-spacing: 5px;}
+

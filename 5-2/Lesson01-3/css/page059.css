@@ -1,0 +1,7 @@
+@charset "utf-8";
+.word-bubble [class^="fwd"] {text-indent: 0; text-align: center}
+.fwd1, .fwd2 {line-height: 25px}
+.fwd1 span {color:#3a8073}
+.fwd2 span {color:#3a5680}
+textarea.form-control {min-height: 30px}
+.btn-subject {position: absolute; top:0; right: 0px}

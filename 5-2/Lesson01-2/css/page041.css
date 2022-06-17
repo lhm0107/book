@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.fwd{letter-spacing: -0.02em;}
+.fwd.font-dt{line-height: 23px;letter-spacing:-0.003em;}
+.fwd.font-mi{line-height: 18px;}
+.varied-header .icon-btn-video{float: right}

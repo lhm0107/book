@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.sect-do-content{padding-right: 0;padding-left: 0;}
+.sect-do-content>.numbering{padding-left: 65px;}
+.media-title{width:calc(100% - 35px)}
+.textarea-wrp{position: absolute;width: 150px;}
+.textarea-wrp textarea{height: 95px;}
+.textarea-wrp .font-ka{letter-spacing: -0.05em;margin-bottom: 3px;font-size: 15px;}
+.fwd-dsc{font-size: 15px;line-height: 23px;text-indent:0;}
+.icon-btn-pencil{position: absolute;top: 0;right: 0}

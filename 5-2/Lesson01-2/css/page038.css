@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page038/bg.jpg)}
+[class*=fwd].font-mi{line-height: 18px;}
+i.fwd{color: #0075b3;font-size: 11px;}
+.fwd.font-netmarble{font-size: 13px;font-weight: 500;}
+.caption{text-align: center;font-size: 15px;}
+.para-content+.para-content{margin-top:65px;}
+.para{text-indent: 16px;}
+.word-bubble.history .fwd {text-indent: 0;}
+.word-bubble.history .fwd span:first-child{color: #fff;display: inline-block;width: 50px;text-align: center;}
+.word-bubble.history .fwd span:last-child{display: inline-block; font-weight:600;text-indent: 0;}
+.word-bubble.history .fwd .font-coo{font-weight: 400;margin-right: 1px}
+
+.img-row {margin-top: -35px;}
+.img-row .col-auto{flex:0 0 330px;max-width: 330px;}
+.img-row .col{margin-top: 9px;}
+.img-row .font-dt{font-size: 15px;line-height: 25px;}

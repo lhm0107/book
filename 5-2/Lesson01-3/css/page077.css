@@ -1,0 +1,5 @@
+@charset "utf-8";
+#wrap {background-image: url(../images/page077/bg.png)}
+.title-wrp {margin-top: 80px;}
+.interaction {position: relative;}
+.fwd.font-netmarble {font-size: 15px; text-indent: 0; font-weight: 500; color:#fff}
