@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page010/bg.jpg)}
+.content{width: 295px;line-height: 27px}
+.content .text-indent{font-weight: 700;padding: 40px 0 25px}
+.layer-wrp-ox .bubble{width: 238px;height:183px;background-image: url(../images/page010/bubble.png);padding-top: 10px}
+.layer-wrp-ox.answered .icon-btn-refresh, .btn-ox-start{z-index: 999;}
+#layer2 .bubble{width:229px;height:188px;background-image: url(../images/page010/bubble2.png);padding-top: 0;}
