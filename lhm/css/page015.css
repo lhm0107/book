@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.wb1{width:260px;margin-left: auto;}
+.font-dt.fs16.position-absolute{line-height:28px;left:30px}
+.layer-wrp{position: absolute;}
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:157px;height:102px;background-image: url(../images/page015/layer1.png);}
+#layer2 .bubble{width:142px;height:118px;background-image: url(../images/page015/layer2.png);}
+.layer{box-shadow: none;margin: 0;padding: 0;background: none; border: 0;right:auto;}
+#layer2+button{transform: scale(-1,1);}

@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.answer-wrp{position: absolute;left:0;top:0;background: 0;z-index: 22;}
+.verify-answer .form-control{width:127px;height: 43px;border:0;background: transparent;}
+.painting-area{position: absolute;left:0;top:0}

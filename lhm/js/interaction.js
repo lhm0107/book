@@ -30,7 +30,7 @@ $(function(){
 			setTimeout(function() {
 				document.getElementById($root.data('audio')).play();
 			}, 100);
-			$root.children().show();
+			$root.children().addClass('visible');
 			return false;
 		}
 

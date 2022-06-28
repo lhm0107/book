@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page017/bg.jpg)}
+.content-wrp{height:618px;position: relative;}
+.layer.layer-wrp-ox{box-shadow: none;margin: 0;padding: 0;background: none; border: 0;right:auto;}
+.bubble{width:169px;height:105px;background: url(../images/page017/layer1.png) no-repeat 0 0 / 100% auto;font-size: 20px !important;line-height: 20px !important;}
+#layer2 .bubble{width:170px;height:104px;background: url(../images/page017/layer2.png) no-repeat 0 0 / 100% auto;}
+.i1, .i2{position: absolute;}
+
+.i1{left:54px;top:515px}
+.i2{left:343px;top:-3px}
+
+.verify li{line-height: 30px;}
+.lst-type-num>li>.text-circle:first-child{margin-top:7px}

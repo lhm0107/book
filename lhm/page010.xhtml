@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/page010.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <div class="content font-dt">
+            <p class="text-indent">국토는 우리가 살아가는 터전이다. 우리 국토는 산지, 평야, 하천, 바다가 고루 발달해 자연환경이 매우 아름다우며, 사람들은 우리 국토를 잘 가꾸고 이용하며 함께 어우러져 살아가고 있다.</p>
+            <div class="intro-question">
+                <div class="text-mark">
+                    <i class="icon-face-wh"></i>
+                    <p class="font-netmarble">참일까? 거짓일까?</p>
+                </div>
+                <div class="box">
+                    다음 그림 속 대화 중에서 참인 것에 O 표, <span class="text-nowrap">거짓인 것에</span> × 표를 해 보자.
+                </div>
+            </div>
+        </div>
+
+        <div class="layer-wrp layer-wrp-ox" style="left: 566px;top: 447px;">
+            <div id="layer1" class="layer" style="left: -197px;top: -134px;">
+                <div class="bubble">
+                    <p class="mb5">동해안의 넓은 갯벌에서 <br />잡은 조개 사세요.</p>
+                    <div id="ox1" class="answer-ox">
+                        <label class="q-label"><input type="radio" name="radio_010_01" id="radio_010_01" value="○" class="sr-only" /><span class="icon-o">○</span></label>
+                        <label class="q-label"><input type="radio" name="radio_010_01" id="radio_010_02" value="×" class="sr-only" data-answer="" /><span class="icon-x">×</span></label>
+                    </div>
+                </div>
+            </div>
+            <button type="button" title="대화 보기" class="icon-hand ani btn-ox-start" data-toggle="layer" data-target="#layer1" data-audio="audio1">대화 보기</button>
+            <button type="button" title="다시 풀기" class="icon-btn-refresh btn-ox-reset" data-target="#ox1">다시 풀기</button>
+        </div>
+
+        <div class="layer-wrp layer-wrp-ox" style="left: 557px;top: 761px;">
+            <div id="layer2" class="layer" style="left: -131px;top: -205px;">
+                <div class="bubble">
+                    <p>햇볓과 바람이 좋은 <br />바닷가에서 생산된 <br />소금 사세요.</p>
+                    <div id="ox2" class="answer-ox">
+        				<label class="q-label"><input type="radio" name="radio_010_03" id="radio_010_03" value="○" class="sr-only" data-answer="" /><span class="icon-o">○</span></label>
+        				<label class="q-label"><input type="radio" name="radio_010_03" id="radio_010_04" value="×" class="sr-only" /><span class="icon-x">×</span></label>
+        			</div>
+                </div>
+            </div>
+            <button type="button" title="대화 보기" class="icon-hand ani btn-ox-start" data-toggle="layer" data-target="#layer2" data-audio="audio2">대화 보기</button>
+            <button type="button" title="다시 풀기" class="icon-btn-refresh btn-ox-reset" data-target="#ox2">다시 풀기</button>
+        </div>
+
+        <audio id="audio1" src="media/page010/010_01.mp3" preload="none"></audio>
+		<audio id="audio2" src="media/page010/010_02.mp3" preload="none"></audio>
+
+        <!-- paging -->
+		<!-- <footer id="num" class="font-dt"><b>86</b><span>2</span>인권 존중과 정의로운 사회</footer> -->
+    </div>
+</div>
+
+<div id="finalEvltGood" class="modal modal-final-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/ox-good.png" width="337" alt="와! 제대로 알고 있군요." />
+	</div>
+</div>
+
+<div id="finalEvltOnemore" class="modal modal-final-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/ox-onemore.png" width="337" alt="다시 한번 생각해 보세요." />
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/ox.js"></script>
+</body>
+</html>

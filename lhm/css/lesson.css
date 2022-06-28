@@ -18,3 +18,6 @@
 .ch-goal-list>li::before{content:"";position: absolute;left:0;top:1px;width:13px;height: 13px;border:4px solid #fff;border-radius: 50%;}
 .ch-goal-title{margin-left: 0;}
 .think-title{margin: 0 0 0 61px}
+
+/* 사회과 부도 */
+.btn-social-append{display: inline-block; width:120px;height:32px;background: url(../images/common/btn-social-append.png) no-repeat 0 0 / 100% auto;}

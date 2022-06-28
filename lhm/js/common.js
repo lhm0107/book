@@ -177,12 +177,12 @@ $(function(){
 
 	$('[data-toggle="tab"]').click(function  (e) {
 		e.preventDefault();
+
 		var t = $(this),
-			target = t.attr('data-target'),
-			slide = t.attr('data-swiper');
-		target && $(target).addClass('active').siblings().removeClass('active');
-		if(slide) $('#modalFinalEvlt').length ? testSwiper[slide].slideTo(0) : swiper[slide].slideTo(0);
-		t.parent().addClass('active').siblings().removeClass('active');
+			target = t.attr('data-target');
+
+		$(target).addClass('active').siblings().removeClass('active');
+		t.addClass('active').siblings().removeClass('active');
 	});
 
 	$('.btn-inline-video').click(function(){
@@ -290,6 +290,7 @@ $(function(){
 		if(t.hasClass('icon-layer-clse')){
 			audioStop();
 			t.parent().hide().closest('.layer-wrp').removeClass('open');
+			return false;
 		}
 
 		if($(event.target).is('a,a *,button,input,textarea,label,[role=button],label *, .event-disabled, .event-disabled *')){
@@ -325,7 +326,7 @@ $(function(){
 			target.find('video')[0].play();
 		}else{
 			target.show(0, function  () {
-				$('body').addClass('modal-open');
+				$(target).addClass('modal-open');
 				if(target.find('#qLine').length && !target.find('#canvasqLine').length){
 					qLine('qLine');
 				}
@@ -336,15 +337,14 @@ $(function(){
 
 	$('[data-dismiss=modal]').click(function(){
 		var $modal = $(this).closest('.modal');
-		var time = $modal.hasClass('modal-slide') ? 600 : 400;
 
-		$('body').removeClass('modal-open');
+		$modal.removeClass('modal-open');
 
 		setTimeout(function(){
 			$modal.hide().find('video.playing').removeClass('playing');
 			$modal.find('video').length && audioControl($modal.find('video')[0]);
 			$('.dim').remove();
-		},time);
+		},400);
 
 		return false;
 	});
@@ -566,7 +566,7 @@ $(function(){
 			}
 			isAnswer = true;
 		} else if(o.attr('data-qtype')==='radio' || o.attr('data-qtype')==='checkbox'){
-			var ox = o.find('.answer-ox'), dataNum = 0;
+			var dataNum = 0;
 			if(!o.find('input').is(':checked')){
 				showMsg('#answerMsg');
 				return false;
@@ -581,15 +581,6 @@ $(function(){
 						isAnswer = true;
 					}
 				});
-			}else if(ox) {
-				ox.each(function  () {
-					$(this).find('input').is(':checked') && dataNum++;
-				});
-				if (dataNum !== ox.length) {
-					showMsg('#answerMsg');
-					return false;
-				}
-				isAnswer = true;
 			}else{
 				isAnswer = true;
 			}

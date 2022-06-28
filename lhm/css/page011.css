@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page011/bg.jpg)}
+#layer1 .bubble{width: 212px;height: 160px;background-image: url(../images/page011/layer1.png);}
+#layer2 .bubble{width: 221px;height: 170px;background-image: url(../images/page011/layer2.png);padding-bottom: 13px}
+#layer3 .bubble{width: 245px;height: 188px;background-image: url(../images/page011/layer3.png);}
+#layer4 .bubble{width: 241px;height: 185px;background-image: url(../images/page011/layer4.png)}
+#layer5 .bubble{width: 245px;height: 188px;background-image: url(../images/page011/layer5.png);padding-top: 25px;}
+.fwd.font-mi{font-size: 26px;line-height: 27px;}
