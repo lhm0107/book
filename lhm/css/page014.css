@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page014/bg.png)}
+.ch-1-title {margin-bottom: 9px;padding: 5px 0 15px;letter-spacing: -.04em;line-height: 1.2;}
+.ch-1-title strong{font-size: 50px;}
+.para {text-indent:.9em}
+.word-bubble{height:500px;}
+.word-bubble>span{position:absolute;font-size:15px;color:#fff;letter-spacing: -0.25px;}
+[class*=fwd].font-mi{line-height:.9;}
