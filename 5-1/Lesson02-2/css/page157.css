@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.answer-157-01{margin-top: 15px;justify-content: space-between}
+.answer-157-01 .text-circle{position: absolute;top: 0;left: 0}
+.font-mi{position: absolute;width: 107px;height: 65px;background: url(../images/page157/bubble.png) no-repeat 0 0/100% auto;display: flex;align-items: center;justify-content: center;left: -15px;top: 35px}
+.col-auto:nth-child(2) .font-mi{left: -50px}
+.drop-type-box{width: 120px;margin: 5px auto 0;height: 35px}
+.drop-type-box .drag-item{margin: 0 2px}
+#answer_157_02 .pager{position: absolute;bottom: 100%;right: 0}
