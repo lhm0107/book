@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page120.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+		<header class="ch-2-hd row">
+			<div class="col">
+				<img src="images/page120/ch-2-2.jpg" width="116.5" alt="4" />
+			</div>
+			<div class="col-wide">
+				<h1 class="ch-2-title">
+					<span><strong>인권 보장</strong>을 위한<br />헌법의 역할은 무엇일까요</span>
+				</h1>
+				<div class="layer-wrp layer-wrp-left">
+					<button type="button" class="btn-icon" data-toggle="layer" data-target="#unitGoal" onclick="toggleAudioPlay('Audio1', this)"><i class="icon-btn-light"></i>이 주제를 공부하면</button>
+                    <audio id="Audio1" src="media/page120/120_00.mp3" preload="none"></audio>
+					<div id="unitGoal" class="layer" data-toggle="layerClse">
+                		<div class="layer-body">
+							<ul class="lst-type-bull bull-primary">
+	 							<li>사례를 통해 헌법의 역할을 알아볼 수 있어요.</li>
+	 						</ul>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-wide">
+				<div class="para">
+                    헌법은 우리 생활과 밀접한 관련이 있다. 다음 사례를 통해 우리 생활에서 헌법의 역할을 알아보자.
+				</div>
+			</div>
+		</div>
+				<div class="btn-inter-group">
+						<button type="button" class="icon-btn-video" data-toggle="modal" data-target="#modalVideo" style="left: 42.5px;top: 248px;">비디오</button>
+            <button type="button" title="내용 더보기" class="icon-hand" data-inter="#interFadeIn1" style="left: 229.5px;top: 535.5px;">내용 더보기</button>
+            <button type="button" title="내용 더보기" class="icon-hand" data-inter="#interFadeIn1" style="left: 574.5px;top: 537px;">내용 더보기</button>
+						<button type="button" title="내용 더보기" class="icon-hand" data-inter="#interFadeIn1" style="left: 229.5px;top: 840.5px;">내용 더보기</button>
+						<button type="button" title="내용 더보기" class="icon-hand" data-inter="#interFadeIn2" style="left: 574.5px;top: 842px;">내용 더보기</button>
+            <button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset" style="right: 0;top: 845px;">다시 실행하기</button>
+        </div>
+
+        <div id="interFadeIn1" class="audio-single" data-audio="audio1">
+            <div class="font-mi bubble-box1" style="left: 138px; top: 583px;">
+                쟤는 부모님이 <br />
+                다른 나라 사람이래. <br />
+                같이 놀지 말자.
+            </div>
+        </div>
+		<div id="interFadeIn2">
+			<div data-audio="audio2" class="font-mi bubble-box2" style="left: 336.5px; top: 444.5px;">
+                쟤가 우리 반에서 <br />
+                제일 작을걸?
+            </div>
+            <div data-audio="audio3" class="font-mi bubble-box3" style="left: 446.5px; top: 481px;">
+                키가 얼마나 되는지 <br />
+                알려 줄까?
+            </div>
+		</div>
+	
+		<audio id="audio1" src="media/audio/sample.mp3" preload="none"></audio>
+		<audio id="audio2" src="media/audio/sample.mp3" preload="none"></audio>
+		<audio id="audio3" src="media/audio/sample.mp3" preload="none"></audio>
+
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>98</b><span>2</span>인권 존중과 정의로운 사회</footer>
+	</div>
+</div>
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal"></button>
+			<!-- 비디오 -->
+			<video poster="media/poster/DT_5-2-2_mv116.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/DT_5-2-2_mv116.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/interaction.js"></script>
+</body>
+</html>

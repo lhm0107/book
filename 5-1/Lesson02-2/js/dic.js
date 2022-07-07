@@ -19,9 +19,9 @@ var dicList = {
 		"chapter":1,
 		"content":"조선 시대의 가장 낮은 신분"
 	},
-    "천대":{
+    "주춧돌":{
 		"chapter":2,
-		"content":"업신여기어 천하게 대우 하거나 푸대접함."
+		"content":"집을 지을 때 기둥 밑에 기초로 받쳐 놓는돌."
 	},
     "제문":{
 		"chapter":2,
