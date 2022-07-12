@@ -4,12 +4,12 @@
 .position-relative{padding-right: 16.5px;margin-top: -5px;text-align: right;}
 .position-relative p{text-align: left; text-indent: 0;}
 .position-relative .fwd2{font-size: 13px; text-align: center;}
+.col-wide .para .text-mark{display: inline;}
 .icon-ttakji{position: relative;}
 
 .dragdrop .drop-fix {position: absolute; width: 237px; height: 162.5px; border-radius: 10px}
 .fwd.font-ka{font-size: 20px; color: #ef9801}
 .drop-fix.ui-droppable-disabled {background: #Fff}
-
 
 .layer-ttakji .drag-fix {width: 115px; height: 90px; font-size: 12px; line-height: 17px; font-weight: 500; text-align: justify;padding: 8px}
 .layer-ttakji{top: -140px}
