@@ -12,8 +12,6 @@
 <!-- page -->
 <link rel="stylesheet" type="text/css" href="css/video.css" />
 <link rel="stylesheet" type="text/css" href="css/page125.css" />
-<!-- js -->
-<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 </head>
 <body>
 <div id="wrap" class="page-odd bg-ylw-light">
@@ -23,7 +21,7 @@
             <h1 class="varied-label text-hide">별별 이야기</h1>
             <div class="col">
                 <h2 class="varied-title">성이 같은 사람끼리는 결혼할 수 없다?</h2>
-                <button type="button" class="icon-btn-video mr5" data-toggle="modal" data-target="#">비디오</button>
+                <button type="button" class="icon-btn-video mr5" data-toggle="modal" data-target="#modalVideo">비디오</button>
             </div>
         </div>
 
@@ -49,7 +47,6 @@
                 </div>
             </div>
         </div>
-
 <!-- paging -->
         <footer id="num" class="font-dt"><b>125</b>1. 인권 보장과 헌법</footer>
     </div>
@@ -57,15 +54,23 @@
 
 <!-- 비디오 -->
 <div id="modalVideo" class="modal modal-video">
-    <div class="modal-content">
-        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-        <div class="modal-body">
-            <!-- 비디오 -->
-            <video poster="media/poster/5_1_125_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="성이 같은 사람끼리는 결혼할 수 없다?">
-                <source src="media/5_1_125_1e.mp4" type="video/mp4" />
-            </video>
-        </div>
-    </div>
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal"></button>
+			<!-- 비디오 -->
+			<video poster="media/poster/DT_5-2-2_mv116.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -74,5 +79,6 @@
 <!-- page -->
 <script type="text/javascript" src="js/video-js.js"></script>
 <script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/interaction.js"></script>
 </body>
 </html>
