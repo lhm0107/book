@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.nav{justify-content: flex-start;margin: 26px 0 0 50px;}
+.tab-content{padding: 20px 40px 0}
+.content-top{padding: 0 10px}
+.position-relative .fwd:not(.font-mi){font-size: 20px;font-weight: 700;color: #fff;}
+#tab1 .position-relative{margin-top: 62px;}
+#tab1 .position-relative .layer-wrp{margin: 6px 0 0 22px;}
+#tab2 .position-relative{margin-top: 61px;}
+#tab2 .position-relative img{margin-left: 21px;}
+#tab2 .layer-wrp{position: absolute;right: 10px;top: 0}
+#layerSubject1{right: -40px}
+#layerSubject2{right: -50px}

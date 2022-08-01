@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page154/bg1.jpg)} */
+
+.arrange-label-line {width: 111px; height: 48px; margin-right: 10px; padding: 11px 5px}
+#text_078_03, #text_078_04, #text_078_05 {width: 65px}
+.arrange-test .tx-a {left: 0}
+
+.media1 .media-body p {letter-spacing: -0.12px;}
+.diagram{position: relative; background: url(../images/page154/diagram.png) no-repeat 51% 27px/auto 41px}
+.diagram .arrange-label-line{width: 150px;margin: 0 auto 15px;transform: translateX(4px);}
+.diagram .row{padding-left:20px; padding-right:6px}
+.diagram .col{padding-left: 5px;padding-right: 5px}
+.diagram .box{padding: 18px 0;background: #c8e6ed;text-align: center;line-height: 25px}
+
+.media3 .arrange-label-line {width: 175px;}
+.media3 .arrange-answer:first-child .arrange-label-line {width: 197px;}
+.media3 .input-group {margin:0 5px;}
+#text_154_03, #text_154_04 {width: 76px}
+
+.media4 .arrange-label-line {width: 136px;}
+.media4 .content {letter-spacing: -0.3px;}
+
+img[class^=i]{position: absolute;}
+.i1 {left: 41px; top: 1px}
+.i2 {left: 384px; top: 7px}
+.i3 {left: 34px; top: -65px}
+.i4 {left: 25px; top: -79px}
+.line1 {left: 129px; top: 4px}
+
+#final_154_07 .fwd:not(.font-mi){text-indent: 0;font-size: 17px;line-height: 27px}
+.test-item .font-mi{line-height: 20px}
+.test-bubble .font-mi{font-size: 27px;line-height: 24px}
+.mark-char, .mark-char:after{width: 100px;height: 100px}
+.mark-char{top: 10px;left: 50%;margin-left: -50px}

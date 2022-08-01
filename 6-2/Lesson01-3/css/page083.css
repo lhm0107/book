@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page083/bg1.jpg)} */
+
+.playground {width:628.5px; height:903px; margin:3px 20px; padding:24px 55px; background: url(../images/page083/1.png) no-repeat 0 0 / 100% auto;}
+
+.painting-area{position: relative; height: 390px; background: #fff;margin: 10px 10px 10px 0}
+.font-ka.fs12 {color: #6d4036;}
+textarea.form-control {height: 205px;}

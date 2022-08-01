@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page026/bg.jpg)}
+
+.col .layer-wrp {margin-top:133px;}
+.col .fwd {font-size: 13px; width:104px}
+.icon-btn-video {position:relative;margin-top:0px;left: 99px;}
+#layerSubject {top: -350px}
+
+/* #modalWrite {background: url(../images/page026/bg2.jpg) no-repeat 50% 50% /100% auto}
+.modal-content, .modal-body {background: none;} */
+.icon-btn-refresh {position: absolute; top:91px; right:45px}
+
+
+.interaction {position: relative; margin-top:60px}
+.icon-btn-refresh {position: absolute; top:-39px; right:0;}
+.interaction [class*=fwd]:not(.fs14) {font-size: 10px; line-height: 1.2em; text-indent: 0;display: none}
+
+/* 공통- 모달 헤더 아이콘 추가 */
+.icon-modal-pointer { background-image: url(../images/common/modal-pointer.png);}
+/* 공통- 모달 헤더 아이콘 추가 */
+
+.drop-area div {width: 100%; height:100px; display: flex; justify-content: center; align-items: center;}
+.drop-fix img {width: 65px;}
+.drag-area {position: relative;}
+.drag-fix {position: absolute}
+
+
+#layerSelfWrite{left: -100px;top: -340px}
+.nav-tabs>button{min-width: 0;flex: 1}
+.layer-write .tab-content{border: 2px solid #d7dee2;border-top: 0}
+.answer-wrp .tx-a{position: static;text-align: left}
+
+.interaction>button{position: absolute;}
+.tb tr>td:first-child{border-left: 0}
+
+.interaction .icon-btn-refresh{position: absolute;top: 10px;right: -33px;display: none}
+.show~.icon-btn-refresh{display: block}

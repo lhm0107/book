@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page158/bg.jpg);background-position: 0 100%}
+.lst-type-num>li{padding-left: 25px;letter-spacing: -.03em;white-space: nowrap}
+.lst-type-num>li+li{margin-top: 20px}
+.lst-type-num>li>.text-circle:first-child{width: 18px;line-height: 18px;margin-left: -25px}
+.lst-type-num>li:last-child{letter-spacing: -.05em}
+.bx{padding-bottom: 30px;margin-bottom: 35px}
+.imgbox{position: relative;margin: -5px}
+.imgbox .label{position: absolute;top: 50px;left: 55px}

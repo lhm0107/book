@@ -1,0 +1,11 @@
+@charset "utf-8";
+#wrap {background-image: url(../images/page122/bg.jpg)}
+.para.font-dt {margin-top: 12.5px;padding-left: 48px; font-size: 15px; line-height: 22px}
+img {position: absolute; left: -12px;top: 0; width: 691px}
+.fwd2 {font-weight: 700; font-size: 14px; line-height: 17px; color: #fff}
+.fwd2 span {font-size: 17px; margin-bottom: -2px}
+.fwd3 {line-height: 23px}
+.fwd4 {font-size: 12px; line-height: 12px; font-weight: 500}
+.fwd5 {font-weight: 700}
+.layer-wrp {position: absolute; left: 113.5px;top: 756.5px}
+.layer {right: -56px}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page131/bg.jpg)}
+.para {letter-spacing: -0.023em}
+.word-bubble {width: 668px; height: 441px}
+.content-bottom .para-title {line-height: 19px; margin-bottom: 15px}
+.fwd {text-indent: 0; font-size: 20px; line-height: 20px}
+.fwd2 {line-height: 18px; text-align: left !important}
+.explanation.layer-limit {width: 210px}

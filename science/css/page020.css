@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page020/bg.jpg)}
+.para{letter-spacing: -.025em}
+.font-ka{font-size: 15px;color: #274f6b}
+.font-dt{font-size: 14px;line-height: 19px;letter-spacing: -.025em;text-align: center}

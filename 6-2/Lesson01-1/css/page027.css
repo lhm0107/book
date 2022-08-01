@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.icon-btn-video {position:absolute; top:-4px;left: 270px;}
+
+.interaction {position: relative; margin-top:15px}
+.interaction .fwd1 {font-size: 9px; line-height: 1.2em; text-indent: 0;}
+.interaction .layer-wrp {position: absolute;}
+.interaction .layer {min-width: 300px;}
+.layer1 .text-circle { background: #155f5b;}
+.layer2 .text-circle { background: #435a7c;}
+.layer3 .text-circle { background: #823d56;}
+.layer4 .text-circle { background: #845311;}
+.layer5 .text-circle { background: #155f5b;}
+.layer6 .text-circle { background: #802c1f;}
+
+.fwd2 { font-size: 13px; line-height: 1.4em; text-align: center; text-indent: 0;}
+#layer7 {min-width: 405px;}
+
+#layerSubject2 {bottom: -290px}
+.btn-wrp { display: flex; justify-content: space-between; flex-wrap: wrap;}
+.btn-wrp button {display: flex; justify-content: center; align-items: center; width:195px; height:85px; margin-bottom:15px; background: #e3e3e3; border-radius: 8px;text-align: left; }
+button.bg-org.active {background: #f7b792;}
+button.bg-pink.active {background: #f3a6bd;}
+button.bg-ygrn.active {background: #dae7b3;}
+button.bg-ylw2.active {background: #ffde73;}
+button.bg-grn.active {background: #23a37a;}
+button.bg-purple.active {background: #c097c5;}
+.map-wrp {position: relative; width:614px; height:426px}
+.map {position: absolute; top:0; left:0; display: none;}
+.map.active {display: block;}
+.map .txt {position: absolute; top:5px; right:5px; background: #efefed; padding:5px; border-radius: 5px;}
+.layer-body .text-circle{margin: 4px 0 0}

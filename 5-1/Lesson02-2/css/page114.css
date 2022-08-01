@@ -1,4 +1,4 @@
 @charset "utf-8";
 
-#wrap{background-image: url(../images/page114/bg.jpg)}
-.ch-goal-list>li{width: 142px;padding-bottom:10px;}
+#wrap {background-image: url(../images/page114/bg.jpg);}
+.ch-goal-list>li {margin: 0; width: 136px; padding: 8px 0 4px;}

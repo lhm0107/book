@@ -5,16 +5,30 @@
 .content-top .fwd3 {font-size: 20px; line-height: 18px}
 .content-top .font-dt {font-size: 15px; line-height: 15px; margin-top: 10px; margin-left: 25px}
 
-.wars {padding-top: 37px;}
-.years {position: relative;}
-.years .font-coo {text-indent: 0; line-height: 15px; font-size: 12.5px; font-weight: 500; color:#fff}
-.years p {margin-bottom: 17.5px}
-.years p span {margin-left: 2px}
-
-.war-name {padding-left: 8px; padding-top: 6px; font-size: 15px; line-height: 15px; font-weight: 700;}
-.war-name p {margin-bottom: 18px;}
 .para-wrp {padding-left: 25px;}
 
-.bubble-box1{width: 193.5px;height: 103px;background-image: url(../images/page074/b1.png);padding-top: 17px}
-.bubble-box2{width: 158px;height: 122.5px;background-image: url(../images/page074/b2.png);padding-top: 26px}
+.interaction {position: relative; text-align: center; padding-left:125px}
+.interaction button {position: absolute;}
+#interFadeIn {position: absolute; top:0; left:0}
+#interFadeIn li {position: absolute;}
+.bubble {font-size: 20px; line-height: 18px; background-repeat: no-repeat; background-position: 0 0; background-size: 100% auto;}
+.bubble1{width: 193.5px;height: 103px;background-image: url(../images/page074/b1.png);padding-top: 17px}
+.bubble2{width: 158px;height: 122.5px;background-image: url(../images/page074/b2.png);padding-top: 26px}
 
+.btn-dic .explanation.layer-limit {width: 239px;}
+
+
+.history{position: relative;padding-left: 11px;margin-left: 4px}
+.history .line{width: 11px;position: absolute;top: 0;left: 0;overflow: visible !important;padding-top: 12px;border-radius: 2rem 2rem 0 0;background: #c0a686}
+.history .line:before{content: '';position: absolute;width: 7px;height: 7px;border-radius: 100%;background: #fff;left: 2px;top: 100%;z-index: 1;margin-top: -4px;opacity: 1}
+.history.start .line:before{opacity: 0;transition: opacity 1s .4s}
+.history .line:after{content: '';position: absolute;top: 100%;left: 50%;width: 19px;height: 25px;background: url(../images/page074/history.png) no-repeat 0 100%/100% auto;left: -4px;margin-top: -8px}
+.history.start .line:after{margin-top: -4px;height: 33px;transition: .5s 1s linear}
+.history-year{position: relative;font-size: 15px;display: flex;font-weight: 700;line-height: 24px}
+.history-year>span:first-child{width: 61px;height: 24px;background: url(../images/page074/history-year.png) no-repeat 0 0/auto 100%;color: #fff;line-height: 24px;padding-left: 9px;font-weight: 400;margin-right: 5px}
+.history-year .font-coo{margin-right: 2px}
+.history-year:before{content: '';position: absolute;width: 7px;height: 7px;border-radius: 100%;background: #fff;top: 8px;right: 100%;margin-right: 2px}
+.history-list>li{padding-bottom: 10px}
+.history-year{opacity: 0}
+.active .history-year{opacity: 1;transition: opacity 1s}
+.history .icon-btn-refresh{top: 0;right: 100%;position: absolute;}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page074/bg.jpg)}
+
+.icon-btn-video {position:relative;margin-top:25px;left: 84px;}
+.text-dot {position:absolute}
+
+.interaction {position: relative; height: 600px; }
+.interaction .layer-wrp {position: absolute;}
+.interaction .layer-body {padding:25px}
+.interaction .layer-body>div {width:392px; height:245px; background: url(../images/page074/pop-bg.png) no-repeat 0 0 / 100% auto; text-align: center;}
+.interaction .col {padding-top:15px; font-size: 15px; line-height: 20px; font-weight: 700;}
+.interaction .col>div {margin:5px 0}
+
+.layer1 .text-circle { background: #f58220;}
+.layer2 .text-circle { background: #6c4c99;}
+.layer3 .text-circle { background: #df4b6d;}
+.layer4 .text-circle { background: #49913e;} 
+.text-org {color:#f58220}
+.text-purple {color:#6c4c99}
+.text-pink {color:#df4b6d}
+.text-grn {color:#49913e}

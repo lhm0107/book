@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
+<link rel="stylesheet" type="text/css" href="css/page133.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<div class="numbering font-dt">
+			<b class="num fs23">2</b>
+			<p class="media-body media-title">
+				다음 내용이 맞으면 ‘○’, 틀리면 ‘×’를 따라가며 미로를 탈출해 보자.
+				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
+                <button type="button" class="icon-btn-inter" title="인터렉션" data-toggle="layer" data-target="#layer1">인터렉션</button>
+			</p>
+		</div>
+
+		<!-- 길찾기 -->
+		<div id="miroh">
+			<button type="button" class="btn-game-start"><i class="icon-game-start"></i></button>
+			<div class="start-piece" style="left: 59.4531px; top: 120.5px;">
+				<img src="images/page133/piece.png" width="166" alt="" data-dtext_index="dtext_cls_image" />
+			</div>
+
+			<ol xmlns="http://www.w3.org/1999/xhtml" id="quest" class="font-dt">
+				<li class="quest" style="left: 165px; top: 199px;">
+					<div class="question">
+						<span class="text-circle">1</span>1905년 고종과 신하들의 <br /> 반대에도 불구하고 을사늑<br /> 약이 체결되었다. 
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_01" class="sr-only" name="radio_133_01" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_02" class="sr-only" name="radio_133_01" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 446px; top: 266px;">
+					<div class="question">
+						<span class="text-circle">2</span>안중근은 하얼빈역에서 <br />이토 히로부미를 사살하<br />였다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_03" class="sr-only" name="radio_133_03" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_04" class="sr-only" name="radio_133_03" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 497px; top: 466px;">
+					<div class="question">
+						<span class="text-circle">3</span>일제는 한국을 식민지로 <br />삼은 후 헌병 경찰제를 <br />실시하여 독립운동을 탄<br />압하였다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_05" class="sr-only" name="radio_133_05" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_06" class="sr-only" name="radio_133_05" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 234px; top: 353px;">
+					<div class="question">
+						<span class="text-circle">4</span>3·1 운동은 일제의 식민 <br />통치에 맞서 전국적으로, <br /> 많은 사람들이 참여한 <br /> 만세 운동이다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_07" class="sr-only" name="radio_133_07" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_08" class="sr-only" name="radio_133_07" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 34px; top: 411px;">
+					<div class="question">
+						<span class="text-circle">5</span>대한민국 임시 정부는 우<br />리나라 최초의 민주 공<br />화제 정부였다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_09" class="sr-only" name="radio_133_09" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_10" class="sr-only" name="radio_133_09" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 101px; top: 668px;">
+					<div class="question">
+						<span class="text-circle">6</span>1920년대 봉오동과 청산<br />리에서 독립군은 일본군을 <br />크게 무찔렀다. 
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_11" class="sr-only" name="radio_133_11" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_12" class="sr-only" name="radio_133_11" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 271px; top: 590px;">
+					<div class="question">
+						<span class="text-circle">7</span>1930년대 일제는 한국<br />인을 일본인과 동등하게 <br />대하기 위해 일본 역사<br />와 일본어를 가르쳤다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_133_13" class="sr-only" name="radio_133_13" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_133_14" class="sr-only" name="radio_133_13" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>133</b>뚝딱뚝딱 정리하기</footer>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

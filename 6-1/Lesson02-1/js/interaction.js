@@ -1,6 +1,7 @@
 $(function(){
 	"use strict";
 
+	// 손가락 클릭 - 오디오 자동 순차 재생
 	var $btnInterGroup = $('.btn-inter-group');
 
 	$('[data-inter]').click(function(){
@@ -9,12 +10,10 @@ $(function(){
 		var startItem = $(this.dataset.inter).children().first();
 
 		$('audio, video:not([autoplay])').each(function(){
-			audioControl($(this)[0]);
+			audioPause($(this)[0]);
 		});
 
-		if ($unitGoal.is(':visible')) {
-			$unitGoal.hide().closest('.layer-wrp').removeClass('open');
-		}
+		unitGoalClose();
 
 		$root.addClass('interacting');
 		$t.addClass('hide');
@@ -42,15 +41,15 @@ $(function(){
 			startItem.addClass('visible');
 		}
 
-		if(startItem.data('audio')){
+		if(startItem.data('auto-audio')){
 			setTimeout(function() {
-				document.getElementById(startItem.data('audio')).play();
+				document.getElementById(startItem.data('auto-audio')).play();
 			}, 100);
 		}
 	});
 
-	$('[data-audio]').each(function(i, ele){
-		document.getElementById(ele.dataset.audio).ontimeupdate = function(){
+	$('[data-auto-audio]').each(function(i, ele){
+		document.getElementById(ele.dataset.autoAudio).ontimeupdate = function(){
 			if(this.currentTime === this.duration){
 
 				if($(ele).hasClass('audio-single')){
@@ -63,7 +62,7 @@ $(function(){
 
 				if($nextItem.length){
 					$nextItem.addClass('visible');
-					$nextItem.data('audio') && document.getElementById($nextItem.data('audio')).play();
+					$nextItem.data('auto-audio') && document.getElementById($nextItem.data('auto-audio')).play();
 				}else{
 					$(ele).parent().removeClass('interacting');
 					$btnInterGroup.removeClass('pointer-none');
@@ -87,32 +86,46 @@ $(function(){
 		$('.btn-inter-reset').removeClass('show');
 
 		$('audio').each(function(){
-			audioControl($(this)[0]);
+			audioPause($(this)[0]);
 		});
 	});
 
+	// 손가락 순차등장
+	$('.order-inter-btn>button').each(function(e){
+		var $t = $(this);
+		var root = $t.parent().data('parent');
 
+		$t.click(function(){
 
+			if($t.data('audio')){
+				$(root).find('.order-inter-content').children().eq(e).addClass('active');
+				$t.addClass('hide');
 
+				document.getElementById(this.dataset.audio).ontimeupdate = function(){
+					if(this.currentTime === this.duration){
+						$t.next().removeClass('hide');
+					}
+				}
+			}else{
+				$(root).find('.order-inter-content').children().eq(e).addClass('active');
+				$t.addClass('hide').next().removeClass('hide');
+			}
 
-
-	$('.js-interaction').click(function  () {
-		var t = $(this);
-		var target = t.attr('data-target') ? $(t.attr('data-target')) : t.parents('.interaction');
-
-		if (!t.hasClass('re')) {
-			t.addClass('active');
-			target.addClass('active');
-		}else {
-			target.removeClass('active');
-			t.removeClass('re');
-		}
+			if(!$t.next().length){
+				$('.btn-order-reset[data-target="'+root+'"]').removeClass('hide');
+			}
+ 		});
 	});
 
-	$('.last-motion').on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd animationend webkitAnimationEnd',function  () {
-		var t = $(this);
-		var target = t.attr('data-target') ? $(t.attr('data-target')) : t.parents('.interaction').find('.js-interaction');
-
-		target.removeClass('active').addClass('re');
+	$('.btn-order-reset').click(function(){
+		var $handBtn = $(this.dataset.target).find('.order-inter-btn').children();
+		$(this.dataset.target).find('.order-inter-content').children().removeClass('active');
+		$handBtn.addClass('hide').eq(0).removeClass('hide');
+		if($handBtn.data('audio')){
+			$handBtn.each(function(){
+				audioPause($('#'+this.dataset.audio)[0]);
+			});
+		}
+		$(this).addClass('hide');
 	});
 });

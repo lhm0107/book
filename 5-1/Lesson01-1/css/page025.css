@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.interaction {position: relative;margin: 25px -50px 0;height: 445px;background: url(../images/page025/bg.jpg) no-repeat 0 0/auto 100%}
+.f1 {position: absolute;font-size: 12px; line-height: 16px; text-align: center; }
+.tit {font-size: 12px; font-weight: 700;color: #fff}
+.fwd3 {width: 153.5px; font-size: 11px; line-height: 16px; text-indent: 1.2em; text-align: justify}
+.interaction>.layer-wrp{position: absolute;right: 50px;bottom: 93px}
+#layerSelfWrite{top: -605px;bottom: auto;z-index: 30;}
+.painting{position: relative;width: 314px;margin: 0 auto 10px}
+.layer-draw{right: 0;left: -150px;margin-bottom: 15px !important}
+.layer-transparent{position: static}
+.layer-transparent>*, .icon-hand{position: absolute}
+.overlay{position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: url(../images/page025/overlay.png) no-repeat 0 0/auto 100%;z-index: 5;pointer-events: none}
+
+.icon-hand, .layer-transparent>*:not(.bg){z-index: 10}
+
+.hand1{left: 417px;top: 102px;}
+.hand2{left: 417px;top: 191px;}
+.hand3{left: 417px;top: 305px;}
+.icon-hand.re{left: 516px;margin-top: 10px}
+.hand1.re{left: 517px;margin-top: 10px}
+.hand3.re{left: 513px}
+
+.layer-transparent .bg{top: 0;right: 0;bottom: 0;left: 0;pointer-events: none;background: url(../images/page025/1.png) no-repeat 0 0/100% auto}
+#layer2 .bg{background-image: url(../images/page025/2.png)}
+#layer3 .bg{background-image: url(../images/page025/3.png)}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.inter{position: absolute;right: -50px;bottom: -50px}
+.order-inter-content .text-num{text-align: center;position: absolute;animation: fadeIn 1s both}
+.order-inter-content .text-num:not(.active){display: none}
+.order-inter-btn>.icon-hand{top: 0}
+.btn-img-group{position: absolute;bottom: 0;left: 130px}
+.btn-order-reset{bottom: 100px;right: 300px}

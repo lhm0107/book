@@ -5,3 +5,5 @@
 .word-bubble{margin:7px 0 42px 2px;}
 .bottom-content .word-bubble{margin: 0 0 0 8px;}
 .word-bubble .font-ka{color:#fff;letter-spacing: -.025em;}
+.icon-enlarge{position: absolute;left: 185px;top: 235px}
+#layerSubject{right: -232px}

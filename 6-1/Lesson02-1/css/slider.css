@@ -11,7 +11,7 @@
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 5px}
 .swiper-pagination-bullet{width: 18px;height: 18px;border-radius: 100%;opacity: 1;border: 2px solid #96a9b3;background: #c0c9be;box-shadow: inset 0px 4px 0px 0px rgba(184, 191, 191, 0.004)}
 .swiper-pagination-bullet-active{background: -webkit-linear-gradient( -67deg, rgb(255,94,155) 0%, rgb(255,94,155) 0%, rgba(245,0,104,0.99608) 100%);box-shadow: 1px 2px 1px 0px rgba(85, 85, 85, 0.4),inset -2px -4px 4px 0px rgba(255, 92, 169, 0.7);border-color: #e5036a}
-.swiper-button-next, .swiper-button-prev{position: absolute;top: 50%;right: 0;width: 36px;height: 57px;margin-top: -28px;background: url(../images/common/slider_arrow.png) no-repeat 50% 50%/100% auto;z-index:100}
+.swiper-button-next, .swiper-button-prev{position: absolute;top: 50%;right: 0;width: 29px;height: 46px;margin-top: -23px;background: url(../images/common/slider_arrow.png) no-repeat 50% 50%/100% auto;z-index:100}
 .swiper-button-prev{left: 0;-webkit-transform: scale(-1,1);transform: scale(-1,1)}
 .swiper-button-disabled{background-image: url(../images/common/slider_arrow_off.png);opacity: 1 !important}
 

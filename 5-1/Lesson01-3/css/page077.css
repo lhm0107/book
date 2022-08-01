@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.row>.col-wide:first-child:last-child{margin-left: 113px;-ms-flex: 0 0 531px;flex: 0 0 531px;max-width: 531px}
+
+.word-bubble {margin-top: 16px}
+[class*=fwd]{font-size: 13px;line-height: 17px}
+.fwd1{color: #e46a26;font-weight: 700;font-size: 15px}
+.fwd2{color: #ebac19;font-weight: 700;font-size: 15px}
+.fwd span{font-size: 12px;letter-spacing: -0.1em}
+.fwd.font-serif{color: #2f94d1;font-style: italic}
+.fwd.font-ka{font-size: 17px}

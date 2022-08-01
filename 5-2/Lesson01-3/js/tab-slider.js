@@ -1,7 +1,7 @@
 var tabSwiper = [];
 $(function(){
 	"use strict";
-	$('.swiper-container').each(function  (i) {
+	$('.tab-swiper .swiper-container').each(function  (i) {
 		var t = $(this);
 		var $root = t.closest('.tab-swiper');
 		tabSwiper[i] = new Swiper(t, {

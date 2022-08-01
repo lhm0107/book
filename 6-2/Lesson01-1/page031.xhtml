@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
+<link rel="stylesheet" type="text/css" href="css/page031.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<div class="numbering font-dt">
+			<b class="num fs23">2</b>
+			<p class="media-body media-title">
+				다음 내용이 맞으면 ‘O’, 틀리면 ‘X’를 따라가며 미로를 탈출해 보자.
+				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
+                <button type="button" class="icon-btn-inter" title="인터렉션" data-toggle="layer" data-target="#layer1">인터렉션</button>
+			</p>
+		</div>
+
+		<!-- 길찾기 -->
+		<div id="miroh">
+			<button type="button" class="btn-game-start"><i class="icon-game-start"></i></button>
+			<ol xmlns="http://www.w3.org/1999/xhtml" id="quest" class="font-dt">
+				<li class="quest" style="left: 328px; top: 121px;">
+					<div class="question">
+						<span class="text-circle">1</span>지구본은 회전할 수 있으며<br/>실제 지구의 모습과<br/>비슷하다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_01" class="sr-only" name="radio_111_01" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_02" class="sr-only" name="radio_111_01" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 72px; top: 97px;">
+					<div class="question">
+						<span class="text-circle">2</span>세계 지도는 디지털 공간 <br/>영상 정보보다 확대와 <br/>축소가 자유롭다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_03" class="sr-only" name="radio_111_03" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_04" class="sr-only" name="radio_111_03" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 155px; top: 279px;">
+					<div class="question">
+						<span class="text-circle">3</span>유럽은 좁은 면적에 비해<br/>나라가 많으며.<br/>대서양에 접해 있다.  
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_05" class="sr-only" name="radio_111_05" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_06" class="sr-only" name="radio_111_05" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 407px; top: 319px;">
+					<div class="question">
+						<span class="text-circle">4</span>남극해는 남극 주변에<br/>있는 바다로 아시아, 유럽,<br/>북아메리카 대륙에<br/>둘러싸여 있다.  
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_07" class="sr-only" name="radio_111_07" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_08" class="sr-only" name="radio_111_07" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 498px; top: 459px;">
+					<div class="question">
+						<span class="text-circle">5</span>북아메리카에는<br/>브라질,아르헨티나 등의<br/>나라가 있다. 
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_09" class="sr-only" name="radio_111_09" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_10" class="sr-only" name="radio_111_09" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 273px; top: 431px;">
+					<div class="question">
+						<span class="text-circle">6</span>러시아는 세계에서<br/>영토 크기가<br/>가장 크다.  
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_11" class="sr-only" name="radio_111_11" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_12" class="sr-only" name="radio_111_11" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 117px; top: 546px;">
+					<div class="question">
+						<span class="text-circle">7</span>이집트는 영토가<br/>동서남북 모든 방향에서<br/>길이가 비슷하다. 
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_13" class="sr-only" name="radio_111_12" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_14" class="sr-only" name="radio_111_12" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>111</b>뚝딱뚝딱 정리하기</footer>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

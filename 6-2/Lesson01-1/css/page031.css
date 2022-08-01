@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page031/bg1.jpg)}
+
+.icon-btn-inter {position: absolute; right: 0}
+
+.numbering{padding-top: 84px}
+#miroh {position: relative;}
+.btn-game-start{position: absolute;transform: scaleX(-1);top: 17px;right: 0px}
+.quest .question{width: 140px;height: 88px}
+.quest .question {font-size: 12px; line-height: 18px; font-weight: 500}
+.quest .text-circle {background: #77535c}

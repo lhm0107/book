@@ -1,0 +1,11 @@
+@charset "utf-8";
+.img-tit {font-size: 12px; text-align: center; font-weight: 700; margin-left: -3px}
+.ml-25 {margin-left: -25px}
+.mr-25 {margin-right: -25px}
+[class*=fwd] {text-indent: 0}
+.fwd1 {font-size: 14px; line-height: 32px; font-weight: 700; color: #fff}
+.fwd1 .num {font-size: 17px; margin-left: -2px}
+.fwd2 {font-size: 16px; font-weight: 700; line-height: 26px}
+.fwd3 {font-size: 15px; color:#e30613}
+.fwd4 {text-align: left; line-height: 25px}
+.label {background: #435e89}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.col-wide {padding-right:85px}
+.col .fwd {width: 121px; font-size: 13px; line-height: 1.2em; text-align: justify;}
+
+.icon-ttakji {position: relative;}
+.ttakji-refresh{right: 0;bottom: 195px;position: absolute !important}
+
+
+.dragdrop .col-4 {margin-top:18px}
+.dragdrop .tit {position: absolute; top:50px;left:104px; font-size: 19px;}
+.dragdrop ul {position: absolute; top:135px; left:27px}
+.dragdrop li+li {margin-top:7px}
+.dragdrop li:before {top:50%; transform: translateY(-50%);}
+.dragdrop .box{position: relative;width: 100px; height:40px;background: #fff;border-radius: 5px;border: 2px solid #a8b6bd;font-size: 15px;}
+.dragdrop li>.box{width: 150px}
+.dragdrop .col-4>.box { position: absolute;}
+
+.drop-fix{display: flex; justify-content: center; align-items: center; height: 100%; }
+.drag-fix{width: 110px; margin:0 auto}
+.drop-fix br{display: none}

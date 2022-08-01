@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.word-bubble-wrp {position: relative; margin-top: 55px}
+.word-bubble-wrp .word-bubble{width: 600px}
+.word-bubble-wrp button {margin-top: 20px}
+.font-mi.text-white {font-size: 24px !important}
+
+.words li {position: absolute; color: #fff;font-family: 'Katuri', sans-serif;font-size: 16px;letter-spacing: -.025em;line-height: 57px}
+.words li:first-child {left:192px; top:105px; font-size: 18px}
+.words li:nth-child(2) {left:440px; top:109px}
+.words li:nth-child(3) {left:99px; top:349px}
+.words li:nth-child(4) {left:173px; top:338px}
+.words li:nth-child(5) {left:245px; top:378px}
+.words li:nth-child(6) {left:404px; top:335px; font-size: 18px; transform: rotate(-27deg)}

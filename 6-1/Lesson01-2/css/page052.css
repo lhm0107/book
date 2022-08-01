@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.layer-write #lyrWedorang .layer-body {width: 245px; background: #f50068; color: #fff; padding: 12px 24px 12px 12px; z-index: 50; border: none;}
+.layer-write .layer-wedorang[data-toggle=layerClse]:before {z-index: 55;}
+.layer-write #layer1 .layer-body {border: none;}
+#lyrWedorang {right: 0; left:auto;}
+.side-btns {top: 0;right: 0}
+.word-bubble {margin-top: 215px; margin-left: 12px;}
+.fwd1 {font-size: 17px;}
+.fwd2 {font-size: 19px;}
+.fwd2 span {font-size: 24px;}
+.fwd3 {width: 315px; font-size: 13px; line-height: 24px;}
+.icon-btn-audio {position: absolute; left: 274px; top: 59px;}
+.mid-img {width: 577px; position: absolute; right: 0px; top:0px}
+.tb tr>td:first-child{border-left: 0}
+#layerSelfWrite{right: auto;left: 0;margin-top:  50px}
+#layerSelfWrite .media-title{padding-right: 100px;margin-bottom: 0}
+#layer1{width: 500px}
+.layer[data-toggle=layerClse]:before{z-index: 1}
+
+.note{width: 637px;height: 629px;background: url(../images/page052/note.png) no-repeat 0 0/100% auto;padding: 60px 26px 0;margin: 20px auto 0}
+.note .label{background: #ef857d}
+.note th{font-weight: 400;line-height: 24px;vertical-align: middle;text-align: center}
+.note td{line-height: 30px;padding: 12px 10px 12px 0}
+.note tr>*{border-bottom: 1px solid #bebebe}
+.note tr:last-child>*{border-bottom: 0}
+.note li+li{margin-top: 5px}
+.col.media-title{padding-right: 100px}

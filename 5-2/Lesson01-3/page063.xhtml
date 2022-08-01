@@ -7,13 +7,14 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
 <link rel="stylesheet" type="text/css" href="css/slider.css" />
 <link rel="stylesheet" type="text/css" href="css/page063.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
+<div id="wrap" class="page-odd">
 	<div class="wrapper">
 		<!-- 탐구해요 -->
 		<section class="sect-do-explore">
@@ -29,7 +30,6 @@
 							지방에 파견된 수령이 고을을 다스리면서 어떤 일을 했는지 알아보자.
 						</div>
 					</div>
-                    <button type="button" class="btn-subject" data-toggle="modal" data-target="#modalWrite"><i class="icon-btn-pencil"></i><span class="text-hide">써보기</span></button>
                     <div class="word-bubble">
                         <img src="images/page063/1.jpg" alt="" data-dtext_index="dtext_cls_image" />
                         <p class="fwd font-mi" style="left: 317px; top:12px">갑동이네 소를 왜<br />허락 없이 사용하였느냐?</p>
@@ -40,43 +40,85 @@
                         <p class="fwd2 font-dt" style="left: 450px; top:34px">수령이 고을의<br />업무를 처리하는<br /> <span class="font-ka">동헌</span></p>
                         <p class="fwd2 font-dt" style="left: 35px; top:342px">백성이<br />농사짓는<br /> <span class="font-ka">토지</span></p>
                         <p class="fwd2 font-dt" style="left: 464px; top:342px">지방의 학생들이<br />유학을 공부하는<br /> <span class="font-ka">향교</span></p>
-                    </div>                    
+                    </div>
 				</div>
-				<table class="tb mt20">
-                    <colgroup>
-                        <col style="width:308px"/>
-                        <col/>
-                    </colgroup>
-                    <tbody>
-                        <tr>
-                            <th>왕을 상징하는 나무패를 왜 객사에 모셨을까요?</th>
-                            <td>
-                                <div class="sample-text align-items-start">
-                                    <span class="label mr5">예시</span>
-                                    <p>왕을 대신하여 수령이 고을을 다스린다는 것을 백성에게 널리 알리기 위해서입니다.</p>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="bg-ylw">수령은 동헌에서 어떤 업무를 처리했을까요?</th>
-                            <td>
-                                <textarea id="textarea_063_01" class="form-control" title="입력"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>수령은 왜 농업을 장려했을까요?</th>
-                            <td>
-                                <textarea id="textarea_063_02" class="form-control" title="입력"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="bg-ylw last">수령은 왜 유학 공부를 열심히 하라고 했을까요?</th>
-                            <td>
-                                <textarea id="textarea_063_03" class="form-control" title="입력"></textarea>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+
+				<nav class="nav nav-step justify-content-end mt5">
+					<button type="button" class="active" data-toggle="tab" data-target="#tab1">1</button>
+					<i class="icon-arrow"></i>
+					<button type="button" data-toggle="tab" data-target="#tab2">2</button>
+					<i class="icon-arrow"></i>
+					<button type="button" data-toggle="tab" data-target="#tab3">3</button>
+				</nav>
+
+				<div class="tab-content mt10">
+					<div id="tab1" class="tab-pane active">
+						<div class="bg-sky">왕을 상징하는 나무패를 왜 객사에 모셨을까요?</div>
+						<div class="sample-text">
+							<span class="label mr5">예시</span>
+							<p>왕을 대신하여 수령이 고을을 다스린다는 것을 백성에게 널리 알리기 위해서입니다.</p>
+						</div>
+						<div class="bg-ylw">수령은 동헌에서 어떤 업무를 처리했을까요?</div>
+
+						<div class="layer-wrp layer-wrp-btm">
+							<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer1">정답보기</button>
+							<div id="layer1" class="layer w-100" data-toggle="layerClse">
+								<div role="button" class="text-hide">닫기</div>
+								<div class="layer-body">
+									<h4 class="title">예시 답안</h4>
+									<p>죄를 지은 백성을 재판하였습니다.</p>
+								</div>
+							</div>
+							<textarea id="textarea_063_01" class="form-control" title="입력"></textarea>
+						</div>
+					</div>
+					<div id="tab2" class="tab-pane">
+						<div class="bg-sky">왕을 상징하는 나무패를 왜 객사에 모셨을까요?</div>
+						<div class="sample-text">
+							<span class="label mr5">예시</span>
+							<p>왕을 대신하여 수령이 고을을 다스린다는 것을 백성에게 널리 알리기 위해서입니다.</p>
+						</div>
+						<div class="bg-ylw">수령은 왜 농업을 장려했을까요?</div>
+
+						<div class="layer-wrp layer-wrp-btm">
+							<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer2">정답보기</button>
+							<div id="layer2" class="layer w-100" data-toggle="layerClse">
+								<div role="button" class="text-hide">닫기</div>
+								<div class="layer-body">
+									<h4 class="title">예시 답안</h4>
+									<ul class="lst-type-bull">
+										<li>농사는 나라의 근본이기 때문입니다.</li>
+										<li>농사를 잘 지으면 백성의 삶에 도움이 되고 세금을 안정적으로 거둘 수 있기 때문입니다.</li>
+									</ul>
+								</div>
+							</div>
+							<textarea id="textarea_063_02" class="form-control" title="입력"></textarea>
+						</div>
+					</div>
+					<div id="tab3" class="tab-pane">
+						<div class="bg-sky">왕을 상징하는 나무패를 왜 객사에 모셨을까요?</div>
+						<div class="sample-text">
+							<span class="label mr5">예시</span>
+							<p>왕을 대신하여 수령이 고을을 다스린다는 것을 백성에게 널리 알리기 위해서입니다.</p>
+						</div>
+						<div class="bg-ylw">수령은 왜 유학 공부를 열심히 하라고 했을까요?</div>
+
+						<div class="layer-wrp layer-wrp-btm">
+							<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer3">정답보기</button>
+							<div id="layer3" class="layer w-100" data-toggle="layerClse">
+								<div role="button" class="text-hide">닫기</div>
+								<div class="layer-body">
+									<h4 class="title">예시 답안</h4>
+									<ul class="lst-type-bull">
+										<li>교육을 중요하게 생각하고 뛰어난 인재를 길러 내기 위해서입니다.</li>
+										<li>공부를 열심히 해야 과거에 합격하고 나라를 위해 봉사할 수 있기 때문입니다.</li>
+									</ul>
+								</div>
+							</div>
+							<textarea id="textarea_063_02" class="form-control" title="입력"></textarea>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -113,91 +155,144 @@
 			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
 			<h2 class="modal-title"><i class="icon-modal-write"></i></h2>
 		</div>
-		<div class="modal-body">
-			<section class="sect layer-wrp numbering">
-                <b class="num">1.</b>
-                <div class="media-body">
-                    <h4 class="media-title text-q">왕을 상징하는 나무패를 왜 객사에 모셨을까요?</h4>
-                    <textarea id="textarea_063_01" class="form-control" title="입력" placeholder=""></textarea>
-                    <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_01" data-layer-accordion="true">확인</button>
-                    <div id="layer_063_01" class="layer w-100" data-toggle="layerClse">
-                        <div class="layer-body">
-                            <strong class="title">예시 답안</strong>
-                            <p>왕을 대신하여 수령이 고을을 다스린다는 것을 백성에게 널리 알리기 위해서입니다.</p>
-                        </div>
+        <div class="modal-body">
+            <ul class="swiper-tab">
+                <li><a>1</a></li>
+                <li><a>2</a></li>
+                <li><a>3</a></li>
+            </ul>
+            <div class="swiper-container test-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <section class="sect layer-wrp numbering">
+                            <b class="num">1.</b>
+                            <div class="media-body">
+                                <h4 class="media-title text-q">수령은 동헌에서 어떤 업무를 처리했을까요?</h4>
+                                <textarea id="textarea_063_01" class="form-control" title="입력" placeholder=""></textarea>
+                                <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_01" data-layer-accordion="true">확인</button>
+                                <div id="layer_063_01" class="layer w-100" data-toggle="layerClse">
+                                    <div class="layer-body">
+                                        <strong class="title">예시 답안</strong>
+                                        <p>죄를 지은 백성을 재판하였습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-slide">
+                        <section class="sect layer-wrp numbering">
+                            <b class="num">2.</b>
+                            <div class="media-body">
+                                <h4 class="media-title text-q">수령은 왜 농업을 장려했을까요?</h4>
+                                <textarea id="textarea_063_02" class="form-control" title="입력" placeholder=""></textarea>
+                                <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_02" data-layer-accordion="true">확인</button>
+                                <div id="layer_063_02" class="layer w-100" data-toggle="layerClse">
+                                    <div class="layer-body">
+                                        <strong class="title">예시 답안</strong>
+                                        <ul class="lst-type-bull">
+                                            <li>농사는 나라의 근본이기 때문입니다.</li>
+                                            <li>농사를 잘 지으면 백성의 삶에 도움이 되고 세금을 안정적으로 거둘 수 있기 때문입니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-slide">
+                        <section class="sect layer-wrp numbering">
+                            <b class="num">3.</b>
+                            <div class="media-body">
+                                <h4 class="media-title text-q">수령은 왜 유학 공부를 열심히 하라고 했을까요?</h4>
+                                <textarea id="textarea_063_03" class="form-control" title="입력" placeholder=""></textarea>
+                                <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_03" data-layer-accordion="true">확인</button>
+                                <div id="layer_063_03" class="layer w-100" data-toggle="layerClse">
+                                    <div class="layer-body">
+                                        <strong class="title">예시 답안</strong>
+                                        <ul class="lst-type-bull">
+                                            <li>교육을 중요하게 생각하고 뛰어난 인재를 길러 내기 위해서입니다.</li>
+                                            <li>공부를 열심히 해야 과거에 합격하고 나라를 위해 봉사할 수 있기 때문입니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
-			</section>
-			<section class="sect layer-wrp numbering">
-                <b class="num">2.</b>
-                <div class="media-body">
-                    <h4 class="media-title text-q">수령은 동헌에서 어떤 업무를 처리했을까요?</h4>
-                    <textarea id="textarea_063_02" class="form-control" title="입력" placeholder=""></textarea>
-                    <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_02" data-layer-accordion="true">확인</button>
-                    <div id="layer_063_02" class="layer w-100" data-toggle="layerClse">
-                        <div class="layer-body">
-                            <strong class="title">예시 답안</strong>
-                            <p>죄를 지은 백성을 재판하였습니다.</p>
-                        </div>
-                    </div>
-                </div>
-			</section>
-            <section class="sect layer-wrp numbering">
-                <b class="num">3.</b>
-                <div class="media-body">
-                    <h4 class="media-title text-q">수령은 왜 농업을 장려했을까요?</h4>
-                    <textarea id="textarea_063_03" class="form-control" title="입력" placeholder=""></textarea>
-                    <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_03" data-layer-accordion="true">확인</button>
-                    <div id="layer_063_03" class="layer w-100" data-toggle="layerClse">
-                        <div class="layer-body">
-                            <strong class="title">예시 답안</strong>
-                            <ul class="list-type-bull">
-                                <li>농사는 나라의 근본이기 때문입니다.</li>
-                                <li>농사를 잘 지으면 백성의 삶에 도움이 되고 세금을 안정적으로 거둘 수 있기 때문입니다.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-			</section>
-            <section class="sect layer-wrp numbering">
-                <b class="num">4.</b>
-                <div class="media-body">
-                    <h4 class="media-title text-q">수령은 왜 유학 공부를 열심히 하라고 했을까요?</h4>
-                    <textarea id="textarea_063_04" class="form-control" title="입력" placeholder=""></textarea>
-                    <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_063_04" data-layer-accordion="true">확인</button>
-                    <div id="layer_063_04" class="layer w-100" data-toggle="layerClse">
-                        <div class="layer-body">
-                            <strong class="title">예시 답안</strong>
-                            <ul class="list-type-bull">
-                                <li>교육을 중요하게 생각하고 뛰어난 인재를 길러 내기 위해서입니다.</li>
-                                <li>공부를 열심히 해야 과거에 합격하고 나라를 위해 봉사할 수 있기 때문입니다.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-			</section>
-		</div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
 	</div>
 </div>
 <!-- 내용 정리 -->
-<div id="modalArrangeCont" class="modal">
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
 	<div class="modal-content">
-		<div class="modal-header">
-			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-			<h2 class="modal-title"><i class="icon-modal-note"></i>내용 정리</h2>
-		</div>
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
 		<div class="modal-body">
-			<h3 class="arrange-cont-title">
-				<img src="images/common/ch-2-1.png" width="55" alt="1" data-dtext_index="dtext_cls_image"/>
-				<span>원고에 내용 없음</span>
-			</h3>
+			<h3 class="arrange-cont-title">조선의 건국과 나라의 기틀을 세우는 과정을 알아볼까요</h3>
 			<section class="sect numbering">
 				<b class="num">1.</b>
 				<div class="media-body">
-					<h4 class="media-title">원고에 내용 없음</h4>
+					<h4 class="media-title">조선의 건국</h4>
 					<ul class="lst-type-bull">
-						<li>원고에 내용 없음</li>
-						<li>원고에 내용 없음</li>
+						<li>
+                            이성계와 정도전을 비롯한 신진 사대부들이 개혁을 추진함.
+                            <ul class="lst-type-bar">
+                                <li>일부 지배층과 불교 사원이 차지하고 있던 토지를 원래 주인에게 돌려주고 억울하게 노비가 된 사람을 원래 신분으로 되돌림.</li>
+                                <li>새로운 관리에게 토지를 지급하고 나라의 재정을 튼튼하게 함.</li>
+                            </ul>
+                        </li>
+						<li>이성계가 고려를 유지하려는 세력을 없애고 조선을 건국함.</li>
+                        <li>조선을 건국한 사람들은 유교의 가르침에 따라 나라를 다스리고자 함.</li>
+					</ul>
+				</div>
+			</section>
+            <section class="sect numbering">
+				<b class="num">2.</b>
+				<div class="media-body">
+					<h4 class="media-title">조선의 도읍이 된 한양</h4>
+					<ul class="lst-type-bull">
+						<li>이성계가 오늘날 서울의 한강 북쪽인 한양을 새로운 도읍으로 정함.</li>
+						<li>
+                            정도전이 이성계를 도와 한양 도성을 설계하고 건설함.
+                            <ul class="lst-type-bar">
+                                <li>유교 사상에 따라 경복궁, 종묘, 사직단 등의 위치와 이름을 정함.</li>
+                                <li>도성을 드나드는 사대문의 이름을 유교에서 강조하는 덕목을 담아 지음.</li>
+                            </ul>
+                        </li>
+					</ul>
+				</div>
+			</section>
+            <section class="sect numbering">
+				<b class="num">3.</b>
+				<div class="media-body">
+					<h4 class="media-title">나라의 기틀을 세우기 위한 노력</h4>
+					<ul class="lst-type-bull">
+						<li>전국을 8도로 나누고 그 아래 군현을 두어 수령을 파견함. → 수령이 왕을 대신하여 고을을 다스림.</li>
+                        <li>16세 이상의 남자에게 호패를 지니고 다니게 함. → 인구수를 파악하고 세금을 걷는 데 이용함.</li>
+						<li>
+                            여러 제도를 정비하여 왕권을 강화하고 나라의 기틀을 세움.
+                            <table class="tb">
+                                <colgroup>
+                                    <col style="width: 130px" />
+                                    <col />
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">삼사 설치</th>
+                                        <td class="text-justify">언론 기관의 역할을 하는 세 개의 기관(삼사)을 설치함. → 왕이 잘못에 빠지지 않게 하고 권력의 독점을 막음.</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">『경국대전』 편찬</th>
+                                        <td class="text-justify">지금의 헌법과 같음, 나라를 다스리는 기초가 됨.</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">과거제 시행</th>
+                                        <td class="text-justify">지식과 무예를 갖춘 인재를 관리로 뽑음.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
 					</ul>
 				</div>
 			</section>
@@ -206,18 +301,16 @@
 </div>
 
 <!-- 잠깐체크 -->
-<div id="modalSmallEvlt" class="modal modal-evlt modal-blue">
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
 	<div class="modal-content">
-		<div class="modal-header">
-			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-			<h2 class="modal-title"><i class="icon-modal-chk"></i>잠깐 체크</h2>
-		</div>
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
 		<div class="modal-body">
 			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div id="small_063_01" class="verify-answer no-answered" data-qtype="radio">
+							<div id="small_063_01" class="no-answered" data-qtype="radio">
 								<assessmentItem data-qid="radio_063_01" data-response-type="trueFalse">
 									<div class="text-right">
 										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_063_01">확인</button>
@@ -226,12 +319,12 @@
 										<div class="numbering">
 											<b class="num">1. </b>
 											<div class="media-body media-title">
-												원고에 내용 없음
+												이성계는 정도전을 비롯한 신진 사대부들과 함께 조선을 건국하였다.
 											</div>
 								        </div>
 										<div class="answer-wrp q-label-wrp">
-											<label class="q-label"><input type="radio" name="radio_063_01" id="radio_063_01" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
-											<label class="q-label"><input type="radio" name="radio_063_01" id="radio_063_02" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
+											<label class="q-label"><input type="radio" name="radio_063_01" id="radio_063_01" value="○" class="sr-only" data-answer=""/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_063_01" id="radio_063_02" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
 										</div>
 									</itemBody>
 									<correctResponse><span class="sr-only">×</span></correctResponse>
@@ -239,8 +332,8 @@
 							</div>
 						</div>
 						<div class="swiper-slide">
-							<div id="small_063_02" class="verify-answer no-answered" data-qtype="radio">
-								<assessmentItem data-qid="radio_063_03" data-response-type="trueFalse">
+							<div id="small_063_02" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_063_05" data-response-type="trueFalse">
 									<div class="text-right">
 										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_063_02">확인</button>
 									</div>
@@ -248,40 +341,46 @@
 										<div class="numbering">
 											<b class="num">2. </b>
 											<div class="media-body media-title">
-												원고에 내용 없음
+                                                조선을 세운 이성계는
+												(<div class="answer-wrp q-label-wrp">
+													<label class="q-label">
+														<input type="radio" name="radio_063_05" id="radio_063_05" value="개경" class="sr-only" />
+														<span>개경</span></label>
+													,
+													<label class="q-label">
+														<input type="radio" name="radio_063_05" id="radio_063_06" value="한양" class="sr-only" data-answer="" />
+														<span>한양</span></label>
+												</div>)을 새로운 도읍으로 정하였다.
+
 											</div>
 								        </div>
-										<div class="answer-wrp q-label-wrp">
-											<label class="q-label"><input type="radio" name="radio_063_03" id="radio_063_03" value="○" class="sr-only" data-answer="" /><span class="icon-answerb-o">○</span></label>
-											<label class="q-label"><input type="radio" name="radio_063_03" id="radio_063_04" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
-										</div>
 									</itemBody>
-									<correctResponse><span class="sr-only">○</span></correctResponse>
+									<correctResponse><span class="sr-only">여춘영</span></correctResponse>
 								</assessmentItem>
 							</div>
 						</div>
-						<div class="swiper-slide">
-                            <div id="small_063_03" class="verify-answer no-answered" data-qtype="text">
-                                <assessmentItem data-qid="text_063_02" data-response-type="fillInTheBlank">
-                                    <div class="text-right">
-                                        <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_063_03">확인</button>
-                                    </div>
-                                    <itemBody>
+                        <div class="swiper-slide">
+							<div id="small_063_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_063_03" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_063_03">확인</button>
+									</div>
+									<itemBody>
 										<div class="numbering">
 											<b class="num">3. </b>
 											<div class="media-body media-title">
-												원고에 내용 없음
-	                                            <div class="answer-wrp" data-answer="경국대전">
-	                                                <input type="text" id="text_063_02" class="form-control itx"  title="입력" />
-	                                                <span class="tx-a">경국대전</span>
-												</div>원고에 내용 없음
+												조선은 『경국대전』을 편찬하여 법에 따라 나라를 다스리고 사회 제도를 정비하였다.
 											</div>
 								        </div>
-                                    </itemBody>
-                                    <correctResponse><span class="sr-only">경국대전</span></correctResponse>
-                                </assessmentItem>
-                            </div>
-                        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_063_04" id="radio_063_04" value="○" class="sr-only" data-answer=""/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_063_05" id="radio_063_05" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
 					</div>
                     <div class="swiper-control">
 						<div class="swiper-button-prev"></div>

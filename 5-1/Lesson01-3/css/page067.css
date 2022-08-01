@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.content-bottom p {text-indent: 0}
+.fwd1 {font-size: 16px}
+.fwd2 {font-size: 13px; line-height: 20px; text-align: center}
+.btn-subject.v2 {position: absolute; left: 360px; top: 317.5px}
+.bottom-content{left: -6px;right: -5px}
+.fwd3{font-size: 11px;line-height: 1}
+.bottom-content .icon-hand{position: absolute;z-index: 50}
+.icon-hand.re{background-position: 50% 50%}

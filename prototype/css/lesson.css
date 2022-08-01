@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* common */
+#num>span{background: #21b8c5}
+.icon-pencil{background-image: url(../images/lesson/textarea_pencil.png)}
+.ch-1-hd{padding-left: 130px;}
+.btn-ch-idea{margin: 88px 0 0 30px}
+.ch-goal{width: 150px}
+.ch-goal-title{color: #6e1d2c}
+.ch-goal-title>span{color: #ef8300}
+.think-title>strong{width: 82px;height: 80px;background-image: url(../images/lesson/page-think-label_pt01.png)}
+.think-title .font-dt{padding: 28px 0 0 7px}
+.ch-goal-list>li{width: 106px;margin: 0 auto;font-size: 13px;line-height: 18px;border-top: 3px solid #fff;text-indent: .7em;font-weight: 700;padding: 8px 0 25px}
+.think-title{margin-top: 5px}
+
+/* lesson */

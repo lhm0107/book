@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.ch-2-hd {margin-bottom: 16px;}
+.icon-btn-video {margin-top: 33px;}
+.word-bubble {margin-left: -50px; margin-top: 21px;}
+.word-bubble button {position: absolute;}
+.word-bubble .font-dt {font-size: 12px; line-height: 17px;}
+.fwd4 {transform: rotate(26deg);}
+.fwd2, .fwd4 {text-shadow: -1px -1px 1px rgb(255, 255, 255), 1px 1px 1px rgb(255, 255, 255)}
+.bottom-content {margin-left: 64px; justify-content: space-between;}
+.bottom-content .tit {font-weight: 700;}
+.bottom-content .para {line-height: 18px; padding-left: 14px; width: 278px;}
+.arrow {display: inline-block; width: 11px; height: 13px; background: url(../images/page034/arrow.png) no-repeat 0 0 / auto 100%;vertical-align: middle; margin-right: 3px;}

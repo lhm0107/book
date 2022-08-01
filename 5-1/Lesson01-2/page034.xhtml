@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/page034.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <header class="ch-1-hd">
+			<h1 class="ch-1-title"><span class="sr-only">3</span>우리 국토의<br /> 자연환경</h1>
+            <button type="button" class="btn-ch-idea" data-toggle="modal" data-target="#modalInteraction" style="z-index:5">생각을 여는 질문</button>
+		</header>
+        <div class="ch-1-text">
+            <div class="ch-goal">
+                <strong class="ch-goal-title">
+                    이 단원을 <span>공부하면?</span>
+                    <button type="button" title="내용 보기" class="icon-hand" data-inter="#interFadeIn">내용 보기</button>
+                    <button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset">다시 실행하기</button>
+                </strong>
+                <ul id="interFadeIn" class="ch-goal-list font-dt">
+                    <li data-auto-audio="audio1">지형과 기후를 중심으로 우리나라 자연환경의 특징을 알 수 있습니다.</li>
+                    <li data-auto-audio="audio2">우리나라에서 자주 발생하는 자연재해의 종류와 그 대처 방법을 알고, <br />
+                        안전 수칙을 실천하는 태도를 기를 수 있습니다.</li>
+                </ul>
+                <div class="ch-goal-audio">
+                    <audio id="audio1" src="media/page034/034_01.mp3" preload="none"></audio>
+                    <audio id="audio2" src="media/page034/034_02.mp3" preload="none"></audio>
+                </div>
+            </div>
+            <div class="think-title mt40">
+                <strong class="text-hide">생각이 활짝</strong>
+                <p class="font-dt">
+                    가족들이 함께 국내 여행 프로그램을 시청하고 있습니다.
+                </p>
+            </div>
+        </div>
+        <p class="ch-1-bubble font-mi" style="left: 160px;top: 534px;">우아! 한반도랑  <br />정말 비슷하다.</p>
+        <p class="ch-1-bubble font-mi" style="left: 312px;top: 690px;">우리나라에 저런 <br />  곳이 있어요?</p>
+        <!-- paging -->
+		<footer id="num" class="font-dt"><b>34</b><span>1</span>국토와 우리 생활</footer>
+    </div>
+</div>
+
+<!-- 생각을 여는 질문 -->
+<div id="modalInteraction" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title"><i class="icon-modal-idea"></i>생각을 여는 질문</h2>
+        </div>
+        <div class="modal-body">
+            <p class="media-title">우리나라는 사계절이 나타나 계절에 따라 사람들의 옷차림, 먹는 음식, 사용하는 물건 등의 생활 모습이 달라집니다. 여름과 겨울에 사람들의 생활 모습을 고르세요. <button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh float-right" data-target="#">다시 풀기</button></p>
+            <div class="bx drag-area">
+                <div class="drag-fix" data-text="선풍기" data-drop="1">
+                    <img src="images/page034/d1.png" height="120" alt="" />
+                </div>
+                <div class="drag-fix" data-text="털옷" data-drop="2">
+                    <img src="images/page034/d2.png" height="120" alt="" />
+                </div>
+                <div class="drag-fix" data-text="바캉스옷" data-drop="1">
+                    <img src="images/page034/d3.png" height="120" alt="" />
+                </div>
+                <div class="drag-fix" data-text="수확">
+                    <img src="images/page034/d4.png" height="120" alt="" />
+                </div>
+                <div class="drag-fix" data-text="썰매" data-drop="2">
+                    <img src="images/page034/d5.png" height="120" alt="" />
+                </div>
+            </div>
+            <div class="row text-center mt40">
+                <div class="col-6 pr10">
+                    <strong class="fs20">여름</strong>
+                    <input type="text" id="text_034_01" class="sr-only" />
+                    <div class="drop-fix" data-drop="1" data-chance="5"></div>
+                </div>
+                <div class="col-6 pl10">
+                    <strong class="fs20">겨울</strong>
+                    <input type="text" id="text_034_02" class="sr-only" />
+                    <div class="drop-fix" data-drop="2" data-chance="5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/interaction.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/dragdrop.fix.js"></script>
+</body>
+</html>

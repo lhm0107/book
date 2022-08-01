@@ -3,5 +3,6 @@
 .fwd1, .fwd2 {line-height: 25px}
 .fwd1 span {color:#3a8073}
 .fwd2 span {color:#3a5680}
-textarea.form-control {min-height: 30px}
-.btn-subject {position: absolute; top:0; right: 0px}
+textarea.form-control {height: 80px}
+.icon-btn-pencil {position: absolute; right: 0; top: 0;}
+.word-bubble{margin-right: -35px;padding-right: 35px}

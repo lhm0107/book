@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page064/bg.jpg)}
+
+.tab-thumb-swiper {background: transparent; padding-bottom:25px}
+.slider-figcaption {display: flex; align-items: center; justify-content: center; height:80px; margin:0; margin-top:10px; font-size: 15px; font-weight: 500; border-radius: 15px;}
+.slider-figcaption .title{color: #ef7d00; font-size: 18px; margin-bottom:10px}
+.nav-thumbs>button {margin:0 6px}
+
+canvas {border-radius: 15px;}
+.scratch:not(.done):after {top:39%;}
+.scratch:not(.done)::before {content:"화면을 긁어 보세요."; position: absolute; top:76%; left:50%; transform: translate(-50%, -50%); font-size: 15px; color: #c1c1c1; z-index: 9; }
+.scratch{width: 558px;height: 80px;margin-top: 10px}
+.slider-figcaption{margin-top: 0}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.content-top {display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between;}
+
+.slider-wrap{margin-top: 113px;}
+.icon-btn-video, .bubble{position: absolute;}
+.swiper-slide [class*=fwd] {font-size: 14px;text-align: justify}
+[class*=fwd].font-mi{font-size: 20px; text-align: center;}
+.fwd1 {width: 220px; }
+.fwd2{width: 540px}
+.icon-btn-play{top: 60%;width: 72px;height: 72px;margin: -36px}
+.swiper-slide:nth-child(2) .icon-btn-play{top: 50%}

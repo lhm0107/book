@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page045/bg.jpg);}
+[class^=num-circle] {width: 20px; height: 20px; text-align: center; font-size: 15px; line-height: 22px; border-radius: 100%; color: #fff; background: #3c73aa; font-family: 'KoPubDotum',sans-serif;}
+.word-bubble [class^=num-circle] {display: inline-block; font-size: 12px; width: 15px; height: 15px;line-height: 17px;}
+.num-wrap [class^=num-circle] {position: absolute;}
+.grn {background: #6fb865;}
+.purple {background: #8a579e;}
+.num-wrap li:nth-child(1) {left:5px; top:677px}
+.num-wrap li:nth-child(2) {left:325px; top:341px}
+.num-wrap li:nth-child(3) {left:224px; top:596px}
+.word-bubble button {position: absolute;}
+.fwd1 {font-size: 12px; color: #fff;}
+.fwd2 {font-size: 12px; line-height: 18px; width: 188px;}
+
+.bottom-content {bottom: -9px;}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page070/bg.jpg);}
+
+#layerSubject .swiper-slide {padding:0 40px}
+.bottom-content {height: 500px;}
+.bottom-content .para {font-size: 15px; line-height: 25px;}
+.bottom-content .slider-wrap {margin-top:22px}
+.bottom-content .font-ka {top:3px; left:50%; transform: translateX(-50%); font-size: 12px;}
+
+.bx-gray {position: relative; margin-top:15px; padding:25px 15px 15px; background: #e9e9e9;}
+.bx-gray .tit {position: absolute; top:-15px; left:20px; display:inline-block; padding:2px 12px; background: #50536e; color: #fff; font-size: 17px;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.interaction {position: relative; margin-top: 67px;}
+.bubble1 .fwd {left: 17px; top: -29px;}
+.bubble2 .fwd {left: 364px; top: -27px;}
+.interaction button {position: absolute;}
+.tit {font-size: 16px;}
+.fwd1 {transform: rotate(-96deg);}
+.fwd2 {transform: rotate(8deg);}
+.fwd3 {transform: rotate(22deg);}
+.fwd4 {transform: rotate(32deg);}
+.fwd5 {transform: rotate(5deg);}
+
+.ohyes-content {padding-left: 42px;}
+.ohyes-content .para {font-size: 16px; line-height: 26px; letter-spacing: -0.036em;}
+.ohyes-content .row .para {width: 343px; letter-spacing: -0.01em;}

@@ -9,10 +9,12 @@
 .word-bubble>*:not(img){position:absolute;top:0;left:0;}
 .word-bubble li+li{margin-top:10px;}
 
-.verify-content{padding: 13px 15px 19px 18px;}
+.verify-content{padding: 19px 15px 19px 18px;}
 .verify .lst-type-num>li{padding-left: 25px;line-height:unset;font-size: 16px;}
 .verify .lst-type-num>li>.text-circle:first-child{width: 18px;height: 18px;margin-top: 7px;margin-right: 5px;font-size: 15px;line-height: 18px;}
-.verify .form-control.itx{width:88px;margin-right: 5px;}
+.verify .form-control.itx{width:88px}
 
 .input-group .text-circle{width: 16px;margin-top: 0px;line-height: 16px;}
-.input-group input.form-control{width:90px;margin-right:5px;margin-bottom:2px;}
+.input-group input.form-control{width:90px;margin-bottom:2px;}
+#layer1{top: 30px}
+.modal .sect+.sect{margin-top: 20px}

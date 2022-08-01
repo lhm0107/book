@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page142/bg.jpg)}
+
+.ch-2-hd .col {padding-right:33px; text-align: right;}
+.ch-2-hd .col-wide { max-width:364px }
+.content-top .col-wide {margin-left:156px; margin-right:61px}
+
+[id^=interFadeIn] {position: absolute;}
+[id^=interFadeIn] .bubble {display: flex; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: 50% 50%; background-size: 100% auto; font-family: 'SDMiSaeng',sans-serif; font-size: 20px; line-height: 1em;}
+#interFadeIn1 .bubble{width: 93px;height:58px;background-image: url(../images/page142/bubble1.png)}
+#interFadeIn2 .bubble{width: 106px;height:71px;background-image: url(../images/page142/bubble2.png)}
+#interFadeIn3 .bubble{width: 105px;height:73px;background-image: url(../images/page142/bubble3.png)}
+
+.bx-ylw { position: absolute; min-width: 166px; padding:15px 10px; border:2px solid #ef9801; border-radius: 10px; background: rgba(255,255,255,0.84); font-size: 13px; line-height: 1.4em; text-align: center;}
+.bx-ylw span {display: inline-block; margin-bottom:10px; color: #ef9801; font-size: 20px;}
+#interFadeIn1 .bx-ylw{width: 210px;}
+#interFadeIn2 .bx-ylw{width: 166px;}
+#interFadeIn3 .bx-ylw{width: 221px;}
+

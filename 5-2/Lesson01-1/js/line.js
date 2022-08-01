@@ -1,22 +1,22 @@
 function qLine(o){
 	"use strict";
-	$('.q-line').each(function(){
-		var t = $(this);
-		var btn = '<button type="button" class="icon-btn-refresh refresh-line"><span class="sr-only">지우기</span></button>';
 
-		if(t.hasClass('q-line-final')){
-			$(this.dataset.target).find('.final-chk-buttons').append(btn)
-		}else{
-			t.before(btn)
+	var t = $('#'+o);
+	var btn = '<button type="button" class="icon-btn-refresh refresh-line"><span class="sr-only">지우기</span></button>';
+
+	if(t.hasClass('q-line-final')){
+		$(t.data('target')).find('.final-chk-buttons').append(btn)
+	}else{
+		t.before(btn)
+	}
+
+	t.prepend('<canvas id="canvas'+t.attr('id')+'" class="canvas"></canvas>').find('.q-line-btn').each(function(i){
+		if(!$(this).attr('data-no')){
+			$(this).attr('data-no',i+1);
 		}
-
-		t.prepend('<canvas id="canvas'+t.attr('id')+'" class="canvas"></canvas>').find('.q-line-btn').each(function(i){
-			if(!$(this).attr('data-no')){
-				$(this).attr('data-no',i+1);
-			}
-			$(this).attr('data-toggle','q-line').append('<button type="button" class="text-hide">선택</button>');
-		});
+		$(this).attr('data-toggle','q-line').append('<button type="button" class="text-hide">선택</button>');
 	});
+
 	// 리사이즈 보정
 	function appZoom(){
 		if(parent.ZOOMVALUE == undefined) {
@@ -52,7 +52,7 @@ function qLine(o){
 			if($(this).parent().hasClass('final-chk-buttons') && a.hasClass('answered')){
 				$(this).parent().data('chance', 1);
 			}
-            
+
 			$('.test-swiper .swiper-button-next').css('visibility','hidden');
 			a.data('line','');
 			a.removeClass('answered answer-o answer-x a-checked');
@@ -325,15 +325,11 @@ function qLine(o){
 	// 실행
 	var userAnswers = {};
 	setTimeout(function(){
-		$('.q-line').each(function(){
-			qLineInner($(this).attr('id'));
-		});
+		qLineInner(o);
 	},500);
 
 	setTimeout(function(){
-		$('.q-line').each(function(){
-			userLine($(this).attr('id'));
-		});
+		userLine(o);
 	},2000);
 	// multi
 	var multiLine = $('[data-toggle=answer-line-multi]');

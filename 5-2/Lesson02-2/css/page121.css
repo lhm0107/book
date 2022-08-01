@@ -1,0 +1,11 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page121/bg.jpg)}
+.para1 {width: 390px; font-size: 17px; line-height: 32px}
+.map {width: 247.5px; margin: 0 auto}
+.interaction .font-dt {font-size: 14px; font-weight: 700; margin-top: 10px}
+.content-bottom {display: flex; flex-direction: row; justify-content: flex-end; margin-top: 232.5px}
+.content-bottom .col-wide {flex: 0 0 536.5px; max-width: 536.5px}
+.content-bottom .para-wrp {padding-left: 43px}
+.space {letter-spacing: -0.023em}
+.para.last {text-indent: 0; padding-left: 66px}
+.fwd1 {font-size: 11px !important; font-weight: 500}

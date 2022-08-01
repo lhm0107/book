@@ -1,0 +1,17 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page149/bg.jpg)}
+.btn-game-start{position: absolute;transform: scaleX(-1);top: 106px;right: 50px}
+.numbering{padding-top: 80px}
+.quest .question{width: 135px;height: 88px}
+.quest:nth-child(5) .question{height: 100px}
+.quest:nth-child(7) .question{width: 145px}
+.icon-btn-inter {position: absolute; right: 0}
+.quest .question {font-size: 12px; line-height: 18px; font-weight: 500}
+.quest .text-circle {background: #77535c}
+
+/* 활동 방법 박스 */
+.rule-box {padding-top: 18px; padding-left: 42px}
+.rule-box .font-netmarble {font-size: 14px; line-height: 14px; font-weight: 700; color:#133860; }
+.rules {margin-top: 12px}
+.rules li {font-size: 15px; line-height: 15px; margin-bottom: 10px}
+.rules .text-circle {width: 15px; height: 15px; margin-right: 7px; font-size: 12px; line-height: 16px; font-weight: 700}

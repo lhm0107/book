@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page088/bg.jpg)}
+.wrapper {padding-top:347px}
+.col>.btn-subject {margin-top:45px}
+.btn-subject+.layer-wrp{margin-top:120px}

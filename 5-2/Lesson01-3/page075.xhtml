@@ -7,12 +7,14 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
 <link rel="stylesheet" type="text/css" href="css/page075.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
+<div id="wrap" class="page-odd">
 	<div class="wrapper">
 		<div class="col-wide">
             <strong class="para-title mb10">고려의 후삼국 통일</strong>
@@ -45,69 +47,84 @@
                     </p>
                     <p class="fwd font-ka" style="left: 516px; top:253px">최명길</p>
                 </div>  
-                <div class="layer-wrp layer-wrp-btm layer-side-chk pr35">
-					<div class="numbering">
-						<b class="num">1</b>
-						<div class="media-body">
-							<p class="media-title">조선인이 청으로 끌려갈 때 어떤 어려움을 겪었는지 써 보자.</p>
-							<textarea id="textarea_075_01" class="form-control" title="입력"></textarea>
-							<button type="button" class="icon-btn-chk" title="정답보기" data-toggle="layer" data-target="#layer1">정답보기</button>
-							<div id="layer1" class="layer w-100" data-toggle="layerClse">
-								<div class="layer-body">
-									<strong class="title">예시 답안</strong>
-									<ul class="lst-type-bull">
-										<li>청군에게 맞기도 하였습니다다.</li>
-                                        <li>오랜 기간 동안에 옷을 벗지 못하고 잠을 자서 온몸에 이가 들끓었습니다.</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> 
-                <div class="layer-wrp layer-wrp-btm layer-side-chk mt15 pr35">
-					<div class="numbering">
-						<b class="num">2</b>
-						<div class="media-body">
-							<p class="media-title">청에 끌려간 조선인을 데리고 오는 것에 대해 최명길은 어떻게 생각하였는지 써<br /> 보자.</p>
-							<textarea id="textarea_075_02" class="form-control" title="입력"></textarea>
-							<button type="button" class="icon-btn-chk" title="정답보기" data-toggle="layer" data-target="#layer2">정답보기</button>
-							<div id="layer2" class="layer w-100" data-toggle="layerClse">
-								<div class="layer-body">
-									<strong class="title">예시 답안</strong>
-									<ul class="lst-type-bull">
-										<li>최명길은 청에 끌려간 조선인을 빈부귀천 구분 없이 반드시 데리고 와야 한다고 하였습니다.</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>     
+                
+                <nav class="nav nav-step justify-content-end mt5">
+                    <button type="button" class="active" data-toggle="tab" data-target="#tab1">1</button>
+                    <i class="icon-arrow"></i>
+                    <button type="button" data-toggle="tab" data-target="#tab2">2</button>
+                </nav>
+
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane active">
+                        <div class="numbering">
+                            <b class="num">1</b>
+                            <div class="media-body">
+                                <p class="media-title">조선인이 청으로 끌려갈 때 어떤 어려움을 겪었는지 써 보자.</p>
+                                <div class="layer-wrp layer-wrp-btm pr35">
+                                    <textarea id="textarea_075_01" class="form-control" title="입력"></textarea>
+                                    <button type="button" class="icon-btn-chk" title="정답보기" data-toggle="layer" data-target="#layer1">정답보기</button>
+                                    <div id="layer1" class="layer w-100" data-toggle="layerClse">
+                                        <div class="layer-body">
+                                            <strong class="title">예시 답안</strong>
+                                            <ul class="lst-type-bull">
+                                                <li>청군에게 맞기도 하였습니다.</li>
+                                                <li>오랜 기간 동안에 옷을 벗지 못하고 잠을 자서 온몸에 이가 들끓었습니다.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>							
+                            </div>
+                        </div>        
+                    </div>
+                    <div id="tab2" class="tab-pane">
+                        <div class="numbering">
+                            <b class="num">2</b>
+                            <div class="media-body">
+                                <p class="media-title">청에 끌려간 조선인을 데리고 오는 것에 대해 최명길은 어떻게 생각하였는지 써 보자.</p>
+                                <div class="layer-wrp layer-wrp-btm pr35">
+                                    <textarea id="textarea_075_02" class="form-control" title="입력"></textarea>
+                                    <button type="button" class="icon-btn-chk" title="정답보기" data-toggle="layer" data-target="#layer2">정답보기</button>
+                                    <div id="layer2" class="layer w-100" data-toggle="layerClse">
+                                        <div class="layer-body">
+                                            <strong class="title">예시 답안</strong>
+                                            <p>최명길은 청에 끌려간 조선인을 빈부귀천 구분 없이 반드시 데리고 와야 한다고 하였습<span class="text-nowrap">니다.</span></p>
+                                        </div>
+                                    </div>
+                                </div>							
+                            </div>
+                        </div>           
+                    </div>
+                </div>
             </div>    
        </section>
 
        <!-- 확인해요 -->
 		<div class="verify">
 			<h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
-			<div id="answerAll_075_01" class="verify-content">
-				<div id="answer_075_01" class="verify-answer">
+			<div id="answerAll_075_03" class="verify-content">
+				<div id="answer_075_03" class="verify-answer">
 					<div class="text-q">
 						임진왜란 때 이순신이 이끄는
 						<div class="answer-wrp">
-							<input type="text" id="text_075_01" class="form-control itx text_verify" title="입력" />
+							<input type="text" id="text_075_03" class="form-control itx text_verify" title="입력" />
 							<span class="tx-a">수군</span>
 						</div>와/과 곽재우를 비롯한
                         <div class="answer-wrp">
-							<input type="text" id="text_075_01" class="form-control itx text_verify" title="입력" />
+							<input type="text" id="text_075_04" class="form-control itx text_verify" title="입력" />
 							<span class="tx-a">의병</span>
 						</div>등이 활약 <span class="text-nowrap">하였</span>다.
 					</div>
-					<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_075_01">확인</button>
+					<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_075_03">확인</button>
 				</div>
 			</div>
 		</div>
 
         <!-- paging -->
         <footer id="num" class="font-dt"><b>74</b>3. 민족 문화를 지켜 나간 조선</footer>
+	</div>
+    <div class="verify-buttons">
+		<button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+		<button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
 	</div>
 </div>
 
@@ -139,10 +156,183 @@
 		</div>
 	</div>
 </div>
+<!-- 내용 정리 -->
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<h3 class="arrange-cont-title">임진왜란과 병자호란을 극복하기 위한 노력을 알아볼까요</h3>
+			<section class="sect numbering">
+				<b class="num">1.</b>
+				<div class="media-body">
+					<h4 class="media-title">임진왜란의 전개와 극복</h4>
+					<table class="tb">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">전개</th>
+                                <td class="text-justify">일본군이 부산진과 동래성 공격 → 일본군의 한양 점령 → 선조와 조정의 의주 피란 → 이순신이 이끄는 수군의 활약, 의병의 활약 → 명의 지원군 도착 → 권율의 행주 대첩 → 강화 회담 실패 → 일본의 재침략 → 이순신의 명량 해전 → 이순신의 노량 해전 승리로 전쟁이 끝남.</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">결과</th>
+                                <td class="text-justify">
+                                    <ul class="lst-type-bull">
+                                        <li>수많은 사람이 죽거나 포로로 일본에 끌려감.</li>
+                                        <li>토지가 황폐해짐, 불국사와 경복궁 등이 불탐.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+				</div>
+			</section>
+            <section class="sect numbering">
+				<b class="num">2.</b>
+				<div class="media-body">
+					<h4 class="media-title">병자호란 이전 조선의 상황</h4>
+					<ul class="lst-type-bull">
+						<li>임진왜란 이후 만주에서 후금이 명을 위협함. → 명이 조선에 지원군을 요청함. → 광해군이 명과 후금 사이에서 중립 외교를 펼침.</li>
+						<li>명과의 의리를 중시하는 신하들이 중립 외교에 반발하여 광해군을 몰아내고 인조를 왕으로 세움.</li>
+					</ul>
+				</div>
+			</section>
+            <section class="sect numbering">
+				<b class="num">3.</b>
+				<div class="media-body">
+					<h4 class="media-title">병자호란의 전개와 극복</h4>
+					<table class="tb">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">정묘호란</th>
+                                <td class="text-justify">인조가 명과 친선 관계를 강화하고 후금을 멀리함. → 후금이 조선을 침략함. → 조선과 후금이 형제 관계를 맺는다는 조건으로 전쟁을 끝냄.</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">병자호란</th>
+                                <td class="text-justify">
+                                    <ul class="lst-type-bull">
+                                        <li>전개: 후금이 나라 이름을 청으로 고치고 조선에 두 나라의 관계를 임금과 신하의 관계로 바꿀 것을 요구하였으나 조선이 거절함. → 청군이 조선에 쳐들어옴. → 성안에서 신하들이 청과 싸우자는 입장과 화의하자는 입장으로 나뉨.</li>
+                                        <li>결과: 인조가 삼전도에서 청 태종에게 항복함. → 조선과 청이 신하와 임금의 관계를 맺음, 조선의 세자를 비롯해 수많은 신하와 백성이 청에 포로로 끌려감.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 잠깐체크 -->
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div id="small_075_01" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_075_01" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_075_01">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">1. </b>
+											<div class="media-body media-title">
+												임진왜란 때 곽재우는 거북선과 판옥선을 만들고 식량과 무기를 준비하여 일본군을 크게 물리쳤다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_075_01" id="radio_075_01" value="○" class="sr-only" data-answer=""/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_075_01" id="radio_075_02" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">○</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+                        <div class="swiper-slide">
+                            <div id="small_075_02" class="no-answered" data-qtype="text">
+                                <assessmentItem data-qid="text_075_05" data-response-type="fillInTheBlank">
+                                    <div class="text-right">
+                                        <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_075_02">확인</button>
+                                    </div>
+                                    <itemBody>
+										<div class="numbering">
+											<b class="num">2. </b>
+											<div class="media-body media-title">
+												광해군은 명과 후금 사이에서
+	                                            <div class="answer-wrp" data-answer="경국대전">
+	                                                <input type="text" id="text_075_05" class="form-control itx"  title="입력" />
+	                                                <span class="tx-a">중립 외교</span>
+												</div>을/를 펼쳤다.
+											</div>
+								        </div>
+                                    </itemBody>
+                                    <correctResponse><span class="sr-only">중립 외교</span></correctResponse>
+                                </assessmentItem>
+                            </div>
+                        </div>
+						<div class="swiper-slide">
+							<div id="small_075_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_075_03" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_075_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+                                                병자호란의 결과 조선과 청은
+												(<div class="answer-wrp q-label-wrp">
+													<label class="q-label">
+														<input type="radio" name="radio_075_03" id="radio_075_03" value="형제" class="sr-only" />
+														<span>형제</span></label>
+													,
+													<label class="q-label">
+														<input type="radio" name="radio_075_03" id="radio_075_04" value="신하와 임금" class="sr-only" data-answer="" />
+														<span>신하와 임금</span></label>
+												</div>)의 관계를 맺었다.
+
+											</div>
+								        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">신하와 임금</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+					</div>
+                    <div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+                    </div>
+					<div id="stamp"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/page-final.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
 <script type="text/javascript" src="js/interaction.js"></script>
 </body>
 </html>

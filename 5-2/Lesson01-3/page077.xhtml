@@ -7,34 +7,196 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
 <link rel="stylesheet" type="text/css" href="css/game.css" />
 <link rel="stylesheet" type="text/css" href="css/page077.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
-	<div class="wrapper">
-		<div class="numbering font-dt title-wrp">
+<div id="wrap" class="page-odd">
+	<div class="wrapper font-dt">
+		<div class="numbering position-relative">
 			<b class="num fs23">2</b>
-			<p class="media-body media-title">
-				다음 가로 열쇠와 세로 열쇠를 이용해 십자말풀이를 완성해 보자.
-				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
-			</p>
+			<p class="media-body media-title mb0">다음 가로 열쇠와 세로 열쇠를 이용해 십자말풀이를 완성해 보자.</p>
+			<div class="side-btns">
+				<button type="button" class="icon-btn-chk" data-toggle="layer" data-target="#layer" data-chk="#wrap">인터랙션</button>
+				<button type="button" class="icon-btn-refresh cross-word-refresh" data-toggle="answer-refresh" data-target="#wrap">인터랙션</button>
+			</div>
 		</div>
-        <div class="interaction">
-            <p class="fwd font-netmarble" style="left: 42px; top:23px;">가로열쇠</p>
-            <p class="fwd font-netmarble" style="left: 367px; top:23px;">세로열쇠</p>
-        </div>
+		<div class="cross-word">
+			<ul class="cross-word-input">
+				<li style="left: 23px;top: 20px;" data-answer="신">
+					<input type="text" id="text_077_01" maxlength="1" autocomplete="off" data-hor="1" data-ver="1" />
+				</li>
+				<li style="left: 23px;top: 60px;" data-answer="사">
+					<input type="text" id="text_077_12" maxlength="1" autocomplete="off" data-ver="1" />
+				</li>
+				<li style="left: 23px;top: 101px;" data-answer="임">
+					<input type="text" id="text_077_13" maxlength="1" autocomplete="off" data-ver="1" />
+				</li>
+				<li style="left: 23px;top: 141px;" data-answer="당" class="point ver btm">
+					<input type="text" id="text_077_14" maxlength="1" autocomplete="off" data-ver="1" />
+				</li>
+				<li style="left: 85px; top: 20px;" data-answer="진">
+					<input type="text" id="text_077_02" maxlength="1" autocomplete="off" data-hor="1" />
+				</li>
+				<li style="left: 146px; top: 20px;" data-answer="사">
+					<input type="text" id="text_077_03" maxlength="1" autocomplete="off" data-hor="1" />
+				</li>
+				<li style="left: 208px; top: 20px;" data-answer="대">
+					<input type="text" id="text_077_04" maxlength="1" autocomplete="off" data-hor="1" />
+				</li>
+				<li style="left: 269px;top: 20px;" data-answer="부" class="point hor right">
+					<input type="text" id="text_077_05" maxlength="1" autocomplete="off" data-hor="1" />
+				</li>
+				<li style="left: 392px; top: 20px;" data-answer="집">
+					<input type="text" id="text_077_06" maxlength="1" autocomplete="off" data-ver="2" />
+				</li>
+				<li style="left: 392px; top: 61px;" data-answer="현">
+					<input type="text" id="text_077_07" maxlength="1" autocomplete="off" data-ver="2" />
+				</li>
+				<li style="left: 392px; top: 101px;" data-answer="전" class="point ver btm">
+					<input type="text" id="text_077_08" maxlength="1" autocomplete="off" data-hor="2" data-ver="2" />
+				</li>
+				<li style="left: 208px;top: 101px;" data-answer="경">
+					<input type="text" id="text_077_11" maxlength="1" autocomplete="off" data-hor="2" />
+				</li>
+				<li style="left: 269px;top: 101px;" data-answer="국">
+					<input type="text" id="text_077_10" maxlength="1" autocomplete="off" data-hor="2" />
+				</li>
+				<li style="left: 330px; top: 101px;" data-answer="대" class="point hor right point1">
+					<input type="text" id="text_077_09" maxlength="1" autocomplete="off" data-hor="2" />
+				</li>
+				<li style="left: 146px;top: 263px;" data-answer="수" class="point hor left">
+					<input type="text" id="text_077_16" maxlength="1" autocomplete="off" data-hor="3" data-ver="4" />
+				</li>
+				<li style="left: 208px;top: 263px;" data-answer="령">
+					<input type="text" id="text_077_15" maxlength="1" autocomplete="off" data-hor="3"/>
+				</li>
+				<li style="left: 23px;top: 302px;" data-answer="광">
+					<input type="text" id="text_077_19" maxlength="1" autocomplete="off" data-hor="5" />
+				</li>
+				<li style="left: 84px; top: 302px;" data-answer="해" class="point hor right point2">
+					<input type="text" id="text_077_18" maxlength="1" autocomplete="off" data-hor="5" />
+				</li>
+				<li style="left: 146px;top: 302px;" data-answer="군" class="point ver btm">
+					<input type="text" id="text_077_17" maxlength="1" autocomplete="off" data-hor="5" data-ver="4" />
+				</li>
+				<li style="left: 269px; top: 182px;" data-answer="중">
+					<input type="text" id="text_077_20" maxlength="1" autocomplete="off" data-ver="6" />
+				</li>
+				<li style="left: 269px;top: 222px;" data-answer="인" class="point ver btm">
+					<input type="text" id="text_077_21" maxlength="1" autocomplete="off" data-hor="4" data-ver="6" />
+				</li>
+				<li style="left: 331px;top: 222px;" data-answer="조" class="point hor right">
+					<input type="text" id="text_077_22" maxlength="1" autocomplete="off" data-hor="4" data-ver="7" />
+				</li>
+				<li style="left: 331px; top: 263px;" data-answer="선" class="point ver btm">
+					<input type="text" id="text_077_23" maxlength="1" autocomplete="off" data-ver="7" />
+				</li>
+	        </ul>
+			<div id="stamp"></div>
+
+			<div id="layer" class="layer" data-toggle="layerClse">
+				<div class="layer-body">
+					<div class="cross-word">
+						<ul class="cross-word-input">
+							<li style="left: 23px;top: 20px;">신</li>
+							<li style="left: 23px;top: 60px;">사</li>
+							<li style="left: 23px;top: 101px;">임</li>
+							<li style="left: 23px;top: 141px;">당</li>
+							<li style="left: 85px; top: 20px;">진</li>
+							<li style="left: 146px; top: 20px;">사</li>
+							<li style="left: 208px; top: 20px;">대</li>
+							<li style="left: 269px;top: 20px;">부</li>
+							<li style="left: 392px; top: 20px;">집</li>
+							<li style="left: 392px; top: 61px;">헌</li>
+							<li style="left: 392px; top: 101px;">전</li>
+							<li style="left: 208px;top: 101px;">경</li>
+							<li style="left: 269px;top: 101px;">국</li>
+							<li style="left: 330px; top: 101px;">대</li>
+							<li style="left: 146px;top: 263px;">수</li>
+							<li style="left: 208px;top: 263px;">령</li>
+							<li style="left: 23px;top: 302px;">광</li>
+							<li style="left: 84px; top: 302px;">해</li>
+							<li style="left: 146px;top: 302px;">군</li>
+							<li style="left: 269px; top: 182px;">중</li>
+							<li style="left: 269px;top: 222px;">인</li>
+							<li style="left: 331px;top: 222px;">조</li>
+							<li style="left: 331px; top: 263px;">선</li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row cross-word-key">
+			<div class="col-auto hor-key">
+				<strong class="font-netmarble">가로열쇠</strong>
+				<ol class="lst-type-num font-dt">
+					<li>
+						<b class="text-circle">1</b>성리학을 공부한 □□ □□□은/는 이성계와 함께 나라를 세웠다.
+						<a onclick="parent.GO_PAGE_LOAD(58);" class="page"><i class="icon-page"></i> 58쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">2</b>조선은 법전인 □□□□을/를 만들어 나라를 다스렸다.
+						<a onclick="parent.GO_PAGE_LOAD(62);" class="page"><i class="icon-page"></i> 62쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">3</b>지방에 파견된 □□은/는 고을에서 농업을 장려하고 재판을 하는 등 여러 업무를 처리 하<span class="text-nowrap">였다.</span>
+						<a onclick="parent.GO_PAGE_LOAD(63);" class="page"><i class="icon-page"></i> 63쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">4</b>조선의 왕인 □□은/는 병자호란 때 남한산
+						성으로 들어가 싸웠지만, 결국 삼전도에서
+						청 태종에게 항복하였다.
+						<a onclick="parent.GO_PAGE_LOAD(74);" class="page"><i class="icon-page"></i> 74쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">5</b>□□□은/는 명과 후금 사이에서 중립 외교
+						를 펼쳤다.
+						<a onclick="parent.GO_PAGE_LOAD(62);" class="page"><i class="icon-page"></i> 62쪽</a>
+					</li>
+				</ol>
+			</div>
+			<div class="col-auto ver-key">
+				<strong class="font-netmarble">세로열쇠</strong>
+				<ol class="lst-type-num font-dt">
+					<li>
+						<b class="text-circle">1</b>□□□□은/는 어려서부터 유교 경전을<br /> 공부하였고 시를 짓거나 그림을 그렸으며, 아들인율곡 이이를 훌륭한 학자로 길렀다.
+						<a onclick="parent.GO_PAGE_LOAD(70);" class="page"><i class="icon-page"></i> 70쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">2</b>세종은 유능한 인재를 모아 체계적으로
+						학문을 연구하기 위해 □□□을/를 설치하<span class="text-nowrap">였다.</span>
+						<a onclick="parent.GO_PAGE_LOAD(64);" class="page"><i class="icon-page"></i> 64쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">4</b>임진왜란 때 이순신이 이끈 □□은/는 판옥선과 거북선을 활용하여 일본군을 크게 무 찔렀다.
+						<a onclick="parent.GO_PAGE_LOAD(72);" class="page"><i class="icon-page"></i> 72쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">6</b>그림을 그리는 화원, 의학을 공부한 의관,
+						외국 사람의 말을 통역하는 역관은 □□ 신분에 속한다.
+						<a onclick="parent.GO_PAGE_LOAD(69);" class="page"><i class="icon-page"></i> 69쪽</a>
+					</li>
+					<li>
+						<b class="text-circle">7</b>이성계와 정도전을 비롯한 신진 사대부가
+						□□을/를 세웠다.
+						<a onclick="parent.GO_PAGE_LOAD(59);" class="page"><i class="icon-page"></i> 59쪽</a>
+					</li>
+				</ol>
+			</div>
+		</div>
 		<!-- paging -->
 		<footer id="num" class="font-dt"><b>77</b>뚝딱뚝딱 정리하기</footer>
 	</div>
 </div>
 
-
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
+<script type="text/javascript" src="js/cross-word.js"></script>
 </body>
 </html>

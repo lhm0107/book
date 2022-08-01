@@ -1,3 +1,9 @@
 @charset "utf-8";
 
-#wrap{background-image: url(../images/page033/bg00.jpg)}
+#wrap{background-image: url(../images/page033/bg.jpg)}
+[class *='para'] {line-height: 27px;}
+.para1{width:462px}
+.fwd.font-dt.fs13{line-height: 21px !important;text-align: right;width:196px; font-weight: 400;}
+.fwd.font-mi{font-size: 21px !important}
+.icon-enlarge{position: absolute;right: 30px;bottom: 130px}
+.sect{margin-top: 0}

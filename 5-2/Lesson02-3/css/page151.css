@@ -1,0 +1,10 @@
+@charset "utf-8";
+#answer_151_01 .pager {margin-right: -20px;}
+#answer_151_02 .pager {position: absolute; right: 0px; top:-26px}
+.bx-ex {border-color: #95a9b3; padding:11px 15px 9px;}
+#answer_151_02 .form-control {width: 110px; margin-left: auto; margin-bottom: 5px;}
+#answer_151_02 .media-title {margin-bottom: 0;}
+#answer_151_03 .input-group {display: flex; align-items: flex-start;}
+#answer_151_03 input {width: 100%;}
+#answer_151_03 .right {margin-left: 18px; margin-top: -5px;}
+#answer_151_03 .bx {width: 305px; padding: 7.5px 9px;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page065/bg1.jpg)} */
+
+.top-content {margin-left:41px; margin-right:30px}
+.top-content .para {font-size: 16px; line-height: 1.65}
+.mid-content {position: relative; padding:40px 0 0 33px; margin-top:16px; text-align: center;}
+.mid-content button {position: absolute}
+.mid-content .font-jalnan {font-size: 15px; color: #00a4af; margin-bottom:10px;}
+.bubble-box1{width: 194px;height: 168px;background-image: url(../images/page065/bubble1.png);padding-top: 24px}
+.bubble-box2{width: 198px;height: 171.5px;background-image: url(../images/page065/bubble2.png);padding-top: 21px}
+.bubble-box3{width: 179px;height: 155.5px;background-image: url(../images/page065/bubble4.png);padding-top: 38px}
+.bubble-box4{width: 195.5px;height: 169.5px;background-image: url(../images/page065/bubble3.png);padding-top: 44px}
+#interFadeIn>div {font-size: 20px;line-height: 18px;}
+
+.verify .q-label-wrp span {font-weight: 500;}

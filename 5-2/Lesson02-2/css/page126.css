@@ -1,0 +1,7 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page126/bg.jpg)}
+.img-tit {font-size: 14px; font-weight: 700;line-height: 14px}
+.img-btm {margin-top: 17px}
+.verify-content {padding: 15px 13px 15px 22px}
+.verify {position: relative; margin-left: 80px; margin-top: 30px}
+.verify .text-q {letter-spacing: -0.026em}

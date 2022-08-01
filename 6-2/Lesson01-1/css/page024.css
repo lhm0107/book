@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page024/bg.jpg)}
+
+.bx {font-size: 15px; font-weight: 400; line-height: 1.6em;}
+.text-circle {background: #865436;}
+.swiper-slide {padding:0 60px; text-align: left;line-height: 22px}
+.swiper-slide .font-jalnan{font-size: 16px;color: #00aeb2}
+.swiper-slide .txt{margin-top: 15px}
+.swiper-slide .txt+.txt {margin-top:8px}
+.q-label-wrp::before{display: none;}
+.swiper-slide .txt{padding-left: 22px}
+.swiper-slide .text-circle{float: left;margin: 1px 0 0 -22px}
+.swiper-pagination{padding-bottom: 0}
+.slider-wrap{margin-top: 35px}
+.swiper-button-next, .swiper-button-prev{top:40%}
+.slider-wrap>.text-dot{position: absolute;right: 60px;top: 0}
+
+.scratch {display: inline-block;height: 30px;line-height: 30px}
+.txt>.scratch{margin-top: -4px}
+.scratch1{margin-bottom: -3px;width: 32px}
+.scratch2, .scratch3, .scratch6{width: 45px}
+.scratch4, .scratch5, .scratch7{width: 30px}

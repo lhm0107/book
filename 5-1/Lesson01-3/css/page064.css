@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.content-top {display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start}
+.sect-do-content {padding-right: 0; padding-left: 48px}
+.pating-area {margin: 30px 0 0 32px;position: relative}
+.tb > * {font-size: 12.5px}
+[class*=icon-btn] {right: 0 !important}
+.inform {position: absolute; right: 0px; bottom: 0; width: 110px}
+.media-body {position: relative}
+.sect-do-content .numbering>.num {width: 16px}
+.media-title {font-size: 16px; margin-bottom: 8px}
+.content-bottom button {position: absolute; right: -35px !important; top: 0}
+.content-bottom .bx {font-size: 16px; line-height: 27px; letter-spacing: -0.01em}
+.q-label span {font-weight: 500}
+.icon-btn-penwrite {position: absolute; right: 35px !important}
+.q-label-wrp::before {display: none}
+.bx.font-serif {letter-spacing: -0.012em}
+#drawHelper{right: 100%;bottom: -5px;margin-right: 10px !important}
+.colorchart .color02{color: #b584b9}
+.colorchart .color03{color: #c0db81}
+.colorchart .color04{color: #53beb6}

@@ -1,16 +1,19 @@
 @charset "utf-8";
 
 #wrap{background-image: url(../images/page047/bg.jpg)}
-.col-wide-cont{flex:0 0 410px;max-width: 410px;}
-.img-tit{margin-left: -12px;}
+.img-tit{margin-left: -12px;margin-top:-15px}
+
 .para1{font-size: 17px !important;line-height: 32px !important;}
-.badge-text{font-size: 17px;line-height: 1;color:#133860;background-color: #d7dee2;border-radius:10px;padding:4px 6px;position: absolute;left: 11px;top:-12px}
-.bx.bx-badge-text{position: relative;background: #fff;padding:25px 20px}
-.row-step .col-step{display: flex;flex-direction: column; flex:0 0 125px;max-width: 125px;}
-.badge-num{display: flex;width:22px;height:22px;background-color:#133860;color:#fff;font-size: 15px;font-weight: 700;align-items: center;justify-content: center;border-radius: 5px;margin:2px 5px 0 0}
-.step-img{display: flex;align-items: flex-start;}
-.step-txt{margin-top:10px;font-size: 14px;line-height: 22px;display: inline-block;max-width: 111px;margin-left: auto;text-indent: 1em;text-align: justify;}
-.word-bubble{margin:-68px 0 0 -9px;}
+.bx-label {background: #fff;padding:25px 20px}
+.label-way{position: absolute;left: 11px;top:-12px;background-color: #d7dee2;padding:4px 6px;font-size: 17px;line-height: 1;}
+.step-img {display: flex; justify-content: center;}
+.badge-num{display: flex;justify-content: center;align-items: center;width:22px;height:22px;background-color:#133860;color:#fff;font-size: 15px;font-weight: 700;border-radius: 5px;margin:2px 5px 0 0}
+.step-txt{display: inline-block;max-width: 204px;margin-top:10px;margin-left: auto;font-size: 14px;line-height: 22px;text-indent: 1em;text-align: justify;}
+
+.word-bubble{position: relative; margin-top:129px; padding-left:9px; text-align: center;}
+.word-bubble .bubble {position: absolute; font-size: 20px;line-height: 0.9em;letter-spacing: -0.5px;}
+.word-bubble .bubble1{width:161.5px;height:107px;background: url(../images/page047/bubble1.png) no-repeat 0 0 / 100% auto;padding-top: 13px}
+.word-bubble .bubble2{width:240px;height:225px;background: url(../images/page047/bubble2.png) no-repeat 0 0 / 100% auto;padding-top: 11px}
 .word-bubble [class*=fwd].font-mi{line-height: 18px !important;}
 .word-bubble .font-dt{font-size: 15px;line-height: 23px;text-indent: 0;text-align: center;}
 .word-bubble .font-dt span{font-size: 14px;}

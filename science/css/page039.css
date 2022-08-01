@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.line{position: absolute;overflow: hidden;display: none}
+.line.up{width: 83px;height: 88px;background: url(../images/page039/up.png) no-repeat 0 100%/83px 88px;animation: scale 2s both}
+.line.up+.up{background-image: url(../images/page039/up2.png);background-position: 100% 100%}
+.line.left{width: 83px;height: 88px;background: url(../images/page039/left.png) no-repeat 0 0/83px 88px;animation: scale2 1s 1s both}
+.line.left+.left{background-image: url(../images/page039/right.png);background-position: 100% 0}
+.icon-hand{position: absolute;top: 100%;left: 50%;margin: 20px 0 0 70px}
+
+
+@keyframes scale{
+    0%{width: 0;height: 0}
+    50%{width: 83px;height: 88px}
+    100%{width: 83px;height: 88px}
+}
+
+@keyframes scale2{
+    0%{width: 0;height: 0}
+    100%{width: 83px;height: 88px}
+}

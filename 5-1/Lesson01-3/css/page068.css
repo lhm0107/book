@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.content-top {padding-left: 45px; padding-right: 23px}
+.content-top .para {line-height: 30px}
+.word-bubble {margin-left: 93px; margin-top: 25px}
+[class*=bubble-box]{position: absolute;}
+.bubble-box1{width: 112px;height: 75.5px;background-image: url(../images/page068/b1.png);padding-top: 15px}
+.bubble-box2{width: 161.5px;height: 76.5px;background-image: url(../images/page068/b2.png);padding-top: 15px}
+.bubble-box3{width: 123px;height: 75.5px;background-image: url(../images/page068/b3.png);padding-top: 20px}
+.bubble-box4{width: 92px;height: 60px;background-image: url(../images/page068/b4.png);padding-top: 9px}
+.word-bubble .font-mi {line-height: 20px; font-size: 20px}
+.word-bubble .font-ka {color: #fff}
+.layer-wrp .layer{position: static;}

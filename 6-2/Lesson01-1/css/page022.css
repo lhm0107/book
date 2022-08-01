@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page022/bg.jpg);}
+
+#layerDragDrop {z-index: 99;}
+.dragdrop{display: block; width: 100%; height: 88%; position: absolute; top:35px; left:0}
+.dragdrop .box{position: absolute}
+.drop-fix{width: 80px; height:38px;line-height: 34px;background: #fff;border-radius: 5px;border: 2px dotted #96a9b3;font-size: 15px;}
+.ttakji-refresh{right:3px;top:225px;z-index: 10}
+.drag-fix{width: 140px}
+
+.spring .row {position: absolute; left:0; width: 541px; justify-content: space-between; align-items: center; text-align: center; font-size: 15px; line-height: 1.5em;}
+.spring .row .col:first-child {max-width: 297.5px;}
+.spring .row .col:last-child {max-width: 237.5px;}
+.spring .row .col.input-wrp {padding:16px 16px 16px 25px}
+.spring .row .col.input-wrp2 {padding:16px 25px 16px 16px}
+#textarea_022_01{height: 77px}
+#text_022_08{height: 30px}
+.icon-btn-help {position: absolute; top:0; right:0}
+
+.verify .q-label span {font-weight: 500}
+
+.sect {margin-top:20px}

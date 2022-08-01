@@ -1,0 +1,15 @@
+@charset "utf-8";
+.sect-do-content {padding-left: 65px; padding-right: 11px}
+.sect-do-content .left {padding-right: 44px}
+.bx {padding: 23px 32px; font-size: 15px}
+.bx+.icon-btn-chk{right: -35px}
+.bx .form-control {max-width: 103px; margin-right: 4.5px}
+.bx .lst-type-bull.v2 li+li {margin-top: 16px}
+#layer_028_01 {left: 0;right: -35px}
+.btn-subject{margin-top: 39px}
+.layer-write{margin-left: -85px}
+.icon-btn-penwrite{position: absolute;right: 35px;top: 0}
+.painting-area{position: relative;height: 562px;text-align: center}
+#answer_028_01 .tx-a{position: absolute;width: 181px;height: 142px;background: url(../images/page028/star.png) no-repeat 0 0/100% auto;bottom: 108px;right: 220px}
+#answer_028_02 .tx-a{position: absolute;width: 112px;height: 259px;background: url(../images/page028/circle.png) no-repeat 0 0/100% auto;bottom: 23px;right: 266px}
+.tx-a.hidden{z-index: 20;pointer-events: none}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page058/bg.jpg)}
+.ch-1-bubble {line-height: 20px}
+.ch-goal-title {margin-bottom: 13px}
+.ch-1-text {margin-top: 40px}
+.ch-goal-list>li {line-height: 20px}
+.think-title {width: 488px}
+.think-title .font-dt {text-shadow: -2px -2px 4px rgba(255, 255, 255, 0.8), 2px 2px 4px rgba(255, 255, 255, 0.8)}
+.ch-ani{position: absolute;left: 536px; top: 23px;animation: fadeInDown 1.5s both}
+.ch-ani img{animation: swing 2.5s infinite both}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.answersheet{align-items: flex-end}
+.answersheet .text-flex{margin-top: 25px}
+.word-bubble img{max-width: none}
+.word-bubble{text-align: center}
+.col-6:last-child .word-bubble{margin-left: -40px}
+.answersheet>li{line-height: 24px}

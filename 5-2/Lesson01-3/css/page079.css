@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.q4-img {margin-left: 12px;}
+#answer_079_01 .pager {position: absolute; right: 0; bottom: 0;}
+
+#answer_079_03 .font-dt {position: absolute; font-size: 14px;}
+#answer_079_03 .last {letter-spacing: -0.023em;}
+#answer_079_03 .last .form-control {width: 100%;}
+
+.q-line-btn .d-flex {align-items: center;}
+.q-line-btn .d-flex p {padding-right:5px}
+.q-line-btn.lt {width: 252px; height: 80px; display: flex;}

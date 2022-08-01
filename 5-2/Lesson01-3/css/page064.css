@@ -3,15 +3,16 @@
 #wrap{background-image: url(../images/page064/bg.jpg)}
 .img1 img {height: 48px; margin-right: 11px}
 .ch-2-title {position: relative}
-.img2 {position: absolute; left: 213px; top:-5px}
-.img2 img {height: 86px}
 .para {width: 348px;padding-right: 20px}
-.txt1 {padding: 10px 0 0 50px; color:#fff}
+.txt1 {padding-left:50px; color:#fff}
 .txt2 {margin-top: 168px; padding-left: 113px; font-weight: 700; font-size: 15px}
-.txt3 {line-height: 25px; padding-left: 27px; font-size: 15px; letter-spacing: -0.023em}
+.txt3 {line-height: 25px; padding-left: 27px; font-size: 15px; letter-spacing: -0.023em;text-indent: 1em}
 .txt4 {margin-left: 27px; font-size: 17px}
 
 .content-bottom {margin-top: 20px; padding-left: 348px}
-.content-bottom .txt1 {padding: 18px 0 0 45px; color: #fff}
+.content-bottom .txt1 {padding: 12px 0 0 45px; color: #fff}
 .content-bottom .txt2 {padding-left: 57px}
-.content-bottom .txt3 {position: relative;padding-left: 61px} 
+.content-bottom .txt3 {position: relative;padding-left: 61px}
+.text-mark>[class*=icon]:first-child {margin-right: 8px;}
+
+.btn-dic1 .explanation.layer-limit {width: 228px;}

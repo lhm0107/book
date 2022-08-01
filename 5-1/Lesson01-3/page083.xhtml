@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/page083.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<input type="text" id="input_083_01" class="form-control" title="입력" />                
+        <div class="painting-area layer-wrp">
+            <canvas id="draw_083_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="493" height="666"></canvas>
+            <div class="layer-wrp layer-wrp-left" style="top:-37px">
+                <button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+                <div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+                    <div class="draw-option">
+                        <input id="spectrumInsert2" type="color" value="#00b050" />
+                        <div class="colorchart">
+                            <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_083_01', '#000000')">색상 변경</button>
+                            <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_083_01', '#ff0000')">색상 변경</button>
+                            <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_083_01', '#0000ff')">색상 변경</button>
+                            <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_083_01', '#fdce54')">색상 변경</button>
+                        </div>
+                        <div class="linewidth">
+                            <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_083_01', 1)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_083_01', 4)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_083_01', 7)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_083_01', 14)">굵기 변경</button>
+                        </div>
+                        <div class="btns">
+                            <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_083_01',this);">펜 쓰기 영역 부분 삭제</button>
+                            <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_083_01');">펜 쓰기 영역 전체 삭제</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>83</b>창의 융합 놀이터</footer>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>

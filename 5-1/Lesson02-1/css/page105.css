@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.dropzone{width: 511px;height: 445px;padding-top: 56px;background: url(../images/page105/heart.png) no-repeat 0 0/auto 100%;margin: 0 auto 20px}
+.dragdrop{position: relative;margin-top: 50px}
+.dropzone>.row{width: 457px;margin: 0 auto -5px}
+.dropzone>.row:not([class*=justify-content]){padding: 0 35px}
+.dropzone>.row:not([class*=justify-content])>.col-auto{margin: 0 auto}
+.dropzone .text-circle{position: absolute;left: 50%;bottom: 100%;margin: 0 0 5px -9px}
+.drop-item{width: 90px;height: 90px;border: 1px solid #a8b6bd;border-radius: 100%;background: #fff}
+#layerDragDrop{top: auto;bottom: 100%;right: -35px;margin: 0 0 10px}
+#layerDragDrop .layer-body{padding-bottom: 0}
+.badge{position: relative;width: 100px;height: 100px;overflow: hidden;border-radius: 100%;box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.1);margin: 0 auto;background-repeat: no-repeat;background-size: 100% auto}
+.swiper-slide:nth-child(1) .badge{background-image: url(../images/page105/1_off.jpg)}
+.swiper-slide:nth-child(2) .badge{background-image: url(../images/page105/2_off.jpg)}
+.swiper-slide:nth-child(3) .badge{background-image: url(../images/page105/3_off.jpg)}
+.swiper-slide:nth-child(4) .badge{background-image: url(../images/page105/4_off.jpg)}
+.swiper-slide:nth-child(5) .badge{background-image: url(../images/page105/5_off.jpg)}
+.swiper-slide:nth-child(6) .badge{background-image: url(../images/page105/6_off.jpg)}
+.swiper-slide:nth-child(7) .badge{background-image: url(../images/page105/7_off.jpg)}
+.swiper-slide:nth-child(8) .badge{background-image: url(../images/page105/8_off.jpg)}
+.swiper-slide:nth-child(9) .badge{background-image: url(../images/page105/9_off.jpg)}
+.swiper-slide:nth-child(10) .badge{background-image: url(../images/page105/10_off.jpg)}
+.swiper-slide:nth-child(11) .badge{background-image: url(../images/page105/11_off.jpg)}
+.swiper-slide:nth-child(12) .badge{background-image: url(../images/page105/12_off.jpg)}
+.swiper-slide:nth-child(13) .badge{background-image: url(../images/page105/13_off.jpg)}
+.swiper-slide:nth-child(14) .badge{background-image: url(../images/page105/14_off.jpg)}
+.swiper-slide:nth-child(15) .badge{background-image: url(../images/page105/15_off.jpg)}
+.badge img{width: 100%}
+.badge-text{line-height: 27px;padding: 14px 0;text-align: center;margin-top: 20px;border-top: 3px dashed #f5e8db;font-size: 19px}
+.badge-text strong{display: inline-block;vertical-align: top;background: #f5e8db;border-radius: 1em;padding: 0 10px}
+.btn-drag-start{position: absolute;top: 50%;left: 50%;margin: -20px 0 0 -21px;display: none}
+.drag-item.ui-draggable-disabled, .drag-item.dragging{background: none !important}
+.dragging .badge, .ui-draggable-disabled .badge{box-shadow: none;border-color: #c6d3d8}
+.dragging .badge img, .ui-draggable-disabled .badge img{visibility: hidden}
+.dragging .badge .font-netmarble, .ui-draggable-disabled .badge .font-netmarble{color: #95a9b3}
+.drop-item .drag-item{cursor: default}
+.drop-item .badge{width: 90px;height: 90px;border-width: 4px}
+.drop-item .badge .font-netmarble{font-size: 13px;width: 74px;line-height: 23px;margin-left: -37px}
+.drop-refresh{position: absolute;top: 0;right: 0;display: none}
+.sect-hd{position: relative;margin-bottom: 35px}
+.sect-do-content{padding-left: 30px}
+.nav-step{position: absolute;right: 30px;top: 40px}
+.bx{margin-bottom: 40px}
+.sect-do-content textarea{height: 344px}

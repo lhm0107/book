@@ -6,14 +6,15 @@
 <title></title>
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
-<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
-<!-- css -->
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
 <link rel="stylesheet" type="text/css" href="css/page069.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
+<div id="wrap" class="page-odd">
 	<div class="wrapper">
         <div class="para-wrp">
             <div class="para">
@@ -23,29 +24,10 @@
                 <strong class="font-dt">상민</strong>은 대부분 농업이나 어업, 수공업 등 생산 활동에 종사하면서 나라에 세금을 냈다. 이들은 나라에 큰 공사가 있거나 전쟁이 났을 때 불려 가기도 하였다.
             </div>
             <div class="para">
-                <strong class="font-dt">천민</strong>은 가장 낮은 신분으로 대부분이 노비였다. 백정, 광대, 무당 등도 천민에 속하였다. 노비는 양반의 집이나 관청에 속하여 허드렛일을 하거나 물건을 만드는 일을 하였다.
+                <strong class="font-dt">천민</strong>은 가장 낮은 신분으로 대부분이 노비였다. <span class="btn-dic">백정</span>, 광대, 무당 등도 천민에 속하였다. 노비는 양반의 집이나 관청에 속하여 허드렛일을 하거나 물건을 만드는 일을 하였다.
             </div>
         </div>        
-		<!-- 탐구해요 -->
-		<section class="sect-do-explore">
-            <header class="sect-hd">
-               <strong class="sr-only">탐구해요</strong>
-                <h2 class="sect-title">조선 전기 사람들의 생활 모습</h2>
-            </header>
-           <div class="sect-do-content">
-                <div class="text-mark">
-                    <b class="icon-face"></b>
-                    <div class="col">
-                    다음 그림은 16세기 조선의 한 마을을 상상하여 나타낸 것이다. 그림 속 <b class="text-circle">가</b> ~ <b class="text-circle">라</b> 사람들의 상황을 살펴보고 각 인물의 신분이 무엇일지 이야기해 보자.
-                    </div>
-                </div>
-           </div>
-            <div class="interaction">
-                <b class="text-circle" style="left: 302px; top:23px">다</b>
-                <b class="text-circle" style="left: 489px; top:288px">라</b>
-            </div>
-       </section>
-       <!-- 확인해요 -->
+		<!-- 확인해요 -->
 		<div class="verify">
 			<h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
 			<div id="answerAll_069_01" class="verify-content">
@@ -61,6 +43,70 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="dargzone">
+			<div class="text-mark">
+				<b class="icon-face"></b>
+				<div class="col">
+					각 인물에 알맞은 신분을 찾아 끌어다 넣어 보자.
+					<button type="button" title="붙임딱지" class="icon-ttakji" data-toggle="layer" data-target="#layerDragDrop">붙임딱지</button>
+				</div>
+			</div>
+			<div id="layerDragDrop" class="layer layer-ttakji">
+				<div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+				<div class="layer-body">
+					<span class="label font-ka">붙임 딱지</span>
+					<div class="row justify-content-between">
+						<div class="drag-fix" data-drop="1">
+							양반
+						</div>
+						<div class="drag-fix" data-drop="2">
+							중인
+						</div>
+						<div class="drag-fix"  data-drop="3">
+							상인
+						</div>
+						<div class="drag-fix"  data-drop="4">
+							노비
+						</div>
+					</div>
+				</div>
+			</div>	
+			<button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh ttakji-refresh" data-target="#layerDragDrop">다시 풀기</button>
+
+			<div class="dragdrop">
+				<div>
+					<input type="text" id="text_068_01" class="sr-only" />
+					<div class="drop-fix" style="left: 364px;top: 164px;" data-drop="3"></div>
+				</div>
+				<div>
+					<input type="text" id="text_068_02" class="sr-only" />
+					<div class="drop-fix" style="left: 548px;top: 241px;" data-drop="2"></div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="interaction">
+			<b class="text-circle" style="left: 341px; top:108px">다</b>
+			<b class="text-circle" style="left: 525px; top:228px">라</b>
+
+			<div class="layer-wrp layer-wrp-inter" style="left:354px;top:7px">
+				<div id="layer1" class="layer" style="left:24px;top:2px">
+					<div class="bubble">나라에 세금을 내야<br/>할 때가 돌아오는군.</div>
+				</div>
+				<button type="button" title="대화 보기" class="icon-bubble" data-toggle="layer" data-target="#layer1" data-audio="audio1">대화 보기</button>
+			</div>
+			<div class="layer-wrp layer-wrp-inter" style="left:568px;top:255px">
+				<div id="layer2" class="layer" style="left:-190px;top:-61px">
+					<div class="bubble">지난번보다 많이<br/>나아졌으니, 한 번 더<br/>약을 지으러 오게나.</div>
+				</div>
+				<button type="button" title="대화 보기" class="icon-bubble" data-toggle="layer" data-target="#layer2" data-audio="audio2">대화 보기</button>
+			</div>
+		</div>
+
+
+		<audio id="audio1" src="media/sample.mp3" preload="none"></audio>
+        <audio id="audio2" src="media/sample.mp3" preload="none"></audio>
 		<!-- paging -->
 		<footer id="num" class="font-dt"><b>69</b>3. 민족 문화를 지켜 나간 조선</footer>
 	</div>
@@ -71,43 +117,56 @@
 </div>
 
 <!-- 내용 정리 -->
-<div id="modalArrangeCont" class="modal">
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
 	<div class="modal-content">
-		<div class="modal-header">
-			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-			<h2 class="modal-title"><i class="icon-modal-note"></i>내용 정리</h2>
-		</div>
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
 		<div class="modal-body">
-			<h3 class="arrange-cont-title">
-				<img src="images/common/ch-2-1.png" width="55" alt="1"  data-dtext_index="dtext_cls_image" />
-				<span>원고 내용 미전달</span>
-			</h3>
+			<h3 class="arrange-cont-title">조선 전기 사회의 모습을 알아볼까요</h3>
 			<section class="sect numbering">
 				<b class="num">1.</b>
 				<div class="media-body">
-					<h4 class="media-title">원고 내용 미전달</h4>
-					<ul class="lst-type-bull">
-						<li>원고 내용 미전달.</li>
-					</ul>
+					<h4 class="media-title">조선 전기 신분에 따른 생활 모습</h4>
+					<table class="tb">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">양반</th>
+                                <td class="text-justify">관리가 되어 나랏일 참여, 각종 역에서 제외됨.</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">중인</th>
+                                <td class="text-justify">주로 관청에서 일하거나 전문직에 종사함. → 화원·의관·역관 등이 속함.</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">상민</th>
+                                <td class="text-justify">생산 활동에 종사하면서 나라에 세금을 바침, 나라에 큰 공사가 있거나 전쟁이 나면 불려 나감.</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">천민</th>
+                                <td class="text-justify">가장 낮은 신분, 대부분은 노비이며 백정·광대·무당 등도 속함.</td>
+                            </tr>
+                        </tbody>
+                    </table>
 				</div>
 			</section>
 		</div>
 	</div>
 </div>
-
 <!-- 잠깐체크 -->
-<div id="modalSmallEvlt" class="modal modal-evlt modal-blue">
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
 	<div class="modal-content">
-		<div class="modal-header">
-			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-			<h2 class="modal-title"><i class="icon-modal-chk"></i>잠깐 체크</h2>
-		</div>
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
 		<div class="modal-body">
 			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div id="small_069_01" class="verify-answer no-answered" data-qtype="radio">
+                        <div class="swiper-slide">
+							<div id="small_069_01" class="no-answered" data-qtype="radio">
 								<assessmentItem data-qid="radio_069_01" data-response-type="trueFalse">
 									<div class="text-right">
 										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_069_01">확인</button>
@@ -116,62 +175,69 @@
 										<div class="numbering">
 											<b class="num">1. </b>
 											<div class="media-body media-title">
-												원고 내용 미전달
+												조선 시대에 양반은 관리가 되어 나랏일에 참여하였고, 각종 역에서 제외되었다.
 											</div>
 								        </div>
 										<div class="answer-wrp q-label-wrp">
-											<label class="q-label"><input type="radio" name="radio_069_01" id="radio_069_01" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
-											<label class="q-label"><input type="radio" name="radio_069_01" id="radio_069_02" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
-										</div>
-									</itemBody>
-									<correctResponse><span class="sr-only">×</span></correctResponse>
-								</assessmentItem>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div id="small_069_02" class="verify-answer no-answered" data-qtype="radio">
-								<assessmentItem data-qid="radio_069_03" data-response-type="trueFalse">
-									<div class="text-right">
-										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_069_02">확인</button>
-									</div>
-									<itemBody>
-										<div class="numbering">
-											<b class="num">2. </b>
-											<div class="media-body media-title">
-												원고 내용 미전달
-											</div>
-								        </div>
-										<div class="answer-wrp q-label-wrp">
-											<label class="q-label"><input type="radio" name="radio_069_03" id="radio_069_03" value="○" class="sr-only" data-answer="" /><span class="icon-answerb-o">○</span></label>
-											<label class="q-label"><input type="radio" name="radio_069_03" id="radio_069_04" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
+											<label class="q-label"><input type="radio" name="radio_069_01" id="radio_069_01" value="○" class="sr-only" data-answer=""/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_069_01" id="radio_069_02" value="×" class="sr-only"/><span class="icon-answerb-x">×</span></label>
 										</div>
 									</itemBody>
 									<correctResponse><span class="sr-only">○</span></correctResponse>
 								</assessmentItem>
 							</div>
 						</div>
-						<div class="swiper-slide">
-                            <div id="small_069_03" class="verify-answer no-answered" data-qtype="text">
-                                <assessmentItem data-qid="text_069_02" data-response-type="fillInTheBlank">
-                                    <div class="text-right">
-                                        <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_069_03">확인</button>
-                                    </div>
-                                    <itemBody>
+                        <div class="swiper-slide">
+							<div id="small_069_02" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_069_03" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_069_02">확인</button>
+									</div>
+									<itemBody>
 										<div class="numbering">
 											<b class="num">3. </b>
 											<div class="media-body media-title">
-												원고 내용 미전달
-	                                            <div class="answer-wrp" data-answer="경국대전">
-	                                                <input type="text" id="text_069_02" class="form-control itx"  title="입력" />
-	                                                <span class="tx-a">경국대전</span>
-												</div>
+												조선 시대에 중인은 대부분 농업이나 어업, 수공업 등 생산 활동에 종사하면서 나라에 세금을 냈다.
 											</div>
 								        </div>
-                                    </itemBody>
-                                    <correctResponse><span class="sr-only">경국대전</span></correctResponse>
-                                </assessmentItem>
-                            </div>
-                        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_069_03" id="radio_069_03" value="○" class="sr-only"/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_069_03" id="radio_069_04" value="×" class="sr-only" data-answer=""/><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+
+                        <div class="swiper-slide">
+							<div id="small_069_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_069_05" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_069_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+                                                조선 시대에
+												(<div class="answer-wrp q-label-wrp">
+													<label class="q-label">
+														<input type="radio" name="radio_069_05" id="radio_069_05" value="상민" class="sr-only" />
+														<span>상민</span></label>
+													,
+													<label class="q-label">
+														<input type="radio" name="radio_069_05" id="radio_069_06" value="천민" class="sr-only" data-answer="" />
+														<span>천민</span></label>
+												</div>)은 가장 낮은 신분으로 대부분이 노비였다.
+
+											</div>
+								        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">천민</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
 					</div>
                     <div class="swiper-control">
 						<div class="swiper-button-prev"></div>
@@ -189,6 +255,11 @@
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/dragdrop.fix.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
 <script type="text/javascript" src="js/interaction.js"></script>
 </body>
 </html>

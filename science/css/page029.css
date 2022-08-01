@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page029/bg.jpg)}
+.figcaption{position: absolute;letter-spacing: -.025em}
+.fig1{width: 144px;}
+.fig2{width: 178px}
+.para{width: 540px;padding: 343px 0 0 44px}
+.idea-content{left: 45px}
+#textarea_029_01{height: 290px}

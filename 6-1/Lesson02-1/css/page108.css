@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page108/bg.jpg);}
+[class*=fwd].font-mi{font-size: 21px;line-height: 20px}
+.icon-btn-pencil{position: absolute;left: 100%;bottom: -10px;margin-left: 15px}
+#layerSelfWrite{right: -54px;margin-bottom: 30px}
+.fwd1{color: #657778;transform: rotate(10deg);left: 170.931px; top: 202.42px;}
+.blue{color: #516d9c;left: 133px; top: 135px;}
+.purple{color: #583b76;left: 132px; top: 682px;}
+.fwd.font-ka{line-height: 27px}
+
+.fwd2{font-size: 12px;text-align: center;line-height: 18px}
+.scratch{position: absolute;width: 140px;height: 100px;transform: rotate(-10deg);right: 58px;bottom: 51px;display: flex;align-items: center;justify-content: center}
+
+.scratch .font-dt{position: absolute;z-index: 5;transform: rotate(10deg);font-size: 12px;color: #afafaf;top: 65px;left: 5px;pointer-events: none;visibility: visible !important}
+.scratch.done .font-dt{display: none}
+.scratch:not(.done):after{top: 40%}
+#layerSubject{right: -17px}

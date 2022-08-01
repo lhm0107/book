@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page016.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+        <div class="row">
+            <div class="col-wide">
+                <strong class="para-title">우리 국토의 위치</strong>
+                <p class="para">우리나라는 <span class="btn-dic font-dt">북반구</span>의 <span class="btn-dic font-dt">중위도</span>에 있고, 아시아 대륙의 동쪽에 위치한다. 우리나라 주변에는 중국, 일본, 러시아, 몽골 등의 나라가 있고, 우리나라는 중국과 일본 사이에 위치한다.</p>
+            </div>
+        </div>
+        <section class="sect-do-explore">
+            <header class="sect-hd">
+               <strong class="sr-only">탐구해요</strong>
+                <h2 class="sect-title">지도에서 우리나라의 위치 찾기</h2>
+            </header>
+           <div class="sect-do-content pr0">
+               <div class="text-mark">
+                   <b class="icon-face"></b>
+                   <div class="col">
+                    우리나라가 속한 아시아 대륙의 지도를 보고 물음에 답해 보자.
+                   </div>
+               </div>
+               <div class="row mt20">
+                   <div class="col-auto">
+                        <div id="answerMap" class="position-relative layer-wrp">
+                            <img src="images/page016/1.jpg" width="539" alt="" data-dtext_index="dtext_cls_image" />
+                            <div class="answer-wrp" style="left:181px;top:27px">
+	                            <input type="text" id="text_016_01" class="form-control itx" title="입력" />
+	                            <span class="tx-a">러시아</span>
+                            </div>
+                            <div class="answer-wrp" style="left: 171px;top: 127px;">
+	                            <input type="text" id="text_016_02" class="form-control itx" title="입력" />
+	                            <span class="tx-a tx-a-top">몽골</span>
+                            </div>
+                            <div class="answer-wrp" style="left: 186px;top: 187px;">
+	                            <input type="text" id="text_016_03" class="form-control itx" title="입력" />
+	                            <span class="tx-a">중국</span>
+                            </div>
+                            <div class="answer-wrp" style="left: 400px;top: 218px;">
+	                            <input type="text" id="text_016_04" class="form-control itx" title="입력" />
+	                            <span class="tx-a tx-a-top">일본</span>
+                            </div>
+							<span class="tx-a circle"></span>
+                        </div>
+                        <div class="painting-area">
+                            <canvas id="draw_016_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="539" height="377"></canvas>
+                        </div>
+                        <div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+                            <div class="draw-option">
+                                <input id="spectrumInsert2" type="color" value="#00b050" />
+                                <div class="colorchart">
+                                    <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_016_01', '#000000')">색상 변경</button>
+                                    <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_016_01', '#ff0000')">색상 변경</button>
+                                    <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_016_01', '#0000ff')">색상 변경</button>
+                                    <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_016_01', '#fdce54')">색상 변경</button>
+                                </div>
+                                <div class="linewidth">
+                                    <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 1)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 4)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 7)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 14)">굵기 변경</button>
+                                </div>
+                                <div class="btns">
+                                    <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_016_01',this);">펜 쓰기 영역 부분 삭제</button>
+                                    <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_016_01');">펜 쓰기 영역 전체 삭제</button>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-auto ml-auto">
+                    <button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+                   </div>
+               </div>
+			   <section class="numbering mt20">
+				   <b class="num">1</b>
+				   <div class="media-body pr35">
+					   <p class="media-title">지도에 우리나라를 찾아 표시해 보고, 사회과 부도를 참고하여 빈칸에 우리나라 주변에 있는 나라의 이름을 써 보자. <span class="btn-social-append ml4" onclick="parent.GO_OPEN_FILE('media/page016/DT-51-16.pdf','pdf');">사회과 부도</span>
+					   </p>
+
+					   <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer" data-target="#answerMap">확인</button>
+				   </div>
+			   </section>
+			   <section class="numbering mt5">
+				   <b class="num">2</b>
+				   <div class="media-body">
+					   <p class="media-title">지도의 방위표를 이용하여 우리나라의 위치를 말해 보자. </p>
+					   <p class="fs15 mb10">
+						   <span class="label">예시</span>
+						   <span>우리나라는 아시아 대륙의 동쪽에 있습니다.</span>
+					   </p>
+					   <div class="layer-wrp layer-wrp-btm pr35">
+						   <textarea id="textarea_016_01" class="form-control" title="입력"></textarea>
+						   <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer1">정답보기</button>
+						   <div id="layer1" class="layer w-100" data-toggle="layerClse">
+							   <div class="layer-body">
+								   <h4 class="title">예시 답안</h4>
+								   <ul class="lst-type-bull">
+									   <li>우리나라는 일본의 서쪽에 있습니다.</li>
+									   <li>우리나라는 중국의 동쪽에 있습니다.</li>
+								   </ul>
+							   </div>
+						   </div>
+					   </div>
+				   </div>
+			   </section>
+            </div>
+
+       </section>
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>16</b><span>1</span>국토와 우리 생활</footer>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>

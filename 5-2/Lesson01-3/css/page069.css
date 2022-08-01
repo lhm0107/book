@@ -2,11 +2,24 @@
 
 #wrap{background-image: url(../images/page069/bg.jpg)}
 .para-wrp {padding-right: 155px}
-.verify {width: 303px; margin-bottom: -20px}
-.verify-content {padding: 18px 5px 20px 20px}
+.verify {position: relative; margin-top:23px;}
+.verify-content {padding: 18px 20px 20px 20px}
 .text-q {padding-right: 37px}
-.sect-do-explore {margin-top: 30px; background-color: rgba(255,255,255,.6); border-radius: 20px}
-.sect-do-content {padding-bottom: 18px}
+
+.dargzone {position: relative; margin-top:20px;}
+.text-mark {width:433px; padding:16px 20px; background-color: rgba(255,255,255,.7); border-radius: 20px}
+.icon-ttakji {top:9px;right:13px}
+.layer-ttakji{top:-148%;z-index: 110;}
+.ttakji-refresh{top:90px; right: 35px}
+.drag-fix{width: 140px}
+.drop-fix{position: absolute;width: 100px;height: 65px;top: 0;left: 0;display: flex;align-items: center;justify-content: center;background: url(../images/page068/drag-bg.png) no-repeat 0 0 /100% auto; background-color: #fff; border:2px solid #a8b6bd; border-radius: 10px; text-align: center;font-weight: 700;font-size: 15px;line-height: 20px;z-index: 100;}
+#layer0{width: 550px;}
+.drag-fix.ui-draggable-dragging{z-index: 110}
+.drop-fix.ui-droppable-disabled {background: #fff;}
+
 .interaction {position: relative}
 .text-circle {background: #6c7582;font-weight: 400}
 .interaction .text-circle {position: absolute}
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:135px;height:82.5px;background-image: url(../images/page069/bubble1.png); padding-bottom: 4px}
+#layer2 .bubble{width:135px;height:82.5px;background-image: url(../images/page069/bubble2.png);}

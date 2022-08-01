@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.word-bubble {margin-top: 13px;}
+.cont-wrp {align-items: flex-end;}
+.cont-wrp .col .layer-wrp {margin-bottom: -8px;}

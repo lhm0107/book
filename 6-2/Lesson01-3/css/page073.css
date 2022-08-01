@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page073/bg1.jpg)} */
+
+.bx {padding:7px 8px; font-size:15px; line-height: 20px; font-weight: 400;}
+.bx li {display: flex; align-items: flex-start; }
+.text-circle {width:15px; font-size: 12px; line-height: 15px; margin-top:2px}

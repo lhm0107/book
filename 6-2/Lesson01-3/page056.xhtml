@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/page056.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <header class="ch-1-hd">
+			<h1 class="ch-1-title"><span class="sr-only">3</span>우리나라와<br />가까운 나라들</h1>
+            <button type="button" class="btn-ch-idea" data-toggle="modal" data-target="#modalInteraction">생각을 여는 질문</button>
+		</header>
+        <div class="ch-1-text">
+            <div class="ch-goal">
+                <strong class="ch-goal-title">
+                    이 단원을 <span>공부하면?</span>
+                    <button type="button" title="내용 보기" class="icon-hand" data-inter="#interFadeIn">내용 보기</button>
+                    <button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset">다시 실행하기</button>
+                </strong>
+                <ul id="interFadeIn" class="ch-goal-list font-dt">
+                    <li data-auto-audio="audio1">우리나라와 이웃한 나라들의 자연환경과 인문환경을 알고, 서로 교류<br />하는 모습을 조사할 수 있습니다.</li>
+                    <li data-auto-audio="audio2">우리나라와 관계 깊은 나라들의 지리적 특성을 조사하고, 상호 의존<br />관계를 탐구할 수 있습니다.</li>
+                </ul>
+                <div class="ch-goal-audio">
+                    <audio id="audio1" src="media/page056_01.mp3" preload="none"></audio>
+                    <audio id="audio2" src="media/page056_02.mp3" preload="none"></audio>
+                </div>
+            </div>
+            <div class="think-title">
+                <strong class="text-hide">생각이 활짝</strong>
+                <p class="font-dt">
+                   지수는 마을 도서관의 휴게실에서 친구들과 이야기를<br />나누고 있습니다.
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="ch-ani">
+            <img src="images/page056/photo.png" width="75" alt="" />
+        </div> -->
+        <!-- paging -->
+		<footer id="num" class="font-dt"><b>56</b><span>1</span> 세계 여러 나라의 자연과 문화</footer>
+
+    </div>
+</div>
+
+<!-- 생각을 여는 질문 -->
+<div id="modalInteraction" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title"><i class="icon-modal-idea"></i>생각을 여는 질문</h2>
+        </div>
+        <div class="modal-body">
+            <p class="media-title pr45">이웃 나라의 국기와 수도를 바르게 연결하세요.</p>
+            <button type="button" title="다시 풀기" class="icon-btn-refresh" data-target="#">다시 풀기</button>
+            
+            <div id="qLine" class="q-line q-line-final row" data-target="#final_056_07">
+                <input type="text" id="check_080_line" class="q-userline sr-only" />
+                <ul class="col-auto">
+                    <li class="q-line-btn rt" data-group="1" data-no="1">
+                        (1)
+                        <img src="images/page056/1.png" alt="" width="90" data-dtext_index="dtext_cls_image" />
+                        <input type="checkbox" name="check_080_05" value="check_080_05" id="check_080_05" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn rt mt50" data-group="1" data-no="2">
+                        (2)
+                        <img src="images/page056/2.png" alt="" width="90" data-dtext_index="dtext_cls_image" />
+                        <input type="checkbox" name="check_080_05" value="check_080_06" id="check_080_06" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn rt mt50" data-group="1" data-no="3">
+                        (3)
+                        <img src="images/page056/3.png" alt="" width="90" data-dtext_index="dtext_cls_image" />
+                        <input type="checkbox" name="check_080_05" value="check_080_07" id="check_080_07" class="sr-only" />
+                    </li>
+
+                </ul>
+                <ul class="col-auto">
+                    <li class="q-line-btn lt" data-group="2" data-no="ㄱ">
+                        <p class="text-flex"><span class="pr4">㉠</span> 중국</p>
+                        <input type="checktop box" name="check_080_08" value="check_080_08" id="check_080_08" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn lt mt50" data-group="2" data-no="ㄴ">
+                        <p class="text-flex"><span class="pr4">㉡</span> 일본</p>
+                        <input type="checktop box" name="check_080_08" value="check_080_09" id="check_080_09" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn lt mt50" data-group="2" data-no="ㄷ">
+                        <p class="text-flex"><span class="pr4">㉢</span> 러시아</p>
+                        <input type="checkbox" name="check_080_08" value="check_080_10" id="check_080_10" class="sr-only" />
+                    </li>
+                </ul>
+                <ul class="col-auto">
+                    <li class="q-line-btn lt" data-group="2" data-no="ㄱ">
+                        <p class="text-flex"><span class="pr4">ⓐ</span> 도쿄</p>
+                        <input type="checktop box" name="check_080_08" value="check_080_08" id="check_080_08" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn lt mt50" data-group="2" data-no="ㄴ">
+                        <p class="text-flex"><span class="pr4">ⓑ</span> 베이징</p>
+                        <input type="checktop box" name="check_080_08" value="check_080_09" id="check_080_09" class="sr-only" />
+                    </li>
+                    <li class="q-line-btn lt mt50" data-group="2" data-no="ㄷ">
+                        <p class="text-flex"><span class="pr4">ⓒ</span> 모스크바</p>
+                        <input type="checkbox" name="check_080_08" value="check_080_10" id="check_080_10" class="sr-only" />
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/interaction.js"></script>
+<script type="text/javascript" src="js/line.js"></script>
+</body>
+</html>

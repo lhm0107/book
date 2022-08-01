@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.word-bubble button {position: absolute}
+.bubble-box1{width: 164px;height: 132px;background-image: url(../images/page092/b1.png);padding-top: 16px}
+.bubble-box2{width: 233px;height: 160px;background-image: url(../images/page092/b2.png);padding-top: 29px}
+.bubble-box3{width: 169px;height: 136px;background-image: url(../images/page092/b3.png);padding-top: 22px}
+#interFadeIn>div {line-height: 19.6px; font-size: 22px}

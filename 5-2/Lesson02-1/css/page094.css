@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.fwd1{left:35px;top:58px;transform: rotate(-16deg);}
+[class*=fwd].font-mi{line-height: 18px !important;}
+
+.icon-btn-video {position: absolute; top:0;left:0;}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page112/bg.jpg)}
+.ch-1-hd {padding-left: 155px; justify-content: space-between}
+.ch-goal {width: 155px}
+.ch-goal-list>li {width: 132px}
+.think-title {justify-content: flex-end}

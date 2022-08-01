@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page075/bg.jpg)}
+
+.row>.col-wide:first-child:last-child {margin-left:0; margin-right:auto}
+.word-bubble {position: relative; margin-top:34px; margin-right:84px; text-align: right;}
+
+.interaction {position: relative; height: 600px; }
+.text-dot {position:absolute}
+.interaction .layer-wrp:not(.explanation-wrp) {position: absolute;}
+.interaction .layer-body {padding:25px}
+.interaction .layer-body>div {width:392px; height:245px; background: url(../images/page075/pop-bg.png) no-repeat 0 0 / 100% auto; text-align: center;}
+.interaction .col {padding-top:15px; font-size: 15px; line-height: 20px; font-weight: 700;}
+.interaction .col>div {margin:5px 0}
+
+.layer5 .text-circle { background: #005c9c;}
+.layer6 .text-circle { background: #e54821;}
+.text-blue {color:#005c9c}
+.text-red {color:#e54821}
+#layer5{left: -50px}

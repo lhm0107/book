@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page087/bg.jpg)}
+#layer1 .bubble{width: 235px;height: 160px;background-image: url(../images/page087/layer1.png);padding: 10px 0 0 28px}
+#layer2 .bubble{width: 245px;height: 188px;background-image: url(../images/page087/layer2.png);padding-bottom: 13px}
+#layer3 .bubble{width: 212px;height: 160px;background-image: url(../images/page087/layer3.png);padding-top: 5px}
+#layer4 .bubble{width: 245px;height: 188px;background-image: url(../images/page087/layer4.png)}

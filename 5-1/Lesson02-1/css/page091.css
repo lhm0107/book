@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.text-mark .btn-dic:before{content: '『'}
+.text-mark .btn-dic:after{content: '』'}
+#layer1{margin-top: 15px}
+.paper{padding: 20px;height: 308px;background: url(../images/page091/paper.png) no-repeat 0 0/100% auto;margin: 20px 0 30px}
+.label-case{display: block;width: 47px;height: 25px;background: url(../images/page091/case.png) no-repeat 0 0/auto 100%;text-align: center;line-height: 25px;font-size: 15px;font-family: 'Katuri',sans-serif;color: #fff;font-weight: 700}
+.paper .media-body{line-height: 27px;padding: 0 0 18px 12px}
+.paper .media-body .font-dt{font-size: 13px;letter-spacing: -.025em}
+.tb tr:first-child td{padding: 13px 15px}
+.tb .label-case{margin: 0 auto}
+.tb textarea.form-control{height: 56px}
+#text_091_01{width: 82px}
+.sample-text{display: flex;align-items: center;font-size: 12px}
+.sample-text .label{flex-shrink: 0;margin-right: 5px}

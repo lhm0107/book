@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#wrap {background: #dfeaf8;}
+.label-data {position: absolute; right: 0; bottom:0px}
+.icon-num {width: 22px; height: 25px; background: url(../images/page049/num1.png) no-repeat 0 0 / 100% auto; text-align: center; vertical-align: middle; font-size: 15px; font-weight: 700; color: #fff; text-indent: 0;line-height: 24px;}
+.box2 .icon-num {background: url(../images/page049/num2.png) no-repeat 0 0 / 100% auto;}
+.side-btns {position: relative; margin-left: 8px; margin-top: -4px;}
+
+.word-bubble {margin-top: 21px; margin-left: 28px;}
+.box2 .word-bubble {margin-top: 103px;}
+.word-bubble button {position: absolute}
+[class*=bubble-box] {font-size: 20px; line-height: 20px;}
+.bubble-box1 {width: 89px; height: 64px; background-image: url(../images/page049/b1-1.png);padding-top: 11px}
+.bubble-box2 {width: 105px; height: 61px; background-image: url(../images/page049/b1-2.png);padding-top: 11px}
+.bubble-box3 {width: 118px; height: 76px; background-image: url(../images/page049/b1-3.png);padding-top: 7px}
+.bubble-box4 {width: 109px; height: 70px; background-image: url(../images/page049/b1-4.png);padding-top: 11px}
+.text-wrp {position: absolute; left:10px; bottom:-32px; width: 590px;}
+.box2 .text-wrp {bottom:-38px}
+.word-bubble textarea {height: 100px;}
+#layer1, #layer2 {min-width: 507px;}
+.layer {z-index: 10;}
+
+.box2 {margin-top: 60px;}
+.bubble-box5 {width: 123px; height: 85px; background-image: url(../images/page049/b2-1.png);padding-top: 9px}
+.bubble-box6 {width: 120px; height: 79px; background-image: url(../images/page049/b2-2.png);padding-top: 6px}
+

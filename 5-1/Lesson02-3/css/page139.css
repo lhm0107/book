@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page139/bg.jpg)}
+
+.content-top {display: flex; flex-direction: row; align-items: flex-end; padding-top:43px}
+
+.interaction {position: relative;width:100%; height:596px; margin-top:100px}
+
+.scratch-txt { position: absolute; padding-left:15px; font-size: 13px; }
+.scratch-txt::before {content:""; position: absolute; top:50%; left:0px; transform: translateY(-50%); width:10px; height:10px; border-radius: 50%; background: #33b875; }
+.scratch { position: absolute; padding:15px 10px; border:2px solid #ef9801; border-radius: 10px; background: rgba(255,255,255,0.84); font-size: 13px; line-height: 1.4em;}
+.scratch .font-ka {color: #ef9801; font-size: 20px;}
+
+
+/* 써보기 */
+.chk-buttons{position: absolute; top: -74px; right:10px;}
+.chk-buttons .icon-btn-chk{top:35px}
+.start-btn{width: 35px; height:35px; position:absolute; z-index: 200; font-size: 0;}
+.start-btn.on .icon-inter-start{background-image: url(../images/common/btn_start_off.png);}
+.start-btn.on .icon-inter-start:before{display: none;}
+
+.table-round-wrp {border-style: solid;}
+.modal .tb tr>* {padding:7px 10px; font-size: 16px;}
+
+.nonograms {table-layout: fixed; border:2px solid #000;}
+.nonograms th,
+.nonograms td{border:1px solid #000; text-align: center; font-size:11px; background: #fff; font-weight: normal !important; }
+.nonograms tr:nth-child(5),
+.nonograms tr:nth-child(10),
+.nonograms tr:nth-child(15),
+.nonograms tr:nth-child(20),
+.nonograms tr:nth-child(25){border-bottom:2px solid #000;}
+.nonograms tr td:nth-child(5),
+.nonograms tr td:nth-child(10),
+.nonograms tr td:nth-child(15),
+.nonograms tr td:nth-child(20),
+.nonograms tr td:nth-child(25){border-right:2px solid #000;}
+.nonograms tr .active{background-color:rgb(184,185,185);}
+
+/* .answer-wrp.q-label-wrp{background:none !important; display: flex; font-size: 13px; justify-content: center; pointer-events: none;}
+.answer-wrp.q-label-wrp.active{pointer-events:visible;}
+.answered .q-label [data-answer] + span{color:#000 !important;}
+.answered .q-label [data-answer] + span:before{border:0; background-image: url(../images/page096/chk.png); width: 100%; min-width: 20px; background-size: auto 70%; background-repeat: no-repeat; background-position: center;}
+
+.answered .answer-show .ans-on{background-color:red !important;}
+.answer-show.font-dt tr [class*=non-act].active,
+.answered .answer-show [class*=non-act].ans-on{background-color: #fff !important;} */
+
+/* .nonograms td.ans-on {background: skyblue;} */
+
+
+.nonograms td.active {background: #84d0f5;}

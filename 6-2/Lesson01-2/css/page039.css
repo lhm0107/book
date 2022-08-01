@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page039/bg.jpg);}
+.para-wrp .col-wide {flex: 0 0 494px; width: 494px;}
+.layer-ttakji .drag-fix {width: 176px; height: 106px; font-size: 12px; line-height: 20px; font-weight: 500; padding: 33px}
+.dragdrop .drop-fix {position: absolute; width: 200px; height: 90px;font-family: 'KoPubDotum',sans-serif !important; background: rgba(255, 255,255 ,.1); border: 1.5px dashed #ff0000; border-radius: 5px;}
+.drop-fix.ui-droppable-disabled {display: flex; align-items: center; justify-content: center; font-size: 12px; line-height: 17px; text-indent: 1.2em; padding: 0 13px; border: 1px solid #000; background: rgba(255, 255, 255, .7); border-radius: 8px; text-align: center;}
+.fwd1 {font-size: 13px; line-height: 21px; text-align: center;}
+
+.bx.border-ylw {height: 133px; border: 2px solid #eda270; border-radius: 5px; padding: 10px 8px; margin-top: 138px;}
+.bx.border-ylw p {font-size: 13px; line-height: 21px;}
+.dic1 .explanation.layer-limit {width: 211px;}
+.dic2 .explanation.layer-limit {width: 217px;}
+.col-wide+.col {margin-left: 17px;}

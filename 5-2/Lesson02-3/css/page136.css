@@ -1,0 +1,7 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page136/bg.jpg)}
+.para-wrp.col-wide {flex:0 0 439px; max-width: 439px; text-align: right}
+.pl75 {padding-left: 75px}
+.explanation.layer-limit {text-align: justify}
+.btn-dic1 .explanation.layer-limit {width: 234px}
+.fwd {text-indent: 0; text-align: left; line-height: 22px}

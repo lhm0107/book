@@ -7,55 +7,61 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
 <link rel="stylesheet" type="text/css" href="css/page011.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
+<div id="wrap" class="page-odd">
     <div class="wrapper">
+        <div class="heritage btn-quiz" role="button" style="left: -34px;top: 366px;">
+            <img src="images/page011/q1.png" width="99" alt="" data-dtext_index="dtext_cls_image" />
+        </div>
+
         <div class="content font-dt">
-            <p class="text-indent">우리나라 곳곳에는 옛날 <span class="text-nowrap">사람들이</span> 남긴 문화유산이 <span class="text-nowrap">많이</span> 있다. <br />왼쪽 그림을 보고 어느 지역에  어떤 문화유산이 있는지 <span class="text-nowrap">살펴보자.</span> </p>
+            <p class="text-indent">우리나라 곳곳에는 옛날 사람들이 남긴 문화유산이 많이 있다. 왼쪽 그림을 보고 어느 지역에 어떤 문화유산이 있는지 살펴보자. </p>
             <div>
                 <i class="icon-face-wh"></i>
                 <div class="media-body">
-                    <p>왼쪽 그림에서 내가 알고 <span class="text-nowrap">있는</span> 문화유산을 찾아 O표 <span class="text-nowrap">하고,</span> 짝과 함께 이야기해 <span class="text-nowrap">보자.</span></p>
+                    <p>다음 그림에서 내가 알고 있는 문화유산을 찾아 이름을 쓰고, 문화유산에 관해 이야기해 보자.</p>
                 </div>
             </div>
         </div>
 
-        <div class="layer-wrp layer-wrp-ox" style="left: 580px; top: 616px;">
-            <div id="layer1" class="layer" style="left: -297px; top: -251px;">
-                <i class="tail bottom" style="right: 40px"></i>
-                <p class="font-dt mb10">학교에 다닐 나이가 되더라도 <br />굳이 다닐 필요 없어.</p>
-                <div id="ox1" class="answer-ox">
-    				<label class="q-label"><input type="radio" name="radio_011_01" id="radio_011_01" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
-    				<label class="q-label"><input type="radio" name="radio_011_01" id="radio_011_02" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
-    			</div>
-            </div>
-            <button type="button" title="대화 보기" class="icon-hand btn-ox-start" data-toggle="layer" data-target="#layer1" data-audio="audio1">대화 보기</button>
-            <button type="button" title="다시 풀기" class="icon-btn-refresh btn-ox-reset" data-target="#ox1">다시 풀기</button>
-        </div>
-
-        <div class="layer-wrp layer-wrp-ox" style="left: 585px; top: 899px;">
-            <div id="layer2" class="layer" style="left: -360px; top: -150px;">
-                <i class="tail right" style="top: 50px"></i>
-                <p class="font-dt mb10">내가 살고 싶은 곳으로 <br />자유롭게 이사할 수 있어.</p>
-                <div id="ox2" class="answer-ox">
-    				<label class="q-label"><input type="radio" name="radio_011_03" id="radio_011_03" value="○" class="sr-only" data-answer="" /><span class="icon-answerb-o">○</span></label>
-    				<label class="q-label"><input type="radio" name="radio_011_03" id="radio_011_04" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
-    			</div>
-            </div>
-            <button type="button" title="대화 보기" class="icon-hand btn-ox-start" data-toggle="layer" data-target="#layer2" data-audio="audio2">대화 보기</button>
-            <button type="button" title="다시 풀기" class="icon-btn-refresh btn-ox-reset" data-target="#ox2">다시 풀기</button>
-        </div>
         <span class="position-absolute font-serif">동해</span>
+    </div>
+</div>
 
-        <audio id="audio1" src="media/page011/011_01.mp3" preload="none"></audio>
-		<audio id="audio2" src="media/page011/011_02.mp3" preload="none"></audio>
-
-        <!-- paging -->
-		<footer id="num" class="font-dt"><b>11</b>1. 나라의 등장과 발전</footer>
+<div id="quiz" class="modal modal-quiz">
+    <div class="modal-dialog-centered">
+        <div class="quiz">
+            <ul class="quiz-list">
+                <li id="quiz1" class="active">
+                    <div class="quiz-text">
+                        <div class="mb5">경상북도 경주시에 있는 </div>
+                        <div class="consonant">
+                            <div class="answer-wrp" data-answer="첨">
+                                <input type="text" id="texxt_011_01" maxlength="1" class="form-control" placeholder="ㅊ" />
+                            </div>
+                            <div class="answer-wrp" data-answer="성">
+                                <input type="text" id="texxt_011_02" maxlength="1" class="form-control" placeholder="ㅅ" />
+                            </div>
+                            <div class="answer-wrp" data-answer="대">
+                                <input type="text" id="texxt_011_03" maxlength="1" class="form-control" placeholder="ㄷ" />
+                            </div>
+                            <div class="tx-a hidden">첨성대</div>
+                        </div>입니다.
+                    </div>
+                    <div class="quiz-buttons">
+                        <button type="button" class="btn btn-orange" data-toggle="answer-quiz" data-target="#quiz1"><i class="icon-quiz-chk"></i>확인하기</button>
+                        <button type="button" class="icon-btn-refresh" data-toggle="answer-refresh" data-target="#quiz1">다시풀기</button>
+                        <button type="button" class="btn btn-mint" data-dismiss="modal" data-time="1"><i class="icon-quiz-close"></i>닫기</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -75,6 +81,6 @@
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
-<script type="text/javascript" src="js/ox.js"></script>
+<script type="text/javascript" src="js/consonant.js"></script>
 </body>
 </html>

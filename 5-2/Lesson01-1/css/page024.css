@@ -3,10 +3,9 @@
 #wrap{background-image: url(../images/page024/bg.jpg)}
 .curiosity-hd{display: flex;}
 .curiosity-label{width: 155px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0;flex-shrink: 0;margin-right: -11px;}
-.curiosity-title{margin-top: 20px;font-family: 'Katuri',sans-serif;font-size: 21px;color:#213d5d;line-height:1.6190;}
-.curiosity-hd>.col {margin-top: -3px;padding-left: 11px;}
-.curiosity-hd .para{text-indent: .9em;}
-.curiosity-hd .para-title{margin-bottom: 3px;}
+.curiosity-title{margin-top: 20px; font-size: 21px;color:#213d5d;line-height:1.6190;}
+.curiosity-hd>.col {padding-left: 11px;}
+.para-title{margin-bottom: 10px;border-bottom: 3px solid #e4b669;display: inline-block;vertical-align: top;padding-bottom: 2px}
 
 .word-bubble{height:760px}
 .word-bubble>*{position: absolute}
@@ -14,3 +13,7 @@
 .word-bubble .font-ka{font-size: 17px;color:#143861}
 [class*=fwd]{width: 352px;font-size: 17px;line-height: 1.588235;text-indent: 0.9em;letter-spacing: -.01em;}
 [class*=fwd].font-mi{width:auto;line-height: .9;}
+[class*=bubble-box]{position: absolute;font-size: 20px;line-height: 18px}
+.bubble-box1{width: 103px;height: 96px;background-image: url(../images/page024/b1.png);padding-top: 9px}
+.bubble-box2{width: 169.5px;height: 89px;background-image: url(../images/page024/b2.png);padding-top: 10px}
+.para.mt12 {margin: 12px;}

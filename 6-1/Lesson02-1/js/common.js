@@ -9,7 +9,7 @@ var efAudio = function(media) {
 	this.create();
 };
 
-function audioControl(ele){
+function audioPause(ele){
     ele.pause();
     if (!isNaN(ele.duration)) {
         ele.currentTime = 0;
@@ -19,7 +19,7 @@ function audioControl(ele){
 var $unitGoal = $('#unitGoal');
 function unitGoalClose(o){
 	if ($unitGoal.is(':visible') && $(o).attr('id') !== 'unitGoal') {
-		$unitGoal.find('[data-toggle="layerClse"]').trigger('click');
+		$unitGoal.hide().closest('.layer-wrp').removeClass('open');
 	}
 }
 
@@ -39,13 +39,17 @@ function interactionStop(){
 			}
 		});
 	}
+
+	if($('.order-inter-btn').length){
+		$('.order-inter-btn>button').eq($('.order-inter-content>.active').last().index()+1).removeClass('hide');
+	}
 }
 
 function audioStop(prop){
 	interactionStop();
 
 	$('audio, video:not([autoplay])').each(function(){
-		audioControl($(this)[0]);
+		audioPause($(this)[0]);
 	});
 }
 
@@ -94,19 +98,19 @@ function toggleAudioPlay(target, t){
     var audio = document.getElementById(target);
 
     $('audio').not('#'+target).each(function(){
-		audioControl($(this)[0]);
+		audioPause($(this)[0]);
 	});
 
-	interactionStop();
+	!$(t).closest('[class*=inter-btn]').length && interactionStop();
 
     if(t.dataset.toggle === 'layer' && $(t.dataset.target).is(':visible')){
-        audioControl(audio);
+        audioPause(audio);
         return false;
     }
 
     //$unitGoal.length && unitGoalClose(t.dataset.target);
 
-    audio.paused ? audio.play() : audioControl(audio);
+    audio.paused ? audio.play() : audioPause(audio);
 }
 
 $(function(){
@@ -124,24 +128,6 @@ $(function(){
 	$('#wrap').append('<div id="answerMsg" class="answer-msg" data-toggle="layerClse"><p class="txt">답안을 입력하세요.</p></div>');
 
 	//텍스트
-	$('.form-overlay input, .form-overlay textarea').on({
-		focus:function(){
-			$(this).parent().addClass('on');
-		},
-		blur:function  () {
-			if ($(this).val().replace(/\s|　/gi, '')=='') {
-				$(this).parent().removeClass('on');
-			}
-		}
-	}).each(function(){
-		var $t = $(this);
-		setTimeout(function(){
-			if(!$t.val().replace(/\s|　/gi, '')){
-				$t.parent().removeClass('on');
-			}
-		},2000);
-	});
-
 	$('.only-num').keyup(function(){
 		$(this).val($(this).val().replace(/[^0-9]/g,""));
 	});
@@ -150,30 +136,27 @@ $(function(){
 		$(this).val($(this).val().replace(/[^a-zA-Z0-9]/gi,""));
 	});
 
-	var prevVal = '';
-	$('.only-num-point').keyup(function(){
-		var obj = this;
-		var point = $(this).attr('data-point') || 1;
-		var regexp = new RegExp('^\\d*(\\.\\d{0,'+point+'})?$');
-		obj.value.search(regexp) ? obj.value = prevVal : prevVal = obj.value;
-	});
-
-
 	//버튼
-	$('.btn-toggle').click(function  () {
-		var t = $(this);
-		t.parent().toggleClass('on');
-		$($(this).attr('data-target')).toggle();
+	$('[data-class]').click(function(){
+		$(this.dataset.class.split(',')[0]).toggleClass(this.dataset.class.split(',')[1]);
 	});
 
-	$('.btn-toggle-class').click(function(){
-		$($(this).attr('data-target')).toggleClass('active');
+	$('[data-self-class]').click(function(){
+		$(this).toggleClass(this.dataset.selfClass);
 	});
 
-    $('.btn-toggle-class2').click(function(){
-		$($(this).attr('data-target')).toggleClass('active');
-        var t = $(this);
-		t.parent().toggleClass('open');
+	$('[data-remove-class]').click(function(){
+		$(this.dataset.removeClass.split(',')[0]).removeClass(this.dataset.removeClass.split(',')[1]);
+	});
+
+	document.querySelectorAll('[data-audio]').forEach(function(ele){
+		ele.onclick = function(){
+			toggleAudioPlay(ele.dataset.audio, ele);
+		};
+	});
+
+	$('[data-hide]').click(function(){
+		$(this.dataset.hide).hide();
 	});
 
 	$('[data-toggle="tab"]').click(function  (e) {
@@ -196,7 +179,7 @@ $(function(){
 		// 값 없으면 리턴
 		var isAnswer = false;
 
-		if (o.substring(1,10)!='layerSelf' && !chkTarget.hasClass('box-q') && !btn.hasClass('icon-ibtn-group')) {
+		if (o.substring(1,10)!='layerSelf' && !btn.hasClass('check-none')) {
 			var inputLength = chkTarget.find('input').length,
 				textLength = chkTarget.find('textarea').length;
 			if(textLength && inputLength){
@@ -248,9 +231,12 @@ $(function(){
 		}
 
 		if(btn.data('layer-accordion')){
-			$('[data-toggle="layerClse"]').not(o).hide();
-			oParent.removeClass('open');
+			$('.layer[data-toggle="layerClse"]').not(o).hide();
+			$('.icon-layer-clse').parent().not(o).hide();
+			$('.layer-wrp').not(oParent).removeClass('open').find('.icon-hand').removeClass('off');
 		}
+
+		btn.hasClass('icon-hand') && btn.toggleClass('off');
 
 		$(o).toggle();
 		oParent.toggleClass('open');
@@ -262,13 +248,25 @@ $(function(){
 		return false;
 	});
 
+	$('.btn-self-check').click(function(){
+		var $t = $(this);
+		if($t.parent().hasClass('open')){
+			$('#layerSelf').hide();
+			$t.parent().removeClass('open');
+		}else{
+			$('#layerSelf').show(0,function(){
+				$t.parent().addClass('open');
+			});
+		}
+	});
+
 	$('body').on('click','[data-toggle=layerClse]',function(event){
 		var t = $(this);
-		var $layer = t.parent();
 
 		if(t.hasClass('icon-layer-clse')){
 			audioStop();
 			t.parent().hide().closest('.layer-wrp').removeClass('open');
+			$('.icon-hand[data-target="#'+t.parent().attr('id')+'"]').removeClass('off');
 			return false;
 		}
 
@@ -279,7 +277,9 @@ $(function(){
 		this.children[0].onclick == null && audioStop();
 
 		event.stopPropagation();
+
 		t.hide().closest('.layer-wrp').removeClass('open');
+		$('.icon-hand[data-target="#'+t.attr('id')+'"]').removeClass('off');
 	});
 
 	$('[id^=drawHelper] .close').click(function(){
@@ -287,8 +287,10 @@ $(function(){
 	});
 
 	// modal
-	if($('.wrapper #qLine').length){
-		qLine('qLine');
+	if($('.q-line').length){
+		$('.q-line').each(function(){
+			qLine(this.id);
+		});
 	}
 
 	$('[data-toggle=modal]').click(function(){
@@ -300,14 +302,20 @@ $(function(){
 			target.before('<div class="dim"></div>');
 		}
 
+		if(target.hasClass('modal-slide')){
+			effectAudio.play('fireworks');
+		}
+
 		if(target.find('video').length && target.hasClass('modal-video-overlay')){
 			target.show();
 			target.find('video')[0].play();
 		}else{
 			target.show(0, function  () {
 				$(target).addClass('modal-open');
-				if(target.find('#qLine').length && !target.find('#canvasqLine').length){
-					qLine('qLine');
+				if(target.find('.q-line').length && !target.find('[id^=canvasqLine]').length){
+					target.find('.q-line').each(function(){
+						qLine(this.id);
+					});
 				}
 			});
 		}
@@ -316,17 +324,19 @@ $(function(){
 
 	$('[data-dismiss=modal]').click(function(){
 		var $modal = $(this).closest('.modal');
+		var time = $(this).data('time')*1 || 400;
 
 		$modal.removeClass('modal-open');
 
 		setTimeout(function(){
 			$modal.hide().find('video.playing').removeClass('playing');
-			$modal.find('video').length && audioControl($modal.find('video')[0]);
+			$modal.find('video').length && audioPause($modal.find('video')[0]);
 			$('.dim').remove();
-		},400);
+		},time);
 
 		return false;
 	});
+
 
 	$('button.btn-narr').click(function(){
 		$(this).toggleClass('open').parents('.modal').find('.narr').toggle();
@@ -336,21 +346,6 @@ $(function(){
             $(this).text('자막 보기');
         }
     });
-	$('.btn-test-modal').click(function() {
-		var	num = $(this).attr('data-swiper'),
-			slide = num ? num : 0;
-
-		if (num && num.indexOf(',')) {
-			var arr = num.split(',');
-			for (var i=0; i<arr.length; i++) {
-				testSwiper[arr[i]].update();
-				testSwiper[arr[i]].slideTo(0);
-			}
-		}else {
-			testSwiper[slide].update();
-			testSwiper[slide].slideTo(0);
-		}
-	});
 
 	// 정답확인
 	$('[data-toggle=answer]').click(function(){
@@ -548,7 +543,8 @@ $(function(){
 			isAnswer = true;
 		} else if(qType==='radio' || qType==='checkbox'){
 			var dataNum = 0;
-			if(!o.find('input').is(':checked')){
+
+			if(!o.find('input:checked').length){
 				showMsg('#answerMsg');
 				return false;
 			}
@@ -590,6 +586,10 @@ $(function(){
 			var delItm;
 			o.find('input,textarea').each(function(i){
 				var t = $(this);
+
+				// t.prop('checked',false);
+				// t.filter('[type=text],textarea').val('');
+
 				if(i===0){
 					delItm = $(this).attr('id');
 				} else {
@@ -668,14 +668,14 @@ $(function(){
 
 			var target = o.find('.form-control:not(.donot)').length ? o.find('.form-control:not(.donot)') : o.find('input.sr-only');
 			target.each(function(){
-				var tV = $.trim($(this).val()),
+				var tV = $.trim($(this).val().replace(/\s|　/gi, '')),
 					dA = $(this).parent().attr('data-answer') || o.attr('data-answer'),
 					dArray = dA.indexOf('@@') > -1 && dA.split('@@');
 
 				if(dArray[1] && $.inArray(tV,dArray) === -1){
 					isCorrect = false;
 					return false;
-				}else if(!dArray && tV!==dA){
+				}else if(!dArray && tV!==dA.replace(/\s|　/gi, '')){
 					isCorrect = false;
 					return false;
 				}

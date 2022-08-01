@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+#wrap{background-image: url(../images/page089/bg.jpg)}
+
+.wrapper{padding-top: 352px}
+.text-circle{background: #6c7582}
+.sect-do-explore{width: 418px;margin: 0}
+.sect-do-explore .sect-hd{background-image:url(../images/page089/explore-hd.png);height: 68px}
+.table-round-wrp {border:1px dashed #9a90be}
+.tb tr>td {border-bottom:1px dashed #9a90be}
+.lst-type-bull li {text-align: left;}
+.drop-item {width: 100%; height:30px}
+
+[class*=fwd].font-mi{line-height: 18px}
+.fwd .text-circle{display: block;margin: 0 auto 5px}
+
+.sect-do-content{margin-top: -39px;padding-right: 0}
+.boxs{height: 209px;border: 1px dashed #7b6faa;border-radius: 8px;background: #fff;margin-top: 17px;position: relative;}
+.drop-refresh{position: absolute;top: 0;left: 100%;margin-left: 8px}
+.box{position: relative;height: 50%}
+.drop-fix{height: 100%;padding: 4px 10px 4px 140px;border-radius: 8px 8px 0 0;display: flex}
+.drop-fix>div{margin: 0 5px}
+.drop-fix .text-circle{display: block;margin: 0 auto}
+.drop-fix img{width: auto;height: 85px}
+.box+.box{border-top: 1px dashed #7b6faa}
+.box+.box .drop-fix{border-radius: 0 0 8px 8px}
+.box strong{font-size: 15px;line-height: 20px;position: absolute;left: 15px;top: 15px;white-space: nowrap}
+.box strong:before{content: '';display: inline-block;vertical-align: top;width: 6px;height: 6px;border-radius: 100%;background: #95a9b3;margin: 7px 10px 0 0}
+.box .col{display: flex;height: 100%;padding: 0 10px}
+
+.drag-fix{position: absolute}
+.drag-fix:before, .drag-fix:after{content: '';position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-repeat: no-repeat;background-size: auto 100%}
+.drag-fix:before{animation: flash 1s both}
+.drag-fix>div{position: relative}
+.drag-fix:after{visibility: hidden}
+.drag-fix .text-circle{display: none}
+
+.item1:before{background-image: url(../images/page089/1_line.png)}
+.item2:before{background-image: url(../images/page089/2_line.png)}
+.item3:before{background-image: url(../images/page089/3_line.png)}
+.item4:before{background-image: url(../images/page089/4_line.png)}
+.item5:before{background-image: url(../images/page089/5_line.png)}
+.item6:before{background-image: url(../images/page089/6_line.png)}
+
+.item1:after{background-image: url(../images/page089/1_off.png)}
+.item2:after{background-image: url(../images/page089/2_off.png)}
+.item3:after{background-image: url(../images/page089/3_off.png)}
+.item4:after{background-image: url(../images/page089/4_off.png)}
+.item5:after{background-image: url(../images/page089/5_off.png)}
+.item6:after{background-image: url(../images/page089/6_off.png)}
+
+.drag-fix.ui-draggable-disabled img, .drag-fix.dragging img{visibility: hidden}
+.drag-fix.ui-draggable-disabled:after, .drag-fix.dragging:after{visibility: visible}

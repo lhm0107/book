@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.tab-thumb-swiper{background: #e4f5cb}
+.slider-wrap>i{position: absolute;background-repeat: no-repeat;background-size: 100% auto}
+.i1{width: 90px;height: 58px;left: 40px;top: -17px;background-image: url(../images/page102/i1.png)}
+.i2{width: 50px;height: 87px;right: -16px;top: 430px;background-image: url(../images/page102/i2.png)}

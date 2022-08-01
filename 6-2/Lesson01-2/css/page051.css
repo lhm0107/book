@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page051/bg.jpg);}
+.icon-num {width: 22px; height: 25px; background: url(../images/page051/num5.png) no-repeat 0 0 / 100% auto; text-align: center; vertical-align: middle; font-size: 15px; font-weight: 700; color: #fff; text-indent: 0;line-height: 24px;}
+.top-content {justify-content: space-between; align-items: flex-start;}
+.top-content button {margin-top: -9px;}
+[class*=fwd].font-mi {text-align: left !important; line-height: 0.9em;}
+.fwd1 {font-size: 17px; color: #fff;}
+.fwd2 {font-size: 13px;}
+.fwd3 {font-size: 20px; line-height: 18px;}
+.fwd3.v2 li:not(:first-child) {padding-left: 6px;}
+#modalArrangeCont .bx {padding: 20px 40px; display: flex; align-items: center; justify-content: center;}
+#modalArrangeCont .row {align-items: center; justify-content: space-between;}
+.evlt-slider-wrap [data-qtype="text"] .media-title, .evlt-slider-wrap [data-qtype="multipleBlank"] .media-title {line-height: 48px;}
+.modal .answered .tx-a {bottom: 86%;}

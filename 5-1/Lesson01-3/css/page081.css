@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+[class^=bubble-box] {position: absolute; line-height: 20px}
+.word-bubble {padding-left: 23px; padding-top: 104px}
+.bubble-box1{width: 127px;height: 81px;background: url(../images/page081/b1.png) no-repeat 0 0 / 100% auto;padding-top: 13px}
+.bubble-box2{width: 125.5px;height: 84px;background: url(../images/page081/b2.png) no-repeat 0 0 / 100% auto;padding-top: 14px}
+.bubble-box3{width: 149px;height: 95px;background: url(../images/page081/b3.png) no-repeat 0 0 / 100% auto;padding-top: 18px}
+.bubble-box4{width: 131px;height: 81.5px;background: url(../images/page081/b4.png) no-repeat 0 0 / 100% auto;padding-top: 17px}
+.table-round-wrp {border: 1px solid #929ea5; border-radius: 7.5px}
+.text-circle {background: #7f6154 !important}
+table tr> th {border-bottom: 1px solid #a5b8c1; background: #95daff}
+.bg-org {background: #ffdfb4 !important}
+table tr> td {line-height: 30px}
+table tr>*>.form-control {border: 1px solid #a8b6bd; border-radius: 3px; width: 81.5px; height: 30px; margin: 0}
+#answer_081_02 .pager {position: absolute; right: 0px; top: -32px}
+.final-content .numbering>.num {width: 26px}
+#answer_081_02 .media-title {letter-spacing: -0.021em}
+#textarea_081_01 {width: 388px; height: 126.5px}
+.test-item {padding-right: 42px}
+#answer_081_03 img{margin-top: -32px}
+.fwd.mark:after{width: 190%;height: 160%}

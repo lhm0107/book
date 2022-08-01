@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page031.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+        <!-- 활동해요 -->
+		<section class="sect-do-activity">
+            <header class="sect-hd">
+				<strong class="sr-only">활동해요</strong>
+                <h2 class="sect-title">우리나라 행정 구역과 주요 도시 확인하기</h2>
+            </header>
+            <!-- 인터렉션 디자인 확정 후 작업 예정 -->
+			<div class="sect-do-content">
+				<div class="text-mark mb10">
+					<b class="icon-face"></b>
+					<p class="col">지도의 빈칸에 주요 도시 이름을 끌어다 넣어 보자.</p>
+					<button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh ttakji-refresh" data-target="#layerDragDrop">다시 풀기</button>
+					<button type="button" title="붙임딱지" class="icon-ttakji" data-toggle="layer" data-target="#layerDragDrop">붙임딱지</button>
+				</div>
+                <div class="dragdrop">
+                    <div id="layerDragDrop" class="layer layer-ttakji">
+                        <div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+                        <div class="layer-body">
+                            <span class="label font-ka">붙임 딱지</span>
+                            <div class="row justify-content-between">
+								<div class="drag-fix" data-drop="1">대전광역시</div>
+								<div class="drag-fix" data-drop="2">부산광역시</div>
+								<div class="drag-fix" data-drop="3">서울특별시</div>
+								<div class="drag-fix" data-drop="4">안동</div>
+								<div class="drag-fix" data-drop="5">춘천</div>
+								<div class="drag-fix" data-drop="6">전주</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropzone">
+                        <div class="box1" style="left:263px; top:160px">
+                            <span class="text-circle bg-brown">1</span>
+							<input type="text" id="text_031_05" class="sr-only" />
+                            <div class="drop-fix" data-drop="3"></div>
+                        </div>
+                        <div class="box2" style="left:343.5px; top:114.5px">
+                            <span class="text-circle bg-brown">2</span>
+							<input type="text" id="text_031_06" class="sr-only" />
+                            <div class="drop-fix" data-drop="5"></div>
+                        </div>
+                        <div class="box3" style="left:307px; top:326.5px">
+                            <span class="text-circle bg-brown">3</span>
+							<input type="text" id="text_031_07" class="sr-only" />
+                            <div class="drop-fix" data-drop="1"></div>
+                        </div>
+                        <div class="box4" style="left:429.5px; top:293px">
+                            <span class="text-circle bg-brown">4</span>
+							<input type="text" id="text_031_08" class="sr-only" />
+                            <div class="drop-fix" data-drop="4"></div>
+                        </div>
+                        <div class="box5" style="left:276.5px; top:398px">
+                            <span class="text-circle bg-brown">5</span>
+							<input type="text" id="text_031_09" class="sr-only" />
+                            <div class="drop-fix" data-drop="6"></div>
+                        </div>
+                        <div class="box6" style="left:496px; top:482.5px">
+                            <span class="text-circle bg-brown">6</span>
+							<input type="text" id="text_031_10" class="sr-only" />
+                            <div class="drop-fix" data-drop="2"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</section>
+
+        <!-- 확인해요 -->
+        <div class="verify">
+            <h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
+            <div id="answerAll_031_01" class="verify-content">
+                <ol class="lst-type-num">
+                    <li>
+                        <b class="text-circle font-dt">1</b>
+                        <div id="answer_031_01" class="verify-answer">
+                            <div class="text-q">
+                                오늘날의 행정 구역은 인문환경을 기준으로 한 지역 구분을 기초로 하고 있다.
+                                <div class="answer-wrp q-label-wrp">
+                                    <label class="q-label"><input type="radio" name="radio_031_01" id="radio_031_01" value="radio_031_01" class="sr-only"/><span class="icon-answer-o">○</span></label>
+                                    <label class="q-label"><input type="radio" name="radio_031_01" id="radio_031_02" value="radio_031_02" class="sr-only" data-answer="" /><span class="icon-answer-x">×</span></label>
+                                </div>
+                            </div>
+                            <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_031_01">확인</button>
+                        </div>
+                    </li>
+                    <li>
+                        <b class="text-circle font-dt">2</b>
+                        <div id="answer_031_02" class="verify-answer">
+                            <div class="text-q">
+                                시청과 도청이 있는 도시는 대부분 행정 구역의 중심 도시 역할을 하고 있다.
+                                <div class="answer-wrp q-label-wrp">
+                                    <label class="q-label"><input type="radio" name="radio_031_03" id="radio_031_03" value="radio_031_03" class="sr-only" data-answer=""/><span class="icon-answer-o">○</span></label>
+                                    <label class="q-label"><input type="radio" name="radio_031_03" id="radio_031_04" value="radio_031_04" class="sr-only" /><span class="icon-answer-x">×</span></label>
+                                </div>
+                            </div>
+                            <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_031_02">확인</button>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>31</b>1. 우리 국토의 위치와 영역</footer>
+	</div>
+    <div class="verify-buttons">
+		<button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+		<button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
+	</div>
+</div>
+<!-- 내용 정리 -->
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<h3 class="arrange-cont-title">우리나라의 행정 구역과 주요 도시를 알아볼까요</h3>
+			<section class="sect numbering">
+				<b class="num">1.</b>
+				<div class="media-body">
+					<h4 class="media-title">우리나라의 행정 구역</h4>
+					<ul class="lst-type-bull">
+						<li>우리 국토를 구분하는 기준임.</li>
+						<li>오늘날의 행정 구역은 자연환경을 기준으로 한 지역 구분을 기초로 하고 있음.</li>
+                        <li>북한 지역을 제외하면 특별시 1곳, 특별자치시 1곳, 광역시 6곳, 도 8곳, 특별자치도 1곳으로 이루어져 있음.</li>
+					</ul>
+				</div>
+			</section>
+            <section class="sect numbering">
+				<b class="num">2.</b>
+				<div class="media-body">
+					<h4 class="media-title">우리나라의 주요 도시</h4>
+					<ul class="lst-type-bull">
+						<li>특별시, 특별자치시, 광역시에는 시청이 있고, 도와 특별자치도에는 도청이 있음.</li>
+                        <li>시청과 도청은 시와 도를 관리하는 행정 업무를 담당함.</li>
+                        <li>시청과 도청이 있는 도시는 대부분 행정 구역의 중심 도시 역할을 하고 있음.</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 잠깐체크 -->
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+                        <div class="swiper-slide">
+							<div id="small_031_01" class="no-answered" data-qtype="text">
+								<assessmentItem data-qid="text_031_01" data-response-type="fillInTheBlank">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_031_01">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">1. </b>
+											<div class="media-body media-title">
+                                                나라를 효율적으로 관리하기 위해 행정 기관별로 범위를 나눈 지역을
+	                                            <div class="answer-wrp" data-answer="행정 구역">
+	                                                <input type="text" id="text_031_01" class="form-control itx" title="입력" />
+	                                                <span class="tx-a">행정 구역</span>
+												</div>(이)라고 한다.
+											</div>
+								        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">행정 구역</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+                        <div class="swiper-slide">
+							<div id="small_031_02" class="no-answered" data-qtype="text">
+								<assessmentItem data-qid="text_031_02" data-response-type="fillInTheBlank">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_031_02">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">2. </b>
+											<div class="media-body media-title">
+                                                <span>우리나라는</span>
+	                                            <div class="answer-wrp" data-answer="서울">
+	                                                <input type="text" id="text_031_02" name="text_031_02" class="form-control itx"  title="입력" />
+	                                                <span class="tx-a">서울</span>
+												</div>특별시,
+                                                <div class="answer-wrp" data-answer="세종">
+                                                    <input type="text" id="text_031_03" name="text_031_02" class="form-control itx"  title="입력" />
+	                                                <span class="tx-a">세종</span>
+												</div>특별자치시,
+                                                <div class="answer-wrp" data-answer="제주">
+                                                    <input type="text" id="text_031_04" name="text_031_02" class="form-control itx"  title="입력" />
+	                                                <span class="tx-a">제주</span>
+												</div>특별자치도가 있다.
+								            </div>
+                                        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">서울, 세종, 제주</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_031_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_031_05" data-response-type="singleChoice">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_031_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+                                                특별시, 특별자치시, 광역시에는
+												(<div class="answer-wrp q-label-wrp">
+													<label class="q-label">
+														<input type="radio" name="radio_031_05" id="radio_031_05" value="시청" class="sr-only" data-answer="" />
+														<span>시청</span></label>
+													,
+													<label class="q-label">
+														<input type="radio" name="radio_031_05" id="radio_031_06" value="도청" class="sr-only" />
+														<span>도청</span></label>
+												</div>)이 있고, 도와 특별자치도에는
+                                                (<div class="answer-wrp q-label-wrp">
+													<label class="q-label">
+														<input type="radio" name="radio_031_07" id="radio_031_07" value="시청" class="sr-only" />
+														<span>시청</span></label>
+													,
+													<label class="q-label">
+														<input type="radio" name="radio_031_07" id="radio_031_08" value="도청" class="sr-only" data-answer="" />
+														<span>도청</span></label>
+												</div>)
+											</div>
+								        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">시청, 도청</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+					</div>
+                    <div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+                    </div>
+					<div id="stamp"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/dragdrop.fix.js"></script>
+</body>
+</html>

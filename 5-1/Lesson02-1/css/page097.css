@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.text-flex .label-ex{margin: 3px 3px 0 0}
+.side-btns{top: 35px}
+#layer1{width: 495px}
+.bx-ex{border-color: #878787;text-align: center;padding: 10px}
+
+.bx label {position: absolute; width:120px;height:120px;}
+.mark-char {width:100%;height:100%;top:0;left:0}
+.mark-char:after {width:100%;height:100%;top:50%;left:48%}

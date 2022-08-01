@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.season .tab-content{border: 4px solid #7da6e2;background: #d4e2f6;padding: 30px}
+.season .inner{width: 500px;height: 385px;margin: 0 auto}
+.ohyes-text{text-align: justify;line-height: 22px;margin-top: 20px}
+.season .font-ka{display: block;width: 38px;height: 23px;background: url(../images/page051/tit.png) no-repeat 0 0/100% auto;line-height: 23px;font-size: 17px;color: #fff;font-weight: 400;margin-bottom: 5px}
+.swiper-button-next, .swiper-button-prev{top: 40%}
+.nav-tabs>.active{background: #7da6e2}
+.nav-tabs>button{min-width: 0;width: 80px}
+.sect-hd{height: 70px;margin-bottom: 0}
+.sect-do-content{padding-right: 0;margin-top: -23px}
+.para{margin-top: -7px}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page026.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <div class="col-content ml-auto row">
+            <p class="para para-first">적외선 온도계는 주로 고체로 된 물체의 온도를 측정할 때 사용하고, 알코올 온도계는 주로 액체나 기체의 온도를 측정할 때 사용합니다. 온도계를 사용해 여러 가지 물체의 온도를 측정해 봅시다.</p>
+        </div>
+
+        <!-- 탐구 -->
+        <div class="explore font-dt">
+            <header class="explore-hd">
+                <strong class="sr-only">탐구</strong>
+                <h2 class="tit">여러 가지 물체의 온도 측정하기</h2>
+                <span class="font-coo">측정, 자료 해석</span>
+                <div class="page">『실험 관찰』 16 쪽</div>
+                <div class="explore-ability">
+                    <span class="ability"><i class="icon-ability-think"></i>사고력</span>
+                    <i class="split"></i>
+                    <span class="ability"><i class="icon-ability-study"></i>탐구 능력</span>
+                </div>
+            </header>
+            <div class="utility">
+                <div class="layer-wrp layer-wrp-left">
+                    <button type="button" class="btn-img text-hide btn-safe" data-toggle="layer" data-layer-accordion="true" data-target="#layerSafe">안전</button>
+                    <div id="layerSafe" class="layer layer-safe" data-toggle="layerClse">
+                        <div class="layer-body">
+                            <strong class="title font-ka">
+                                <i class="icon-alert"></i><span class="mr10">안전</span>
+                                <i class="icon-safe-break"></i>
+                            </strong>
+                            <ul class="safe-check">
+                                <li>
+                                    <label class="custom-input-check">
+                                        <input type="checkbox" id="check_026_01" class="sr-only" />
+                                        <span class="custom-label">적외선 온도계를 사람의 눈을 향해 겨누지 않아요.</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-input-check">
+                                        <input type="checkbox" id="check_026_01" class="sr-only" />
+                                        <span class="custom-label">알코올 온도계가 주변의 물체에 부딪쳐 깨지지 않게 주의해요.</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layer-wrp layer-wrp-left">
+                    <button type="button" class="btn-img text-hide btn-help" data-toggle="layer" data-layer-accordion="true" data-target="#layerHelp">도움말</button>
+                    <div id="layerHelp" class="layer layer-help" data-toggle="layerClse">
+                        <div class="layer-body">
+                            <strong class="title font-ka"><i class="icon-info"></i>도움말</strong>
+                            <p>알코올 온도계는 알코올 온도계의 고리에 실을 매달아 사용해요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="supplies-wrap layer-wrp">
+                <button type="button" class="btn-img text-hide btn-supplies" data-toggle="layer" data-target="#supplies">준비물</button>
+                <div class="txt">적외선 온도계, 알코올 온도계, 실, 가위</div>
+                <div id="supplies" class="layer layer-full">
+                    <div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+                    <div class="layer-body">
+                        <p class="font-ka fs22">준비물을 확인해 보세요.</p>
+                        <ul class="supplies-list row">
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_026_01" class="sr-only" />
+                                    <span class="custom-label">적외선 온도계</span>
+                                </label>
+                            </li>
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_026_02" class="sr-only" />
+                                    <span class="custom-label">알코올 온도계</span>
+                                </label>
+                            </li>
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_026_03" class="sr-only" />
+                                    <span class="custom-label">실</span>
+                                </label>
+                            </li>
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_026_04" class="sr-only" />
+                                    <span class="custom-label">가위</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <strong class="how-title font-ka">어떻게 할까요</strong>
+                <button type="button" class="btn-img text-hide btn-process" data-toggle="modal" data-target="#modalVideo">실험 영상 과정</button>
+            </div>
+            <ul class="lst-num mt10 mb3">
+                <li class="text-flex text-num">
+                    <span class="num font-coo">1</span>
+                    <div class="col">
+                        온도를 측정할 장소를 정해 봅시다.
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">2</span>
+                    <div class="col">
+                        <span class="font-coo text-grn fs15">1</span> 에서 정한 장소에서 온도를 측정하고 싶은 물체를 정한 다음, 쓰임새에 맞는 온도계를 선택해 물체의 온도를 측정해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">3</span>
+                    <div class="col">
+                        장소를 옮겨 <span class="font-coo text-grn fs15">2</span> 와 같은 방법으로 물체의 온도를 측정해 봅시다.
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">4</span>
+                    <div class="col">
+                        <span class="font-coo text-grn fs15">2~3</span> 에서 온도를 측정한 물체 중 같은 물체의 온도와 다른 물체의 온도를 각각 비교해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="2"><i class="icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn-img text-hide btn-self" data-toggle="modal" data-target="#modalSelf">스스로 평가해요</button>
+        </div>
+
+        <strong class="fwd font-ka fs15 text-brw" style="left: 17px; top: 491px">운동장</strong>
+
+        <p class="fwd font-mi" style="left: 63px; top: 520px;">알코올 온도계의 <br />눈금을 읽을 때에는 빨간색<br /> 액체의 움직임이 멈출 때까지<br /> 기다려야 해.</p>
+        <p class="fwd font-mi" style="left: 305px; top: 519px;">교실로 이동해서 <br />물체의 온도를 <br />측정하자!</p>
+        <p class="fwd font-mi" style="left: 332px; top: 677px;">햇빛이 비치는 <br />곳에 있는 흙의 온도와 <br />그늘에 있는 흙의 온도는 <br />같을까? </p>
+        <div id="num">26</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 16 쪽</span>
+            <h2 class="modal-title">여러 가지 물체의 온도 측정하기</h2>
+        </div>
+        <div class="modal-body">
+            <nav class="nav nav-circle">
+                <button type="button" data-target="#exp1" class="active" data-toggle="tab">1</button>
+                <button type="button" data-target="#exp2" data-toggle="tab">2</button>
+            </nav>
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane active">
+                    <div class="question">
+                        <span class="num font-coo">1.</span>
+                        <div class="col">
+                            여러 장소에서 물체의 온도를 측정하고, 온도를 측정할 때 사용한 온도계와 측정한 온도를 써 봅시다.
+                        </div>
+                    </div>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <p class="text-blue">건강 상태를 확인할 때, 요리할 때, 식물을 재배할 때, 김치나 요구르트와 같이 발효 음식을 만들 때, 갓난아기의 목욕물 온도가 적절한지 확인할 때</p>
+                    </div>
+                </div>
+                <div id="exp2" class="tab-pane">
+                    <div class="question">
+                        <span class="num font-coo">2.</span>
+                        <div class="col">
+                            같은 물체의 온도와 다른 물체의 온도를 각각 비교하고, 온도가 그렇게 나타난 까닭을 써 봅시다.
+                        </div>
+                    </div>
+                    <textarea id="textarea_026_01" class="form-control" title="입력"></textarea>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp2">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp2">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <p class="text-blue">같은 물체라도 온도가 다르게 측정되기도 하고, 다른 물체라도 온도가 같게 측정되기도 한다. 그 까닭은 물체의 온도는 물체가 놓인 장소, 햇빛의 양, 측정 시각 등에 따라 다르기 때문이다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 스스로 평가해요 -->
+<div id="modalSelf" class="modal modal-self modal-half">
+	<div class="modal-content">
+		<div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<strong class="self-check-title"><span class="text-hide">스스로</span> 평가해요</strong>
+			<p class="check-pencil font-mi">학습한 내용을 생각하며 색칠해 봅시다.</p>
+			<ul class="self-check-list">
+				<li class="row">
+					<p class="col">물체의 온도를 측정할 때 흥미와 호기심을 가지고 참여했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_026_01" value="self_026_01" id="self_026_01" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_026_01" value="self_026_02" id="self_026_02" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_026_01" value="self_026_03" id="self_026_03" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+				<li class="row">
+					<p class="col">물체의 상태나 쓰임새에 맞는 온도계를 선택해 물체의 온도를 정확하게 측정했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_026_04" value="self_026_04" id="self_026_04" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_026_04" value="self_026_05" id="self_026_05" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_026_04" value="self_026_06" id="self_026_06" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

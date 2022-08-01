@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page022/bg.jpg)}
+.lst-num>li+li{margin-top: 6px}

@@ -1,3 +1,8 @@
 @charset "utf-8";
 
-#wrap{background-image: url(../images/page032/bg00.jpg)}
+#wrap{background-image: url(../images/page032/bg.jpg)}
+.fwd.font-mi{font-size: 21px;line-height: 20px;}
+.fwd1{width: 296px;font-size: 17px !important;line-height: 28px !important;text-indent: 0.7em !important;}
+.fwd2{font-size: 14px !important;line-height: 22px !important;width: 272px;}
+.layer-wrp {position: absolute; left: 249px; top:408px;}
+#layerSubject{left: -249px;width: 350px}

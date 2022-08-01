@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page069/bg-0.jpg)} */
+.btn-dic1 .explanation.layer-limit {width: 229px !important}
+.dic-left .explanation:before {left: 25px}
+.top-content {align-items: flex-end; justify-content: space-between}
+.btn-subject {margin-bottom: 33px}
+.interaction{position: relative;margin: 0 -11px 0 -37px}
+.interaction img{max-width: none}
+.interaction>.font-ka{position: absolute;font-size: 16px;color: #fff;z-index: 10}
+.bubble-box{font-size: 20px;line-height: 18px}
+.order1 .bubble-box{width: 172px;height: 127px;background-image: url(../images/page069/bubble1.png);padding-top: 19px}
+.order2 .bubble-box{width: 192px;height: 127px;background-image: url(../images/page069/bubble2.png);padding-top: 19px}
+.order3 .bubble-box{width: 179px;height: 109px;background-image: url(../images/page069/bubble3.png);padding-top: 31px}
+.order4 .bubble-box{width: 159px;height: 92px;background-image: url(../images/page069/bubble4.png);padding: 21px 3px 0 0}
+
+.order-inter-content>div>*:not(.font-ka){position: absolute;animation: fadeIn 1s both}
+.order-inter-content>div:not(.active)>*:not(.font-ka){display: none}
+.order-inter-content .font-ka{position: absolute;font-size: 18px;color: #a6a6a6}
+.order-inter-content .active>.font-ka{color: #f2821a}
+.order-inter-content .bg{position: absolute;top: 0;left: 0;right: 0;bottom: 0;pointer-events: none;background-repeat: no-repeat;background-size: 100% auto}
+.order1 .bg{background-image: url(../images/page069/bg1.png)}
+.order2 .bg{background-image: url(../images/page069/bg2.png)}
+.order3 .bg{background-image: url(../images/page069/bg3.png)}
+.order4 .bg{background-image: url(../images/page069/bg4.png)}

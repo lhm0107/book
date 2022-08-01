@@ -1,13 +1,23 @@
 @charset "utf-8";
 
 #wrap{background-image: url(../images/page068/bg.jpg)}
-.word-bubble button {position: absolute}
-.bubble-box1{width: 109px;height: 73px;background-image: url(../images/page068/b1.png);padding-top: 16px}
-.bubble-box2{width: 122px;height: 95px;background-image: url(../images/page068/b2.png);padding-top: 16px}
-#interFadeIn>div {line-height: 18px; font-size: 20px}
 
-.para-wrp {padding-left: 155px}
-
-.interaction {position: relative}
+.sect-do-explore {background-color: rgba(255,255,255,.7); border-radius: 20px}
+.sect-do-content {position: relative; padding-bottom: 18px}
+.interaction,.dragdrop {position: relative}
 .text-circle {background: #6c7582;font-weight: 400}
 .interaction .text-circle {position: absolute}
+
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:197px;height:130px;background-image: url(../images/page068/bubble1.png); padding-bottom: 4px}
+#layer2 .bubble{width:135px;height:82.5px;background-image: url(../images/page068/bubble2.png);}
+
+.icon-ttakji {top:27px}
+.layer-ttakji{top:-90%;z-index: 110;}
+.ttakji-refresh{top:90px; right: 35px}
+.drag-fix{width: 140px}
+.drop-fix{position: absolute;width: 100px;height: 65px;top: 0;left: 0;display: flex;align-items: center;justify-content: center;background: url(../images/page068/drag-bg.png) no-repeat 0 0 /100% auto; background-color: #fff; border:2px solid #a8b6bd; border-radius: 10px; text-align: center;font-weight: 700;font-size: 15px;line-height: 20px;z-index: 100;}
+#layer0{width: 550px;}
+.drag-fix.ui-draggable-dragging{z-index: 110}
+.drop-fix.ui-droppable-disabled {background: #fff;}
+.explanation.layer-limit{width: 210px}

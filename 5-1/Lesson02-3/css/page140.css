@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.test-item {padding:0}
+.test-item>div {margin-left:-15px}
+.row {position: absolute; top:37px; left:0; width:102%}
+.row .col-6 {height:140px; padding-left:53px}
+.answer-x .answer-chk~span {color:#fff !important}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.layer-wrp{display: flex;justify-content: flex-end;margin-top: 30px}
+.btn-subject{margin-right: 40px}
+.slider-figcaption {padding:0 9px}
+.slider-figcaption .title{display: block;margin: 15px auto;line-height: 37px;width: 144px;background: url(../images/page103/t1.png) no-repeat 50% 0/auto 100%}
+.swiper-slide:nth-child(2) .title{width: 211px;background-image: url(../images/page103/t2.png)}
+.swiper-slide:nth-child(3) .title{width: 143px;background-image: url(../images/page103/t3.png)}
+.swiper-slide:nth-child(4) .title{width: 130px;background-image: url(../images/page103/t4.png)}
+.slider-wrap>i{position: absolute;background-repeat: no-repeat;background-size: 100% auto}
+.i1{width: 72px;height: 35px;left: 90px;top: 55px;background-image: url(../images/page103/i1.png)}
+.i2{width: 90px;height: 58px;right: 40px;top: 42px;background-image: url(../images/page103/i2.png)}
+.i3{width: 50px;height: 45px;left: -20px;top: 375px;background-image: url(../images/page103/i3.png)}
+.slider-wrap{padding-top: 55px}
+

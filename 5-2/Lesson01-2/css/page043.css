@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+/* #wrap{background-image: url(../images/page043/bg1.jpg)} */
+
 .col-wide{flex:0 0 438px;max-width: 438px;}
 .col-wide+.col.ml-auto{flex: 0 0 212px !important;max-width: 212px}
 .lh25{line-height: 25px;}
+
+.interaction {position: relative;}
+.text-dot {position: absolute; font-size: 13px;}
+
+.legend-img{position: absolute;top: 0;left: 0;display: none}
+.legend{position: absolute;top: 8px;right: 8px}
+.legend .box{width: 109px;padding: 5px 0px;background: #fff;border-radius: 5px;font-size: 12px;line-height: 19px; text-align: center;}
+[class^=icon-legend]{width: 38.5px;height: 10px;background: url(../images/page043/legend1.png) no-repeat 100% 100%/auto 100%;}
+.icon-legend-2{background-image: url(../images/page043/legend2.png)}
+.icon-legend-3{background-image: url(../images/page043/legend3.png)}
+.icon-legend-4{background-image: url(../images/page043/legend4.png)}
+.interaction .icon-btn-refresh{position: absolute;top: 100px;right: 12px;display: none}
+.show~.icon-btn-refresh{display: block}

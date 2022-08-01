@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page062/bg1.jpg)} */
+
+.content-top {display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between;}
+.word-bubble {margin-top:34px; margin-left:-5px}
+.word-bubble+.word-bubble {margin-top:4px; margin-left:-10px}
+.word-bubble .font-dt {font-size: 14px;}

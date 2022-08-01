@@ -17,7 +17,7 @@
 /* .bx .btn-dic{color:#F50067 !important}
 .bx .explanation{border-color:#f50068;} */
 .label{margin-right: 1px;background: #435e89;border-radius: 14px;line-height: 22px;}
-.label b{display: inline-block;vertical-align: middle;font-size: 17px;letter-spacing: 0;}
+.label b{display: inline-block;vertical-align: middle;font-size: 17px;letter-spacing: 0;margin-top: -2px}
 .bx .label{position: absolute;top: 9px;left: 10px;}
 .img-box{display: flex;justify-content: space-between;}
 .img-box li{position:relative}
@@ -29,8 +29,8 @@
 .img-box li:last-child .fwd2{left: 5px;}
 .img-box .fwd1{top: 84px;left: 50%;width: 100%;padding-left: 2px;text-align: center;transform: translateX(-50%);line-height: 1.633333;z-index: 10;}
 .img-box .fwd2{position: absolute;left: 1px;bottom: -24px;width: 100%;font-size: 14px;text-indent: 0;text-align: center;line-height: 1.571429;}
-.bx2 .float-right{font-size: 15px;line-height: 1.733333;}
-.verify-content{padding:17px 13px 12px 15px;}
+.bx2 .float-right{font-size: 15px}
+.verify-content{padding:34px 13px 12px 15px;}
 .text-q{padding-right:39px}
 .form-control.itx{width:96px}
 
@@ -40,4 +40,6 @@ table tr>*>.form-control:not(.style-default){margin: -10px -15px;padding: 5px 10
 
 .layer-side-chk .media-body [class*=icon-btn], .layer-side-chk .media-body .layer {right: -16px;}
 
-
+.table-round-wrp { border-style: solid;border-radius: 10px}
+.explanation {text-align: justify !important;}
+.dic4 .explanation.layer-limit {width: 206px;}

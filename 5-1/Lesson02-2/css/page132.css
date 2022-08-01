@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.table-round-wrp .tb tr>th.bg-org {background: #fcca88;}
+.word-bubble {margin: 10px -43px 0 -57px;}
+.fwd1 {color: #fff;}
+.fwd2 {text-align: center;font-size: 15px; line-height: 20px; text-indent: 0; width: 229px;}
+.q-01 table tr>*>.form-control {height: 46px; }
+.q-02 table tr th {height: 34px; padding: 6px 15px;}
+.q-02 textarea.form-control { min-height: 120px; width: 100%; margin:0; padding:0;}

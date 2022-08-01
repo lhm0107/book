@@ -1,0 +1,10 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page133/bg.jpg)}
+.btn-game-start{position: absolute;transform: scaleX(-1);top: 106px;right: 50px}
+.numbering{padding-top: 70px}
+.quest .question{width: 135px;height: 88px}
+.quest:nth-child(5) .question{height: 100px}
+.quest:nth-child(7) .question{width: 145px}
+.icon-btn-inter {position: absolute; right: 0}
+.quest .question {font-size: 12px; line-height: 18px; font-weight: 500}
+.quest .text-circle {background: #77535c}

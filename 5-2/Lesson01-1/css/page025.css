@@ -3,5 +3,6 @@
 #wrap{background-image: url(../images/page025/bg.jpg)}
 
 .para{text-indent:.9em}
-.para-first>*:first-child {margin-top: -3px;margin-bottom: 4px;}
 .para-first>*:last-child{width:260px}
+#layerSelfWrite .icon-btn-chk {bottom: 0;top: auto;}
+.para-title{margin-bottom: 0;border-bottom: 3px solid #e4b669;display: inline-block;vertical-align: top;padding-bottom: 2px;margin-bottom: 10px}

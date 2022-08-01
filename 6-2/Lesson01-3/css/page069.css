@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page069/bg1.jpg);} */
+
+table tr>*>.form-control {height: 40px;}
+.verify .q-label span {font-weight: 500}
+

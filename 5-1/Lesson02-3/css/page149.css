@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* #wrap {background-image: url(../images/page149/bg1.jpg)} */
+.label-case{display: inline-block;width: 47px;height: 25px;background: url(../images/page149/case.png) no-repeat 0 0/auto 100%;text-align: center;line-height: 25px;font-size: 15px;font-family: 'Katuri',sans-serif;color: #fff;font-weight: 700}
+#textarea_149_03, #textarea_149_04 {height: 110px;}
+
+

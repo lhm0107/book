@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.ttakji .col-auto{max-width: 274px}
+.ttakji .media-title{margin-bottom: 5px;line-height: 29px;}
+.dragdrop{display: inline-block;vertical-align: top;position: relative;margin-left: 22px; margin-top: 6px;}
+.dragdrop.dragdrop2{margin-left: 25px;}
+.dragdrop .box{position: absolute;width: 190px;background: #fff;border-radius: 10px;border: 2px dotted #96a9b3;left: 15px;bottom: 15px;font-size: 15px;padding: 0 10px 15px}
+.icon-ttakji{top: 5px;right: 5px}
+.drop-fix{height: 30px;border-radius: 5px;display: flex;align-items: flex-end}
+.media.line{align-items: flex-end;padding: 3px 0;border-bottom: 2px solid #d1d2d3}
+#textarea_027_01{height: 40px}
+.media-title .text-circle{vertical-align: middle}
+.dragdrop1 .layer-ttakji{right: auto;left: -87px}
+.dragdrop2 .icon-ttakji{right: 5px}
+.dragdrop2 .layer-ttakji{right: -66px}
+.drag-fix{width: 140px}
+.layer-ttakji{z-index: 30;}
+.layer-ttakji .drag-fix{margin: 0 5px}
+.ttakji-refresh{left: 180px;bottom: 155px}

@@ -7,16 +7,18 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
 <link rel="stylesheet" type="text/css" href="css/page012.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2">
+<div id="wrap">
     <div class="wrapper">
         <header class="ch-1-hd">
 			<h1 class="ch-1-title"><span class="sr-only">1</span>나라의 등장과 <br />발전</h1>
-            <button type="button" class="btn-icon btn-ch-idea" data-toggle="modal" data-target="#modalInteraction"><i class="icon-btn-q"></i>생각을 여는 질문</button>
+            <button type="button" class="btn-icon btn-ch-idea" data-toggle="modal" data-target="#modalInteraction">생각을 여는 질문</button>
 		</header>
         <div class="ch-1-text">
             <div class="ch-goal">
@@ -26,25 +28,25 @@
                     <button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset">다시 실행하기</button>
                 </strong>
                 <ul id="interFadeIn" class="ch-goal-list font-dt ch-goal-list-bul">
-                    <li data-audio="audio1">고조선 이후 여러 나라가 성장하는 모습을 설명할 수 있습니다.</li>
-                    <li data-audio="audio2">여러 나라의 대표적인 문화유산을 살펴보고 문화의 우수성을 <span class="text-nowrap">말할</span> 수 있습니다.</li>
+                    <li data-auto-audio="audio1">고조선 이후 여러 나라가 성장하는 모습을 설명할 수 있습니다.</li>
+                    <li data-auto-audio="audio2">여러 나라의 대표적인 문화유산을 살펴보고 문화의 우수성을 <span class="text-nowrap">말할</span> 수 있습니다.</li>
                 </ul>
                 <div class="ch-goal-audio">
-                    <audio id="audio1" src="media/page012/012_01.mp3" preload="none"></audio>
-                    <audio id="audio2" src="media/page012/012_02.mp3" preload="none"></audio>
+                    <audio id="audio1" src="media/sample.mp3" preload="none"></audio>
+                    <audio id="audio2" src="media/sample.mp3" preload="none"></audio>
                 </div>
             </div>
             <div class="think-title">
-                <strong class="text-hide sm">생각이 활짝</strong>
+                <strong class="text-hide">생각이 활짝</strong>
                 <p class="font-dt">
-                    시후는 아빠와 함께 경주에 았습니다. 여러 문화유산을 찾아 도장을 찍으며 여행하던 중, 나정이라는 곳에 도착했습니다.
+                    시후는 아빠와 함께 경주에 왔습니다. 여러 문화유산을 찾아 <br />도장을 찍으며 여행하던 중, 나정이라는 곳에 도착했습니다.
                 </p>
             </div>
         </div>
         <p class="ch-1-bubble font-mi" style="left: 292px;top: 616px;">아빠, <br />이곳은 어디예요? 여기는 <br />도장을 찍는 곳이 없네요?</p>
         <p class="ch-1-bubble font-mi" style="left: 231px;top: 758px;">이제 도장 찍는 <br />칸이 세 개 <br />남았네.</p>
         <!-- paging -->
-		<footer id="num" class="font-dt"><b>12</b><span>1</span>나라의 등장과 발전</footer>
+		<footer id="num" class="font-dt"><b>12</b><span>1</span>옛사람들의 삶과 문화</footer>
     </div>
 </div>
 
@@ -53,18 +55,76 @@
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
-            <h2 class="modal-title"><i class="icon-modal-inter"></i>생각을 여는 질문</h2>
+            <h2 class="modal-title"><i class="icon-modal-idea"></i>생각을 여는 질문</h2>
         </div>
         <div class="modal-body">
+            <p class="media-title mb0">
+                사다리 타기 놀이를 통해 시기별 삼국의 발전 과정에 해당하는 지도를 확인해 보세요.
+                <button type="button" title="다시 풀기" class="icon-btn-refresh ladder-refresh float-right" data-toggle="answer-refresh" data-target=".simple-ladder">다시 풀기</button>
+            </p>
+            <p class="fs18 fw700 mt5 mb10">* 친구들의 설명을 눌러 보세요.</p>
+            <div class="simple-ladder">
+                <div class="top">
+                    <input type="checkbox" class="ladder-check sr-only" id="checkbox_012_01" />
+                    <label for="checkbox_012_01" class="position-relative">
+                        <img src="images/page012/1.png" alt="" width="180" />
+                        <span class="char-name">민재</span>
+                        <p class="fwd font-mi" style="top:13px;left:8px">4세기에 백제의 근초고왕은<br/> 남해안까지 영토를 넓히고, 북쪽의<br/> 고구려를 공격했어.</p>
+                    </label>
+                    <input type="checkbox" class="ladder-check sr-only" id="checkbox_012_02" />
+                    <label for="checkbox_012_02" class="position-relative">
+                        <img src="images/page012/2.png" alt="" width="180" />
+                        <span class="char-name">민재</span>
+                        <p class="fwd font-mi" style="top:13px;left:17px">5세기에 고구려의 장수왕은<br/> 평양으로 수도를 옮기고 남쪽으로<br/> 영토를 더욱 확장했어.</p>
+                    </label>
+                    <input type="checkbox" class="ladder-check sr-only" id="checkbox_012_03" />
+                    <label for="checkbox_012_03" class="position-relative">
+                        <img src="images/page012/3.png" alt="" width="180" />
+                        <span class="char-name">민재</span>
+                        <p class="fwd font-mi" style="top:13px;left:15px">6세기에 신라의 진흥왕은 한강<br/> 유역을 차지하고, 대가야를<br/> 정복했어.</p>
+                    </label>
+                </div>
+                <div class="ladder">
+                    <div class="lodder-line">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="452" viewBox="0 0 452.75 239">
+                          <path class="path cls-1" d="M4,3V32.5l225,16V82H449.979V198l-221.75-31v39l-225,.5V236" transform="translate(-0.219)"/>
+                        </svg>
+                    </div>
+                    <div class="lodder-line">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="452" viewBox="0 0 457.75 236">
+                            <path class="path cls-2" d="M232.539,3.039V44.06L3.265,27.348v93.691H231.254v43.553l223.692,30.893v37.476" transform="translate(-0.219)"/>
+                        </svg>
 
+                    </div>
+                    <div class="lodder-line">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="452" viewBox="0 0 457.781 239">
+                            <path class="path cls-3" d="M454.963,3.032v79.33H232.015v42.95H3.268v82.867H232.015v27.79" transform="translate(-0.219)"/>
+                        </svg>
+                    </div>
+                    <img src="images/page012/ladder.png" alt="" width="460.5" />
+                </div>
+                <div class="bottom">
+                    <div class="lodder-result" data-result="1">
+                        <img src="images/page012/4.png" alt="" width="179" />
+                    </div>
+                    <div class="lodder-result" data-result="3">
+                        <img src="images/page012/5.png" alt="" width="179" />
+                    </div>
+                    <div class="lodder-result" data-result="2">
+                        <img src="images/page012/6.png" alt="" width="179" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
 <script type="text/javascript" src="js/interaction.js"></script>
+<script type="text/javascript" src="js/simple-ladder.js"></script>
 </body>
 </html>

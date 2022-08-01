@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page067/bg.jpg);}
+
+.col-wide {flex:0 0 290px; max-width:290px}
+.font-netmarble {font-size: 14px;}
+.font-dt {font-size: 13px; text-align: center; text-indent: 0;}
+.mid-content .font-dt {line-height: 1.75;}
+.bottom-content {height:290px}
+.bottom-content .font-dt {font-size: 12px; line-height: 18px;}

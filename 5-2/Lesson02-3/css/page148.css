@@ -1,0 +1,35 @@
+@charset "utf-8";
+[class*=arrange-label] {margin-right: 35px; width: 110px; padding: 15px 8px; z-index: 1}
+[class*=arrange-label]:before {display: none}
+.arrange-answer {display: block; line-height: 30px}
+[class^=line] {position: absolute}
+.arrange-answer:not(:last-child) {margin-bottom: 10px}
+.media {position: relative}
+.media1 .media-body {margin-top: -2px; margin-right: -15px}
+img {position: absolute}
+
+/* media2 */
+.arrange-test .media2 {margin-top: 20px; padding-top: 0px}
+.media2 .arrange-label {height: 88px; margin-right: 14px; margin-top: 82px}
+.media-box .media-body {position: relative}
+.media-box [class^=fwd] {width: 149px; text-indent: 0; line-height: 25px}
+.media-box .media-body img {position: relative}
+.media2 input {max-width: 65px !important}
+.media2 input.last {max-width: 70px !important}
+/* media3 */
+.arrange-test .media3 {margin-top: 30px; padding: 0px; padding-left: 25px}
+.media3 .arrange-label {height: 70px; margin-right: 14px; margin-top: 36px}
+.media3 [class^=fwd] {width: 110px}
+.media3 .fwd2 span {letter-spacing: 0.37em}
+.media3 .fwd2 {width: 112px}
+/* media4 */
+.arrange-test .media4 {margin-top: 37.5px; padding: 0px; padding-left: 25px}
+.media4 .media-body {margin-right: -6px; margin-top: 6px}
+.media4 input {max-width: 100px !important}
+/* img */
+.i1 {height: 49.5px; left: 53px; top: -7px}
+.i2 {left: 48.5px; top: 14px}
+.i3 {left: 28px; top: 120.5px}
+.line1 {height: 104px; left: 100%; top: -17px}
+.line2 {height: 82px; left: 100%; top: -7px}
+

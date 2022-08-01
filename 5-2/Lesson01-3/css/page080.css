@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page080/bg.jpg)}
+.para{text-indent: 1em;letter-spacing: -0.032em;}
+.text-step{font-size: 16px;line-height:26px;display: flex;}
+.badge-num-square{display:inline-flex; width: 22px;height: 22px;justify-content: center;align-items: center;color: #fff;background: #435e89;border-radius: 5px;flex:0 0 22px; margin-right: 10px;margin-top: 2px;}
+.bx-label dl{font-size: 15px; line-height: 25px;display: flex;}
+.bx-label dl dt{font-weight: 700;flex:0 0 65px}
+.list-title{position: relative;display: inline-block;margin-bottom:4px;}
+.list-title span{font-size: 14px;color:#133860;position: absolute;left:50%;top:50%;transform: translate(-50%, -50%);letter-spacing: -0.02em;width: 100%;text-align: center;font-weight: 700;}
+.bx-label .lst-type-num li+li{margin-top: 12px;}
+.cont-desc{font-size: 14px;}
+.lst-type-dash li{padding-left:0.893em;position: relative;line-height: 24px;}
+.lst-type-dash li+li{margin-top: 0;}
+.lst-type-dash li::before{content:"-";}
+.bx-label.v2{padding:14px 10px}
+#layer2{width: 513px}

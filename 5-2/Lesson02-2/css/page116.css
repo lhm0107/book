@@ -1,0 +1,14 @@
+@charset "utf-8";
+.content-top {height: 257px}
+.content-top .d-flex {height: 257px; flex-direction: column; justify-content: space-between}
+.img-tit {font-size: 15px; font-weight: 700}
+.img-tit span {font-weight: 500}
+.content-top .img-tit.right {line-height: 23px}
+.content-top .left-box {padding-left: 23px; padding-right: 51px}
+.content-top .left-box img {margin-left: 13px}
+.content-mid .img-tit {margin-top: 6px; font-size: 12px}
+.mid-2 {padding-left: 180px; margin-top: -10px}
+.content-bottom {padding-left: 180px; margin-top: 18px}
+.content-bottom .para {letter-spacing: -0.026em}
+.lst-type-num>li>.text-circle:first-child {width: 18px; margin-top: 4px; font-size: 15px; line-height: 18px; font-weight: 500}
+.verify-content li+li {margin-top: 12px}

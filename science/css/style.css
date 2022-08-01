@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* Layer */
+.layer .title, .ex-answer-title{display: block;margin-bottom: 7px;font-size: 16px;line-height: 20px;color: #ff7800}
+.layer-body>.wide{margin-right: -15px}
+.layer-body>ul li {font-weight:400}
+.open .layer{z-index:30}
+.layer-wrp-left .layer:not(.explanation){right: auto;left: 0}
+.layer-wrp-right .layer:not(.explanation){left: auto;right: 0}
+.layer-wrp-center .layer:not(.explanation){right: 50%;transform: translateX(50%)}
+.layer-wrp-btm .layer:not(.explanation){top: auto;bottom: 100%}
+.layer-wrp-top .layer:not(.explanation){bottom: auto;top: 100%}
+.subject-title{display: block;color: #003399;font-family: 'netmarble',sans-serif;font-size: 22px;line-height: 30px;padding-bottom: 12px;letter-spacing: 0}
+.layer-wedorang{width: 245px;background: #ff7800;color: #fff;border: 0}
+.layer-wedorang .layer-body{padding: 12px 24px 12px 12px}
+.layer-wedorang[data-toggle=layerClse]:before{width: 24px;height: 24px;background-image: url(../images/common/close_line.png);top: -6px;right: -6px;background-size:cover}
+.layer table{margin-top: 5px}
+.answer-msg{display:none;position:absolute;top:50%;left:50%;z-index:10000;width:241px;margin-left:-120px;padding:40px 0;border:4px solid #ff7800;border-radius:10px;background-color:#fff;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.answer-msg [data-toggle=layerClse]{top: 0;right: 0;background: none}
+.answer-msg:after{content:'';display:block;position:absolute;top:-4px;left:0;right:-4px;width:auto;height:50px;border-radius:10px 10px 0 0;background:url(../images/common/thick_clse.png) no-repeat 100% 0;background-size:50px}
+.answer-msg .txt{padding-top:48px;font-size: 17px;text-align:center;font-weight:700;font-family: 'KoPubDotum';background:url(../images/common/answer_chk.png) no-repeat 50% 0;background-size:35px 35px;color:#ff7800}
+[id^=layerSubject] .layer-body{padding: 25px}
+.layer-wrp-ox{position: absolute;width: 42px;height: 40px}
+.layer-wrp-ox.answered .btn-ox-start, .layer-wrp-ox:not(.wrong) [data-answer] + span:before{display: none}
+.layer-wrp-ox.answered .icon-btn-refresh{display: block}
+.layer-wrp-ox.wrong [data-answer] + span:before{width: 46px;height: 46px;border-radius: 6px;border-width: 3px}
+.layer-wrp-ox.answered .answer-ox{pointer-events: none}
+.layer-wrp-ox .layer, .layer-wrp-inter .layer, .layer-transparent{box-shadow: none;margin: 0;padding: 0;background: none;border: 0;right: auto;min-width: 0}
+.layer-wrp .bubble{display: flex;flex-direction: column;align-items: center;justify-content: center;font-family: 'SDMiSaeng',sans-serif;background-color: transparent;background-repeat: no-repeat;background-size: auto 100%;border: 0;padding: 0;text-align: center;line-height: 27px;font-size: 26px;}
+.layer-wrp-ox .icon-btn-refresh{position: absolute;right: 3px;bottom: 2px;display: none}
+.layer-wrp-inter{position: absolute}
+
+/* 붙임딱지 */
+.layer-ttakji{width: 668px;border-radius: 15px;border-color: #df8b60;background: #fffaf5}
+.layer-ttakji[data-toggle=layerClse]:before, .layer-ttakji .icon-layer-clse{width: 19px;height: 19px;background: url(../images/common/layer_orange_close.png) no-repeat 0 0/100% auto;top: 10px;right: 10px}
+.layer-ttakji .layer-body{position: relative;padding: 35px 40px}
+.layer-ttakji .layer-body>.label{position: absolute;font-size: 19px;line-height: 30px;border: 1px solid #e46a34;border-radius: 2em;background: #ff7031;padding: 0 10px;box-shadow: 2px 3px 0px 0px rgba(206, 206, 206, 0.6);left: 25px;top: -20px}
+.layer-ttakji .swiper-slide{padding: 3px}
+.layer-ttakji .drag-fix{cursor: pointer;font-family: 'KoPubDotum',sans-serif;font-size: 17px;text-align: center;font-weight: 700;line-height: 23px;display: flex;align-items: center;justify-content: center;background: #fff;border-radius: 5px;padding: 10px 0;box-shadow: 1px 1px 2px 1px rgba(56, 56, 56, .2)}
+.layer-ttakji .drag-fix:before{content: '';height: 46px}
+.layer-ttakji .drag-fix.dragging, .layer-ttakji .drag-fix.ui-draggable-disabled{color: #b2b2b2;cursor: default}
+.ttakji-refresh{position: absolute;display: none}
+.layer-ttakji .layer-body>.slider-wrap{margin-left: -40px;margin-right: -40px;padding-left: 40px;padding-right: 40px}
+.drag-fix.ui-draggable-disabled img, .drag-fix.dragging img{filter: grayscale(100%);opacity: .8}
+
+/* 써보기 */
+.layer-write{width: 668px;border-width: 4px;background: #ff7800;bgborder: 0;padding: 4px;border-radius: 0 0 6px 6px}
+.layer.layer-write:before{content: '';display: block;position: absolute;width: 100%;height: 62px;background: url(../images/common/layer-write.png) no-repeat 0 0/100% auto;right: auto;left: 0;bottom: 100%;top: auto;margin-bottom: -15px}
+.layer-write .layer-body{padding: 25px 20px 30px;border: 3px solid #c40053;border-radius: 6px;background: #fff;position: relative}
+.layer-write .icon-layer-clse{background: none;top: -27px;right: 16px;width: 30px;height: 30px}
+
+/* 단어 */
+.btn-dic{font-weight: 700;font-size: inherit;white-space: nowrap;color: #ff7800 !important;cursor: pointer}
+.explanation-wrp{position:relative;z-index:9;text-indent:0}
+.explanation-wrp.on{z-index:10}
+.explanation{min-width: 0;right: 50%;width: auto;margin: 8px 0;padding: 8px;-webkit-transform: translate3d(50%,0,0);transform: translate3d(50%,0,0);line-height: 1.25;font-size: 16px;font-weight: 400;color: #010101;background:#fff;font-family: 'KoPubDotum',sans-serif }
+.explanation:before{content:"";position:absolute;margin-right:-10px;top:auto;bottom:100%;right:50%;width:19px;height:8px;margin-bottom:1px;background:url(../images/common/tri.png) no-repeat;background-size:100% auto;cursor:default}
+.dic-left .explanation{right:auto;left:0;-webkit-transform:none;transform:none}
+.dic-left .explanation:before{right:auto;left:15px}
+.dic-right .explanation{left: auto;right: -10px;-webkit-transform:none;transform:none}
+.dic-right .explanation:before{right:25px}
+.dic-up .explanation{top: auto;bottom: 100%}
+.dic-up .explanation:before{bottom: auto;top: 100%;transform: scaleY(-1);}
+.explanation.layer-limit{width:230px;white-space:normal}
+
+/* 라벨 */
+.label{display: inline-block;vertical-align: middle;font-family: 'netmarble',sans-serif;color: #fff;line-height: 20px;border-radius: 10px;background: #865436;letter-spacing: -.05em;font-size: 14px;padding: 0 6px;font-weight: 700;text-align: center}
+.label-way{color: #133860;background: #e7ebee;padding: 0 8px;margin-bottom: 5px}
+.label-data{background: #7d4698;padding: 1px 6px}
+.label-data>b{font-size: 17px;color: #fff43f;margin-left: 1px}
+.label-ex{background: #7b6faa}
+
+/* 박스 */
+.bx-ex{border-color: #7b6faa;padding: 20px 15px 15px}
+.bx-label{border-color: #d7dee2;padding: 20px 15px 15px}
+.bx-label>.label, .bx-ex>.label-ex{position: absolute;left: 15px;top: -10px}
+
+/*-------------------
+    문항
+--------------------*/
+
+.tx-a .font-nanum:not(:first-child){margin-left: 4px}
+.answersheet .checkbox{display: block;width: 21px;height: 21px;background: url(../images/common/answer_chk_off.png) no-repeat 0 0/21px auto}
+.answersheet input:checked~.checkbox{background-image: url(../images/common/answer_chk_on.png)}
+.box-test{border: 2px solid #95a9b3;border-radius: 8px;padding: 18px}
+.help-text{color: #ff7800;font-size: 17px}
+.tx-a .ftx{vertical-align: middle;display: inline-block;margin-top: -2px}
+
+.answer-wrp .unit{position: absolute;top: 0;right: 0;bottom: 0;line-height: 28px;padding: 0 5px;font-weight: 400}
+.tx-a.circle{position: absolute;border: 2px solid #f00;border-radius: 100%}
+
+/* ox */
+.q-label-wrp:not(.bg-none):before{content: '';position: absolute;left: 50%;border-left:  2px solid #a0aeb5;height: 12px;top: 50%;margin: -6px 0 0 -1px}
+.q-label{display: inline-block;vertical-align: middle;line-height: 25px}
+.q-label [class^=icon-answer]{position: relative}
+.icon-answer-o, .icon-answer-x{width: 25px;height: 24px;overflow: visible;background-size: auto 85%}
+.icon-answer-o{background-image: url(../images/common/answer_o.png);}
+.icon-answer-x{background-image: url(../images/common/answer_x.png)}
+input:checked+.icon-answer-o{background-image: url(../images/common/answer_o_chk.png)}
+input:checked+.icon-answer-x{background-image: url(../images/common/answer_x_chk.png)}
+.icon-answerb-o, .icon-answerb-x{height: 67px;overflow: visible;background-size: auto 100%}
+.icon-answerb-o{width: 67px;background-image: url(../images/common/answerb_o.png);}
+.icon-answerb-x{width: 67px;background-image: url(../images/common/answerb_x.png)}
+input:checked+.icon-answerb-o{background-image: url(../images/common/answerb_o_chk.png)}
+input:checked+.icon-answerb-x{background-image: url(../images/common/answerb_x_chk.png)}
+.answer-ox{font-size: 0}
+.answer-ox [class*=icon]{width: 49px;height: 52px;background: url(../images/common/answer-ox-o.png) no-repeat 0 0/100% auto;margin: 0 1px}
+.answer-ox .icon-x{background-image: url(../images/common/answer-ox-x.png)}
+.answer-ox input:checked+.icon-o{background-image: url(../images/common/answer-ox-o_on.png)}
+.answer-ox input:checked+.icon-x{background-image: url(../images/common/answer-ox-x_on.png)}
+.answered [data-answe]:not(:checked)+.icon-o{background-image: url(../images/common/answer-ox-o_wrong.png)}
+.answered [data-answer]:not(:checked)+.icon-x{background-image: url(../images/common/answer-ox-x_wrong.png)}
+
+/* 캐릭터 말풍선 */
+.test-bubble{display: block;position: relative;letter-spacing: -.025em}
+.test-bubble .font-mi{position: absolute;left: 0;right: 0;display: flex;align-items: center;justify-content: center;text-align: center}
+.char-name{position: absolute;line-height: 22px;color: #fff;background: #8f6f75;font-family: 'netmarble',sans-serif;white-space: nowrap;font-size: 13px;padding: 0 4px}
+.answered .test-bubble .char-name, .answered .test-bubble .text-white{color: #fff !important}
+
+/* 줄긋기 */
+.q-line,.q-line-btn{position:relative}
+.q-line-btn{cursor: pointer;font-size: 15px;line-height: 24px}
+.q-line-btn .box{height: 100%;padding: 10px;border: 1px solid #6e7374;border-radius: 6px}
+.q-line-btn button{display:block; position: absolute;top: 100%;left: 50%;width: 6px;height: 6px;margin: 10px -3px;background: #95a9b3;border-radius: 50%;text-indent: -999em;color: rgba(0,0,0,0)}
+.q-line-btn.top button{top: auto;bottom: 100%}
+.q-line-btn.rt button,.q-line-btn.lt button{top: 50%;left: 100%;margin: -3px 10px}
+.q-line-btn.lt button{left: auto;right: 100%}
+.canvas{display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 5;pointer-events: none}
+.no-touch{-ms-user-select: none;-webkit-touch-callout: none;-webkit-user-select: none;user-select: none}
+.line-start button, .line-start-m button{background: #0042ff !important}
+.icon-btn-refresh.refresh-line{ top: 35px;right: 0}
+.q-line .text-circle{background: #7e6753}
+.q-line ul.row{justify-content: space-between;align-items: stretch}
+.answered .q-line-btn{pointer-events: none}
+.q-line.row{justify-content: space-between}
+.q-line.row .q-line-btn+.q-line-btn{margin-top: 10px}
+.q-line-btn.d-flex{align-items: center}
+.q-line-box{display: flex;align-items: center;border-radius: 8px;border: 2px solid #95a9b3;width: 220px;padding: 15px}
+
+/* 펜 쓰기 */
+.icon-btn-draw{background-image:url(../images/common/ico_btn_draw.png);vertical-align:top}
+.open>.icon-btn-draw{background-image:url(../images/common/ico_btn_draw_on.png)}
+.draw{position: absolute;left: 0;top: 0;z-index: 20}
+.layer-draw .draw{position: static;margin-left: -10px;vertical-align: top;border-bottom: 1px solid #ff5f50}
+.layer-draw{top: auto;bottom: 100%;margin: 5px 0 !important;width: 524px;padding: 0 30px 0 10px;border-radius: 10px}
+.layer-draw-small{width: auto;min-width: 0;padding: 0 20px;border-radius: 10px;white-space: nowrap}
+.draw+.draw-option{margin-right: -20px}
+.btn-draw-wrp{position: absolute;top: 34px;right: 0;left: auto}
+.draw-option{display: -ms-flexbox;display: flex;-ms-flex-pack: justify;justify-content: space-between;-ms-flex-align: center;align-items: center;height: 54px;font-size: 0}
+.draw-option .caret{border-bottom-color: #f45100;vertical-align:top}
+.colorchart button{display:inline-block;position:relative;width: 25px;height: 25px;margin: 0 4px;border-radius:50%;font-size:0;background-color: currentColor}
+.colorchart button:after{content: '';position: absolute;top: -5px;left: -5px;width: 35px;height: 35px;border: 2px solid currentColor;border-radius: 100%;display: none}
+.colorchart .color02{color:#ff0000}
+.colorchart .color03{color:#0000ff}
+.colorchart .color04{color:#fdce54}
+.colorchart .color05{color:#000000}
+.linewidth button{display:inline-block;position:relative;width: 39px;height: 39px;margin:0 4px;font-size:0;background-image:url(../images/common/width1.png);background-size:100% auto}
+.linewidth button:after{content:'';position:absolute;top: -5px;left: -5px;border: 2px solid #fdce54;border-radius: 8px;border:2px solid #ff7800;width: 39px;height: 39px;margin: 4px;display: none}
+.linewidth .line2{background-image:url(../images/common/width2.png)}
+.linewidth .line3{background-image:url(../images/common/width3.png)}
+.linewidth .line4{background-image:url(../images/common/width4.png)}
+.colorchart .on:after, .linewidth .on:after{display: block}
+
+.draw-option .icon-eraser.on{background-image:url(../images/common/icon_pen.png)}
+.icon-eraser{width: 29px;height: 33px;background-image:url(../images/common/icon_eraser.png)}
+.icon-del{width: 29px;height: 30px;background-image:url(../images/common/icon_del.png)}
+.icon-pen{width:29px;height:33px;background-image:url(../images/common/icon_pen.png)}
+
+/* 단원마무리 */
+.page-final{background-color: #eaf5f7}
+.page-final.page-odd .wrapper{padding-top: 40px}
+.page-final-title{width: 260px;height: 121px;background: url(../images/common/final_title.png) no-repeat 0 0/100% auto;margin: -50px 12px 10px -50px;position: relative}
+.btn-mindmap{width: 149px;height: 42px;margin-top: 5px;background: url(../images/common/btn-mindmap.png) no-repeat 0 0/100% auto;font-size: 15px;color: #fff;text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);text-align: left;line-height: 33px;padding: 8px 0 0 35px}
+.btn-mindmap:hover{background-image: url(../images/common/btn-mindmap_on.png)}
+.final-book{display: -ms-flexbox;display: flex;height: 100%;-ms-flex-direction: column;flex-direction: column;font-size: 17px;line-height: 30px}
+.test-item{position: relative;padding: 0 56px 0 25px;font-family: 'KoPubDotum',sans-serif}
+.test-item .numbering{margin-left: -25px;position: relative}
+.final-content{display: -ms-flexbox;display: flex;-ms-flex-direction: column;flex-direction: column;-ms-flex: 1;flex: 1;-ms-flex-pack: justify;justify-content: space-between;font-size: 16px}
+.final-content .media-title{line-height: 32px;font-size: 17px;margin-bottom: 15px}
+.final-content .numbering>.num{font-size: 23px;width: 30px;margin: 0}
+.final-content .text-circle{background: #8f6f75;font-size: 13px;display: inline-block;vertical-align: middle}
+.pager{position: relative;color: #752435;font-size: 11px;display: inline-flex;vertical-align: top;align-items: center;line-height: 20px;padding: 0 5px;background: #fff;border-radius: 20px;border: 1px solid #752435;margin-left: 40px;margin-top: 3px}
+.pager>span{font-size: 13px;font-weight: 700}
+.pager:before{content: '';position: absolute;width: 34px;height: 18px;background: url(../images/common/pager.png) no-repeat 0 0/100% auto;right: 100%;top: 3px}
+.first-pager{display: flex;flex-direction: column;align-items: flex-end;padding-top: 4px}
+.first-pager .text{width: 130px;height: 30px;line-height: 22px;background: url(../images/common/first-pager.png) no-repeat 0 0/100% auto;text-align: center;font-size: 11px;color: #752435;font-weight: 700}
+
+.mark-char{position: absolute}
+.mark-char, .mark-char:after{width: 80px;height: 80px;border-width: 4px}
+
+.test-item .tx-a{display: flex;line-height: 20px;font-weight: 700}
+.test-item .font-mi{font-size: 20px;line-height: 18px;text-align: center;white-space: nowrap}
+.test-item .lst-type-num-circle>li{width: 100%;padding-left: 28px;font-size: 17px}
+.test-item .lst-type-num-circle>li+li{margin-top: 15px}
+.final-content .icon-btn-refresh{position: absolute;top: 35px;right: 0}
+
+/* 인터랙션 */
+.scratch{overflow: hidden;position: relative;-webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none}
+.scratch:not(.done)>*:not(canvas){visibility: hidden}
+.scratch:not(.done):after{content: '';position: absolute;width: 30px;height: 32px;background: url(../images/common/scratch.png) no-repeat 0 0/auto 100%;top: 50%;left: 50%;transform: translate(-50%,-50%);pointer-events: none}
+.scratch>canvas{position: absolute;top: 0;left: 0}
+.scratch>img[src="transparent"]{display: none !important}

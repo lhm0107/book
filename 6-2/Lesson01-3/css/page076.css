@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.nav-tab{width: 77px;margin-right: -6px;z-index: 1;position: relative}
+
+.nav-tab button{width: 77px;line-height: 42px;font-size: 16px;color: #9ca3ac;font-family: 'Katuri',serif;padding-right: 22px;background: url(../images/page076/tab_off.png) no-repeat 0 0/100% auto;margin-bottom: 10px}
+.nav-tab .active{background-image: url(../images/page076/tab_on.png);color: #fff}
+
+.tab-pane .icon-hand{position: absolute;top: 0;left: 100%}
+.tab-pane p{text-align: center;font-size: 15px;font-weight: 700;margin-top: 5px}
+.en{display: none}
+.hide+.en{display: block}
+.tab-pane .icon-hand.re{background-position: 50% 50%}

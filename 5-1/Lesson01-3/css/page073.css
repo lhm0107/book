@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page073/bg.jpg)}
+.modal-btns li:nth-child(1) {margin-top: 7.5px}
+.modal-btns li:nth-child(2) {margin-top: 87.5px}
+.modal-btns li:nth-child(3) {margin-top: 18.5px}
+[class^=fwd] {text-indent: 0}
+.fwd1 {font-size: 16px; text-align: center; color: #fff}
+.fwd2 {font-size: 12px;line-height: 12px; font-weight: 700; color: #f50068}
+.fwd3 {font-size: 9px; font-weight: 700}
+.inform {position: absolute; left: 29px; bottom: 190px; width: 118px; font-size: 10.5px; line-height: 17.5px}
+.interaction .layer-wrp button {margin-left: 187px}
+.legend{position: absolute;bottom: 24px;left: 18px}
+.legend .box{width: 115px;background: #fff;border: 1px solid #595656;padding: 10px;font-size: 15px;line-height: 18px}
+[class^=icon-legend]{width: 31px;height: 17px;background: url(../images/page072/legend1.png) no-repeat 0 0/100% auto;vertical-align: top}
+.icon-legend-2{background-image: url(../images/page072/legend2.png)}
+.icon-legend-3{background-image: url(../images/page072/legend3.png)}
+.icon-legend-4{background-image: url(../images/page072/legend5.png)}
+.icon-legend-5{background-image: url(../images/page072/legend4.png)}
+.legend-img{position: absolute;top: 0;left: 0;width: 630px;display: none}
+#img2 {width:585px}
+.interaction .icon-btn-refresh{position: absolute;top: 12px;right: 12px;display: none}
+.show~.icon-btn-refresh{display: block}
+.interaction{position: relative;display: inline-block;vertical-align: top;text-align: left;margin-bottom: 20px}
+.diary{width: 660px;height: 406px;background: url(../images/page073/note.png) no-repeat 0 0/auto 100%;padding: 35px 34px 0 50px}
+.diary .para{line-height: 35px}
+.diary .para:nth-of-type(1){margin-top: 15px}

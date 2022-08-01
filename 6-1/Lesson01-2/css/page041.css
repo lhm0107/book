@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.top-content {justify-content: space-between}
+.fwd1 {font-size: 16px}
+.fwd2 {width: 180px; font-size: 14px; line-height: 22px}
+#layer2 {margin-right: -35px}
+.sect-do-activity .text-mark {font-weight: 500}
+.sect-do-activity .form-control {width: 462px; height: 85px; margin-left: 4px}
+.sect-do-activity .icon-pencil {margin-right: 12px !important}
+.verify .q-label span {font-weight: 500}
+.btn-dic1 .explanation.layer-limit {width: 229px}
+.btn-dic2 .explanation.layer-limit {width: 234px}
+.icon-btn-pencil {position: absolute; right: -35px; top: 0}
+.sect-do-activity .layer {right: -35px}
+.verify .lst-type-num li:last-child .q-label-wrp::before{display: none;}
+.drag-fix {background: #fff; cursor: pointer;box-shadow: 1px 1px 2px .25px rgba(56, 56, 56, 0.2);border-radius: 6px;overflow: hidden}
+.drop-area .col-auto div {width: 200px; height: 200px}
+.bx.drag-area{padding-left: 0;padding-right: 0;margin: 15px 0 30px}
+.drag-fix img{width: 130px;max-width: none}
+.drop-type-box:before {border-radius: 0;}
+.drop-area .col-auto+.col-auto{margin-left: -1px}
+.drop-area .row{margin-bottom: -1px}
+#drawHelper{right: 0}
+.sect{margin-top: 25px}
+[class*=puzzle]{width: 128px;height: 128px;background-repeat: no-repeat;background-size: 100% auto}
+.puzzle1{background-image: url(../images/page041/puzzle1.png)}
+.puzzle2{background-image: url(../images/page041/puzzle2.png)}
+.puzzle3{background-image: url(../images/page041/puzzle3.png)}
+.puzzle4{background-image: url(../images/page041/puzzle4.png)}
+.dragging .puzzle1, .ui-draggable-disabled .puzzle1{background-image: url(../images/page041/puzzle1_off.png)}
+.dragging .puzzle2, .ui-draggable-disabled .puzzle2{background-image: url(../images/page041/puzzle2_off.png)}
+.dragging .puzzle3, .ui-draggable-disabled .puzzle3{background-image: url(../images/page041/puzzle3_off.png)}
+.dragging .puzzle4, .ui-draggable-disabled .puzzle4{background-image: url(../images/page041/puzzle4_off.png)}
+.painting-area{position: relative}
+.tx-a.hidden{position: absolute;top: 0;left: 0;pointer-events: none;margin: 0}

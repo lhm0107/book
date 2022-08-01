@@ -7,41 +7,96 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
 <link rel="stylesheet" type="text/css" href="css/page016.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2">
+<div id="wrap">
 	<div class="wrapper">
 		<header class="curiosity-hd row">
 			<div class="col-auto">
             	<h1 class="curiosity-label text-hide">궁금해요</h1>
-				<h2 class="curiosity-title">고조선의 <br />건국 이야기로 <br />무엇을 <br />알 수 있나요?</h2>
+				<h2 class="curiosity-title font-dt">고조선의 <br />건국 이야기로 <br />무엇을 <br />알 수 있나요?</h2>                
 			</div>
 			<div class="col">
-				<div class="para">
+				<div class="para font-dt">
 					고려 후기 일연 스님이 쓴 역사책인 『삼국유사』에는 고조선의 건국 <span class="text-nowrap">이야기가</span> <span class="btn-dic">건국 신화</span>의 형태로 실려 전해 내려오고 있다. 건국 신화를 보면 <span class="text-nowrap">그 당시의</span> 모습을 짐작할 수 있다. 다음 고조선의 건국 이야기를 살펴보자.
 				</div>
+                <button type="button" class="btn-subject mt15" data-toggle="modal" data-target="#modalVideo"><i class="icon-btn-hvideo"></i><span>고조선의<br /> 건국이야기</span></button>
 			</div>
         </header>
 		<div class="bottom-content">
-            <div class="word-bubble">
-                <p class="fwd1 font-mi" style="top: 138px;left: 37px">조선 시대의 역사책인 <br />『동국통감』에 따르면, 기원전 <br />2333년에 단군왕검이 고조선을 <br />건국하였다고 해.</p>
+            <div class="word-bubble layer-wrp layer-wrp-btm">
+                <button type="button" class="icon-btn-video position-absolute" data-toggle="modal" data-target="#modalVideo2" style="left: 0px; top:106px">비디오</button>
+                <p class="fwd1 font-mi" style="top: 138px;left: 37px">조선 시대의 역사책인 <br />『동국통감』에 따르면, 기원전 <br />2333년에 <span class="btn-dic">단군왕검</span>이 고조선을 <br />건국하였다고 해.</p>
 				<span class="font-coo" style="top: 10px;left: 303px;">1</span>
                 <p class="fwd2" style="top: 7px;left: 329px;">옛날에 환인의 아들 환웅이 인간 세상에 관심을 두었다. 환인이 아들의 뜻을 알고 태백산 지역을 내려다보니 인간 세상을 널리 이롭게 할 만하<span class="text-nowrap">였다.</span></p>
 				<span class="font-coo" style="top: 623px;left: 302px;">2</span>
-				<p class="fwd3" style="top: 551px;left: 328px">환웅은 무리 삼천 명을 이끌고 태백산 꼭대기인 신단수에 내려와 그곳을 신시라고 불렀다. 환웅은 바람, 비, 구름을 다스리는 신하를 거느리고 인간 세상을 다스렸다.</p>
+				<p class="fwd3" style="top: 555px;left: 328px">환웅은 무리 삼천 명을 이끌고 태백산 꼭대기인 신단수에 내려와 그곳을 신시라고 불렀다. 환웅은 바람, 비, 구름을 다스리는 신하를 거느리고 인간 세상을 다스렸다.</p>
             </div>
+            <button type="button" class="btn-subject position-absolute" data-toggle="layer" data-target="#layerSubject" style="left: 0px; top:569px">
+            <i class="icon-btn-deep"></i><span class="text-nowrap">『동국통감』</span></button>
+            <div id="layerSubject" class="layer layer-full" data-content_index="content_cls_ref" data-toggle="layerClse" style="top: 403px">
+                <div class="layer-body">
+                    <strong class="subject-title">『동국통감』</strong>
+                    <p>조선 전기에 서거정 등이 왕의 명령을 받아 고대부터 고려 말까지의 역사를 기록하여 편찬한 역사책이다. 고조선의 건국 연대를 기원전 2333년이라고 한 것은 『동국통감』의 해석을 따른 것이다.</p>
+                </div>
+            </div>    
         </div>
+        
 		
 		<!-- paging -->
-		<footer id="num" class="font-dt"><b>16</b><span>1</span>나라의 등장과 발전</footer>
+		<footer id="num" class="font-dt"><b>16</b><span>1</span>옛사람들의 삶과 문화</footer>
+	</div>
+</div>
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_2_16_1a.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/5_2_16_1a.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
 	</div>
 </div>
 
+<div id="modalVideo2" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/DT_5-1-1_mv19.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/DT_5-1-1_mv19.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
 </body>
 </html>

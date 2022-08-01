@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.ohyes-title{margin-bottom: 15px}
+#tab1 .inner{width: 400px;margin: 0 auto}
+.inner .font-dt{font-size: 14px;line-height: 20px;text-indent: 1em;padding: 20px 0 25px;text-align: justify;}
+.ohyes-content{padding: 0 30px 0 40px}
+.inner .font-ka{position: absolute;font-size: 17px;color: #fff;white-space: nowrap}
+.inner>.position-relative{display: inline-block;vertical-align: top}
+.nav-tabs>button{width: 175px}
+.tb td:first-child{border-left: 0}
+.icon-btn-pencil{position: absolute;top: 0;right: 0}
+#layerSelfWrite{margin-top: -80px}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page079/bg.jpg)}
+
+.numbering{padding-top: 84px}
+.btn-game-start{position: absolute;transform: scaleX(-1);top: -20px;right: 95px}
+.bx{width: 488px; margin:11px 0; padding:10px 15px; background:#fff;}
+
+.clue+.clue {margin-top:5px}
+.clue .question{font-size: 12px; line-height: 18px; font-weight: 500}
+.clue .text-circle {background: #865436; vertical-align: middle;}
+.form-control.itx {width: 80px;}
+
+.code-area {margin-top:16px}
+.tb-label {width:42.5px; height:25.5px; background: url(../images/page079/tb-label1.png) no-repeat 0 0 / 100% auto; padding-left:5px; color: #fff; font-size:15px; font-weight: 400;}
+.tb-label:last-child {background-image: url(../images/page079/tb-label2.png); margin-top:13px }
+.code-area .tb tr>* {padding:5px; font-size: 12px; font-weight: 400;}
+
+.bx.w-100 input {display: inline-block; width: 260px;}
+
+.w20 {display: inline-block; width: 20px;}

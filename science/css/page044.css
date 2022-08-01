@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page044/bg.jpg)}
+.arrange-box-1{width: 557px;margin-left: 40px}
+.arrange-box-1 .tit{width: 61px;background-image: url(../images/page044/tit1.png)}
+.img-wrp{width: 480px;padding: 0 17px 5px;justify-content: space-between;margin-top: 10px;text-align: center;font-size: 15px}
+.img-wrp:before{content: '';position: absolute;left: 0;bottom: 0;right: 0;height: 48px;background: #e6e6e7;border-radius: 2em}
+.arrange-box-2 .tit{width: 137px;background-image: url(../images/page044/tit2.png)}
+.table-box{margin: 10px 0 0 -1px;font-size: 15px;line-height: 20px;border-bottom: 2px solid #a6bbc6}
+.table-box>.row>.col{margin-left: 1px}
+.row-hd .col{display: flex;align-items: center;justify-content: center;height: 45px;color: #fff;background: #a6bbc6;border-radius: 16px 16px 0 0}
+#text_044_03{width: 150px}
+.row-ct .col{padding: 8px 0;text-align: center}
+.row-ct .col+.col:before{content: '';position: absolute;top: 0;bottom: 0;right: 100%;border-left: 1px dashed #a6bbc6}
+.row-ct .txt{display: flex;height: 40px;align-items: center;width: 100%;justify-content: center;margin-top: 7px}
+.arrange-box-2 .drop-ttakji{width: 88px;height: 88px}

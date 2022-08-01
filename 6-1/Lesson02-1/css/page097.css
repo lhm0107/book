@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page097/bg.jpg)}
+
+.note-wrp {position: relative;}
+.sect-do-content .note-wrp {padding-left:16px; padding-right:4px;}
+.fwd {text-indent: 0;}
+.table-round-wrp {position: absolute; width:489px; border-radius: 10px;}
+.tb tr>* {position: relative; height:30px; padding-top:0; padding-bottom:0; font-size: 15px; }
+.bg-sky {background: #dcebf8 !important;}
+.line span {position: absolute; font-size: 12px;}
+.line::after {content: ""; position: absolute; top:15px;left:1px; width:100%; height:1px; border-bottom:2px dotted #a8b2b7; transform: rotate(15deg);}
+.star::after {content: ""; position: absolute; top:7px;left:12px; width:33.5px; height:16px; background: url(../images/page097/star.png) no-repeat 50% 50% / 100% auto;}
+.verify-content {padding-top:16px}
+
+#layer1 {width: 500px;}
+/* .layer-write {width: 585px;} */
+
+#modalWrite .fwd {font-size: 17px;}
+#modalWrite .table-round-wrp{position: static;width: 100%;margin: 5px 0}
+.note{width: 658px;height: 836px;background: url(../images/page097/note.png) no-repeat 0 0/auto 100%;padding: 39px 32px 0 38px;float: right}
+.input-group>img{margin: -8px 10px 0 0}
+.input-group .form-control{max-width: 130px;margin: 0 8px}
+#modalWrite td{height: 50px;padding: 0 8px}
+#modalWrite td .form-control{width: 100%;height: 34px;border: 1px solid #a8b6bd;border-radius: 3px;margin: 0}

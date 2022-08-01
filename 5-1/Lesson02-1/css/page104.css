@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.sect-do-content{padding-right: 0}
+.box{border-radius: 15px;background: #e7f4f3;font-size: 16px;padding: 10px 20px;margin: 10px 0 0}
+.declaration{justify-content: space-between;padding-top: 10px}
+.declaration>li{margin-top: 20px;line-height: 23px;text-align: center;color: #535353}
+.declaration img{height: 162px}
+.inlinebox{display: inline-block;vertical-align: top;position: relative;margin-bottom: 30px}
+.inlinebox .font-netmarble{position: absolute;width: 82px;height: 29px;line-height: 29px;left: 50%;bottom: -19px;margin-left: -41px;background: #e4e4e4;border-radius: 10px;font-size: 16px;color: #191919}
+.declaration+.text-right{font-size: 16px;margin-top: 30px}
+.inform{position: absolute;bottom: 0;left: 65px;width:140px}

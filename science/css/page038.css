@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page038/bg.jpg)}
+.inter{position: absolute;left: -3px;top: 648px}
+.inter .icon-hand{position: absolute;left: 100%;bottom: -4px;margin-left: 35px}
+.figcaption{letter-spacing: -.025em}
+.inter{width: 427px;height: 185px}
+.inner img{display: block;animation: scale 1s both;transform-origin: 427px 166px}
+.inner .figcaption{animation: fadeIn 1s 1s both}
+.inner, .inter.active .icon-hand{display: none}
+.inter.active .inner{display: block}
+.icon-re{margin: -4px 0 0 4px}
+
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

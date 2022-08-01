@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page019.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+        <div class="semester-num clearfix">
+            <div class="num"><img src="images/page019/num.png" height="334" alt="2" /></div>
+            <div class="semester-ch" style="left: 314.5px; top: 254.5px;"><img src="images/page019/pic.png" width="116" alt="" /></div>
+        </div>
+
+        <h1 class="semester-title" style="right: 15px;top: 378px;"><b class="sr-only">2</b> 온도와 열</h1>
+        <button type="button" class="btn-img text-hide btn-unit position-absolute" data-toggle="modal" data-target="#modalVideo" style="left: 379px; top: 465px;">이 단원에서는</button>
+
+        <strong class="nav-unit-title" style="left: 250px; top: 561px;">이 단원을 배우며 해결해 봐요</strong>
+
+        <ol class="nav-unit" style="left: 222px; top: 624px;">
+            <li><a onclick="parent.GO_PAGE_LOAD(14);"><span>1</span> 온도를 정확하게 측정하는 까닭은 무엇일까요<i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(18);"><span>2</span> 온도계는 어떻게 사용할까요<i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(22);"><span>3</span> 온도가 다른 두 물체가 접촉하면 두 물체의 온도는 어떻게 변할까요 <i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(25);"><span>4</span> 고체에서 열은 어떻게 이동할까요<i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(28);"><span>5</span> 고체 물질의 종류에 따라 열이 이동하는 빠르기는 어떻게 다를까요<i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(28);"><span>6</span> 액체에서 열은 어떻게 이동할까요<i class="icon-link"></i></a></li>
+            <li><a onclick="parent.GO_PAGE_LOAD(28);"><span>7</span> 기체에서 열은 어떻게 이동할까요<i class="icon-link"></i></a></li>
+        </ol>
+
+        <button type="button" class="btn-img text-hide btn-dictionary" data-toggle="modal" data-target="#modalDic">용어 사전</button>
+        <div id="num">19</div>        
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 용어 사전 -->
+<div id="modalDic" class="modal modal-dic">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-header">
+			<h2 class="modal-title"><i class="icon-modal-dic"></i>용어 사전</h2>
+		</div>
+        <div class="modal-body">
+    		<div class="dic-sort row align-items-end">
+    			<button type="button" class="col-6 active" data-target="#tabDicChapter">단원순</button>
+    			<button type="button" class="col-6" data-target="#tabDicAlphabet">가나다순</button>
+    		</div>
+    		<div>
+    			<ul id="tabDicChapter" class="tab-dic">
+    				<li class="active"><div role="button" data-href="0">전<br />체</div></li>
+    				<li><div role="button" data-href="1">1<br />단<br />원</div></li>
+    				<li><div role="button" data-href="2">2<br />단<br />원</div></li>
+    				<li><div role="button" data-href="3">3<br />단<br />원</div></li>
+    			</ul>
+    			<ul id="tabDicAlphabet" class="tab-dic hide">
+    				<li class="active"><div role="button" data-href="0">All</div></li>
+    				<li><div role="button" data-href="ㄱ">ㄱ</div></li>
+    				<li><div role="button" data-href="ㄴ">ㄴ</div></li>
+    				<li><div role="button" data-href="ㄷ">ㄷ</div></li>
+    				<li><div role="button" data-href="ㄹ">ㄹ</div></li>
+    				<li><div role="button" data-href="ㅁ">ㅁ</div></li>
+    				<li><div role="button" data-href="ㅂ">ㅂ</div></li>
+    				<li><div role="button" data-href="ㅅ">ㅅ</div></li>
+    				<li><div role="button" data-href="ㅇ">ㅇ</div></li>
+    				<li><div role="button" data-href="ㅈ">ㅈ</div></li>
+    				<li><div role="button" data-href="ㅊ">ㅊ</div></li>
+    				<li><div role="button" data-href="ㅋ">ㅋ</div></li>
+    				<li><div role="button" data-href="ㅌ">ㅌ</div></li>
+    				<li><div role="button" data-href="ㅍ">ㅍ</div></li>
+    				<li><div role="button" data-href="ㅎ">ㅎ</div></li>
+    			</ul>
+    		</div>
+    		<ul id="lstDic" class="lst-dic">
+    			<li>
+    				<h4></h4>
+    				<p></p>
+    			</li>
+    		</ul>
+    		<div id="pnDic" class="pn"></div>
+    	</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

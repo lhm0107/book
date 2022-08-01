@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
+<link rel="stylesheet" type="text/css" href="css/page035.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<div class="numbering font-dt">
+			<b class="num fs23">2</b>
+			<p class="media-body media-title">
+				다음 내용이 맞으면 ‘O’, 틀리면 ‘X ’를 따라가며 미로를 탈출해 보자.
+				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
+			</p>
+		</div>
+
+		<!-- 길찾기 -->
+		<div id="miroh">
+			<button type="button" class="btn-game-start"><i class="icon-game-start"></i></button>
+
+			<ol xmlns="http://www.w3.org/1999/xhtml" id="quest" class="font-dt">
+				<li class="quest" style="left: 287px;top: 220px;">
+					<div class="question">
+						<span class="text-circle">1</span> 우리 역사 속 최초의 나라는<br /> 고조선이다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_035_01" class="sr-only" name="radio_035_01" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_035_02" class="sr-only" name="radio_035_01" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 125px;top: 379px;">
+					<div class="question">
+						<span class="text-circle">2</span> 고구려, 백제, 신라는 <br />불교를 받아들여 왕권을 <br />강화하였다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_035_03" class="sr-only" name="radio_035_03" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_035_04" class="sr-only" name="radio_035_03" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 436px;top: 340px;">
+					<div class="question">
+						<span class="text-circle">3</span> 김유신은 당으로 건너가 <br />신라와 당의 연합을 <br />이끌어 냈다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_035_05" class="sr-only" name="radio_035_05" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_035_06" class="sr-only" name="radio_035_05" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 274px;top: 545px;">
+					<div class="question">
+						<span class="text-circle">4</span> 발해는 고구려 계승 의식을 <br />내세웠다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_035_07" class="sr-only" name="radio_035_07" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_035_08" class="sr-only" name="radio_035_07" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 340px;top: 671px;">
+					<div class="question">
+						<span class="text-circle">5</span> 신라는 경주를 부처의 <br />나라로 만들기 위해 <br />불국사를 만들었다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_035_09" class="sr-only" name="radio_035_09" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_035_10" class="sr-only" name="radio_035_09" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>35</b>뚝딱뚝딱 정리하기</footer>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

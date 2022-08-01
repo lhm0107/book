@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<style>
+    #guide{ width: 1000px;margin: 40px auto;padding: 20px 60px;}
+    #guide h1{margin-bottom:20px}
+    #guide table{margin-bottom:40px}
+    #guide [class^=font]{font-size: 24px;}
+    #guide td>*, #guide button, #guide tr>*, #guide [class*=button]{position:relative;top:0;left:0;margin:0 auto;}
+    #guide td:last-child{text-align: left;}
+</style>
+</head>
+<body>
+<div id="guide" class="font-dt">
+    <h1>typo</h1>
+    <table class="tb">
+        <colgroup>
+            <col style="width: 300px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>서체명</th>
+                <th>클래스</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="font-dt">kopub돋움</span>
+                </td>
+                <td>.font-dt</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="font-serif">kopub바탕</span>
+                </td>
+                <td>.font-serif</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="font-coo">쿠키런</span>
+                </td>
+                <td>.font-coo</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="font-ka">까투리</span>
+                </td>
+                <td>.font-ka</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>button</h1>
+    <table class="tb">
+        <colgroup>
+            <col style="width: 300px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>디자인</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <button type="button" class="btn-ch-idea" data-toggle="modal" data-target="#modalInteraction">생각을 여는 질문</button>
+                </td>
+                <td>학습 전 동기 유발 질문</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="verify-buttons">
+                        <button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+                        <button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
+                    </div>
+                    <br />
+                    <button type="button" class="btn-icon" data-toggle="modal" data-target="#modalDic"><i class="icon-btn-note"></i>내용 정리</button>
+                </td>
+                <td>학습한 내용 정리하기 <br />&amp; 학습 후 확인 문제</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn-icon btn-dictionary" data-toggle="modal" data-target="#modalDic"><i class="icon-btn-dic"></i>용어 사전</button>
+                </td>
+                <td>용어 설명 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn-mindmap" data-toggle="modal" data-target="#modalMindMap">생각 그물 그리기</button>
+                </td>
+                <td>배운 내용을 글과 그림으로 정리하기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn-final-evlt text-hide" data-toggle="modal" data-target="#modalFinalEvlt">마무리 문제</button>
+                    <div class="self-check layer-wrp">
+                        <button type="button" title="스스로 평가" class="btn-self-check text-hide">스스로 평가</button>
+                    </div>
+                </td>
+                <td>단원을 마무리하는 문제 <br />&amp;스스로 평가하기</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong class="ch-goal-title">
+                        이 단원을 <span>공부하면?</span>
+                    </strong>
+                </td>
+                <td>이 단원을 공부하면</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn-icon" data-toggle="layer" data-target="#unitGoal" onclick="toggleAudioPlay('Audio1', this)"><i class="icon-btn-light"></i>이 주제를 공부하면</button>
+                </td>
+                <td>이 주제를 공부하면</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" title="전체 정답" class="btn-icon mr5" data-toggle="answer-all" data-target="#wrap"><i class="icon-btn-chk"></i><span>전체 보기</span></button>
+                </td>
+                <td>전체 보기(전체 정답)</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="btn-subject" data-toggle="layer" data-target="#layerSubject"><i class="icon-btn-deep"></i><span class="text-nowrap">텍스트</span></button>
+                </td>
+                <td>보충 자료 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-enlarge" title="확대보기" data-toggle="layer" data-target="#layer1">확대보기</button>
+                </td>
+                <td>확대 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-video" data-toggle="modal" data-target="#modalVideo">비디오</button>
+                    /
+                    <button type="button" class="btn-subject" data-toggle="modal" data-target="#modalVideo"><i class="icon-btn-hvideo"></i><span>텍스트</span></button>
+                </td>
+                <td>동영상 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-audio" onclick="toggleAudioPlay('Audio1', this)">오디오</button>
+                </td>
+                <td>음성 듣기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" title="다시 풀기" class="icon-btn-refresh" data-toggle="answer-refresh" data-target="#wrap">다시 풀기</button>
+                </td>
+                <td>다시 실행하기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-chk" title="정답보기" data-toggle="layer" data-target="#layer1">정답보기</button>
+                </td>
+                <td>정답 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-inter" title="인터렉션" data-toggle="layer" data-target="#layer1">인터렉션</button>
+                </td>
+                <td>조작형 기능 실행하기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" title="내용 더보기" class="icon-hand" data-inter="#interFadeIn">내용 더보기</button>
+                </td>
+                <td>내용 더 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-pencil" data-toggle="layer" data-target="#layerSelfWrite">써보기</button>
+                </td>
+                <td>내 생각을 써 보기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-wedorang" data-toggle="layer" data-target="#lyrWedorang" data-layer-accordion="true">위두랑</button>
+                </td>
+                <td>위두랑 연계 학습</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-layer-accordion="true" data-target="#drawHelper">디교 펜쓰기</button>
+                </td>
+                <td>펜 쓰기</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-help" title="도움말" data-toggle="layer" data-target="#layer1">도움말</button>
+                </td>
+                <td>활동 도우미</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" class="icon-btn-click" data-toggle="layer" data-layer-accordion="true" data-target="#layer1">1단원 목록 보기</button>
+                </td>
+                <td>단원 목록 보기</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>교과서 내용과 관련된 AR, VR콘텐츠 연결</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>label</h1>
+    <table class="tb">
+        <colgroup>
+            <col style="width: 300px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>디자인</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>기본</td>
+                <td>
+                    <span class="label">기본</span>
+                </td>
+            </tr>
+            <tr>
+                <td>보기/예시</td>
+                <td>
+                    <span class="label label-ex">보기</span>
+                </td>
+            </tr>
+            <tr>
+                <td>활동 자료</td>
+                <td>
+                    <span class="label label-data">활동 자료<b>2</b></span>
+                </td>
+            </tr>
+            <tr>
+                <td>활동 방법</td>
+                <td>
+                    <strong class="label label-way">활동 방법</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>숫자, 문자 등</td>
+                <td>
+                    <b class="text-circle">1</b>
+                    /
+                    <b class="text-circle">ㄱ</b>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>style</h1>
+    <table class="tb">
+        <colgroup>
+            <col style="width: 300px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>쓰임</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>사전 기능</td>
+                <td>
+                    <span class="btn-dic">청동기 시대</span>
+                    /
+                    <span class="btn-dic dic-left">청동기 시대</span>
+                    /
+                    <span class="btn-dic dic-right">청동기 시대</span>
+                </td>
+            </tr>
+            <tr>
+                <td>리스트 타입</td>
+                <td>
+                    <ul class="lst-type-bull">
+                        <li>삼국의 고분에서 나온 문화유산을 통해 고대 사람들의 생활 모습을 말할 수 있다.</li>
+                        <li>고대 불교문화의 발달 모습과 우수성을 설명할 수 있다.</li>
+                    </ul>
+                    <br />
+                    <ul class="lst-type-bull bull-primary">
+                        <li>삼국의 고분에서 나온 문화유산을 통해 고대 사람들의 생활 모습을 말할 수 있다.</li>
+                        <li>고대 불교문화의 발달 모습과 우수성을 설명할 수 있다.</li>
+                    </ul>
+                    <br/>
+                    <ol class="lst-type-num">
+                        <li><b class="text-circle">1</b>세계 인권 선언 조항 중에서 <span class="label label-data">활동 자료<b>5</b></span>에 제시된 15개 조항을 읽어본다. </li>
+                        <li><b class="text-circle">2</b>15개 조항 중에서 모둠별로 토의하여 가장 중요하다고 생각하는 조항 8개를 골라 우선순위를 정한다.</li>
+                        <li><b class="text-circle">3</b>모둠에서 선정한 8개의 조항을 우선순위에 따라 교과서 105쪽 활동지에 붙인다.</li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

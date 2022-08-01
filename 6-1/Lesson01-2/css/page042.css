@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.col.left {flex: 0 0 99px !important;min-width: 99px;}
+.mid-content{justify-content: space-between; margin-top: 15px;}
+.interaction {position: relative}
+.interaction .layer{z-index: 50}
+.layer-wrp .bubble{justify-content: flex-start; font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble {width: 138.5px;height: 103px;background-image: url(../images/page042/b1.png);padding-top: 13px}
+#layer2 .bubble {width: 146px;height: 133px;background-image: url(../images/page042/b2.png);padding-top: 15px}
+#layer3 .bubble {width: 137px;height: 119.5px;background-image: url(../images/page042/b3.png);padding-top: 6px}
+#layer4 .bubble {width: 137px;height: 119.5px;background-image: url(../images/page042/b4.png);padding-top: 7px}
+.tit {position: absolute; width: 38px; height: 24px; background: url(../images/page042/tit.png) no-repeat 0 0 / 100% auto; text-align: center; line-height: 24px; font-size: 15px;}
+.fwd1 {font-size: 15px; line-height: 19px; text-indent: 0; text-align: center; color:#fff}
+.explanation.layer-limit {width: 239px;}
+
+#layerSelfWrite .tb tr>* {padding: 10px 5px;}
+.dropzone .drop-fix {position: relative; width: 195px; height: 109px; background: url(../images/page042/map1-1.png) no-repeat 0 0/ 100% auto !important;margin: 0 auto}
+.drop-fix.ui-droppable-hover:before{content: '';position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,.25);pointer-events: none}
+.dropzone .drop-fix.ui-droppable img {position: absolute; left: 0px; top: 0px; width: 78px;}
+.drag-fix{box-shadow: 1px 1px 2px .25px rgba(56, 56, 56, 0.2);border-radius: 6px;width: 60px;height: 56px}
+.arrow1, .arrow2{display: block;width: 100%;height: 100%;background-repeat: no-repeat;background-size: 100% auto}
+.arrow1{background-image: url(../images/page042/drag_arrow1.png)}
+.arrow2{background-image: url(../images/page042/drag_arrow2.png)}
+.dragging .arrow1, .ui-draggable-disabled .arrow1{background-image: url(../images/page042/drag_arrow1_off.png)}
+.dragging .arrow2, .ui-draggable-disabled .arrow2{background-image: url(../images/page042/drag_arrow2_off.png)}
+.drop-fix .arrow1{background-image: url(../images/page042/arrow1.png)}
+.drop-fix .arrow2{background-image: url(../images/page042/arrow2.png)}
+.answer-wrp1{margin-top: -4px}
+.answer-wrp{margin-top: -1px}
+.q-label-wrp span{font-weight: 400}
+.drop-refresh{position: absolute;top: 35px;right: 0}
+.layer .answered .q-label-wrp [data-answer] + span:before{height: 26px}

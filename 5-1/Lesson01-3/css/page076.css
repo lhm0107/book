@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page076/bg.jpg)}
+.sect-hd{padding: 45px 30px 0 59px;letter-spacing: -0.03em}
+.sect-do-content{padding-left: 58px}
+.text-mark>[class*=icon]:first-child{margin-right: 5px}
+.text-mark .label-data{position: absolute;top: 2px;right: -6px}
+
+.fwd.font-ka{font-size: 16px; color: #fff}
+.icon-ttakji {top: 3px}
+.dragdrop .drop-fix {position: absolute; width: 156px; height: 89px; border-radius: 10px}
+.drop-fix.ui-droppable-disabled {background: #Fff}
+
+#answer_076_03 {letter-spacing: -0.03em}
+
+[class^=fwd].font-dt {font-size: 12px; line-height: 17px; text-indent: 1.2em}
+.fwd1 {width: 151.5px}
+.fwd2 {width: 110.5px; letter-spacing: -0.01em}
+.fwd3 {width: 115.5px}
+.drop-fix.ui-droppable-disabled {display: flex; align-items: center; justify-content: center; font-size: 12px; line-height: 17px; text-indent: 1.2em; padding: 0 9px}
+.layer-ttakji .drag-fix {width: 185px; height: 70px; font-size: 12px; line-height: 17px; font-weight: 500; text-align: justify;padding: 8px}
+.arrange-cont-title {letter-spacing: -0.01em}
+.layer-ttakji{top: -100px}
+.ttakji-refresh{top: 60px;left: -50px}

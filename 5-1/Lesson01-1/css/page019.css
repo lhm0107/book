@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.bubble{background-position: 0 0; background-repeat: no-repeat; background-size: 100% auto;font-size: 13px;line-height: 18px;text-indent: 1em;padding:12px 10px;animation: fadeIn 1s both}
+.bubble1{width:124px;height:152px;background-image: url(../images/page019/layer1.png);}
+.bubble2{width:184px;height:129px;background-image: url(../images/page019/layer2.png);padding:12px 59px 12px 14px;}
+.bubble3{width:227px;height:115px;background-image: url(../images/page019/layer3.png);padding:30px 13px 0 50px}
+.ab-item{position: absolute;left:0;top:0;font-size: 13px;text-align: center;}
+.ab-item dt{font-size: 14px;font-weight: 700;margin-bottom: 5px;}
+.icon-hand{position: absolute;bottom: 25px;right: 0;z-index: 50}
+.layer-transparent{position: static}
+.layer-transparent>*{position: absolute;top: 0;left: 0}
+.layer-transparent>img{top: 0;left: 0}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page015/bg.jpg)}
+
+.font-mi {line-height: 20px;}
+.fwd1 {font-size: 16px; color: #fff;}
+.fwd2 {line-height: 0.9em;}
+.fwd3 {text-align: center; line-height: 1.67em;}
+.fwd4 {text-indent: 0; font-size: 14px; line-height: 1.5em;}
+
+.icon-btn-video {position: absolute;}

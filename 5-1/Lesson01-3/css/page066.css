@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page066/bg.jpg)}
+.content-top {align-items: flex-end; justify-content: space-between}
+.content-top div:first-child {padding-bottom: 24px}
+.word-bubble .font-ka {font-size: 16px; color: #fff}
+.icon-enlarge {position: absolute; left: 199px; top:66px}
+.icon-enlarge.btn2 {left: 516px}
+.sect-do-explore {position: relative; margin-top: -28px; z-index: 1}
+.sect-do-explore .sect-hd {width: 474px; padding: 42px 0 0 57px; margin-bottom: 0; background-image: url(../images/page066/explore-hd.png)}
+.sect-do-explore .sect-title {font-size: 16px; line-height: 30px; letter-spacing: -0.023em}
+.content-bottom {align-items: flex-end; justify-content: space-between}
+.sect-do-explore button {right: 10px; top:40px}
+#layer_066_01{margin-bottom: -37px}
+.enlarge-wrp {position: absolute; left: 0; top: 0;}
+.modal textarea.form-control{height: 120px}

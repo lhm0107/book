@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.content-top {align-items: flex-end;}
+.text-dot{position: absolute;bottom: 100%;right: 20px;margin-bottom: -5px}
+.img-wrap{position: relative;margin-right: 70px;justify-content: space-between;margin-top: 30px}
+.img-wrap .font-ka{font-size: 17px;color: #fff;position: absolute;}
+.img-wrap .font-dt{width: 260px;text-indent: .5em;font-weight: 700;font-size: 14px;letter-spacing: -.025em;line-height: 21px}
+.scratch{position: absolute;padding-right: 2px;width: 262px;height: 42px}
+.img-wrap .t1{width: 290px;letter-spacing: -.05em}
+.img-wrap .t2{width: 280px}
+
+.col-auto:nth-last-child(1) .scratch{width: 282px}
+.col-auto:nth-last-child(2) .scratch{width: 292px}

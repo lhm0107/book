@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page121/bg.jpg);}
+.paper {position: relative; margin-top: 72px; width: 100%; padding-right: 110px;}
+.date {padding-left: 17px; justify-content: space-between;}
+.paper-tit {text-align: center; font-size: 24px; color: #502d05; margin-top: 35px; padding-left: 28px;}
+.img-change{ position: relative; margin-top: 34px;}
+.img-change>*,.img-change.active>*:first-child{display:none}
+.img-change.active>*,.img-change:not(.active)>*:first-child{display:block}
+.img-wrp {position: relative;}
+.paper button {position: absolute; left:361px; top: 153px;}
+.paper .icon-btn-refresh {left: 567px; top: 330px;}
+.img-change .after {margin-right: -4px; padding-left: 26px;}
+.fwd1 {font-size: 21px; font-weight: 700;}
+.fwd2 {font-size: 15px; font-weight: 700; color:#fff}
+.fwd3 {font-size: 18px; font-weight: 700;}
+.fwd4 {width: 420px; font-size: 12px; line-height: 20px; text-indent: 1.5em; letter-spacing: -0.012em;}
+.fwd5 {font-size: 12px; opacity: .57;}
+.fwd6 {width: 401px; font-size: 12px; line-height: 16px; text-indent: 0;}
+.fwd7 {font-size: 12px;}
+.bottom-content {bottom:15px}
+.bottom-content .para{font-size: 15px; line-height: 1.8em; width: 543px; margin-left: 9px;}
+.dic1 .explanation.layer-limit {width: 234px; text-align: justify;}
+.dic2 .explanation.layer-limit {width: 224px;}
+.col-wide {max-width: 510px;}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page152/bg.jpg)}
+
+.top-content {padding-top:86px}
+.col {text-align: center;}
+.col .font-ka.tit { margin-top:51px; font-size: 30px;}
+.col .font-dt { margin-top:30px; padding-right:11px; text-align: justify; text-indent: 0.7em; line-height: 1.47;}
+.label-data {text-indent: 0;margin-top: -3px}
+
+.tit2 { font-size: 20px;}
+.tit2 span { margin-right:16px}
+.col-wide {padding-left:121px; margin-top:20px; font-size: 16px;}
+.para {padding-left:23px; line-height: 1.875;}
+.tb {background: none; border:none; margin-top:13px;}
+.tb tr>* {padding:5px 10px}
+
+.brown-bx {margin-top:17px; padding:12px; text-align: center; }
+.brown-bx p {margin-top:7px}

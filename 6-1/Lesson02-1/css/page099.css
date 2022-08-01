@@ -1,0 +1,9 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page099/bg.png);}
+
+[class*=fwd].font-mi{font-size: 21px;line-height: 0.9em;}
+
+.bottom-content{margin-bottom: 52px;}
+textarea.form-control{margin-left: auto; margin-right: 45px;width: 350px;height: 31px;resize: none;overflow: hidden;}
+.layer{top: -150px;}
+.icon-btn-chk{right: -12px;}

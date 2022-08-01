@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page106/bg.jpg)}
+
+.varied-header {margin-top:-7px; margin-left:-26px}
+.para {line-height: 30px;}
+
+.interaction {position: relative; height:600px; margin-top:45px; padding-left:34px}
+.interaction>div,.icon-hand {position: absolute;}
+[id^=inter] {position: absolute; top:0;left:0; display: none;}
+.interaction .fwd{font-size: 14px;line-height: 23px}
+
+
+
+.painting-area{border:1px solid #a8b6bd; border-radius:6px; height: 460px}
+canvas.draw {position: relative}
+.icon-btn-penwrite{position: absolute;top: 0;right: 0}

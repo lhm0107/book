@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page045/bg.jpg)}
+.final-arrange{padding-top: 25px}
+.arrange-box-1{margin: 0 0 65px 64px}
+.arrange-box-1>.tit{width: 242px;background-image: url(../images/page045/tit1.png)}
+.arrange-box-1 .box{position: absolute;text-align: center;font-size: 15px;line-height: 20px;width: 150px;border: 1px solid #9fa0a0;border-radius: 10px;padding: 2px 0;right: 15px;top: 50%;margin-top: -36px;letter-spacing: -.025em}
+.arrange-box-1 .box:before{content: '';position: absolute;right: 100%;top: 50%;width: 18px;height: 37px;background: url(../images/page045/box.png) no-repeat 0 0/auto 100%;margin-top: -18px}
+.arrange-box-2{margin-left: 100px}
+.arrange-box-2>.tit{width: 242px;background-image: url(../images/page045/tit2.png);margin-bottom: 11px}
+.arrange-box-2 .drop-ttakji{width: 148px;height: 119px}
+
+#test01 .bx{line-height: 35px}
+#question06 .form-control{height: 90px}

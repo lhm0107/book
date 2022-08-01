@@ -1,24 +1,17 @@
 @charset "utf-8";
+#wrap{background-image: url(../images/page018/bg.jpg)}
+.ch-2-title .second-line {margin-left: 72px;}
+.ch-2-hd {margin-bottom: 34px;}
+.top-content .col-wide {flex: 0 0 422px; width: 422px;}
+.top-content {align-items: flex-start;}
+.top-content .img-tit {font-size: 12px; line-height: 23px; width: 216px; margin-top: 4px;}
+.top-content .img-tit strong {font-size: 13px;}
 
-.ch-2-title {margin-bottom: 9px;padding: 5px 0 15px;letter-spacing: -.04em;line-height: 1.2;}
-.ch-2-title strong{font-size: 50px;}
-.ch-2-title span span{padding-left: 72px;letter-spacing: -0.025em;}
+.interaction [class*=bubble-box] {text-indent: 2em; font-size: 14px; line-height: 22px; text-align: justify;}
 
-.para {text-indent:.9em}
-.word-bubble{height:462px;}
-.word-bubble>span{position:absolute;font-size:15px;color:#fff;letter-spacing: -0.25px;}
-[class*=fwd].font-mi{line-height:.9;}
-
-.ch-2-hd{margin-bottom:36px;}
-.ch-2-hd+.row .col-auto{position:relative;margin-top:2px;}
-.ch-2-hd+.row .col-auto .fwd{margin-top: 5px;text-indent: 0;line-height: 1.5;letter-spacing: -.04em;}
-.ch-2-hd+.row .col-auto .font-serif{position:absolute;font-size:11px;color:#0075b3;font-style: italic;}
-.ch-2-hd+.row .col{padding-left:27px;}
-.para-title{margin-bottom:2px}
-.word-bubble .font-coo{position: absolute;line-height: 2;font-size: 18px;color:#143861;}
-[class*=fwd]{width: 199px;font-size: 15px;line-height: 1.533;text-indent: 0.9em;letter-spacing: -.01em;}
-[class*=fwd].font-mi{width:auto;line-height: .9;}
-[class*=fwd] .fwd{display: block;position:relative;width:auto;}
-.fwd1{width: 218px;text-indent: 1.6em;}
-.fwd2{width: 205px;text-indent: 1.9em;}
-
+.interaction .bubble-box1 {width: 217px;}
+.interaction .bubble-box2 {width: 205px; text-indent: 2.4em;}
+.interaction .bubble-box3 {width: 163px;height: 96px;background-image: url(../images/page018/bubble.png);padding-top: 16px; font-size: 20px; line-height: 18px; text-align: center; text-indent: 0;}
+.interaction .bubble-box4 {width: 198px; text-indent: 1em;}
+.interaction button {position: absolute;}
+.icon-hand.re{background-position: 50% 50%}

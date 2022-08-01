@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.numbering.top {margin-left: 82px}
+.media {padding-left: 0 !important}
+.content[class*=cont] li{font-size: 14px;line-height: 20px}
+.content[class*=cont] li + li {margin-top: 9px}
+.col-auto img {position: relative}
+[class*=arrange-label] {width: 120px; margin-right: 13px; font-size: 15px; line-height: 20px}
+.arrange-label-line {width: 105px; height: 48px; margin-right: 0px; padding: 11px 0}
+#text_078_01, #text_078_02 {width: 60px}
+#text_078_03, #text_078_04, #text_078_05 {width: 65px}
+.arrange-test .tx-a {left: 0}
+
+.i1 {left: 20px; top: -60.5px}
+.i2 {left: 30px; top: -42px}
+.i3 {left: 0px; top: -45px}
+.i4 {left: 578.5px; top: 0px}
+.i5 {left: 0px; top: 61px}
+.line01-1 {left: 120px; top: -35px}
+.line01-2 {margin-top: -10px}
+.line02-1 {left: 120px; top:-7px}
+.line03 {left: 120px; top:-16px}
+.line04 {left: 120px; top:-10px}
+
+.cont01-1 {margin-top: -20px}
+.cont01-2 {margin-top: -7px}
+.cont01-2 li + li {margin-top: 11px}
+.cont02-1 {margin-top: -15px}
+.cont02-1 li:last-child {letter-spacing: -0.01em}
+.cont02-1 li + li {margin-top: 18px}
+.cont02-2 {margin-left: 18px}
+.media3 .arrange-label {margin-top: 23px}
+.cont03-1 {margin-left: 8px}
+.media4 .arrange-label {margin-top: 20px}
+.cont04-1 {margin-left: 8px}
+.media5 .arrange-label {width: 167.5px}
+.media5 {align-items: center}
+.media5 .arrange-answer {letter-spacing: -0.014em}
+#final_078_02 img{margin-top: -10px}

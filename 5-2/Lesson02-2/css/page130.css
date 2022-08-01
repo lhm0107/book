@@ -1,0 +1,9 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page130/bg.jpg)}
+.curiosity-hd{display: flex; flex-direction: row; justify-content: space-between}
+.curiosity-label{width: 129.5px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0}
+.curiosity-title{margin-top: 20px;font-size: 21px;color: #213d5d;line-height: 34px}
+.col-wide .para1 {letter-spacing: 0.016em; line-height: 32px}
+.para-title {line-height: 19px; margin-bottom: 17px}
+.content-bottom {margin-top: 391px}
+.explanation.layer-limit {width: 202px}

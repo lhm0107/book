@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page020.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+		<section class="sect-do-explore">
+			<header class="sect-hd">
+				<strong class="sr-only">탐구해요</strong>
+				<h2 class="sect-title">우리나라의 영토와 영해</h2>
+			</header>
+			<div class="sect-do-content pr0">
+				<div class="row mt20 position-relative">
+					<div class="col-auto">
+						<img src="images/page020/1.png" width="535" alt="" data-dtext_index="dtext_cls_image" />
+						<div class="painting-area">
+							<canvas id="draw_016_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="535" height="513"></canvas>
+						</div>
+						<div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+							<div class="draw-option">
+								<input id="spectrumInsert2" type="color" value="#00b050" />
+								<div class="colorchart">
+									<button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_016_01', '#000000')">색상 변경</button>
+									<button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_016_01', '#ff0000')">색상 변경</button>
+									<button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_016_01', '#0000ff')">색상 변경</button>
+									<button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_016_01', '#fdce54')">색상 변경</button>
+								</div>
+								<div class="linewidth">
+									<button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 1)">굵기 변경</button>
+									<button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 4)">굵기 변경</button>
+									<button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 7)">굵기 변경</button>
+									<button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_016_01', 14)">굵기 변경</button>
+								</div>
+								<div class="btns">
+									<button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_016_01',this);">펜 쓰기 영역 부분 삭제</button>
+									<button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_016_01');">펜 쓰기 영역 전체 삭제</button>
+								</div>
+							</div>
+						</div>
+						<div class="dragdrop">
+							<div>
+								<input type="text" id="text_020_01" class="sr-only" />
+								<div class="drop-fix" style="left: 143px;top: 43px;" data-drop="4"></div>
+							</div>
+							<div>
+								<input type="text" id="text_020_02" class="sr-only" />
+								<div class="drop-fix" style="left: 28px;top: 147px;" data-drop="3"></div>
+							</div>
+							<div>
+								<input type="text" id="text_020_03" class="sr-only" />
+								<div class="drop-fix" style="left: 374px;top: 147px" data-drop="1"></div>
+							</div>
+							<div>
+								<input type="text" id="text_020_09" class="sr-only" />
+								<div class="drop-fix" style="left: 33px;top: 432px;width: 110px" data-drop="2"></div>
+							</div>
+						</div>
+					</div>
+					<div id="layerDragDrop" class="layer layer-ttakji">
+						<div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+						<div class="layer-body">
+							<span class="label font-ka">붙임 딱지</span>
+							<div class="row justify-content-between">
+								<div class="drag-fix" data-drop="1">
+									경상북도<br />울릉군 독도
+								</div>
+								<div class="drag-fix" data-drop="2">
+									제주특별자치도<br />서귀포시 마라도
+								</div>
+								<div class="drag-fix"  data-drop="3">
+									평안북도<br />용천군 마안도
+								</div>
+								<div class="drag-fix"  data-drop="4">
+									함경북도<br />온성군 유원진
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh ttakji-refresh" data-target="#layerDragDrop">다시 풀기</button>
+				</div>
+				<section class="numbering mt20">
+					<b class="num">1</b>
+					<div class="media-body pr35">
+						<p class="media-title">지도에 우리나라의 영토는 초록색으로 색칠해 보자.</p>
+						<div class="side-btns">
+							<button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+							<div class="layer-wrp layer-wrp-btm">
+								<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer0">정답보기</button>
+								<div id="layer0" class="layer" data-toggle="layerClse">
+									<div class="layer-body">
+										<img src="images/page020/2.jpg" width="500" alt="" title="" data-dtext_index="dtext_cls_image" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="numbering mt10">
+					<b class="num">2</b>
+					<div class="media-body layer-wrp pr35">
+						<p class="media-title mb5">지도의 빈칸에 우리나라 영토의 끝이 어디인지 끌어다 넣어 보자.</p>
+						<button type="button" title="붙임딱지" class="icon-ttakji" data-toggle="layer" data-target="#layerDragDrop">붙임딱지</button>
+					</div>
+				</section>
+				<section class="numbering mt15">
+					<b class="num">3</b>
+					<div class="media-body layer-wrp pr35 layer-wrp-btm">
+						<p class="media-title">지도를 보고 빈칸에 알맞은 말을 써 보자.</p>
+						<button type="button" class="icon-btn-pencil" data-toggle="layer" data-target="#layerSelfWrite">써보기</button>
+						<div id="layerSelfWrite" class="layer layer-write" data-toggle="layerClse">
+							<div class="layer-body">
+								<div id="answer_094_01">
+									<p class="media-title">지도를 보고 빈칸에 알맞은 말을 써 보자. <button type="button" title="정답보기" class="icon-btn-chk float-right" data-toggle="answer" data-target="#answer_094_01">확인</button></p>
+									<div>
+										서해안과 남해안은 <input id="text_020_04" type="text" class="form-control itx" title="입력" />을/를 직선으로 연결한 선을 기준으로, 동해안은 <input id="text_020_05" type="text" class="form-control itx" title="입력" />을 기준으로 영해를 설정한다.
+									</div>
+									<div class="ex-answer-box">
+										<strong class="ex-answer-title">예시 답안</strong>
+										<p>서해안과 남해안은 가장 바깥에 위치한 섬들을/를 직선으로 연결한 선을 기준으로, 동해안은 썰물일 때의 해안선을/를 기준으로 영해를 설정한다.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+		<!-- 확인해요 -->
+		<div class="verify">
+			<h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
+			<div id="answerAll_020_06" class="verify-content">
+				<div class="verify-answer">
+					<ol class="lst-type-num">
+						<li class="text-q" id="answer_020_02">
+							<b class="text-circle mt7">1</b>
+							한 나라의 주권이 미치는 범위를 <div class="answer-wrp">
+								<input type="text" id="text_020_06" class="form-control itx" title="입력" />
+								<span class="tx-a tx-a-top">영역</span>
+							</div>(이)라고 한다.
+							<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_020_02">확인</button>
+						</li>
+						<li class="text-q" id="answer_020_03">
+							<b class="text-circle mt7">2</b>
+							우리나라의 <div class="answer-wrp">
+								<input type="text" id="text_020_07" class="form-control itx" title="입력" />
+								<span class="tx-a">영공</span>
+							</div>은/는 우리나라의 영토와 영해 위에 있는 하늘의 범위이다.
+							<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_020_03">확인</button>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>20</b><span>1</span>국토와 우리 생활</footer>
+
+	</div>
+
+	<div class="verify-buttons">
+		<button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+		<button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
+	</div>
+</div>
+<!-- 내용 정리 -->
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<h3 class="arrange-cont-title">우리 국토의 위치를 알아볼까요</h3>
+			<section class="sect numbering">
+				<b class="num">1.</b>
+				<div class="media-body">
+					<h4 class="media-title">영역의 뜻</h4>
+					<ul class="lst-type-bull">
+						<li>한 나라의 주권이 미치는 범위</li>
+						<li>영역은 영토, 영해, 영공으로 이루어짐.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="sect numbering">
+				<b class="num">2.</b>
+				<div class="media-body">
+					<h4 class="media-title">우리나라의 영역</h4>
+					<table class="tb w-90">
+						<colgroup>
+							<col style="width: 130px" />
+							<col />
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>영토</th>
+								<td class="text-left">한반도와 한반도에 속한 여러 섬</td>
+							</tr>
+							<tr>
+								<th>영해</th>
+								<td class="text-left">황해, 남해, 동해를 포함한 영토 주변 바다의 영역</td>
+							</tr>
+							<tr>
+								<th>영공</th>
+								<td class="text-left">우리나라의 영토와 영해 위에 있는 하늘의 범위</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<section class="sect numbering">
+				<b class="num">3.</b>
+				<div class="media-body">
+					<h4 class="media-title">우리나라의 영해를 설정하는 기준</h4>
+					<ul class="lst-type-bull">
+						<li>섬이 많은 서해안과 남해안: 가장 바깥에 위치한 섬들을 직선으로 연결한 선을 기준으로 영해를 설정함.</li>
+						<li>섬이 적은 동해안과 울릉도, 독도, 제주도: 썰물일 때의 해안선을 기준으로 영해를 설<span class="text-nowrap">정함</span>.</li>
+						<li>일본과 가까운 대한 해협: 가장 바깥에 위치한 섬들을 직선으로 연결한 선을 기준으로 3해리까지만 영해로 설정함.</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 잠깐체크 -->
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div id="small_020_01" class="no-answered" data-qtype="text">
+								<assessmentItem data-qid="text_020_08" data-response-type="fillInTheBlank">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_020_01">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">1. </b>
+											<div class="media-body media-title">
+												우리나라 영토의 동쪽 끝은 어디입니까?
+											</div>
+										</div>
+										<div class="text-center">
+											<div class="answer-wrp" data-answer="경상북도 울릉군 독도">
+												<input type="text" id="text_020_08" class="form-control itx" title="입력" />
+												<span class="tx-a">경상북도 울릉군 독도</span>
+											</div>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">경상북도 울릉군 독도</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_020_02" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_020_01" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_020_02">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">2. </b>
+											<div class="media-body media-title">
+												우리나라 영역에는 다른 나라의 비행기나 배가 함부로 들어올 수 없다.
+											</div>
+										</div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_020_01" id="radio_020_01" value="○" class="sr-only" data-answer="" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_020_01" id="radio_020_02" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">○</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_020_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_020_03" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_020_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+												우리나라의 서해안은 썰물일 때의 해안선을 기준으로 영해를 설정한다.
+											</div>
+										</div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_020_03" id="radio_020_03" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_020_03" id="radio_020_04" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<div id="stamp"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/dragdrop.fix.js"></script>
+</body>
+</html>

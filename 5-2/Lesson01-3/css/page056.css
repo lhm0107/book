@@ -3,7 +3,7 @@
 #wrap{background-image: url(../images/page056/bg.jpg)}
 .ch-1-hd {padding-left: 155px; justify-content: space-between}
 .btn-ch-idea {margin:86px 0  0 0px}
-.ch-goal {width: auto; margin-left: 155px}
+.ch-goal {width: auto;}
 .ch-goal-title {margin: 0; margin-bottom: 20px}
 .ch-goal-list>li {padding-bottom: 15px}
 .think-title {position: absolute; left: 62px; top: 400px}
@@ -18,5 +18,9 @@
 .social-5-2 .think-title>strong.sm+.font-dt{padding:15px 0 0 18px}
 
 /* list style */
-.ch-goal-list.ch-goal-list-bul>li{width: 100%;border-top: 0;font-size: 15px;font-weight:400;text-indent: 1.467em;position: relative;padding-top: 0}
+.ch-goal-list.ch-goal-list-bul>li{width: 100%;border-top: 0;font-size: 15px;font-weight:400;position: relative;padding-top: 0}
 .ch-goal-list.ch-goal-list-bul>li::before{content:"";position: absolute;left:0;top:1px;width:13px;height: 13px;border:4px solid #fff;border-radius: 50%}
+
+.answer-wrp {display: block; text-align: center; margin-top:5px;}
+.answersheet input {position: relative; height: 30px; border: 1px solid #a8b6bd; padding:4px; margin:0}
+.answersheet .col-6 {padding:0 15px}

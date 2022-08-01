@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page086/bg.jpg)}
+.think-title{margin-top: 22px;}
+.btn-ch-idea{margin:86px 0 0 0 }
+
+.bx {text-align: center;}
+.bx p {margin-top:10px}
+.answersheet .checkbox {width: 30px; height: 30px; margin:10px auto 0; background-size: 100% auto;}

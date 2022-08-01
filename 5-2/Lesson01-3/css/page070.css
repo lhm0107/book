@@ -8,6 +8,6 @@
 .word-bubble .font-dt {text-indent: 0; font-weight: 700}
 .word-bubble .font-mi {line-height: 25px; font-size: 22px}
 
-.content-bottom .font-dt {font-size: 17px; line-height: 32px}
-.content-bottom {margin-top: 296px}
-.content-bottom .fwd {position: relative}
+.content-bottom {margin-top: 302px; padding:0 14px}
+.content-bottom .fwd {position: relative; font-size: 16px; line-height: 26px; }
+#layerSelfWrite{right: -14px;margin-bottom: -45px}

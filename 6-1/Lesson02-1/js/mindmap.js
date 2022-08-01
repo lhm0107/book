@@ -21,61 +21,53 @@ $(function(){
         allowTouchMove : false,
     });
 
-    // var $dragItem = $('.drag-item');
-    // var $dragLayer = $('#layerDragDrop');
-    // var $dragBtn = $('.btn-drag-start');
-    // var $dropItem = $('.drop-item');
-    // var $dropzone = $('.dropzone');
-    //
-	// $dragItem.on('touchmove',function(event){
-	// 	event.preventDefault();
-	// 	event.stopPropagation();
-	// });
-    //
-	// $dragItem.draggable({
-	// 	helper: 'clone',
-    //     appendTo: '.dragdrop',
-	// 	start: function(){
-	// 		$(this).addClass('dragging');
-	// 	},
-	// 	stop: function(){
-	// 		$(this).removeClass('dragging');
-	// 	}
-	// });
-    //
-    // $dropItem.droppable({
-    //     accept: '.drag-item',
-    //     disabled: true,
-    //     drop: function(e, ui){
-    //         var $t = $(this);
-    //         var newDrag = ui.draggable.clone().removeClass('dragging ui-draggable ui-draggable-handle');
-    //         var idx = $dropItem.index(this);
-    //
-    //         $t.append(newDrag);
-    //         $t.droppable('option', 'disabled', true);
-    //         $(ui.draggable).draggable('option', 'disabled', true);
-    //         $t.next().hide();
-    //
-    //         if(idx === 7){
-    //             $dragLayer.hide();
-    //             $dropzone.removeClass('active');
-    //         }else{
-    //             $dropItem.eq(idx+1).droppable('option', 'disabled', false);
-    //             $dragBtn.eq(idx+1).show();
-    //         }
-    //     }
-    // });
-    //
-    // $dragBtn.click(function(){
-    //     if($dropzone.hasClass('active')){
-    //         $dragLayer.hide().next().removeClass('active');
-    //     }else{
-    //         $dragLayer.show().next().addClass('active');
-    //         $(this).prev().droppable('option', 'disabled', false);
-    //     }
-    // });
-    //
-    // $dragLayer.find('[data-toggle="layerClse"]').click(function(){
-    //     $dropzone.removeClass('active');
-    // });
+    var $dragItem = $('.mindmap .drag-obj');
+    var $dropItem = $('.mindmap .painting-area');
+
+	$dragItem.on('touchmove',function(event){
+		event.preventDefault();
+		event.stopPropagation();
+	});
+
+	$dragItem.draggable({
+		helper: 'clone',
+        appendTo: '.mindmap',
+		scope: 'box',
+		start: function(){
+			$(this).addClass('dragging');
+		},
+		stop: function(){
+			$(this).removeClass('dragging');
+		}
+	});
+
+    $dropItem.droppable({
+        accept: '.drag-obj',
+		scope: 'box',
+		tolerance: 'fit',
+        drop: function(e, ui){
+			var $t = $(this);
+			var $dragItem = $(ui.draggable);
+
+			if(!$dragItem.hasClass('drag-item-clone')){
+				var newDrag = ui.draggable.clone();
+				$t.append(newDrag);
+
+				newDrag.removeClass('dragging').addClass('drag-item-clone').css({
+					top: ui.helper.offset().top - 166,
+					left: ui.helper.offset().left - 10
+				}).draggable({
+					scope: 'box',
+					revert: 'invalid',
+					revertDuration: 0
+				});
+				$dragItem.draggable('option', 'disabled', true);
+			}
+        }
+    });
+
+	$('.mindmap .icon-del').click(function(){
+		$dropItem.find('.drag-obj').remove();
+		$dragItem.draggable('option', 'disabled', false);
+	});
 });

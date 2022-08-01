@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.dropzone{width: 604px;height: 660px; margin-left: -26.5px; background: url(../images/page031/map.jpg) no-repeat 0 0/auto 100%; margin: 0 auto}
+.dragdrop{position: relative}
+.dropzone div[class^=box] {position:absolute}
+.dropzone .text-circle{position: absolute;left: 5.5px;top:5.5px}
+.bg-brown {background: #a17a6e}
+
+#layerDragDrop{right: -35px;top: auto;bottom: -10px}
+.drag-fix{width: 90px}
+.drop-fix{width: 105px;height: 30px; border: 1px solid #272727; border-radius: 5px; background: #fff;line-height: 28px;font-size: 15px;padding-left: 28px}
+.icon-ttakji{right: -35px}
+.ttakji-refresh{right: 8px;top: 0}

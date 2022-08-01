@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page091/bg.jpg)}
+.interaction {position: relative; height: 560px;}
+.bx {position: absolute; top:50px;left:343px; width:245px;padding:10px}
+.bx i {width:23px; height:25px;margin-left:15px}
+button.icon-hand {position: absolute; top:290px;left:310px}
+button.icon-btn-refresh {position: absolute; top:290px;left:310px}
+.ch-goal-list>li {font-weight: 400;}
+.bubble {position: absolute; font-size: 20px; line-height: 20px; text-align: center;}
+.bubble.box1{width:165px;height:97px;background: url(../images/page091/bubble1.png) no-repeat 0 0 / 100% auto; padding-top: 19px; padding-right:10px}
+.bubble.box2{width:156px;height:104px;background: url(../images/page091/bubble2.png) no-repeat 0 0 / 100% auto; padding-top: 18px;padding-right:7px}
+.bubble.box3{width:154.5px;height:104px;background: url(../images/page091/bubble2.png) no-repeat 0 0 / 100% auto; padding-top: 15px}
+
+
+.verify-content{padding-top:15px;padding-bottom:15px}
+.verify .form-control.itx{width:88px}
+.lst-type-num>li{line-height: 30px;}
+.lst-type-num>li>.text-circle:first-child{margin-top:7px}

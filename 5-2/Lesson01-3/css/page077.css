@@ -1,5 +1,10 @@
 @charset "utf-8";
-#wrap {background-image: url(../images/page077/bg.png)}
-.title-wrp {margin-top: 80px;}
-.interaction {position: relative;}
-.fwd.font-netmarble {font-size: 15px; text-indent: 0; font-weight: 500; color:#fff}
+
+#wrap {background-image: url(../images/page077/bg.jpg)}
+.wrapper{padding-top: 50px}
+
+.cross-word{width: 479px;height: 365px;background: url(../images/page077/cross-word.png) no-repeat 0 0/auto 100%;margin: 38px auto 54px}
+.cross-word-input>li{width: 61px;height: 40px}
+.cross-word-key>.col-auto{width: 314px;height: 377px}
+
+.point1 [class^=icon-btn], .point2 [class^=icon-btn]{margin-left: 61px}

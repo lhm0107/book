@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.sect-do-content>div+div{margin-top: 30px}
+.img-box{display: flex;justify-content: space-between}
+.img-box .text-flex{position: absolute;top: 15px;left: 15px}
+.text-flex .text-circle{margin-top: 0}
+.text-flex .font-mi{font-size: 21px;line-height: 18px;font-weight: 400;letter-spacing: -.025em;padding-left: 5px}
+#textarea_100_01{height: 170px}
+.icon-btn-help{position: absolute;top: 0;right: 0}

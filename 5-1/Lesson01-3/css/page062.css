@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.table-round-wrp {margin-left: -15px; border: 2px solid #929ea5}
+.table-round-wrp .tb tr>th.bg-ylw {background: #fcd788}
+.tb tr >* {padding: 0}
+.tb tr > td {font-size: 12px; height: 23px}
+.tb th {font-size: 13px; height: 25px; font-weight: 700;  border-bottom: 0 !important}
+td.text-right {padding-right: 6px}
+.icon-btn-penwrite {position: absolute; right: 3px !important}
+.painting-area {position: relative; margin-top: 20px; margin-bottom: 15px}
+.painting-area .fwd {font-size: 12px; font-weight: 700; font-style: italic; line-height: 12px; color: #2f94d1}
+.layer-draw{width: 550px}
+.colorchart .color01{color: #c8000b}
+.colorchart .color02{color: #ed6d00}
+.colorchart .color03{color: #fee101}
+.colorchart .color04{color: #009946}
+.colorchart .color05{color: #0175c2}
+#layerSelfWrite{right: auto;left: -85px}

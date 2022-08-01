@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.nav {margin-bottom: 23px;}
+.tb tr .row {align-items: center; justify-content: space-between;}
+.tb th {height: 32px; padding: 0;}
+.tb tr>td {height: 64px;}
+.tb .label {margin: 0 25px 0 3px}
+.tb .col {font-size: 14px; line-height: 18px;word-break: normal}
+tbody tr td {padding: 0px 15px;}
+.tb tr td.left {padding-right: 22px;}
+.drop-type-box {width: 83px; height: 40px; margin: 0 auto;}
+.tb .label {width: 48px; padding:0; background: #aaaaaa;}
+.box {width: 546.5px; height: 487px; padding: 40px; padding-left:24px; background: url(../images/page119/1.png) no-repeat 50% 50% / 100% auto;}
+.box ul {margin-top: 16px;}
+.memo-tit {font-size: 20px; text-align: center;}
+textarea.form-control {height: 117px;}
+.box ul li:nth-child(2) textarea.form-control {margin-top: -11px;}
+.box ul li:nth-child(3) textarea.form-control {margin-top: -13px;}
+.box .icon-btn-chk {position: absolute; right: -35px; top: 11px;}
+#layer1 {right: -35px;}
+.drag-type-box{border: 0;color: #000;box-shadow: 1px 1px 2px 0px rgba(56, 56, 56, 0.4);font-weight: 700}
+.drag-type-box:after{display: none}
+.drag-type-box:before{height: 40px}
+.drag-type-box.ylw{background: #fff09d}
+.drag-type-box.pink{background: #fce5de}
+.drag-type-box.sky{background: #d4ecea}
+.drag-type-box.grn{background: #dbebc3}
+.drag-type-box.purple{background: #e7dded }

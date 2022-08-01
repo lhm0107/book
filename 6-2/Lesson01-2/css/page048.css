@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.word-bubble {margin-top: 25px; padding-left: 71px;}
+.num-wrap li {position: absolute; font-size: 15px; font-weight: 700; color:#8f3b1e}
+.num-wrap li:nth-child(2) {color:#346731}
+.num-wrap li:nth-child(3) {color:#2d4e77}
+.num-wrap li:nth-child(4) {color:#694b6f}
+.num-wrap li:nth-child(5) {color:#8e2142}
+.font-jalnan {position: absolute; font-size: 15px; color: #1d1d1b;}
+.fwd2 {text-align: center; text-indent: 0; font-size: 13px; line-height: 18px;}

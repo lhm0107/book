@@ -5,3 +5,7 @@
 .font-dt.para{font-size: 17px;line-height: 32px;width:353px;text-indent:0.7em}
 [class*=fwd].font-mi{font-size: 20px;line-height: 18px;}
 .fwd-dsc{font-size: 15px !important;line-height: 20px !important;text-indent: 0 !important;text-align: center;}
+
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:165.5px;height:94.5px;background-image: url(../images/page052/bubble1.png)}
+#layer2 .bubble{width:167.5px;height:105px;background-image: url(../images/page052/bubble2.png);padding-left: 15px}

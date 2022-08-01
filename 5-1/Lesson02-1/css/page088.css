@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page088/bg.jpg)}
+.ch-ani{position: absolute;top: 145px;right: 0;animation: fadeInRight 2s both}
+.ch-ani img{animation: bounce 2.5s infinite both}
+@keyframes bounce{
+    50%{transform: translateY(10px)}
+}
+
+.word-bubble {font-size: 20px; line-height: 20px; text-align: center; }
+.text-circle {display: block; margin:0 auto; margin-bottom:5px}
+.mark-char, .mark-char:after {width:120px;height:120px}
+
+
+.layer-body .font-mi{font-size: 20px;line-height: 20px;text-align: center;font-weight: 400;display: block}
+.layer-body .mark-char:after{display: block;border-color: #f00}

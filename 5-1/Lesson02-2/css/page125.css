@@ -1,5 +1,6 @@
 @charset "utf-8";
 
-.varied-header .icon-btn-video.mr5{margin-left: 107px;}
-.word-bubble{width: 648.5px;margin-left: 31.5px}
-.pl55{margin-top: -7px;}
+#wrap {background-image: url(../images/page125/bg.jpg);}
+.bottom-content {bottom: -9px;}
+.bottom-content .text-mark {margin-left: 52px;}
+.icon-btn-video {position: absolute; right: 48px;}

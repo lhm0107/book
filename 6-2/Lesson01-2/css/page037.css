@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.word-bubble {margin-top: -6px; margin-left: -50px; padding-right: 29px;}
+#layerSubject {right: -82px; top:-150px}
+.numbering {margin-top: 47px;}
+.numbering.last {margin-top: 17px;}
+.icon-btn-chk {position: absolute; right: -35px;}
+#layer1 {right: -35px}
+.btn-social-append {position: absolute; right: 0;}

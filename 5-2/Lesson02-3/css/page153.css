@@ -1,0 +1,11 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page153/bg.jpg)}
+.wrapper>* {position: absolute}
+.tit1 {font-size: 18px}
+.tit1 strong {font-size: 20px}
+.tit2 {font-size: 17px;line-height: 1}
+.para-wrp {width: 375.5px; font-size: 15px}
+.para {line-height: 25px}
+.font-jalnan {font-size: 17px; line-height: 25px}
+.font-mi {line-height: 18px !important}
+.font-netmarble {font-size: 14px; font-weight: 700; color:#fff}

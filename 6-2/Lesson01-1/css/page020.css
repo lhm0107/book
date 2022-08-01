@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page020/bg.jpg);}
+.video-wrp {position: relative; margin-top:152px}
+.icon-arrow-up {width:10.5px; height:12px; background:url(../images/page020/arrow-up.png) no-repeat 50% 50% / 100% auto}
+
+.interaction {position: relative;}
+.interaction .layer-wrp {position: absolute;}
+.interaction .layer {min-width: 263px;}
+.interaction .layer-body {padding-left:10px; padding-right:10px; text-align: center; font-size: 15px;}
+.interaction .layer-body .tit {font-size: 16px; color: #f50068;}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page083/bg.jpg)}
+.timeline{position:absolute;top: 96px;left: 388px;font-size:14px;font-weight:700;font-family: 'KoPubDotum', sans-serif;}
+.timeline span{display: inline-block;min-width: 68px;padding: 7px 6px;background:#fff;border-radius: 33px;line-height: 20px;font-size: 14px;text-align: center;}
+.timeline span b{display: inline-block;vertical-align: top;line-height: 20px;font-size: 16px;}
+.timeline li+li{margin-top:14px;}
+.timeline li:nth-child(8){margin-top:10px;}
+

@@ -4,3 +4,6 @@
 .fwd1 {width: 114px}
 .fwd2 {width: 156px}
 .fwd3 {text-indent: 0; font-weight: 700}
+
+.icon-btn-help {position: absolute; top:0; right:0}
+.layer-wrp.open {z-index: 0;}

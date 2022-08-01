@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.table-round-wrp .tb tr>th.bg-org {background: #fcca88;}
+table.v2 tr th {height: 34px; padding: 6px 15px;}
+.tb.v2 textarea.form-control {height: 120px; width: 100%; margin:0; padding:0;} 
+.q-04, .q-05 {margin-top: 26px;}
+.q-05 .bx {margin-top: 18px; padding: 26px 41px; padding-right: 0;}
+#text_133_01 {width: 324px;}
+#text_133_02 {width: 338px;}
+.verify-content {padding: 10px 15px 5px 20px;}

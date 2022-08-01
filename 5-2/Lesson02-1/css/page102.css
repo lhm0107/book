@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page102/bg.jpg)}
+.col-wide{flex:0 0 519px;max-width: 519px;}
+.text-flex{font-size: 16px;text-indent: 0 !important;line-height: 26px;}
+.text-flex strong{margin-right: 5px;}
+.fwd.font-mi{line-height: 18px !important;}
+.fwd1{line-height: 23px !important;}
+.lst-type-num>li>.text-circle:first-child{margin:7px 0 0 -20px}
+.icon-btn-pencil {position: absolute; top:0; right:0}
+.img-bx {position: relative; width: 468px; height: 279px; margin:0 auto; padding:0 25px; padding-top:10px; text-align: justify;}
+.bg-pink {background: url(../images/page102/1_bg.png) no-repeat 0 0 / 100% auto;}
+.bg-purple {background: url(../images/page102/2_bg.png) no-repeat 0 0 / 100% auto;}
+.text-flex {justify-content: center;}
+.img-bx .font-dt {text-align: justify; text-indent: 0.7em;}

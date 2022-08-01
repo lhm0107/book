@@ -1,0 +1,38 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page026/bg.jpg)}
+.interaction {position: relative;height: 754px}
+.interaction [class^=box] {position: absolute; border: 2px solid #a1cedf; border-radius: 12px; font-family: 'KoPubDotum', sans-serif; font-size: 14px; padding: 12px;width: 188px;line-height: 21px; text-indent: 1em; text-align: justify; background: #fff;animation: fadeIn 1s both;pointer-events: auto}
+[class^=box] strong {color:#eb8001}
+.interaction .box5{padding: 8px 12px}
+.interaction .box6{width: 174px;padding: 8px 12px}
+.interaction>.font-ka{position: absolute;font-size: 18px;color: #fff}
+.dic-left .explanation{left: -8px}
+.inform {position: absolute; width: 120px}
+
+.bg, .bg-txt{width: 465px;height: 742px;background: url(../images/page026/map.png) no-repeat 0 0/100% auto;position: absolute;top: 56px;left: 190px}
+.bg-txt{background-image: url(../images/page026/txt.png);z-index: 50;pointer-events: none}
+
+.order-inter-btn, .order-inter-content>div{width: 465px;height: 742px;position: absolute;top: 56px;left: 190px}
+.order-inter-content>div:not(.active){display: none}
+.order-inter-content .bg{position: static;animation: flash 1s .5s both;pointer-events: none}
+.order1 .bg{background-image: url(../images/page026/1.png)}
+.order2 .bg{background-image: url(../images/page026/2.png)}
+.order3 .bg{background-image: url(../images/page026/3.png)}
+.order4 .bg{background-image: url(../images/page026/4.png)}
+.order5 .bg{background-image: url(../images/page026/5.png)}
+.order6 .bg{background-image: url(../images/page026/6.png)}
+.order7 .bg{background-image: url(../images/page026/7.png)}
+.order8 .bg{background-image: url(../images/page026/8.png)}
+.order-inter-content .tit{position: absolute;width: 82px;border: 3px solid #b0d25e;background: #fff;border-radius: 2em;line-height: 28px;text-align: center;font-size: 15px;animation: fadeIn 1s both}
+.order2 .tit{border-color: #fdd445}
+.order3 .tit{border-color: #f5b079}
+.order4 .tit{border-color: #75c5ae}
+.order5 .tit{border-color: #bfb89a}
+.order6 .tit{border-color: #889ed1}
+.order7 .tit{border-color: #68c7e5}
+.order8 .tit{border-color: #be94c2}
+.order-inter-content>div{pointer-events: none}
+.painting-area{height: 550px;position: relative;text-align: center}
+.tx-a.circle{width: 50px;height: 50px;border-width: 4px;left: 311px;bottom: 143px;z-index: 20;pointer-events: none}
+.box5{z-index: 50}
+.explanation.layer-limit{width: 190px}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page025.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<!-- 활동해요 -->
+		<section class="sect-do-activity">
+            <header class="sect-hd">
+				<strong class="sr-only">활동해요</strong>
+                <h2 class="sect-title">각 대륙에 있는 여러 나라의 위치 찾기</h2>
+            </header>
+			<div class="sect-do-content">
+				<div class="text-mark">
+                    <b class="icon-face"></b>
+                    <div class="col">
+                        모둠별로 주제를 정한 뒤 대륙별로 나라를 고르고, 그 나라의 위치를 찾아보자.
+						<div class="bx mt15">
+							<span class="label label-way">활동 방법</span>
+							<ul>
+								<li>
+									<div><b class="text-circle mr5">1</b></div>
+									<p>모둠별로 주제를 정한다. <span class="label">예시</span> 월드컵이 열린 나라, 국제 영화제가 열린 나라 등</p>
+								</li>
+								<li class="mt2">
+									<div><b class="text-circle mr5">2</b></div>
+									<p>
+										주제에 해당하는 나라를 대륙별로 찾는다.<br />
+										<span class="label">예시</span>월드컵이 열린 나라: 유럽-프랑스(1998), 아프리카-남아프리카 공화국(2010) 등
+									</p>
+								</li>
+								<li class="mt2">
+									<div><b class="text-circle mr5">3</b></div>
+									<p>찾은 나라의 지도를 붙이고, 경도와 위도, 주변에 있는 대양이나 나라를 표시하는 등 위치를 다양한 방법으로 나타낸다.</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="bx bx-label bg-yellow mt30">
+							<span class="label">예시</span>
+							<p class="tit mt5"><img src="images/page025/3.png" alt="" width="259"/></p>
+							<div class="d-flex mt7">
+								<img src="images/page025/1.png" alt="" width="197.5" height="152.5"/>
+								<ul class="ml20 mt4">
+									<li>
+										<div><b class="text-circle bg-brown mr5">1</b></div>
+										<p>아프리카 대륙의 가장 남쪽에 위치한다.</p>
+									</li>
+									<li>
+										<div><b class="text-circle bg-brown mr5">2</b></div>
+										<p>남반구에 위치한다.</p>
+									</li>
+									<li>
+										<div><b class="text-circle bg-brown mr5">3</b></div>
+										<p>남위 22°~ 35°, 동경 16°~ 33°에 위치한다. </p>
+									</li>
+									<li>
+										<div><b class="text-circle bg-brown mr5">4</b></div>
+										<p>동쪽에는 인도양, 서쪽에는 대서양이 있다.</p>
+									</li>
+									<li>
+										<div><b class="text-circle bg-brown mr5">5</b></div>
+										<p>동쪽에는 에스와티니와 모잠비크가 있으며, 내부에는 레소토가 있다. 북쪽에는 나미비아·보츠와나·짐바브웨가 있다.</p>
+									</li>
+								</ul>
+							</div>
+
+							<img src="images/page025/2.png" alt="" width="134.5" class="position-absolute" style="top:-12px;right:-25px"/>
+						</div>
+
+						<div class="layer-side-chk position-relative mt15">
+							<div class="row justify-content-between">
+								<div class="bx bx-dotted">지도를 붙여 보자.</div>
+								<div id="layer1answer" class="table-round-wrp mt0">
+									<table class="tb">
+										<colgroup>
+											<col style="width: 60%" />
+											<col />
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="col" class="text-left"><b class="text-circle bg-brown">1</b> 나라 이름</th>
+												<td>
+													<textarea id="textarea_025_01" class="form-control" title="입력"></textarea>
+												</td>
+											</tr>
+											<tr>
+												<th scope="col" class="text-left"><b class="text-circle bg-brown">2</b> 위치한 대륙</th>
+												<td>
+													<textarea id="textarea_025_01" class="form-control" title="입력"></textarea>
+												</td>
+											</tr>
+											<tr>
+												<th scope="col" class="text-left"><b class="text-circle bg-brown">3</b> 위도와 경도 범위</th>
+												<td>
+													<textarea id="textarea_025_01" class="form-control" title="입력"></textarea>
+												</td>
+											</tr>
+											<tr>
+												<th scope="col" class="text-left"><b class="text-circle bg-brown">4</b> 주변에 있는 대양(바다)</th>
+												<td>
+													<textarea id="textarea_025_01" class="form-control" title="입력"></textarea>
+												</td>
+											</tr>
+											<tr>
+												<th scope="col" class="text-left"><b class="text-circle bg-brown">5</b> 주변에 있는 나라</th>
+												<td>
+													<textarea id="textarea_025_01" class="form-control" title="입력"></textarea>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="layer-wrp layer-wrp-btm">
+	                            <button type="button" class="icon-btn-help" title="도움말" data-toggle="layer" data-target="#layer2" data-layer-accordion="true">도움말</button>
+	                            <div id="layer2" class="layer" data-toggle="layerClse">
+	                                <div class="layer-body">
+	                                    <ul class="lst-type-bull">
+                                            <li>뷰어의 노트 기능을 이용하여 그림을 그려 보세요.</li>
+                                        </ul>
+	                                </div>
+	                            </div>
+	                        </div>
+							<div class="layer-wrp layer-wrp-btm">
+								<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer1" data-chk="#layer1answer">정답보기</button>
+								<div id="layer1" class="layer layer-full" data-toggle="layerClse">
+									<div class="layer-body">
+										<div class="row">
+											<div class="col-auto pr10">
+												<img src="images/page025/4.png" alt="" width="210" />
+											</div>
+											<div class="col">
+												<table class="tb mt0">
+													<colgroup>
+														<col style="width: 48%" />
+														<col />
+													</colgroup>
+													<tbody>
+														<tr>
+															<th scope="col" class="text-left"><b class="text-circle bg-brown">1</b> 나라 이름</th>
+															<td class="text-left">에콰도르</td>
+														</tr>
+														<tr>
+															<th scope="col" class="text-left"><b class="text-circle bg-brown">2</b> 위치한 대륙</th>
+															<td class="text-justify">남아메리카 대륙의 북서부에 위치합니다.</td>
+														</tr>
+														<tr>
+															<th scope="col" class="text-left"><b class="text-circle bg-brown">3</b> 위도와 경도 범위</th>
+															<td class="text-justify">북위 1.7°~ 남위 5.3°, 서경 75°~ 81.5°에 위치합니다.</td>
+														</tr>
+														<tr>
+															<th scope="col" class="text-left"><b class="text-circle bg-brown">4</b> 주변에 있는 대양(바다)</th>
+															<td class="text-left">서쪽에 태평양이 있습니다.</td>
+														</tr>
+														<tr>
+															<th scope="col" class="text-left"><b class="text-circle bg-brown">5</b> 주변에 있는 나라</th>
+															<td class="text-justify">남쪽에는 페루, 북쪽에는 콜롬비아가 있습니다.</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+			</div>
+		</section>
+
+		<!-- 확인해요 -->
+		<div class="verify">
+			<h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
+			<div class="verify-content">
+				<div class="row align-items-center">
+					<p class="col font-dt">세계 여러 나라의 지리 정보가 담긴 자료들을 활용하여 각 대륙에 자리 잡고<br />있는 여러 나라의 위치를 설명할 수 있다.</p>
+					<div class="self-radio-text">
+						<label>
+							<input type="radio" name="radio_025_01" value="radio_025_01" id="radio_025_01" class="sr-only" /><span>최고야</span>
+						</label>
+						<label>
+							<input type="radio" name="radio_025_01" value="radio_025_02" id="radio_025_02" class="sr-only" /><span>잘했어</span>
+						</label>
+						<label>
+							<input type="radio" name="radio_025_01" value="radio_025_03" id="radio_025_03" class="sr-only" /><span>아쉬워</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>25</b>1. 지구, 대륙 그리고 국가들</footer>
+	</div>
+
+	<div class="verify-buttons">
+		<button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+		<button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
+	</div>
+</div>
+
+<!-- 내용 정리 -->
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<h3 class="arrange-cont-title">각 대륙에 있는 여러 나라를 살펴볼까요</h3>
+			<section class="sect numbering">
+				<b class="num">1.</b>
+				<div class="media-body">
+					<h4 class="media-title">각 대륙에 있는 여러 나라</h4>
+					<table class="tb w-90">
+						<colgroup>
+							<col style="width: 130px" />
+							<col />
+						</colgroup>
+						<tbody>
+							<tr>
+								<th>아시아</th>
+								<td class="text-left">대한민국, 중국, 일본, 사우디아라비아 등</td>
+							</tr>
+							<tr>
+								<th>유럽</th>
+								<td class="text-left">영국, 에스파냐, 프랑스, 독일 등.</td>
+							</tr>
+							<tr>
+								<th>아프리카</th>
+								<td class="text-left">이집트, 남아프리카 공화국, 케냐, 수단 등</td>
+							</tr>
+							<tr>
+								<th>오세아니아</th>
+								<td class="text-left">뉴질랜드, 파푸아뉴기니, 오스트레일리아 등</td>
+							</tr>
+							<tr>
+								<th>북아메리카</th>
+								<td class="text-left">멕시코, 자메이카, 캐나다, 미국 등</td>
+							</tr>
+							<tr>
+								<th>남아메리카</th>
+								<td class="text-left">브라질, 아르헨티나, 페루, 수리남 등</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 잠깐체크 -->
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div id="small_025_01" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_025_04" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_025_01">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">1. </b>
+											<div class="media-body media-title">
+												사우디아라비아는 아프리카 대륙에 속한다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_025_04" id="radio_025_04" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_025_04" id="radio_025_05" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_024_02" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_024_05" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_024_02">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">2. </b>
+											<div class="media-body media-title">
+												멕시코는 (<div class="answer-wrp q-label-wrp">
+													<label>
+														<input type="radio" name="radio_024_05" id="radio_024_05" value="북아메리카" class="sr-only" data-answer="" />
+														<span>북아메리카</span></label>
+													,
+													<label>
+														<input type="radio" name="radio_024_05" id="radio_024_06" value="남아메리카" class="sr-only" />
+														<span>남아메리카</span></label>
+												</div>)대륙에 위치해 있다.
+
+											</div>
+								        </div>
+									</itemBody>
+									<correctResponse><span class="sr-only">여춘영</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_025_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_025_04" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_025_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+												오스트레일리아는 유럽 대륙에 위치해 있다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_025_04" id="radio_025_04" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_025_04" id="radio_025_05" value="×" class="sr-only" data-answer="" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+					</div>
+                    <div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+                    </div>
+					<div id="stamp"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/basic-slider.js"></script>
+</body>
+</html>

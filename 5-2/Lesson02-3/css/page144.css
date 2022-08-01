@@ -1,0 +1,10 @@
+@charset "utf-8";
+.ch-2-title {position:relative}
+.ch-2-title span {z-index: 1; line-height: 55px}
+.img-bg {position: absolute; left: -19.5px; top: -16px; z-index: 0}
+.ch-2-title b {margin: 0 -11px}
+.word-bubble {margin: 0 -50px; margin-top: 10px}
+.fwd1 {text-align: center}
+.fwd2 {font-size: 11px}
+.fwd3 {font-size: 14px; line-height: 20px; text-align: center}
+.word-bubble p {color: #fff}

@@ -1,3 +1,19 @@
 @charset "utf-8";
+
 #wrap {background-image: url(../images/page072/bg.jpg)}
 .fwd1 {text-indent: 0; font-size: 14px; line-height: 14px; font-weight: 700}
+
+.interaction {position: relative; height: 678px;}
+.text-dot {position: absolute; font-size: 13px;}
+
+.legend-img{position: absolute;top: 0;left: 0;display: none}
+.legend{position: absolute;top: 5px;right: 8px}
+.legend .box{width: 123px;padding: 5px 0 5px 9px;background: #fff;border-radius: 5px;font-size: 12px;line-height: 19px; }
+[class^=icon-legend]{width: 30px;height: 8.5px;background: url(../images/page072/legend.png) no-repeat center 0/100% auto;}
+.icon-legend-2{background-position:0 -17px}
+.icon-legend-3{height:13px; background-position:0 -31.4px}
+.icon-legend-4{height:13px; background-position:0 -48.4px}
+.interaction .icon-btn-refresh{position: absolute;top: 100px;right: 12px;display: none}
+.show~.icon-btn-refresh{display: block}
+
+.fwd {font-size: 13px; text-indent: 0; font-weight: 700;}

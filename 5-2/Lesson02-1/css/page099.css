@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* #wrap {background-image: url(../images/page099/bg.png);} */
+
+.slider-wrap .layer-wrp {position: absolute; top:0;left:180px;z-index: 9;}
+.wrapper .swiper-slide>div {width: 563px; height: 576px; margin:20px auto 0; padding:38px 30px; border-radius: 20px}
+.label1 {position: absolute;top:0}
+.label1 span {position: absolute; top:54%;left:50%; transform: translate(-50%,-50%); color: #fff; font-size: 15px;}
+.swiper-slide>div p {margin-bottom:30px; text-align: justify; text-indent: 0.7em; line-height: 32px; }
+.bg-blue {background: #dbeef2;}
+.bg-purple {background: #e8e6f4;}
+.pic-dsc{margin-top:20px; font-size: 16px; font-family: 'KoPubDotum',sans-serif !important;line-height: 26px;text-align: center;}
+.pic-dsc strong{display: block;}
+
+.fwd.font-dt.fwd1{line-height: 32px;width:294px;font-size: 17px;text-indent: 1em;}
+.sect-do-explore .icon-btn-pencil{position: absolute;right:0;top: 0;}
+#text_099_01 {display: inline-block; width: 350px;}
+#lyrWedorang .layer-body {background: none;}
+.painting-area {position: relative;}

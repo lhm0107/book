@@ -5,14 +5,30 @@
 i.fwd{color: #0075b3;font-size: 11px;}
 .fwd.font-netmarble{font-size: 13px;font-weight: 500;}
 .caption{text-align: center;font-size: 15px;}
-.para-content+.para-content{margin-top:65px;}
+.para-content+.para-content{margin-top:50px;}
 .para{text-indent: 16px;}
-.word-bubble.history .fwd {text-indent: 0;}
-.word-bubble.history .fwd span:first-child{color: #fff;display: inline-block;width: 50px;text-align: center;}
-.word-bubble.history .fwd span:last-child{display: inline-block; font-weight:600;text-indent: 0;}
-.word-bubble.history .fwd .font-coo{font-weight: 400;margin-right: 1px}
+.bottom-content {height: 194px;}
+.bottom-content .col-auto{flex:0 0 400px;max-width: 400px; align-self: flex-end;}
+.bottom-content .font-dt{font-size: 13px;line-height: 1.571;}
+.bottom-content .layer-wrp{position: absolute;}
+.bottom-content .layer{box-shadow: none;margin: 0;padding: 0;background: none; border: 0;right:auto;}
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:259px;height:87px;background-image: url(../images/page038/bubble1.png)}
+#layer2 .bubble{width:127.5px;height:100.5px;background-image: url(../images/page038/bubble2.png);padding-bottom: 23px}
 
-.img-row {margin-top: -35px;}
-.img-row .col-auto{flex:0 0 330px;max-width: 330px;}
-.img-row .col{margin-top: 9px;}
-.img-row .font-dt{font-size: 15px;line-height: 25px;}
+
+
+.history{position: relative;padding-left: 11px;margin-left: 4px}
+.history .line{width: 11px;position: absolute;top: 0;left: 0;overflow: visible !important;padding-top: 12px;border-radius: 2rem 2rem 0 0;background: #c0a686}
+.history .line:before{content: '';position: absolute;width: 7px;height: 7px;border-radius: 100%;background: #fff;left: 2px;top: 100%;z-index: 1;margin-top: -4px;opacity: 1}
+.history.start .line:before{opacity: 0;transition: opacity 1s .4s}
+.history .line:after{content: '';position: absolute;top: 100%;left: 50%;width: 19px;height: 25px;background: url(../images/page038/history.png) no-repeat 0 100%/100% auto;left: -4px;margin-top: -8px}
+.history.start .line:after{margin-top: -4px;height: 33px;transition: .5s 1s linear}
+.history-year{position: relative;font-size: 15px;display: flex;font-weight: 700;line-height: 24px}
+.history-year>span:first-child{width: 61px;height: 24px;background: url(../images/page038/history-year.png) no-repeat 0 0/auto 100%;color: #fff;line-height: 24px;padding-left: 12px;font-weight: 400;margin-right: 5px}
+.history-year .font-coo{margin-right: 2px}
+.history-year:before{content: '';position: absolute;width: 7px;height: 7px;border-radius: 100%;background: #fff;top: 8px;right: 100%;margin-right: 2px}
+.history-list>li{padding-bottom: 10px}
+.history-year{opacity: 0}
+.active .history-year{opacity: 1;transition: opacity 1s}
+.history .icon-btn-refresh{top: 0;right: 100%;position: absolute;}

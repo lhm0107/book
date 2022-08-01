@@ -1,0 +1,18 @@
+@charset "utf-8";
+.text-step{font-size: 16px;line-height:26px;display: flex}
+.badge-num-square{display:inline-flex; width: 22px;height: 22px; justify-content: center; align-items: center;color: #fff; background: #435e89; border-radius: 5px; flex:0 0 22px; margin-right: 10px;margin-top: 2px}
+.box {display: block; width: 106px; height: 41px; font-size: 15px; line-height: 41px; text-align: center; background: url(../images/page152/box-g.png) no-repeat 50% 0/ auto 100%; color: #fff}
+.box.org {background: url(../images/page152/box-o.png) no-repeat 50% 0/ auto 100%}
+.cont-wrp {padding-left: 32px; padding-right: 27px}
+.badge-num-square.v2 {display: inline-block; width: 16.5px; height: 16.5px; margin-right: 3.5px !important; font-size: 12px; line-height: 20px; text-align: center}
+.step2 .font-mi {text-indent: 0; font-size: 20px; line-height: 26px}
+.step2 .label {position: absolute; left: 235px; top: -9.5px}
+
+.step3 .cont-wrp {margin-top: 23px}
+.step3 .cont-wrp p {line-height: 15px; font-size: 15px}
+.step3 p:last-child {letter-spacing: -0.01em}
+.step3 .bx {font-size: 15px; line-height: 25px; border-color: #e9f3f9; background: #e9f3f9}
+.lst-type-bull.v2 {display: flex; flex-direction: row; align-items: center; justify-content: space-between}
+.border-ylw {border-color: #ffa800}
+.label-navy {background: #435e89}
+.border-ylw .lst-type-bull {margin-top: 7px; font-size: 15px; line-height: 25px}

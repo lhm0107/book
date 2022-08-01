@@ -7,22 +7,84 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
 <link rel="stylesheet" type="text/css" href="css/page032.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2">
+<div id="wrap">
 	<div class="wrapper">
-		
+		<div class="row">
+			<div class="col-wide">
+				<strong class="para-title">통일 이후 신라의 불교</strong>
+				<p class="para">삼국을 통일한 후 신라 불교는 고구려와 백제의 불교가 합쳐지고 당과 교류하면서 더욱 발달하였다. 또한 지배층을 중심으로 유행하던 불교가 원효와 의상 등의 노력으로 일반 백성에게도 널리 퍼졌다.</p>
+			</div>
+		</div>
+        <button type="button" class="btn-subject position-absolute" data-toggle="modal" data-target="#modalVideo" style="left: 335px; top:191px"><i class="icon-btn-hvideo"></i><span>부처의 나라, 불국사</span></button>
+		<button type="button" class="icon-enlarge position-absolute" title="확대보기" data-toggle="modal" data-target="#modalEnlarge" style="left: -19px; top:253px">확대보기</button>
 
+        <div class="layer-wrp layer-wrp-left">
+			<button type="button" class="icon-hand" title="내용보기" data-toggle="layer" data-target="#layerSubject">내용보기</button>
+            <div id="layerSubject" class="layer" data-content_index="content_cls_ref" data-toggle="layerClse">
+                <div class="layer-body">
+                    <strong class="subject-title">청운교와 백운교</strong>
+                    <div class="text-center">
+                        <img src="images/page032/1.JPG" alt="경주 불국사 청운교과 백운교" title="경주 불국사 청운교과 백운교" data-dtext_index="dtext_cls_image" />
+                    </div>
+                    <p class="mt10">불국사 대웅전을 마주하는 자하문 앞에 놓인 계단으로, 아래쪽 계단이 청운교이고 위쪽 계단이 백운교이다. 불국사의 계단은 다리 아래 현실 세계와 다리 위 부처의 세계를 이어 주는 상징적인 의미가 있어서 다리를 의미하는 ‘교’ 자를 넣어 청운교, 백운교라고 부른다.</p>
+                </div>
+            </div>
+        </div>
+		<p class="fwd font-mi" style="left: 1px;top: 13px;">나무아미타불만 <br />외우면 누구나 구원받을 수 <br />있습니다.</p>
+		<p class="fwd font-ka fs15" style="left:115px;top:189px;transform:rotate(5deg)">원효</p>
+		<p class="fwd font-ka fs15" style="left:349px;top:237px;color:#fff">불국사
+			<span class="font-dt fs12 position-relative" style="color:#000;left:12px;top:2px">(경상북도 경주시)</span>
+		</p>
+		<p class=" fwd font-dt fwd1" style="left: 351px;top: 264px;">신라 왕실은 수도인 경주를 부처의 나라로 만들고자 하였다. 이러한 마음을 담아 만든 것이 불국사이다.<br /> 불국사에는 삼층 석탑과 다보탑, 청운교와 백운교 등 많은 문화유산이 있다.</p>
+		<p class="fwd font-dt fs15 fwd2" style="left:364px;top:432px">청운교와 백운교를 올라 부처님의 세계로 들어가면, 부처를 상징하는 불국사 삼층 석탑(석가탑)과 다보탑을 만날 수 있다.</p>
 		<!-- paging -->
-		<footer id="num" class="font-dt"><b>32</b><span>1</span>나라의 등장과 발전</footer>
+		<footer id="num" class="font-dt"><b>32</b><span>1</span>옛사람들의 삶과 문화</footer>
+	</div>
+</div>
+
+<div id="modalEnlarge" class="modal modal-enlarge">
+    <div class="modal-dialog-centered">
+        <div class="modal-content" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-modal-close">닫기</button>
+            <div class="modal-body text-center">
+                <img src="images/page032/2.jpg" alt="불국사 전경" title="" data-dtext_index="dtext_cls_image" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_2_32_1a.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/5_2_32_1a.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
 	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
 </body>
 </html>

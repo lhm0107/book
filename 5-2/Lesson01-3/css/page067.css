@@ -2,6 +2,11 @@
 
 #wrap{background-image: url(../images/page067/bg.jpg)}
 
+.nav-tabs {position: absolute; top:-36px}
+.nav-tabs>.active {background: #762535;}
+.tab-content {margin-left:-50px}
+
+.word-bubble {position: absolute; top:0;left:0;width:100%;height:781px}
 .word-bubble button {position: absolute}
 .bubble-box1{width: 109px;height: 73px;background-image: url(../images/page067/b1.png);padding-top: 16px}
 .bubble-box2{width: 122px;height: 95px;background-image: url(../images/page067/b2.png);padding-top: 16px}

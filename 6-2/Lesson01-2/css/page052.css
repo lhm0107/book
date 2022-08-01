@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.ch-2-title strong {font-size: 50px;}
+.ch-2-title span {position: absolute; right: -5px; top: 4px; letter-spacing: -0.03em;}
+.word-bubble {margin-left: -13px;}
+.word-bubble button {position: absolute; left: 25px; top:112px}
+.word-bubble .label {position: absolute; left: 26px; top:11px}
+.fwd1 {font-size: 17px; font-weight: 700; text-indent: 0;}
+.fwd2 {font-size: 14px; color: #c4c4c4; text-indent: 0;}
+.fwd3 {font-size: 14px; text-indent: 0; text-align: center; line-height: 23px; font-weight: 700;}
+.fwd4 {width: 255px; font-size: 14px; line-height: 22px; text-indent: 1.8em; letter-spacing: -0.023em; color: #f50068;}
+.numbering .media-title {text-align: justify; width: 384px;}
+.inform {margin-top: 41px; padding: 10px 8px; text-align: justify; font-size: 13px; line-height: 18px; }

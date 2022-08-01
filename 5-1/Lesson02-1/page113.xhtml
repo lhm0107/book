@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
+<link rel="stylesheet" type="text/css" href="css/page113.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<div class="numbering font-dt">
+			<b class="num fs23">2</b>
+			<p class="media-body media-title">
+				다음 내용이 맞으면 ‘○’, 틀리면 ‘×’를 따라가며 미로를 탈출해 보자.
+				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
+			</p>
+		</div>
+
+		<!-- 길찾기 -->
+		<div id="miroh">
+			<button type="button" class="btn-game-start"><i class="icon-game-start"></i></button>
+
+			<div class="start-piece" style="left: 59.4531px; top: 120.5px;">
+				<img src="images/page113/piece.png" width="166" alt="" />
+			</div>
+
+			<ol xmlns="http://www.w3.org/1999/xhtml" id="quest" class="font-dt">
+				<li class="quest" style="left: 381px; top: 141px;">
+					<div class="question">
+						<span class="text-circle">1</span>범죄자라고 하더라도<br /> 인간이라는 이유만으로<br />그 존재 가치가 있다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_01" class="sr-only" name="radio_113_01" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_02" class="sr-only" name="radio_113_01" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 301px; top: 345px;">
+					<div class="question">
+						<span class="text-circle">2</span>사람이라면 누구나<br /> 누릴 수 있는 권리를<br /> 인권이라고 한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_03" class="sr-only" name="radio_113_03" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_04" class="sr-only" name="radio_113_03" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 144px; top: 289px;">
+					<div class="question">
+						<span class="text-circle">3</span>인간으로서의 권리는<br /> 지위와 유명한 정도에<br /> 따라 구별되어야 한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_05" class="sr-only" name="radio_113_05" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_06" class="sr-only" name="radio_113_05" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 118px; top: 448px;">
+					<div class="question">
+						<span class="text-circle">4</span>조선 시대에는 신분<br /> 제도가 있어서 인간<br /> 존중 사상이 없었다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_07" class="sr-only" name="radio_113_07" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_08" class="sr-only" name="radio_113_07" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 482px; top: 404px;">
+					<div class="question">
+						<span class="text-circle">5</span>옛날에도 차별받는<br /> 사람을 안타깝게 여기며<br /> 인간 존중 사상을 실천한<br /> 인물이 있었다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_09" class="sr-only" name="radio_113_09" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_10" class="sr-only" name="radio_113_09" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 297px; top: 575px;">
+					<div class="question">
+						<span class="text-circle">6</span>몸이 아픈 친구를<br /> 도와주는 행동은<br /> 인권 침해에 해당한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_11" class="sr-only" name="radio_113_11" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_12" class="sr-only" name="radio_113_11" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 103px; top: 632px;">
+					<div class="question">
+						<span class="text-circle">7</span>인권을 보장하기 위해서는<br /> 모든 사회 구성원이 다양한<br /> 노력을 해야 한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_113_13" class="sr-only" name="radio_113_13" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_113_14" class="sr-only" name="radio_113_13" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>113</b>1. 인권을 존중하는 삶</footer>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

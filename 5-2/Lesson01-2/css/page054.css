@@ -4,6 +4,8 @@
 .arrange-label-line {width:110px; margin-right: 10px;}
 .arrange-label-line.v2 { padding:5px 5.5px;}
 .arrange-label-line.v2 .input-group { margin-top:0 }
+.arrange-test .form-control {max-width: 100px;}
+.arrange-test .tx-a {left:46px; bottom:-17px}
 
 .pt75 {padding-top:75px !important}
 
@@ -29,10 +31,23 @@
 .sky-border-box { position: absolute; left:50%; transform: translate(-50%, -70%); display: inline-block; width:95px; padding:6.5px 0; background: #fff; border:2px solid #83cad9; border-radius: 5px; text-align: center; font-size:14px; line-height: 1; font-weight: 700;}
 
 
-.drop-type-box{width: 85px;height: 55px}
+/* .drop-type-box{width: 85px;height: 55px} */
 .sheet-bubble .mark{height: 87px;top: 0}
 
 #final_112_04 .word-bubble{margin: -10px 0}
 #final_112_04 .fwd1{font-size: 14px;line-height: 18px;color: #495f87}
 #final_112_04 .fwd2{font-size: 10px;color: #495f87}
 #final_112_07 .font-ka{font-size: 20px;line-height: 25px}
+
+.q1 .bx.drag-area { justify-content: flex-start;}
+.q1 .bx.drag-area>div{display: flex; align-items: center;margin:10px 0}
+.q1 .drag-area .drag-type-box {margin-right: 5px;}
+.q1 .drop-type-circle{margin:0 10px}
+.q2 .font-mi {white-space:unset; text-align: justify; text-indent: 0.7em; line-height: 20px;}
+.q3 .drop-type-box{height:42px;width:85px;display: inline-block;vertical-align: middle;}
+.drag-area .drag-type-circle{margin-right: 4px}
+
+#text_054_130{width: 150px;margin: 0 auto}
+
+.sheet-bubble .mark{left: 50%;top: 50%;margin-left: -30px}
+.q4 .test-bubble .font-mi{top: 16px;height: 55px}

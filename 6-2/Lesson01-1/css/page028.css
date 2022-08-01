@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page028/bg.jpg)}
+
+.icon-btn-pencil {position: absolute; top:-5px; right:-15px;}
+#layerSelfWrite{ margin-right: -35px;bottom: -300px}
+.numbering .swiper-wrapper {align-items: center;}
+.numbering .swiper-button-next, .numbering .swiper-button-prev {top:40%}
+
+.verify .q-label span {font-weight: 500}
+.bg-blue {background: #314f85 !important}
+.mt27 {margin-top:27px !important}
+
+
+/* 공통- 모달 헤더 아이콘 추가 */
+.icon-modal-pointer { background-image: url(../images/common/modal-pointer.png);}
+/* 공통- 모달 헤더 아이콘 추가 */
+
+/* #modalWrite {background: url(../images/page028/bg2.jpg) no-repeat 50% 50% /100% auto}
+.modal-content, .modal-body {background: none;} */
+.icon-btn-refresh {position: absolute; top:0 ; right:0}
+#modalWrite .modal-body>div {display: flex;}
+.drag-area {position: relative; width:610px; height:270px}
+.drag-area>div {position: absolute}
+
+.drop-area {width:610px;}
+.drop-area>div{display: flex;justify-content: space-between; align-items: center; margin-bottom:15px;padding:0 15px 0 27px}
+.drop-area .img-wrp {position: relative;}
+.drop-area .img-wrp .text-circle { position: absolute; top:-5px;left:-10px;}
+.drop-area .bx {position: relative; width:147.5px; height:95px; padding:5px}
+.drop-area .bx::before {content: ""; position: absolute; top:50%; left:-54px; transform: translateY(-50%); width:54px; height:2px; border-top:2px dotted #b9cbd4}
+.drop-fix {position: relative; width:100%; height:100%; display: flex; justify-content: center; align-items: center; background: #fff;}
+
+.drag-fix.ui-draggable-disabled img,
+.drag-fix.dragging img,
+.ui-draggable-disabled>.drag-fix img,
+.dragging>.drag-fix img {filter: grayscale(1);}
+#layer3 .swiper-slide{padding: 0 60px;text-align: justify;}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/page159.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+        <!-- 창의융합놀이터 -->
+        <div class="playground">
+            <section class="sect sect-top numbering">
+                <b class="pencil"></b>
+                <div class="media-body">
+                    <h4 class="media-title">내가 생각한 법의 내용은 무엇인지 써 보자.</h4>                   
+                    <div class="layer-wrp pr40">
+                        <textarea id="textarea_159_01" class="form-control" title="입력" placeholder=""></textarea>
+                        <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_159_01" data-layer-accordion="true">확인</button>
+                        <div id="layer_159_01" class="layer w-100" data-toggle="layerClse">
+                            <div class="layer-body">
+                                <strong class="title">예시 답안</strong>
+                                <p>저작권을 보호하기 위해 음악을 불법으로 내려받으면 안 된다는 내용을 표현하고 싶습니다.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <section class="sect numbering">
+                <b class="pencil"></b>
+                <div class="media-body">
+                    <h4 class="media-title">내가 생각한 법의 내용을 그림으로 어떻게 표현할지 생각해 보자.</h4>
+                    <div class="layer-wrp pr40">
+                        <textarea id="textarea_159_02" class="form-control" title="입력" placeholder=""></textarea>
+                        <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer_159_02" data-layer-accordion="true">확인</button>
+                        <div id="layer_159_02" class="layer w-100" data-toggle="layerClse">
+                            <div class="layer-body">
+                                <strong class="title">예시 답안</strong>
+                                <p> 이 법에서 가장 중요한 핵심 단어인 ‘내려받기’와 ‘불법’ 등을 단순하고 상징적으로 표현할 생각입니다.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <section class="sect layer-wrp numbering pr40">
+                <b class="pencil"></b>
+                <div class="media-body">
+                    <h4 class="media-title">누구나 알 수 있도록 단순하고 상징적인 그림으로 나만의 법 표지판을<br /> 만들어 보세요.</h4>
+                    <div class="painting-area">
+                        <canvas id="draw_159_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="485" height="295"></canvas>
+                    </div>
+                    <div class="side-btns">
+                        <div class="layer-wrp">
+                            <button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-layer-accordion="true" data-target="#drawHelper">디교 펜쓰기</button>
+                            <div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+                                <div class="draw-option">
+                                    <input id="spectrumInsert" type="color" value="#00b050" />
+                                    <div class="colorchart">
+                                        <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_159_01', '#000000')">색상 변경</button>
+                                        <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_159_01', '#ff0000')">색상 변경</button>
+                                        <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_159_01', '#0000ff')">색상 변경</button>
+                                        <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_159_01', '#fdce54')">색상 변경</button>
+                                    </div>
+                                    <div class="linewidth">
+                                        <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_159_01', 1)">굵기 변경</button>
+                                        <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_159_01', 4)">굵기 변경</button>
+                                        <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_159_01', 7)">굵기 변경</button>
+                                        <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_159_01', 14)">굵기 변경</button>
+                                    </div>
+                                    <div class="btns">
+                                        <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_159_01',this);">펜 쓰기 영역 부분 삭제</button>
+                                        <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_159_01');">펜 쓰기 영역 전체 삭제</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layer-wrp layer-wrp-btm">
+                            <button type="button" class="icon-btn-help" title="도움말" data-toggle="layer" data-target="#layer1" data-layer-accordion="true">도움말</button>
+                            <div id="layer1" class="layer layer-full" data-toggle="layerClse">
+                                <div class="layer-body">
+                                    <p>누구나 알 수 있도록 단순하고 상징적인 그림으로 나만의 법 표지판을 만들어 보세요.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layer-wrp layer-wrp-btm">
+                            <button type="button" class="icon-btn-wedorang" data-toggle="layer" data-target="#lyrWedorang" data-layer-accordion="true">위두랑</button>
+                            <div id="lyrWedorang" class="layer layer-wedorang" data-layer-accordion="true" data-toggle="layerClse">
+                                <div class="layer-body">
+                                    나만의 법 표지판을 그려 위두랑에 올린 후 다른 친구들의 법 표지판과 비교해 보세요.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- paging -->
+		<footer id="num" class="font-dt"><b>159</b> 창의 융합 놀이터</footer>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>

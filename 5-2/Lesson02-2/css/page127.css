@@ -1,0 +1,7 @@
+@charset "utf-8";
+.content-top >.col-wide:first-child:last-child {margin-left: 0; margin-right: auto}
+.img-wrp {margin-left: 25px}
+.img-tit {font-size: 15px; font-weight: 700; line-height: 15px; margin-top: 10px}
+.btn-dic .explanation.layer-limit {width: 234px}
+.explanation:before {right: 49%}
+.content-bottom {margin-top: 38px}

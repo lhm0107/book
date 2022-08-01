@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page093/bg.jpg)}
+.col-wide{width: 479px;flex:0 0 479px}
+.row1{padding-top:177px}
+.fwd1{text-indent: 0;line-height: 23px;}
+.w144{width: 144px;}
+.text-wrap {margin-top: 34px;}
+.text-wrap .font-dt{line-height: 25px;font-size: 15px;margin-top: 18px;}
+.fwd.para.fs13{line-height: 25px;width:403px}
+
+.write {margin-top:200px;margin-left:90px}
+#modalWrite .icon-btn-chk {top:30px}

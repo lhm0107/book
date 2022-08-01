@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page099/bg.jpg)}
+.layer-wrp{position: absolute;right: 0;bottom: 15px}
+.layer-wrp>.text-mark{font-size: 15px;letter-spacing: -.05em}
+.layer-wrp>.text-mark>.icon-q{margin-right: 5px}
+.fwd2{font-size: 22px;color: #686868}
+.fwd3{font-size: 18px;color: #e2470e;line-height: 27px;letter-spacing: -.035em}
+.fwd4{font-size: 15px;line-height: 18px;color: #28698c}
+.fwd5{font-size: 11px;color: #28698c}
+.bubble-box1{width: 182px;height: 96px;background-image: url(../images/page099/b1.png);padding: 17px 0 0 8px}
+.bubble-box2{width: 139px;height: 70px;background-image: url(../images/page099/b2.png);padding: 14px 0 0 3px}
+.bubble-box3{width: 106px;height: 82px;background-image: url(../images/page099/b3.png);padding-top: 20px}
+.bubble-box4{width: 137px;height: 107px;background-image: url(../images/page099/b4.png);padding-top: 20px}
+.bubble-box5{width: 158px;height: 92px;background-image: url(../images/page099/b5.png);padding: 18px 19px 0 0}
+.bubble-box6{width: 101px;height: 78px;background-image: url(../images/page099/b6.png);padding-top: 9px}
+.btn-subject{position: absolute;left: 0;bottom: 15px}

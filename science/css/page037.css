@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page037/bg.jpg)}
+.btn-dic{pointer-events: none}
+.inter>*{position: absolute}
+.note{display: none;animation: fadeIn 1s both}
+.icon-re{top: 165px;left: 105px;display: none}
+.show~.icon-re{display: block}
+.show+.icon-hand{display: none}
+#note1{left: -22px; top: 223px;}
+#note2{left: 310px; top: 143px;}
+#note3{left: 378px; top: 486px;}

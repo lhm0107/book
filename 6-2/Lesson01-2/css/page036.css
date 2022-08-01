@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.word-bubble {margin-top: 225px; padding-right: 5px;}
+.sect-hd {margin-bottom: 0}
+.sect-do-content.top {padding-right: 0;}
+.sect-do-content.btm {margin-top: 48px;}
+.map-wrap {margin-right: -50px; margin-top: -6px; text-align: right;}
+.icon-enlarge {position: absolute; left: 345px; top:546px;}
+.icon-btn-chk {position: absolute; right: -40px;}
+.layer-full {right: -40px;}

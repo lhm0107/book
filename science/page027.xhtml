@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/page027.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-content">
+                <p class="para para-first">온도를 측정하려는 물체의 상태에 따라 쓰임새에 맞는 온도계를 사용하면 온도를 정확하고 편리하게 측정할 수 있습니다.</p>
+                <p class="para">물체의 온도는 물체가 놓인 장소나 햇빛의 양, 측정 시각 등에 따라 다릅니다. 같은 물체라도 온도가 다를 수 있고, 다른 물체라도 온도가 같을 수 있기 때문에 온도계를 사용해 온도를 측정합니다.</p>
+            </div>
+        </div>
+
+        <strong class="fwd font-ka fs15 text-brw" style="left: 22px; top: 335px;">교실</strong>
+        <p class="fwd font-mi" style="left: 424px; top: 351px;">운동장의 기온와 <br />다르네.</p>
+
+        <div class="bottom-buttons">
+            <button type="button" class="btn-img text-hide btn-self-check" data-toggle="modal" data-target="#modalSelfCheck">스스로 확인해요</button>
+            <button type="button" class="btn-img text-hide btn-arrange" data-toggle="modal" data-target="#modalArrange">정리 문제</button>
+        </div>
+
+        <div id="num">27</div>
+    </div>
+</div>
+
+<!-- 스스로확인해요 -->
+<div id="modalSelfCheck" class="modal modal-self-check">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+            <h2 class="self-check-title"><span class="text-hide">스스로</span> 확인해요</h2>
+            <div id="selfCheck01" class="no-answered" data-qtype="radio">
+                <assessmentItem data-qid="radio_027_01" data-response-type="singleChoice">
+                    <itemBody>
+                        <div class="question">
+                            <span class="num font-coo">1.</span>
+                            <div class="col text-q">
+                                교실의 기온은
+                                ( <div class="answer-wrp q-label-wrp">
+                                    <label class="q-label">
+                                        <input type="radio" name="radio_027_01" id="radio_027_01" value="적외선 온도계" class="sr-only" />
+                                        <span>적외선 온도계</span></label>
+                                    ,
+                                    <label class="q-label">
+                                        <input type="radio" name="radio_027_01" id="radio_027_02" value="알코올 온도계" class="sr-only" data-answer="" />
+                                        <span>알코올 온도계</span></label>
+                                </div> )로 측정합니다.
+                            </div>
+                            <div class="test-buttons">
+                                <button type="button" title="정답보기" class="icon-check chk-data-button" data-toggle="answer-final" data-target="#selfCheck01" data-chance="1">확인</button>
+                                <button type="button" title="다시하기" class="icon-re" data-toggle="answer-refresh" data-target="#selfCheck01">다시하기</button>
+                            </div>
+                        </div>
+                    </itemBody>
+                    <correctResponse><span class="sr-only">알코올 온도계</span></correctResponse>
+                </assessmentItem>
+            </div>
+            <div id="selfCheck02" class="no-answered" data-qtype="etc">
+                <assessmentItem data-qid="textarea_027_01" data-response-type="essay">
+                    <itemBody>
+                        <div class="question">
+                            <span class="num font-coo">2.</span>
+                            <div class="col">
+                                <p class="text-q">
+                                    <span class="badge">의사소통 능력</span> 체온을 측정했던 경험을 떠올려 보고, 그때 사용한 온도계와 사용 방법을 이야기해 봅시다
+                                </p>
+                                <textarea id="textarea_027_01" class="form-control"></textarea>
+                            </div>
+                            <div class="test-buttons">
+                                <button type="button" title="정답보기" class="icon-check chk-data-button" data-toggle="answer-final" data-target="#selfCheck02">확인</button>
+                                <button type="button" title="다시하기" class="icon-re" data-toggle="answer-refresh" data-target="#selfCheck02">다시하기</button>
+                            </div>
+                        </div>
+                    </itemBody>
+                </assessmentItem>
+                <div class="answer-box">
+                    <div class="answer-wrap">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <div class="w-100 text-blue">학교에서 비접촉식 체온계를 사용해 체온을 측정했다. 손목과 <span class="font-serif">2 cm~3 cm</span> 간격을 두고 온도 측정 단추를 누르면 체 온을 측정할 수 있다.</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 정리 문제 -->
+<div id="modalArrange" class="modal modal-test">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <header class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-arrange"></i>정리 문제</h2>
+        </header>
+        <nav class="nav nav-test">
+            <button type="button" class="active" data-toggle="tab" data-target="#test01">1</button>
+            <button type="button" data-toggle="tab" data-target="#test02">2</button>
+        </nav>
+		<div class="modal-body">
+            <div class="tab-content">
+                <div id="test01" class="tab-pane no-answered active" data-qtype="">
+                    <assessmentItem data-qid="" data-response-type="">
+                        <itemBody>
+                            <div class="question">
+                                <span class="num font-coo">1.</span>
+                                <div class="col">
+                                    <div class="text-q">원고 수급 후 정의</div>
+                                </div>
+                            </div>
+                        </itemBody>
+                        <correctResponse><span class="sr-only"></span></correctResponse>
+                        <modalFeedback><span class="sr-only"></span></modalFeedback>
+                    </assessmentItem>
+                    <div class="test-buttons">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer-final" data-target="#test01" data-chance="2">확인하기</button>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#test01">다시하기</button>
+                    </div>
+                    <div class="answer-box" data-answer="hint">
+                        <div class="answer-wrap">
+                            <strong class="label-answer-hint font-ka">힌트</strong>
+                            <div class="w-100"></div>
+                        </div>
+                    </div>
+                    <div class="answer-box">
+                        <div class="answer-wrap">
+                            <strong class="label-answer font-ka">정답</strong>
+                            <div class="w-100"></div>
+                        </div>
+                        <div class="answer-wrap">
+                            <strong class="label-answer-feed font-ka">해설</strong>
+                            <div class="w-100"></div>
+                        </div>
+                        <button type="button" class="btn-img btn-next">다음 문제</button>
+                    </div>
+                </div>
+                <div id="test02" class="tab-pane no-answered" data-qtype="">
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 문항 확인 메시지 -->
+<div id="answerMsgCheck" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/answer.png" width="359" alt="예시 답안을 확인해 보세요." />
+	</div>
+</div>
+<div id="answerMsgGood" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/good.png" width="359" alt="와! 제대로 알고 있군요." />
+	</div>
+</div>
+<div id="answerMsgOnemore" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/onemore.png" width="359" alt="다시 한번 생각해 보세요." />
+	</div>
+</div>
+<div id="answerMsgHint" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/hint.png" width="359" alt="힌트를 참고해 다시 한번 풀어 보세요." />
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+</body>
+</html>

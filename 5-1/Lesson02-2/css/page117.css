@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.top-content .para {margin-top: -7px;}
+.word-bubble {margin-top: 36px;}
+.word-bubble .para {position: absolute; font-size: 16px; line-height: 31px; width: 331px;}
+.word-bubble .font-ka {font-size: 20px;}
+.icon-btn-audio {position: absolute; left: 241px; top: 49px;}
+.sect-do-activity {margin-top: 26px;}
+.bx {position: relative; margin-top: 6px; padding-left: 86px;}
+.bx .label {position: absolute; left: -66px; top:0px}
+.bx .text-center {font-size: 16px; line-height: 20px; color:#262626; margin-top: -12px; margin-left: -12px;}
+.box {border-radius: 10px; border:2px dotted #96a9b3; padding: 10px 15px;}
+.painting {position: relative; width: 100%; height: 300px;}
+#layerSelfWrite {z-index: 100;}
+.layer-draw {bottom: 118% !important; left: 36px;}
+.painting .form-control {width: 512px;}
+.painting p {color: #96a9b3; font-weight: 700;}

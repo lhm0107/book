@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.fwd1 {font-size: 16px; color: #fff}
+.interaction .icon-hand {position: absolute}
+.para.font-dt {font-size: 16px}
+.bottom-content .row {justify-content: space-between}
+.bottom-content .para {width: 247px; font-size:16px; line-height: 27px}
+.nav-step {justify-content: flex-start}
+#layerSelfWrite{top: -556px;bottom: auto}
+#tab3 textarea.form-control {height: 30px}
+.slider-wrap{width: 465px}
+.graph{position: relative}
+.graph>img{display: block;margin: 0 auto}
+.graph>span{position: absolute;font-size: 15px}
+.graph-heading{display: inline-block;vertical-align: top;width: 282px;height: 48px;background: url(../images/page048/title.png) no-repeat 0 0/auto 100%;line-height: 38px;color: #fff;font-size: 16px;text-align: center;padding-left: 15px;margin: 0 0 5px 32px}
+.graph .title{width: 72px;line-height: 26px;border: 2px solid #f7b42e;background: #fcd475;border-radius: 8px;font-size: 15px;position: absolute;font-weight: 500;top: 10px;left: 105px}
+.graph .icon-hand{position: absolute;top: 10px;left: 180px}
+[class*=graph-line]{background-repeat: no-repeat;background-size: 100% auto;background-position: 50% 100%;animation: height 1s both linear;transform-origin: center bottom}
+.graph-line-1{width: 281px;height: 103px;background-image: url(../images/page048/graph-1.png)}
+.graph .layer{bottom: 26px;right: 72px;top: auto}
+.icon-hand.re{background-position: 0 0;z-index: 5}
+.graph .re+.title{animation: flash 1s both}
+.swiper-button-next, .swiper-button-prev{top: 40%}
+.swiper-pagination{padding-left: 40px}
+.graph-line-2{width: 283px;height: 220px;background-image: url(../images/page048/graph-2.png);animation-duration: 1.5s}
+.graph-line-3{width: 282px;height: 95px;background-image: url(../images/page048/graph-3.png);}
+.graph-line-4{width: 282px;height: 167px;background-image: url(../images/page048/graph-4.png);animation-duration: 1.25s}
+
+@keyframes height {
+    0%{transform: scaleY(0);}
+    100%{transform: scaleY(1);}
+}
+
+.layer-wrp-inter{position: relative;margin: 25px 0 20px;width: 173px;visibility: hidden}
+.layer-wrp-inter>img{position: relative;z-index: 40}
+.icon-bubble{position: absolute;top: 0;right: -10px;z-index: 40}
+.layer-wrp-inter .bubble{width: 173px;height: 168px;background-image: url(../images/page048/bubble.png);font-size: 20px;line-height: 20px;padding-top: 70px}
+#layer1{top: 0;left: 0}
+
+.graph-table{border: 1px solid #cecece;text-align: center;table-layout: fixed}
+.graph-table th{height: 64px;vertical-align: middle;background: #b0c4de;font-weight: 500;padding: 0 3px;line-height: 1.2}
+.graph-table select{display: block;width: 100%;height: 28px;border-radius: 6px;font-size: 16px}
+.graph-table tr>*+*{border-left: 1px solid #cecece}
+.graph-table td{text-align: center;font-size: 16px;color: #626262;height: 40px}
+.graph-wrap{position: relative;background: #f6f6f6;padding: 35px 20px 55px 50px;margin-top: 10px}
+#graph{height: 387px;padding: 2px 5px;display: flex;align-items: flex-end;justify-content: space-around;background: url(../images/page048/graph-line.png) no-repeat 0 0/auto 100%}
+#graph .line{width: 30px;background: #8ecf49}
+#graph .line:nth-child(even){background: #0066cc}
+.graph-wrap .fwd:nth-of-type(-n+11){width: 35px;text-align: right}
+.graph-wrap .fwd:nth-of-type(1){width: auto}

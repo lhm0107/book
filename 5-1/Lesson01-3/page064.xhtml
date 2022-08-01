@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/page064.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+        <div class="content-top">
+            <div class="col-auto">
+                <div class="layer-wrp layer-wrp-left">
+                    <button type="button" class="btn-subject" data-toggle="layer" data-target="#layerSubject">
+                    <i class="icon-btn-deep"></i><span class="text-nowrap">우리나라 노인<br /> 인구 비율 변화</span></button>
+                    <div id="layerSubject" class="layer layer1 layer-full" data-content_index="content_cls_ref" data-toggle="layerClse">
+                        <div class="layer-body">
+                            <strong class="subject-title">우리나라 노인 인구 비율 변화</strong>
+                            <p class="mb10">우리나라 전체 인구 중에서 노인 인구가 차지하는 비율이 점점 늘어나고 있다.</p>
+                            <img src="images/page064/3.png" alt="" title="" data-dtext_index="dtext_cls_image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-wide">
+                <div class="para para-first">
+                    우리나라는 1970년대 이전까지 전체 인구에서 유소년층 인구 비율이 높았다. 이후 경제가 발전하고 아이를 적게 낳는 가정이 늘어나 출생률이 감소하면서 유소년층 인구 비율이 낮아졌다. 또한 의료 기술이 발달하면서 사망률이 감소하여 노년층 인구 비율이 높아졌다.
+                </div>
+                <div class="para">
+                    오늘날에는 유소년층 인구 비율이 낮아지고 노년층 인구 비율이 높아지는 <strong class="font-dt">저출산·고령 사회</strong>의 특징이 나타난다.
+                </div>
+            </div>
+
+        </div>
+		<!-- 탐구해요 -->
+		<section class="sect-do-explore">
+            <header class="sect-hd">
+				<strong class="sr-only">활동해요</strong>
+                <h2 class="sect-title">우리나라의 연령별 인구 구조 비율 변화</h2>
+            </header>
+
+			<div class="sect-do-content">
+                <div class="pating-area">
+                    <img src="images/page064/1.png" width="508" alt="우리나라의 연령별 인구 구조 비율 변화" title="우리나라의 연령별 인구 구조 비율 변화" data-dtext_index="dtext_cls_image" />
+					<canvas id="draw_064_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="508" height="270"></canvas>
+                </div>
+
+				<div class="numbering mt35 layer-wrp layer-wrp-btm">
+					<b class="num">1</b>
+					<div class="media-body">
+						<div class="media-title">
+							표를 보고 우리나라의 연령별 인구 구조 비율 변화 그래프를 완성해 보자.
+							<div class="side-btns">
+								<div class="layer-wrp">
+									<button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper" data-layer-accordion="true">디교 펜쓰기</button>
+									<div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+										<div class="draw-option">
+											<input id="spectrumInsert2" type="color" value="#00b050" />
+											<div class="colorchart">
+												<button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_064_01', '#000000')">색상 변경</button>
+												<button type="button" title="펜 보라색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_064_01', '#b584b9')">색상 변경</button>
+												<button type="button" title="펜 연두색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_064_01', '#c0db81')">색상 변경</button>
+												<button type="button" title="펜 녹색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_064_01', '#53beb6')">색상 변경</button>
+											</div>
+											<div class="linewidth">
+												<button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_064_01', 1)">굵기 변경</button>
+												<button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_064_01', 4)">굵기 변경</button>
+												<button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_064_01', 7)">굵기 변경</button>
+												<button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_064_01', 14)">굵기 변경</button>
+											</div>
+											<div class="btns">
+												<button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_064_01',this);">펜 쓰기 영역 부분 삭제</button>
+												<button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_064_01');">펜 쓰기 영역 전체 삭제</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer0" data-layer-accordion="true">정답보기</button>
+                                    <div id="layer0" class="layer layer-full" data-toggle="layerClse">
+                                        <div class="layer-body">
+                                            <img src="images/page064/4.png" width="500" alt="" title="" data-dtext_index="dtext_cls_image" />
+                                        </div>
+                                    </div>  
+							</div>
+						</div>
+						<img src="images/page064/2.png" width="454" alt="" title="" data-dtext_index="dtext_cls_image" />
+						<div class="inform left font-dt">
+							연령별로 제시된<br />
+							세 가지 색깔에<br />
+							맞게 색연필로<br />
+							색칠해 보세요.
+						</div>
+					</div>
+				</div>
+                <div class="content-bottom mt35">
+					<div class="numbering">
+						<b class="num">2</b>
+						<div class="media-body pr35">
+							<div class="media-title">다음은 우리나라의 인구 구조 비율 변화에 대한 설명이다. 알맞은 내용에 O표 해 보자.</div>
+                            <div class="position-relative">
+                                <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_064_01">확인</button>
+                                <div class="bx font-serif">
+                                    <div id="small_064_01" class="no-answered" data-qtype="radio">
+                                        <assessmentItem data-qid="radio_064_01" data-response-type="trueFalse">
+                                            <itemBody>
+                                                1970년과 비교하였을 때 2020년의 유소년층 인구 비율은
+                                                (<div class="answer-wrp q-label-wrp">
+                                                    <label class="q-label">
+                                                        <input type="radio" name="radio_064_01" id="radio_064_01" value="줄어들고" class="sr-only" data-answer=""/>
+                                                        <span>줄어들고</span></label>
+                                                    ,
+                                                    <label class="q-label">
+                                                        <input type="radio" name="radio_064_01" id="radio_064_02" value="늘어나고" class="sr-only" />
+                                                        <span>늘어나고</span></label>
+                                                </div>),<br /> 노년층 인구 비율은
+                                            </itemBody>
+                                            <correctResponse><span class="sr-only">줄어들고</span></correctResponse>
+                                        </assessmentItem>
+                                        <assessmentItem data-qid="radio_064_03" data-response-type="trueFalse">
+                                            <itemBody>
+                                                (<div class="answer-wrp q-label-wrp">
+                                                    <label class="q-label">
+                                                        <input type="radio" name="radio_064_03" id="radio_064_03" value="줄어들었다" class="sr-only" />
+                                                        <span>줄어들었다</span></label>
+                                                    ,
+                                                    <label class="q-label">
+                                                        <input type="radio" name="radio_064_03" id="radio_064_04" value="늘어났다" class="sr-only" data-answer="" />
+                                                        <span>늘어났다</span></label>
+                                                </div>)
+                                            </itemBody>
+                                            <correctResponse><span class="sr-only">늘어났다</span></correctResponse>
+                                        </assessmentItem>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- paging -->
+		<footer id="num" class="font-dt"><b>64</b><span>1</span>국토와 우리 생활</footer>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>

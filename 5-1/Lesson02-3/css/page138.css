@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page138/bg.jpg)}
+
+.content-top {display: flex; flex-direction: row; justify-content: space-between; align-items: flex-end;}
+
+.interaction {position: relative;width:100%; height:596px;}
+.icon-btn-video {position: absolute; top:84px; left:35px}
+
+.scratch-txt { position: absolute; padding-left:15px; font-size: 13px; }
+.scratch-txt::before {content:""; position: absolute; top:50%; left:0px; transform: translateY(-50%); width:10px; height:10px; border-radius: 50%; background: #33b875; }
+.scratch { position: absolute; padding:15px 10px; border:2px solid #ef9801; border-radius: 10px; background: rgba(255,255,255,0.84); font-size: 13px; line-height: 1.4em;}
+.scratch .font-ka {color: #ef9801; font-size: 20px;}

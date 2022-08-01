@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page047/bg.jpg);}
+.dragdrop .drop-fix {position: absolute; width: 207px; height: 83px;font-family: 'KoPubDotum',sans-serif !important; background: url(../images/page126/sticker.png) no-repeat 50% 50% / 58% auto;}
+.drop-fix.ui-droppable-disabled {display: flex; align-items: center; justify-content: center; background: none;}
+
+.sect-do-content {padding-right: 30px;}
+.drop-fix{height: 144px; width:144px; border-radius: 100%;border: 1px solid #a7b6bd; background: url(../images/page047/sticker.png) no-repeat 50% 50% / 100%;}
+.drop-fix img{width: 100%; height: auto;}
+.word-bubble .txt {position: absolute; text-align: center; font-size: 15px; line-height: 26px;}
+.word-bubble .txt span {color: #737373;}
+.label-ex {background: #95a9b3;}
+.top-content {margin-top: 18px; padding-left: 12px;}
+.top-content .bx {flex-direction: column; width: 250px; padding: 23px 15px 16px;}
+.top-content .bx div {width: 145px;}
+.top-content .bx img {display: inline-block;}
+.nav-step {margin-top: 8px; margin-left: 15px;}
+.nav-step>button {width: 30px; height: 30px; text-align: center; background: url(../images/page047/step_off.png) no-repeat 0 0/auto 100%; font-family: 'KoPubDotum',sans-serif !important; font-weight: 700; font-size: 24px; padding: 0; line-height: 31px;;}
+.nav-step>.active {background-image: url(../images/page047/step_on.png);}
+.nav-step .icon-arrow {margin: 0 8px;}
+
+.tab-content .text-circle {background: #e2470e; vertical-align: middle; margin-top: -2px;}
+.tab-content .text-circle.v2 {position: absolute;}
+.tab-content button {position: absolute;}
+#tab1 {padding: 78px 0 66px 27px; margin-top: -10px; background: url(../images/page047/slide1.png) no-repeat 0 0 / 308px auto;}
+.input-group {display: block; font-size: 15px; line-height: 22px;}
+#tab1 .last {margin-left: 19px;}
+#text_047_01 {width: 65px;}
+#text_047_02 {width: 210px; margin-left: -20px;}
+
+#tab2 {height: 243px; margin-top: -10px; padding: 50px 161px 0 90px; background: url(../images/page047/slide2.png) no-repeat 12px 0 / 427px auto}
+#text_047_04 {width: 55px; margin-left: 5px;}
+#text_047_05 {width: 260px; height: 70px;}
+#layer2 {right:-167px}
+
+#modalArrangeCont .bx {display: flex; align-items: center; justify-content: center; text-align: center;}
+#modalArrangeCont .row {align-items: center; justify-content: space-between;}
+.sticker {position: absolute;}

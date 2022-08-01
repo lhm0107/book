@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page032/bg.jpg)}
+.ch-1-bubble {line-height: 20px}
+.ch-goal {margin-top: 65px;}
+.btn-ch-idea {margin-top: 76px;}
+.ch-goal-title {margin-bottom: 18px}
+.ch-1-text {margin-top: 40px}
+.ch-goal-list {width: 406px;}
+.ch-goal-list>li {line-height: 20px}
+.think-title {width: 488px; margin-top: -9px;}
+.think-title .font-dt {padding-top: 32px;}
+.ch-ani{position: absolute;left: 464px; top: -52px;animation: fadeInDown 1.5s both}
+.ch-ani img{animation: swing 2.5s infinite both}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+#modalInteraction .text-right button { position: relative;}
+#modalInteraction .modal-body {padding-top: 76px;}
+#modalInteraction .answersheet {position: relative; margin-top: -3px;}
+#modalInteraction .answersheet .label-wrp {position: absolute;}
+#modalInteraction .answersheet label .col {font-size: 17px; line-height: 27px;}
+.answersheet .checkbox {width: 32px; height: 32px; margin-right: 9px; border-color: #95a9b3; background-size: 100% auto;}

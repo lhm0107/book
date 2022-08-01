@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page056/bg.jpg)}
+.ch-ani{position: absolute;top: -24px;right: 73px;animation: fadeIn 2s both}
+.ch-ani img{animation: bounce 2.5s infinite both}
+@keyframes bounce{
+    0%{transform: rotate(-10deg)}
+    50%{transform: rotate(10deg)}
+    100%{transform: rotate(-10deg)}
+}
+
+.think-title .font-dt {padding-top:4px;text-shadow: -1px 0px rgba(255,255,255,0.8), 0px 1px rgba(255,255,255,0.8), 1px 0px rgba(255,255,255,0.8), 0px -1px rgba(255,255,255,0.8);}
+
+
+/* .modal {background: url(../images/page056/bg1.jpg) no-repeat 50% 50% /100% auto}
+.modal-content, .modal-body {background: none;} */
+.modal .media-title {margin-top:28px}
+.icon-btn-refresh {position: absolute; top:80px;right:35px}
+.text-flex {height: 60px; align-items: center;}

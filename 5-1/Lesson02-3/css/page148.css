@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page148/bg.jpg)}
+
+.sect-do-explore .sect-hd.wide-left{margin-left: -20px;padding-left: 90px}
+
+.nav-tabs.dark>.active { background: #637286;}
+.nav-tabs>button {min-width: 141px;}
+.bg-ylw {position: relative; background: #ffebb8; width:100%; height:563px; margin-left:auto;}
+.icon-btn-video {position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%);}

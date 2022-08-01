@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* common */
+#num>span{background: #f8b500}
+.icon-pencil{background-image: url(../images/lesson/textarea_pencil.png)}
+.ch-1-hd{padding-left: 130px;}
+.btn-ch-idea{margin: 88px 0 0 30px}
+.ch-goal{width: 150px}
+.ch-goal-title{color: #6e1d2c}
+.ch-goal-title>span{color: #ef8300}
+.think-title>strong{width: 82px;height: 80px;background-image: url(../images/lesson/page-think-label_pt01.png)}
+.think-title .font-dt{padding: 28px 0 0 7px}
+.ch-goal-list>li{width: 106px;margin: 0 auto;font-size: 13px;line-height: 18px;border-top: 3px solid #fff;text-indent: .7em;font-weight: 700;padding: 8px 0 25px}
+.think-title{margin-top: 5px}
+
+/* lesson */
+/* 궁금해요 */
+.curiosity-hd{display: flex;}
+.curiosity-label{width: 155px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0;flex-shrink: 0;margin-right: -11px;}
+.curiosity-title{margin-top: 20px;font-size: 21px;color: #213d5d;line-height: 34px}
+.curiosity-hd>.col {margin-top: -8px;padding-left: 11px;}
+.curiosity-hd .para{text-indent: .9em;}
+.para-title.underline{font-size: 19px;border-bottom: 2px solid #9fbd75; display: inline-block;margin-bottom: 10px;}
+.lst-type-dash li{padding-left:0.893em;position: relative;line-height: 24px;}
+/* .lst-type-dash li+li{margin-top: 0;} */
+.lst-type-dash li::before{content:"-";}

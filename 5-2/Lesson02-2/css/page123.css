@@ -1,0 +1,8 @@
+@charset "utf-8";
+.row>.col-wide.right:first-child:last-child {margin-left: 0; margin-right: auto}
+.explanation.layer-limit {width: 217px}
+.bx.bg-blue {padding: 10px; border-color: #eaf1f5; background: #eaf1f5}
+.bx.bg-blue .para {font-size: 15px; line-height: 25px; padding-left: 10px; letter-spacing: -0.023em}
+.bx.bg-blue .tit {font-size: 13px}
+.numbering .bx {letter-spacing: -0.023em}
+.form-control.itx {width: 40px}

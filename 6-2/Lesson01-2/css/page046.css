@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.inner {padding: 0 41px 0 23px;}
+.inner .bx {font-size: 15px; line-height: 25px;}
+.inner .label {position: absolute; width: 18px; height: 18px; padding: 0; font-weight: 500; left: 62px; top: 7px; font-size: 15px; font-weight: 400; background: #fff; color: #000;}
+.swiper-button-next, .swiper-button-prev {top: 38%;}
+.inner .swiper-slide p {font-size: 14px; margin-top: 17px;}
+.inner .swiper-slide .icon-hand {position: absolute; left: 428px; top: 5px; }
+.layer-wrp.last {margin-top: 40px;}
+.layer-wrp .table-round-wrp {border-style: solid;}
+.tb tr>*, .table-round-wrp .tb tr>*+* {border-color: #e9f2f6;}
+.tb thead th {background: #d1e3eb !important;}
+.tb tbody th {background: #e9f2f6 !important;}
+.tb .tb tr>*:first-child {border-color: #fff;}
+.table-round-wrp .tb tr>th{border-color: #fff}

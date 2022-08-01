@@ -1,0 +1,14 @@
+@charset "utf-8";
+.bx {position: relative; padding-top: 13px; padding-left: 41.5px}
+.bx p {font-size: 14px; line-height: 24px}
+.bx .text-circle {position: absolute; left: 15px; top: 15.75px}
+.media-title {display: flex; align-items: middle; justify-content: space-between}
+.icon-btn-pencil {position: absolute; right: -35px}
+.numbering .text-circle {vertical-align: text-top}
+.media-title .num {font-family: 'CookieRun',sans-serif; font-size: 20px; font-weight: 700; line-height: 27px; color:#195596}
+.numbering.last .form-control {width: 88.5px; display: inline-block}
+.numbering.last .bx {padding: 7.8px 14px; font-size: 16px}
+
+.verify .lst-type-num>li {line-height: 26px}
+
+.verify-content {padding: 18px 13px 18px 22px}

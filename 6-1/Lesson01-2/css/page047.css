@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page047/bg.jpg);}
+.ch-2-hd>.col{top: -7px;left: -1px;}
+.ch-2-title{margin-bottom: 3px;padding: 7px 0;line-height: 50px;}
+.ch-2-hd{margin-bottom: 32px;}
+.content-top .para {letter-spacing: -0.01em;}
+.content-bottom {margin-top: 52px}
+.content-bottom [class*=fwd].font-ka{font-size: 16px;color: #fff;}
+.content-bottom [class*=fwd].font-mi{letter-spacing: 0;}
+.sect-do-explore{margin-top: 235px;width: 289px}
+.sect-do-explore .sect-hd{padding: 69px 0 0 0;margin-bottom: 0;background-image: url(../images/page047/explore-hd.png);background-size: 289px auto;}
+.sect-do-content{padding: 0 30px 0 60px;margin-top: -10px;}
+.icon-btn-help.position-absolute{bottom: 2px;right: -5px}
+.sect-do-content .layer{width: 304px;left: auto}
+#lyrWedorang{width: 245px}
+.icon-btn-chk{top: 5px}
+.side-btns{top: 35px;right: -40px}
+.numbering>.media-body{line-height: 27px;}
+.media-body>.layer-wrp{position: absolute; right: -40px;top: -5px}
+#layer2{right: -5px}
+#layer3{right: -35px}
+.fwd2 {font-style: italic; line-height: 12px; color: #2f94d1;}
+.fwd3 {color: #f50068;}
+
+.interaction {position: relative; margin-top: 4px;}
+.interaction [class^=fwd] {text-indent: 0;font-size: 12px; font-weight: 700;}
+.legend{position: absolute;bottom: 24px;right: -15px}
+.legend .box{width: 136px;float: right;background: #fff;border: 1px solid #000;padding: 2px 15px;font-size: 12px;line-height: 17px;}
+[class^=icon-legend]{width: 20px;height: 11px;border: 1px solid #000; margin-right: 8px;}
+.icon-legend-1{background: #00397f}
+.icon-legend-2{background: #0075c1}
+.icon-legend-3{background: #6ea7da}
+.icon-legend-4{background: #afcaea}
+.icon-legend-5{background: #fde2b9}
+.icon-legend-6{background: #fac470}
+.icon-legend-7{background: #eca060}
+.legend-img{position: absolute;top: 0;left: 0;width: 100%; display: none;}
+.map-name {position: absolute; left: 0; top: 0;max-width: none}
+.interaction .icon-btn-refresh{position: absolute;top: 40px;right: 20px;display: none}
+.show~.icon-btn-refresh{display: block}
+.interaction .legend-etc {position: absolute; right: -15px; bottom: 0; font-size: 11px;}
+.content-bottom .col{z-index: 1}

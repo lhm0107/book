@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{padding-left: 0;}
+.bottom-content{padding-left: 50px;}
+.word-bubble .font-mi{line-height: 20px !important;font-size: 21px !important;letter-spacing: -0.02em;}
+.word-bubble .font-mi .font-dt.fs15{vertical-align: bottom;}
+.fwd.font-dt{font-size: 15px;line-height: 25px !important;text-indent: 1em !important;}
+.w260{width:260px !important}

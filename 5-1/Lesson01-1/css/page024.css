@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.layer-side-chk button{position: absolute;right: 0;top:0}
+.wrapper .swiper-container{max-width: 550px;}
+.swiper-slide .font-ka{font-size: 37px;width:100%;}
+.swiper-pagination{padding-top:40px}
+.wrapper .slider-wrap{margin-top: 45px}
+.side-btns .layer-wrp-btm .layer:not(.explanation) {bottom: auto;}
+#layer2 {min-width: 454px;}
+#layer2 .label {margin: -2px 5px 0 0}

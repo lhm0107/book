@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.col-wide{max-width:538px;flex:0 0 538px}
+.text1{text-indent: 0 !important;text-align: center !important;font-size:17px;line-height: 23px !important;}
+.layer.layer-transparent{box-shadow: none;margin: 0;padding: 0;background: none; border: 0;right:auto;}
+.icon-btn-pencil{position: absolute;top:0;right:0}
+.ohyes-wrp{padding-left: 44px;padding-right:28px;}

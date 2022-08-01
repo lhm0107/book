@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.answer-156-01{display: block;width: 143px;height: 173px;background: url(../images/page156/q1.png) no-repeat 0 0/100% auto;padding: 6px 8px}
+.answer-156-01 .font-serif{line-height: 22px;display: block;margin-bottom: 5px;text-indent: .5em}
+.test-bubble .font-mi{height: 84px;bottom: 4px;padding-top: 14px}
+.char-name{bottom: 72px;left: 10px}
+.mindmap-subject{width: 148px;height: 126px;background-image: url(../images/page156/mindmap-subject.png)}
+.mark-char{top: 10px;left: 50%;margin-left: -40px}
+.mindmap .drag-obj>img {max-height: 100%; max-width: 90px; width: auto;}

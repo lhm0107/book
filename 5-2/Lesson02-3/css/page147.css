@@ -1,0 +1,12 @@
+@charset "utf-8";
+.content-top {justify-content: space-between}
+.content-top .para {width: 370px}
+.img-tit {width: 276px; font-size: 14px; font-weight: 700; margin-top: 9px}
+
+.word-bubble {margin-left: -13px}
+.word-bubble .para {position: absolute; line-height: 26px}
+.word-bubble .para1 {width: 132px}
+.word-bubble .para2 {width: 283px}
+.word-bubble .para-wrp {position: absolute; width: 298.5px}
+.word-bubble .para-wrp .para {position: relative}
+.word-bubble .img-tit {font-size: 12px; margin-top: 0; text-indent: 0}

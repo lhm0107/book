@@ -5,3 +5,6 @@
 #interFadeIn>div {line-height: 19.6px; font-size: 22px}
 .fwd1 {text-indent: 0; line-height: 15px !important}
 .fwd1, .fwd2 {line-height: 25px; text-align: left}
+
+.btn-dic1 .explanation.layer-limit {width: 234px;}
+.btn-dic2 .explanation.layer-limit {width: 218px;}

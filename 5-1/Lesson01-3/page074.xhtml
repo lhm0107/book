@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page074.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+		<!-- 활동해요 -->
+		<section class="sect-do-activity">
+            <header class="sect-hd">
+				<strong class="sr-only">활동해요</strong>
+                <h2 class="sect-title">교통의 발달로 달라질 생활 모습 상상해 보기</h2>
+            </header>
+			<div class="sect-do-content pr0">
+				<div class="text-mark pr45">
+					<b class="icon-face"></b>
+					<p class="col">교통이 더 발달하여 생활권이 넓어지면 내 생활이 어떻게 달라질지 상상하여 그림으로 표현해 보자.</p>
+					<div class="side-btns">
+                        <div class="layer-wrp">
+                            <button type="button" title="정답보기" class="icon-btn-chk" data-toggle="layer" data-target="#layer1" data-layer-accordion="true">정답보기</button>
+                            <div id="layer1" class="layer" data-toggle="layerClse">
+                                <div role="button" class="text-hide">닫기</div>
+                                <div class="layer-body">
+                                    <img src="images/page074/2.jpg" alt="부산-제주 해저 터널로 30분" title="교통의 발달로 달라질 생활 모습 상상해 보기 그림" data-dtext_index="dtext_cls_image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layer-wrp">
+                            <button type="button" class="icon-btn-wedorang" data-toggle="layer" data-target="#lyrWedorang" data-layer-accordion="true">위두랑</button>
+                            <div id="lyrWedorang" class="layer layer-wedorang" data-toggle="layerClse">
+                                <div class="layer-body">
+                                    내가 그린 그림을 캡처하여 위두랑에 공유하고 친구들이 그린 그림과 비교해 보세요.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="interaction">
+	                <img src="images/page074/1.png" width="367" alt="" />
+					<div id="interFadeIn">
+						<div class="font-mi bubble-box1" data-auto-audio="audio1" style="left: 6px; top: 0px;">
+							예전에는 새마을호 기차를 <br />
+							타고 서울에서 부산 할머니 댁까지 <br />
+							5시간 넘게 걸렸어. 그런데<br />
+							고속 철도를 이용하면 2시간 40분<br />
+							정도 걸린단다.
+						</div>
+						<div class="font-mi bubble-box2" data-auto-audio="audio2" style="left: 251px; top: 47px;">
+							시간이 많이 <br />줄어들었네요!
+						</div>
+						<div class="font-mi bubble-box3" data-auto-audio="audio3" style="left: 391px; top: 22px;">
+							앞으로 교통이 더욱 발달하면서 <br />
+							생활권이 넓어지면 시안이의 <br />
+							생활은 어떻게 달라질까?
+						</div>
+					</div>
+					<button type="button" title="내용 더보기" class="icon-hand position-absolute" data-inter="#interFadeIn" style="left: 57px;top: 185px;">내용 더보기</button>
+					<button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset">다시 실행하기</button>
+					<audio id="audio1" src="media/074/074_01.mp3" preload="none"></audio>
+					<audio id="audio2" src="media/074/074_02.mp3" preload="none"></audio>
+			        <audio id="audio3" src="media/074/074_03.mp3" preload="none"></audio>
+	            </div>
+				<div class="layer-wrp">
+					<div class="painting-area layer-wrp">
+						<canvas id="draw_074_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="541" height="396"></canvas>
+					</div>
+					<button type="button" class="icon-btn-penwrite" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+					<div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+					   <div class="draw-option">
+						   <input id="spectrumInsert2" type="color" value="#00b050" />
+						   <div class="colorchart">
+							   <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_074_01', '#000000')">색상 변경</button>
+							   <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_074_01', '#ff0000')">색상 변경</button>
+							   <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_074_01', '#0000ff')">색상 변경</button>
+							   <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_074_01', '#fdce54')">색상 변경</button>
+						   </div>
+						   <div class="linewidth">
+							   <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_074_01', 1)">굵기 변경</button>
+							   <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_074_01', 4)">굵기 변경</button>
+							   <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_074_01', 7)">굵기 변경</button>
+							   <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_074_01', 14)">굵기 변경</button>
+						   </div>
+						   <div class="btns">
+							   <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_074_01',this);">펜 쓰기 영역 부분 삭제</button>
+							   <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_074_01');">펜 쓰기 영역 전체 삭제</button>
+						   </div>
+					   </div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- 확인해요 -->
+		<div class="verify">
+			<h3 class="verify-title"><span class="position-relative"><em>확인</em> 해요</span></h3>
+			<div id="answerAll_074_01" class="verify-content">
+				<div id="answer_074_01" class="verify-answer">
+					<div class="text-q">
+						우리나라는 경부 고속 국도를 시작으로 여러 고속 국도가 만들어지면서 전 국토가
+						<div class="answer-wrp">
+							<input type="text" id="text_074_01" class="form-control itx" title="입력" />
+							<span class="tx-a">일일생활권</span>
+						</div>안에 들게 되었다.
+					</div>
+					<button type="button" title="정답보기" class="icon-btn-chk" data-toggle="answer" data-target="#answer_074_01">확인</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>74</b><span>1</span> 국토와 우리 생활</footer>
+	</div>
+
+	<div class="verify-buttons">
+		<button type="button" data-toggle="modal" data-target="#modalArrangeCont">내용 정리</button>
+		<button type="button" data-toggle="modal" data-target="#modalSmallEvlt">잠깐 체크</button>
+	</div>
+</div>
+
+<!-- 내용 정리 -->
+<div id="modalArrangeCont" class="modal modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">내용 정리</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<h3 class="arrange-cont-title">우리나라의 교통 발달 모습을 살펴볼까요</h3>
+			<section class="sect numbering">
+				<b class="num">1.</b>
+				<div class="media-body">
+					<h4 class="media-title">우리나라의 교통 발달 모습</h4>
+					<table class="tb">
+                        <colgroup>
+                            <col style="width:140px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>과거</th>
+                                <td>
+                                    <ul class="lst-type-bull text-left">
+                                        <li>교통이 발달하지 않아 이동 시간이 오래 걸림.</li>
+                                        <li>교통수단과 교통 시설이 다양하지 않음.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>오늘날</th>
+                                <td>
+                                    <ul class="lst-type-bull text-left">
+                                        <li>교통로가 다양하고 그물처럼 얽혀 있음.</li>
+                                        <li>경부 고속 국도 등 여러 고속 국도가 만들어지면서 전 국토가 일일생활권 안에 들게 됨.</li>
+                                        <li>고속 철도의 개통으로 지역 간 이동이 더욱 빠르고 편리해짐.</li>
+                                        <li>공항과 항구의 수가 늘어나 교류가 활발해짐.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+				</div>
+			</section>
+			<section class="sect numbering">
+				<b class="num">2.</b>
+				<div class="media-body">
+					<h4 class="media-title">교통 발달로 달라진 생활 모습</h4>
+					<ul class="lst-type-bull">
+						<li>사람과 물건의 이동이 활발해짐.</li>
+						<li>이동 시간이 줄면서 지역 간의 거리가 더 가깝게 느껴짐.</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<!-- 잠깐체크 -->
+<div id="modalSmallEvlt" class="modal modal-evlt modal-verify modal-slide">
+	<div class="modal-content">
+		<h2 class="modal-verify-title font-ka">잠깐 체크</h2>
+		<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+			<div class="slider-wrap evlt-slider-wrap" data-content_index="content_cls_exam">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div id="small_074_01" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_074_01" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_074_01">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">1. </b>
+											<div class="media-body media-title">
+												과거에는 오늘날보다 다양한 교통수단과 교통 시설이 있었다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_074_01" id="radio_074_01" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_074_01" id="radio_074_02" value="×" class="sr-only"  data-answer="" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div id="small_074_02" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_074_03" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_074_02">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">2. </b>
+											<div class="media-body media-title">
+												고속 철도가 개통되면서 이동 시간이 줄면서 지역 간의 이동이 더욱 빠르고 편리해졌다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_074_03" id="radio_074_03" value="○" class="sr-only" data-answer=""/><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_074_03" id="radio_074_04" value="×" class="sr-only" /><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">○</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+                        <div class="swiper-slide">
+							<div id="small_074_03" class="no-answered" data-qtype="radio">
+								<assessmentItem data-qid="radio_074_05" data-response-type="trueFalse">
+									<div class="text-right">
+										<button type="button" title="정답보기" class="icon-btn-chk chk-data-button" data-toggle="answer-final" data-target="#small_074_03">확인</button>
+									</div>
+									<itemBody>
+										<div class="numbering">
+											<b class="num">3. </b>
+											<div class="media-body media-title">
+												교통이 발달했지만 지역 간의 교류는 이전보다 더 힘들어졌다.
+											</div>
+								        </div>
+										<div class="answer-wrp q-label-wrp">
+											<label class="q-label"><input type="radio" name="radio_074_05" id="radio_074_05" value="○" class="sr-only" /><span class="icon-answerb-o">○</span></label>
+											<label class="q-label"><input type="radio" name="radio_074_05" id="radio_074_06" value="×" class="sr-only" data-answer=""/><span class="icon-answerb-x">×</span></label>
+										</div>
+									</itemBody>
+									<correctResponse><span class="sr-only">×</span></correctResponse>
+								</assessmentItem>
+							</div>
+						</div>
+					</div>
+                    <div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next"></div>
+                    </div>
+					<div id="stamp"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/interaction.js"></script>
+</body>
+</html>

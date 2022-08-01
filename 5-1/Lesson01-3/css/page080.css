@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.char-name {bottom: 72px;left: 10px}
+.test-bubble .font-mi {height: 84px;bottom: 4px;padding-top: 14px}
+.first-pager {position: absolute; right: 0px; top: -35px}
+.final-content .numbering>.num {width: 25px}
+.form-control {width: 81.5px}
+.lst-type-bull>li {padding-left: 10px}
+.lst-type-bull>li.mt0 {letter-spacing: -0.01em}
+.q-line .text-circle.position-absolute{top: 8px;left: 8px}
+.q-line-btn .box{width: 175px}
+.q-line{width: 587px;height: 286px}
+#answer_080_03 .pager{position: absolute;bottom: 100%;right: 0}
+.mindmap-subject{width: 148px;height: 126px;background-image: url(../images/page080/mindmap-subject.png)}
+.mark-char{top: 10px;left: 50%;margin-left: -40px}

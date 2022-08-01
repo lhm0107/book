@@ -1,0 +1,11 @@
+@charset "utf-8";
+.icon-btn-video {position: absolute; right: 0}
+.word-bubble {margin-left: -50px}
+.fwd2 {line-height: 23px}
+.fwd3 {line-height: 24px}
+.fwd3 span {padding-left: 50px}
+.fwd4 {font-size: 12px; line-height: 12px; text-indent: 0}
+.fwd5 {font-size: 13px; line-height: 20px; width: 166px}
+.fwd5 strong {font-size: 14px}
+.fwd6 {font-size: 14px; line-height: 18px; font-weight: 700; text-indent: 0}
+.fwd6 span {font-size: 13px; line-height: 20px}

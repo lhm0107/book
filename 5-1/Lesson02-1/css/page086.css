@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page086/bg.jpg)}
+.content{width: 295px;line-height: 27px}
+.content .text-indent{font-weight: 700;padding: 45px 0 35px}
+.layer-wrp-ox .bubble{width: 245px;height: 188px;background-image: url(../images/page086/bubble.png);padding-top: 10px}

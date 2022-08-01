@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page159/bg.jpg)}
+
+.painting-area{position: relative; border:1px solid #a8b6bd; border-radius:6px; height: 295px; background: #fff;}
+h4 {font-family: 'KoPubDotum',sans-serif !important}
+.playground {position: absolute; left: 85px; top:109px; width: 557px;}
+.sect-top {margin-top: 0;}
+.pencil {width: 20px; height: 18px; background: url(../images/page159/pencil.png) no-repeat; background-size: cover; margin-top: 2px; margin-right: 12px;}
+.side-btns {flex-direction: column; top:25px; right: -40px;}
+.side-btns>*+* {margin-left: 0; margin-top: 5px;}

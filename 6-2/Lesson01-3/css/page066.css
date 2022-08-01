@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page066/bg.jpg);}
+
+.mid-content {position: relative; height: 253px;}
+.mid-content .fwd,
+.bottom-content .fwd {text-align: center; text-indent: 0;}
+.mid-content .font-dt {font-size: 12px}
+.bottom-content {position: relative; height: 354px;}
+.bottom-content .font-dt {font-size: 13px; line-height: 1.75;}

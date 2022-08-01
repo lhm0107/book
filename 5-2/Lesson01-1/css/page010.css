@@ -1,5 +1,25 @@
 @charset "utf-8";
 
 #wrap{background-image: url(../images/page010/bg.jpg)}
-.wrapper>.font-serif{top: 498px;left: 116px;font-style: italic;letter-spacing: 5px;}
-.wrapper>.font-serif+.font-serif{top: 828px;left: 670px;white-space: nowrap;}
+.wrapper>.font-serif{top: 488px;left: 161px;font-style: italic;letter-spacing: 5px;;white-space: nowrap}
+.wrapper>.font-serif+.font-serif{top: 828px;left: 670px;}
+.heritage{position: absolute}
+.heritage img{max-width: none}
+.heritage:before{content: '';position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-size: auto 100%;background-repeat: no-repeat;animation: flash 1s both}
+.heritage:nth-child(1):before{background-image: url(../images/page010/q1_line.png)}
+.heritage:nth-child(2):before{background-image: url(../images/page010/q2_line.png)}
+.heritage:nth-child(3):before{background-image: url(../images/page010/q3_line.png)}
+.heritage:nth-child(4):before{background-image: url(../images/page010/q4_line.png)}
+.heritage:nth-child(5):before{background-image: url(../images/page010/q5_line.png)}
+.heritage:nth-child(6):before{background-image: url(../images/page010/q6_line.png)}
+.heritage:nth-child(7):before{background-image: url(../images/page010/q7_line.png)}
+.heritage:nth-child(8):before{background-image: url(../images/page010/q8_line.png)}
+.heritage:nth-child(9):before{background-image: url(../images/page010/q9_line.png)}
+.heritage:nth-child(10):before{background-image: url(../images/page010/q10_line.png)}
+.heritage:nth-child(11):before{background-image: url(../images/page010/q11_line.png)}
+.heritage:nth-child(12):before{background-image: url(../images/page010/q12_line.png)}
+.heritage:nth-child(13):before{background-image: url(../images/page010/q13_line.png)}
+.heritage:nth-child(14):before{background-image: url(../images/page010/q14_line.png)}
+.heritage:nth-child(15):before{background-image: url(../images/page010/q15_line.png)}
+.heritage:nth-child(16):before{background-image: url(../images/page010/q16_line.png)}
+.heritage.correct:after{content: '';position: absolute;width: 88px;height: 88px;border: 4px solid red;top: 50%;left: 50%;margin: -44px;border-radius: 100%}

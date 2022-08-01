@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.tab-content {position: relative;  width: 627px; height: 590px;background: #eaf1f3; border-radius: 10px}
+.tit1 {font-size: 19px}
+.tit3, .tit4 {position: absolute; z-index: 100}
+.map-tit {position: absolute; left: 376px; top:267px; font-size: 25px; color:#fff}
+.tit-bg{width: 116px;height: 32px;background: url(../images/page055/tit-bg.png) no-repeat 0 0/100% auto;font-size: 20px;color: #fff;line-height: 32px;margin-left: 4px}
+.tit-bg>span{display: inline-block;vertical-align: top;width: 57px;text-align: center}
+#tab2 .tit3 {font-size: 16px; color:#fff}
+#tab2 .tit4 {font-size: 15px; font-weight: 700; opacity: .68}
+#tab2 .form-control {height: 60px}
+#tab2 .box-btm {border-radius: 10px; background: #fff; padding: 20px; margin-top: 20px}
+.ex-answer-box {background: #fff}
+.verify-content {padding: 15px 15px 5px 20px}
+#layer0 {z-index: 101;}
+.tab-pane{padding: 25px 30px 35px}
+.nav-tabs>button{width: 225px}
+.tab-pane .title{align-items: center;justify-content: center;position: relative;margin-bottom: 20px}
+.tab-pane-wrap{width: 462px;margin: 0 auto}
+.tab-pane-wrap .txt{font-size: 16px;line-height: 27px}
+.tab-pane-wrap .title>.label{position: absolute;top: 50%;left: 0;margin-top: -10px}
+.painting{position: relative;height: 230px;background: #fff;border-radius: 10px}
+.painting .title{position: absolute;top: 20px;left: 20px;font-size: 15px;z-index: 50}
+.painting .title>span{width: 102px;line-height: 30px;margin-right: 10px;background: #425e89;border-radius: 8px;font-size: 16px;color: #fff;text-align: center}

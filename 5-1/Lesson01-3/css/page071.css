@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page071/bg.jpg)}
+.icon-ttakji {left: 50px; top: 40px}
+.dragdrop .drop-fix {position: absolute; width: 210px; height: 74px;display: flex;align-items: center;text-align: center;display: flex;flex-direction: column;justify-content: center}
+.drop-fix.ui-droppable-disabled {background: #Fff}
+.dragdrop .drop-fix.img {width: 219px; height: 148px; transform: rotate(2.9deg)}
+.dragdrop .drop-fix.img img {width: 100%; height: 100%; border-radius: 5px}
+.layer-ttakji .drag-fix{height: 150px; width: 154px;text-align: justify;padding: 8px}
+.fwd1 {font-size: 17px; color: #f08200}
+.fwd2, .drop-fix{font-size: 12px; line-height: 20px}
+.fwd2 .fw700, .drop-fix .fw700{font-size: 14px; line-height: 14px; margin-bottom: 5px}
+.verify-content {padding: 13px 15px 11px 20px}
+
+.layer-ttakji{top: 400px}
+.layer-ttakji .layer-body {padding: 35px 10px;}
+.drag-fix:not(.img){flex-direction: column;justify-content: flex-start}
+.layer-ttakji .drag-fix:before{display: none}
+.ttakji-refresh{right: 0;top: 370px}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.box{background: #fff7e6;border: 3px solid #ffdc88;border-radius: 20px;padding: 20px 20px 15px}
+.box-head{display: flex;align-items: center}
+.box-head .font-ka{width: 152px;height: 67px;position: relative;background: #77535c;text-align: center;font-size: 16px;line-height: 22px;color: #fff;display: flex;align-items: center;justify-content: center;border-radius: 6px;flex-shrink: 0;margin-right: 25px}
+.box-head .font-ka:after{content: '';position: absolute;width: 41px;height: 45px;background: url(../images/page109/i1.png) no-repeat 0 0/100% auto;left: -4px;bottom: -16px}
+.box-head .font-dt{padding-right: 10px;text-indent: 1em;line-height: 25px}
+.tab-thumb-swiper{margin: 0 17px;background: none}
+.tab-thumb-swiper .swiper-button-next{right: -4px}
+.tab-thumb-swiper .swiper-button-prev{left: -4px}
+.slider-figure{padding-top: 16px;position: relative}
+.slider-figure .title{position: absolute;top: 0;left: 50%;transform: translateX(-50%);line-height: 37px;width: 236px;background: url(../images/page109/t3.png) no-repeat 50% 0/auto 100%;font-size: 17px}
+.swiper-slide:nth-child(1) .title{width: 185px;background-image: url(../images/page109/t1.png)}
+.swiper-slide:nth-child(2) .title{width: 200px;background-image: url(../images/page109/t2.png)}

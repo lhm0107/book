@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page018/bg.png);}
+
+.content-top {display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between;}
+
+.word-bubble{margin-top: 40px;}
+.icon-btn-video, .bubble{position: absolute;}
+.bubble1{top: 5px;left: 415px;padding: 15px 0 0 11px;width: 146px;height: 80px;background: url(../images/page018/bubble1.png) no-repeat 100% / 100% 100%;}
+.bubble2{top: 186px;left: 74px;padding: 18px 10px;width: 119px;height: 73px;background: url(../images/page018/bubble2.png) no-repeat 100% / 100% 100%;}
+.bubble3{top: 303px;left: 429px;padding: 12px 0 0 4px;width: 171px;height: 115px;background: url(../images/page018/bubble3.png) no-repeat 100% / 100% 100%;}
+.bubble3 .btn-dic{font-weight: 500;}
+[class*=fwd].font-mi{position: relative; font-size: 20px;line-height: 0.9em;}
+.fwd1 {font-size: 17px; color: #fff;}

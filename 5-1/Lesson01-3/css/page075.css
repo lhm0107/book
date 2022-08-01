@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.ch-2-hd{margin-bottom: 25px}
+.ch-2-hd .col{top: -5px}
+.ch-2-title{padding: 3px 0;line-height: 48px}
+.ch-2-title strong{font-size: 48px;vertical-align: baseline;letter-spacing: -0.05em}
+
+.content-top {display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between}
+.content-top .para{text-indent: 0.8em;letter-spacing: -0.02em}
+.icon-btn-video{position: absolute}

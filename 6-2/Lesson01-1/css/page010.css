@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page010/bg.jpg)}
+
+.content{width: 483px;line-height: 27px}
+.content .text-indent{font-weight: 700;padding-bottom: 8px}
+
+.layer-wrp-ox .bubble{width: 242px;height:186px;background-image: url(../images/page010/bubble.png)}
+
+.layer-wrp-ox.answered .icon-btn-refresh, .btn-ox-start{z-index: 999;}

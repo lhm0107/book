@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.sect-do-content{padding-right: 0}
+.box{width: 570px;height: 643px;padding: 57px 35px 0;background: url(../images/page110/box.png) no-repeat 0 0/100% auto;margin-bottom: 20px}
+.box .font-netmarble{display: block;color: #376860;text-align: center;line-height: 50px;letter-spacing: -.03em}
+.check-list>li{display: flex;align-items: center;margin-top: 20px;white-space: nowrap}
+.check-list>label{flex-shrink: 0}
+.check-list i{display: block;width: 20px;height: 20px;border-radius: 100%;background: #fff;border: 1px solid #add8e1;margin: -3px 12px 0 0;position: relative}
+.check-list input:checked+i{background: #add8e1 url(../images/page110/chk.png) no-repeat 55% 50%/auto 70%}
+.check-list .text{display: flex;align-items: center;flex: 1}
+.check-list .input-group{flex: 1;padding-left: 5px}
+.bottom-content{justify-content: space-between;align-items: flex-end;left: 65px}

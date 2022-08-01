@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page093/bg.jpg)}
+
+[class*=fwd] {text-indent: 0; text-align: center;}
+.fwd4 {transform: rotate(-21deg);}
+.bottom-content {bottom:51px}
+.text-mark {margin-top:15px}
+.tit{position: absolute;z-index: 5;pointer-events: none}
+.scratch{position: absolute;}
+.scratch1{width: 329px;height: 192px;left: 156px; top: 38.5px;}
+.scratch2{width: 287px;height: 198px;left: 351px; top: 446.5px;}
+.scratch3{transform: rotate(-4deg);text-align: center;font-size: 15px;line-height: 20px;font-weight: 500;top: 582px;left: 30px;height: 40px;width: 285px}

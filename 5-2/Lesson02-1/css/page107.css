@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page107/bg.jpg)}
+.bubble{font-size: 20px !important;line-height: 1em !important;letter-spacing: -0.02em;}
+#layer1 .bubble{width:274px;height:142px;background-image: url(../images/page107/bubble1.png);padding-top: 4px}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page107/bg.png)}
+
+.bottom-content{margin-bottom: 14px;}
+.word-bubble{position: relative;}
+
+.fwd.font-dt{width: 254px; text-indent: 0.8em;letter-spacing: 0.05em;line-height: 22px;}
+.text-green{color: #1c8a65!important;}
+.text-black{color: #000!important;}
+.fwd.font-ka .layer.explanation{transform: rotate(-10deg);right: -109px;}
+[class*=bubble-box]{font-size: 21px;line-height: 18px;}
+.bubble-box1{width: 124px;height: 68px;background-image: url(../images/page107/b1.png);padding: 14px 0 0 2px}
+.bubble-box2{width: 125px;height: 101px;background-image: url(../images/page107/b2.png);padding: 18px 0 0 3px}
+.bubble-box3{width: 125px;height: 83px;background-image: url(../images/page107/b3.png);padding-top: 15px}
+.bubble-box3 div{margin-left: -7px;}
+.bubble-box4{width: 152px;height: 98px;background-image: url(../images/page107/b4.png);padding-top: 13px}
+.bubble-box4 div{margin-left: -9px;}
+.bubble-box5{width: 92px;height: 44px;background-image: url(../images/page107/b5.png);padding: 15px 0 0 2px}
+.btn-subject{position: absolute;left: 0;bottom: 15px}
+.word-bubble .icon-hand, .layer-transparent>*{position: absolute}
+.layer-transparent{position: static}

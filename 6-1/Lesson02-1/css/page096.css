@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+#wrap{background-image: url(../images/page096/bg.jpg)}
+.ohyes-title {margin-bottom:24px}
+.ohyes-cont-wrp>div:first-child {line-height: 1.588;}
+.fwd {line-height: 1.642; font-size: 14px;}
+.explanation.layer-limit {width:240px}
+.bottom-content {bottom:23px;}
+.word-bubble{margin-top: 37px}
+.word-bubble img{max-width: none}
+.word-bubble .layer:not(.explanation){right: -105px}
+#layer1{right: -195px}

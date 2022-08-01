@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.side-btns {flex-direction: column;z-index: 5}
+.side-btns>*+* {margin-left: 0;margin-top: 5px}
+
+.painting-area{width: 541px;background: #fff;height: 396px;border: 2px dotted #97aab4;border-radius: 20px;margin-left: 27px;overflow: hidden;z-index: 1}
+.wedorang{position: absolute;right: 0;top: 35px}
+#layer1{right: 0;width: 603px}
+.icon-btn-penwrite{position: absolute;top: 0;right: 0}
+.interaction{position: relative;padding-left: 116px;height: 240px;display: flex;align-items: flex-end;margin-bottom: -5px}
+.interaction img{z-index: 1}
+[class*=bubble-box]{font-size: 20px;line-height: 20px}
+.bubble-box1{width: 208px;height: 146px;background-image: url(../images/page074/b1.png);padding: 20px 0 0 0}
+.bubble-box2{width: 96px;height: 78px;background-image: url(../images/page074/b2.png);padding: 16px 0 0 4px}
+.bubble-box3{width: 191px;height: 117px;background-image: url(../images/page074/b3.png);padding: 24px 0 0 4px}
+.btn-inter-reset{left: 65px;top: 193px;position: absolute;}

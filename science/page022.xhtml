@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page022.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <header class="ch-2-hd row">
+			<div class="col font-coo">1</div>
+			<div class="col-content">
+				<h1 class="ch-2-title">온도를 정확하게 측정하는 <br />까닭은 무엇일까요</h1>
+				<div class="layer-wrp">
+					<button type="button" class="btn-img text-hide btn-this-time" data-toggle="layer" data-target="#unitGoal">이번 시간에는</button>
+					<div id="unitGoal" class="layer layer-unit" data-toggle="layerClse">
+                		<div class="layer-body layer-body-unit">
+                            <div class="unit-character">
+                                <img src="images/common/unit-character.png" height="90" alt="" />
+                                <button type="button" class="icon-audio" data-audio="Audio1">오디오 재생</button>
+                                <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                            </div>
+							<ul class="lst-type-bull">
+                                <li>일상생활에서 따뜻하거나 차가운 정도를 정확하게 측정해야 하는 상황을 조사할 수 있습니다.</li>
+	 							<li>온도를 정확하게 측정하는 까닭을 설명할 수 있습니다.</li>
+	 						</ul>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</header>
+
+        <div class="row col-content ml-auto">
+            <div class="col">
+                <p class="para">
+                    따뜻하거나 차가운 정도는 사람마다 다르게 느낄 수 있습니다. 따뜻하거나 차가운 정도를 정확하게 나타내려면 어떻게 해야 할까요?
+                </p>
+            </div>
+            <div class="col-auto ch-2-img">
+                <img src="images/page022/img.jpg" height="159" alt="" data-dtext_index="dtext_cls_image" />
+                <span class="fwd font-mi" style="left: 15px; top: 28px;">추워.</span>
+                <span class="fwd font-mi" style="left: 53px; top: 2px;">나는<br />괜찮은데?</span>
+                <button type="button" class="btn-img text-hide btn-start" data-toggle="modal" data-target="#modalStart">시작해요</button>
+            </div>
+        </div>
+
+        <!-- 탐구 -->
+        <div class="explore font-dt mt2">
+            <header class="explore-hd">
+                <strong class="sr-only">탐구</strong>
+                <h2 class="tit">고체 물질의 열전도 빠르기 비교하기</h2>
+                <span class="font-coo">관찰, 의사소통</span>
+                <div class="page">『실험 관찰』 14 쪽</div>
+                <div class="explore-ability">
+                    <span class="ability"><i class="icon-ability-think"></i>사고력</span>
+                    <i class="split"></i>
+                    <span class="ability"><i class="icon-ability-study"></i>탐구 능력</span>
+                    <i class="split"></i>
+                    <span class="ability"><i class="icon-ability-commu"></i>의사소통 능력</span>
+                </div>
+            </header>
+            <div class="supplies-wrap layer-wrp">
+                <button type="button" class="btn-img text-hide btn-supplies" data-toggle="layer" data-target="#supplies">준비물</button>
+                <div class="txt">상황 카드(『실험 관찰』 <span class="font-serif">75</span> 쪽), 스마트 기기</div>
+                <div id="supplies" class="layer layer-full">
+                    <div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+                    <div class="layer-body">
+                        <p class="font-ka fs22">준비물을 확인해 보세요.</p>
+                        <ul class="supplies-list row">
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_022_01" class="sr-only" />
+                                    <span class="custom-label">상황 카드(『실험 관찰』 <span class="font-serif">75</span> 쪽)</span>
+                                </label>
+                            </li>
+                            <li class="col-6">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_022_02" class="sr-only" />
+                                    <span class="custom-label">스마트 기기</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <strong class="how-title font-ka">어떻게 할까요</strong>
+                <button type="button" class="btn-img text-hide btn-process" data-toggle="modal" data-target="#modalVideo">실험 영상 과정</button>
+            </div>
+            <ul class="lst-num mt10 mb3">
+                <li class="text-flex text-num">
+                    <span class="num font-coo">1</span>
+                    <div class="col">
+                        상황 카드에서 따뜻하거나 차가운 정도를 어림하는 상황과 측정하는 상황을 살펴봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">2</span>
+                    <div class="col">
+                        우리 생활에서 따뜻하거나 차가운 정도를 정확하게 측정해야 하는 상황을 조사해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="2"><i class="icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">3</span>
+                    <div class="col">
+                        따뜻하거나 차가운 정도를 어림할 때보다 측정할 때 좋은 점은 무엇인지 모둠원과 이야기해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="3"><i class="icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn-img text-hide btn-self" data-toggle="modal" data-target="#modalSelf">스스로 평가해요</button>
+        </div>
+
+        <p class="fwd font-mi" style="left: 217px; top: 648px;">이마를 짚어서<br /> 건강 상태를 확인 <br />하기도 해.</p>
+        <p class="fwd font-mi" style="left: 345px; top: 638px;">이마를 짚어서는 <br />몸이 얼마나 따뜻하거나 <br />차가운지 정확하게 <br />알 수 없어.</p>
+
+        <div id="num">22</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 14 쪽</span>
+            <h2 class="modal-title">따뜻하거나 차가운 정도를 나타내는 상황 조사하기</h2>
+        </div>
+        <div class="modal-body">
+            <nav class="nav nav-circle">
+                <button type="button" data-target="#exp1" class="active" data-toggle="tab">1</button>
+                <button type="button" data-target="#exp2" data-toggle="tab">2</button>
+                <button type="button" data-target="#exp3" data-toggle="tab">3</button>
+            </nav>
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane active">
+                    <div class="question">
+                        <span class="num font-coo">1.</span>
+                        <div class="col">
+                            상황 카드에서 따뜻하거나 차가운 정도를 어림하는 상황과 측정하는 상황을 살펴봅<span class="text-nowrap">시다.</span>
+                        </div>
+                    </div>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <p class="text-blue">건강 상태를 확인할 때, 요리할 때, 식물을 재배할 때, 김치나 요구르트와 같이 발효 음식을 만들 때, 갓난아기의 목욕물 온도가 적절한지 확인할 때</p>
+                    </div>
+                </div>
+                <div id="exp2" class="tab-pane">
+                    <div class="question">
+                        <span class="num font-coo">2.</span>
+                        <div class="col">
+                            우리 생활에서 따뜻하거나 차가운 정도를 정확하게 측정해야 하는 상황을 조사해 써 봅시다.
+                        </div>
+                    </div>
+                    <textarea id="textarea_022_01" class="form-control" title="입력"></textarea>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp2">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp2">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <p class="text-blue">건강 상태를 확인할 때, 요리할 때, 식물을 재배할 때, 김치나 요구르트와 같이 발효 음식을 만들 때, 갓난아기의 목욕물 온도가 적절한지 확인할 때</p>
+                    </div>
+                </div>
+                <div id="exp3" class="tab-pane">
+                    <div class="question">
+                        <span class="num font-coo">3.</span>
+                        <div class="col">
+                            따뜻하거나 차가운 정도를 어림할 때보다 측정할 때 좋은 점은 무엇인지 써 봅시다.
+                        </div>
+                    </div>
+                    <textarea id="textarea_022_02" class="form-control" title="입력" placeholder="따뜻하거나 차가운 정도를 측정하면"></textarea>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp3">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp3">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <p>따뜻하거나 차가운 정도를 측정하면 <span class="text-blue">물체의 따뜻하거나 차가운 정도를 정확하게 알 수 있다.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 스스로 평가해요 -->
+<div id="modalSelf" class="modal modal-self modal-half">
+	<div class="modal-content">
+		<div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<strong class="self-check-title"><span class="text-hide">스스로</span> 평가해요</strong>
+			<p class="check-pencil font-mi">학습한 내용을 생각하며 색칠해 봅시다.</p>
+			<ul class="self-check-list">
+				<li class="row">
+					<p class="col">따뜻하거나 차가운 정도를 어림할 때보다 측정할 때 좋은 점을 모둠원과 이야기하는 과정에 적극적으로 참여했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_022_01" value="self_022_01" id="self_022_01" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_022_01" value="self_022_02" id="self_022_02" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_022_01" value="self_022_03" id="self_022_03" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+				<li class="row">
+					<p class="col">우리 생활에서 따뜻하거나 차가운 정도를 정확하게 측정해야 하는 상황을 조사했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_022_04" value="self_022_04" id="self_022_04" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_022_04" value="self_022_05" id="self_022_05" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_022_04" value="self_022_06" id="self_022_06" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <header class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </header>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

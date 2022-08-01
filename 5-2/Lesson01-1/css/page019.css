@@ -1,15 +1,44 @@
 @charset "utf-8";
 
-#wrap{background:#fff4da}
-.para-first>*:first-child{margin-top: -3px;margin-bottom: 4px;}
-.para{text-indent: 0.9em;}
-.img-box{display: flex; align-items: flex-start;justify-content: space-between;margin-top: 32px;}
-.img-box>div{position:relative}
-.fwd{margin-top: 12px;text-indent: 1em;line-height: 1.5333;padding-left: 1px;letter-spacing: -0.01em;}
-.fwd .fwd{display: block;margin-top:0;padding-left: 0;}
-[class*=fwd].font-mi{line-height: .9;}
+#wrap{background-image: url(../images/page019/bg.jpg)}
+.tab-wrp {margin-top: 10px;}
+.nav {justify-content: flex-start; margin-left: 9px;}
+.nav-tabs [class*='tab'] {justify-content: flex-start; border: none; min-width: 179px; height: 59px; background: url(../images/page019/flag01_off.png) no-repeat 0 0 / 100% auto; box-shadow: none;}
+.nav-tabs button:nth-child(2) {background: url(../images/page019/flag02_off.png) no-repeat 0 0 / 100% auto}
+.nav-tabs button:nth-child(3) {background: url(../images/page019/flag03_off.png) no-repeat 0 0 / 100% auto}
 
-.img-box [class^=font-]{position:absolute;top:0;left:0;}
-.img-box .font-netmarble{font-size: 13px;}
-.img-box .font-serif{font-size:11px;color:#0075b3;font-style: italic;}
-.img-box .font-dt{font-size: 11px;line-height: 1.0909;}
+.nav-tabs .active {border: none; padding: 0; background: url(../images/page019/flag01_on.png) no-repeat  0 0 / 100% auto}
+.nav-tabs .tab2.active {background: url(../images/page019/flag02_on.png) no-repeat  0 0 / 100% auto}
+.nav-tabs .tab3.active {background: url(../images/page019/flag03_on.png) no-repeat  0 0 / 100% auto}
+.nav-tabs button:not(:first-child) {margin-left: 18px;}
+.text-box {width: 484px; font-size: 15px; line-height: 23px; text-indent: 1em;}
+#tab1 .text-box {margin-top: 20px; margin-left: 8px;}
+#tab3 .text-box {margin-top: 15px; margin-left: 10px; width: 472px;}
+
+.word-bubble [class^=font-]{position:absolute;top:0;left:0;}
+.word-bubble .font-netmarble{font-size: 17px;}
+.word-bubble .font-serif{font-size:15px; color:#0075b3; font-style: italic;}
+.word-bubble .font-dt{font-size: 15px;}
+.word-bubble button {position: absolute;}
+.layer-transparent {position: absolute;}
+[class*=map-line]{background-repeat: no-repeat;background-size: 100% auto;background-position: 50% 50%;animation: scale 1s;transform-origin: center bottom}
+#tab1 .map-line-1{width: 64px;height: 132px;background-image: url(../images/page019/arrow_1-1.png)}
+#tab1 .map-line-2{width: 370px;height: 320px;background-image: url(../images/page019/arrow_1-2.png); animation: height 2s both linear;transform-origin: center;}
+#tab2 .map-line-1{width: 371px;height: 424px;background-image: url(../images/page019/arrow_2-1.png)}
+#tab2 .map-line-2{width: 25px;height: 80px;background-image: url(../images/page019/arrow_2-2.png); animation: height 2s both linear;transform-origin: center;}
+#tab3 .map-line-1{width: 63px;height: 182px;background-image: url(../images/page019/arrow_3-1.png)}
+
+
+/* @keyframes height {
+    0%{transform: scaleY(0);}
+    100%{transform: scaleY(1);}
+} */
+@keyframes height {
+    0%{height: 0;}
+    100%{height: 320px;}
+}
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

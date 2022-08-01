@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+[class*=fwd]{line-height: 25px;letter-spacing: -.025em}
+.icon-btn-video {position: absolute; left: 457px; top:22px}
+.font-ka{position: absolute; font-size: 17px; color:#fff}
+.fwd1 {width: 335px}
+.fwd6 {width: 128px;text-indent: 1.8em}
+.btn-subject{position: absolute;left: 30px;bottom: 0}

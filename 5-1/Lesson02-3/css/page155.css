@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page155/bg.jpg);}
+.numbering {margin-top:23px; padding-left:17px;}
+.btn-game-start{position: absolute;transform: scaleX(-1);top: -15px;right: 50px}
+.icon-btn-inter {position: absolute; right: 0}
+
+.bx{margin:12px 45px 0 45px; padding:15px; background:#fff;}
+
+.lst-type-num>li{padding-left: 25px;letter-spacing: -.03em;}
+.lst-type-num>li+li{margin-top: 8px}
+.lst-type-num>li>.text-circle:first-child{width: 15px;line-height: 15px;margin-left: -20px}
+
+.interaction {position: relative; height: 500px; margin-top:62px}
+.interaction .font-ka {font-size: 20px; color: #5b493f;}

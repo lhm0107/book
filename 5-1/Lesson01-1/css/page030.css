@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page030/bg.jpg)}
+.fwd1 {font-size: 16px; line-height: 16px}
+.legend{position: absolute;top: 37px;left: 37px}
+.legend .box{width: 122px;background: #fff;border: 1px solid #1c1c1c;padding: 1px 8px;font-size: 14px;line-height: 16px}
+.interaction{margin: 10px 0 0 86px;position: relative;height: 635px}
+.interaction .icon-btn-refresh{position: absolute;top: 35px;right: 35px;display: none}
+.show~.icon-btn-refresh{display: block}
+.layer-wrp{position: absolute;top: 618px;left: 120px}
+.layer-write{margin-left: -120px}
+.input-group>span:first-child{flex-basis: 110px;max-width: 110px}
+.lst-type-bull>li:before{top: 14px}
+.tx-a{visibility: hidden;width: 35%;padding-left: 5px}
+.box [role="button"]{display: flex;align-items: center;font-size: 15px;line-height: 15px;margin: 10px 0}
+[class*=icon-legend]{width: 15px;height: 15px;margin-right: 5px}
+.icon-legend-red{background-image: url(../images/page030/map-btn01.png)}
+.icon-legend-blue{background-image: url(../images/page030/map-btn02.png)}
+.icon-legend-ylw{background-image: url(../images/page030/map-btn03.png)}
+.icon-legend-grn{background-image: url(../images/page030/map-btn04.png)}
+#layerSelfWrite{bottom: -271px}
+.lst-type-bull .tx-a{margin-top: 0}
+.legend-wrap{font-size: 12px;display: none}
+.legend-wrap [class*=icon]{width: 7px;height: 7px;margin: 0 2px}
+.legend-wrap>li{position: absolute;display: flex;align-items: center}
+.legend-wrap>.d-block{text-align: center}
+.legend-wrap>.d-block [class*=icon]{display: block}
+.interaction>span.font-dt{position: absolute;font-size: 12px;color: #cd3670}

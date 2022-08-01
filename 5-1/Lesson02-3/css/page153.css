@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page153/bg.jpg)}
+
+.top-content {padding-top:72px}
+.tit2 { font-size: 20px;}
+.tit2 span { margin-right:16px}
+.col-wide {padding-left:8px; padding-right:67px; margin-top:20px; font-size: 16px;}
+
+.brown-bx {width:373px; margin-top:14px; margin-left:25px; padding:23px 14px; font-size: 14px; text-align: center; line-height: 1.571; }
+.brown-bx li {display: flex; line-height: 1.428; text-align: left;}
+
+.media-title {font-size: 16px; font-weight: 400; margin-bottom:0; line-height: 1.5;}
+.layer-wrp {margin-left:27px; padding-right:36px}
+
+.verify {left:auto; bottom:50px; width: 158px;}
+.verify .icon-btn-chk {position: relative;}
+.q-label-wrp span{font-weight: 400}
+
+.mt23 {margin-top:23px !important}
+
+.media>span{width: 15px}
+.media textarea.form-control{height: 50px}

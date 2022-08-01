@@ -7,16 +7,18 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
 <link rel="stylesheet" type="text/css" href="css/page058.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2">
+<div id="wrap">
 	<div class="wrapper">
 		<header class="ch-2-hd row">
 			<div class="col">
-				<img src="images/common/ch-2-1.png" width="122" alt="1" data-dtext_index="dtext_cls_image" />
+				<img src="images/page058/ch-1-1.png" width="122" alt="1" data-dtext_index="dtext_cls_image" />
 			</div>
 			<div class="col-wide">
 				<h1 class="ch-2-title">
@@ -28,22 +30,25 @@
 					<div id="unitGoal" class="layer" data-toggle="layerClse">
                 		<div class="layer-body">
 							<ul class="lst-type-bull bull-primary">
-	 							<li>조선의 건국 과정을 설명할 수 있다.</li>
-                                <li>조선의 제도 정비 과정을 파악할 수 있다.</li>
+	 							<li>조선의 건국 과정을 설명할 수 있어요.</li>
+                                <li>조선의 제도 정비 과정을 파악할 수 있어요.</li>
 	 						</ul>
 			            </div>
 			        </div>
 				</div>
 			</div>
 		</header>
-		<div class="row">
+		<div class="row align-items-end">
+			<div class="col">
+				<button type="button" class="icon-btn-video" data-toggle="modal" data-target="#modalVideo">비디오</button>
+			</div>
 			<div class="col-wide">
                 <strong class="para-title mb10">고려 말의 상황</strong>
 				<p class="para">
-                    고려 말에 나라 안팎은 매우 혼란스러웠다. 일부 지배층과 불교 사원은 넓은 토지를 차지하고 세금을 내지 않았으며, 가난한 백성을 노비로 만들었다. 또한 홍건적과 왜구가 고려를 자주 침략하여 백성의 삶이 매우 힘들어 졌다.
+                    고려 말에 나라 안팎은 매우 혼란스러웠다. 일부 지배층과 불교 사원은 넓은 토지를 차지하고 세금을 내지 않았으며, 가난한 백성을 노비로 만들었다. 또한 <span class="btn-dic btn-dic1">홍건적</span>과 왜구가 고려를 자주 침략하여 백성의 삶이 매우 힘들어 졌다.
                 </p>
                 <p class="para">
-                    이때 <span class="btn-dic">성리학</span>을 공부한 정도전, 정몽주 등의 <span class="btn-dic">신진 사대부</span>가 <strong>이성계</strong>를 비롯한 새로운 무인 세력과 손을 잡았다. 이들은 고려 사회의 문제점을 해결하려고 하였다.
+                    이때 <span class="btn-dic btn-dic2">성리학</span>을 공부한 정도전, 정몽주 등의 <span class="btn-dic">신진 사대부</span>가 <strong class="font-dt">이성계</strong>를 비롯한 새로운 무인 세력과 손을 잡았다. 이들은 고려 사회의 문제점을 해결하려고 하였다.
                 </p>
 			</div>
 		</div>
@@ -52,20 +57,11 @@
                 <img src="images/page058/1.png" alt="" data-dtext_index="dtext_cls_image" />
                 <div class="fwd1 font-dt" style="left: 219px; top: 22px;">외적의 침입을 물리치며 이성계를 비롯한 새로운 무인 세력이 성장하였다.</div>
                 <div class="fwd2 font-dt" style="left: 19px; top: 373px;">토지나 권력이 일부 세력에 집중되어 문제가 발생하자,<br /> 신진 사대부가 사회 개혁을 주장하였다.</div>
-                <div id="interFadeIn">
-                    <div data-audio="audio1" class="font-mi bubble-box1" style="left:149px; top: 145px;">
-                        가난한 백성은 <br />
-                        송곳 꽂을 땅도<br />
-                        없구나.
-                    </div>
-                </div>
-
-				<button type="button" title="내용 보기" class="icon-hand" data-inter="#interFadeIn" style="left: 236px;top: 303px;">내용 보기</button>
-				<button type="button" title="다시 실행하기" class="icon-btn-refresh btn-inter-reset" data-reset="#interFadeIn" style="bottom:-42px; right:0px">다시 실행하기</button>
-
-				<audio id="audio1" src="media/audio/sample.mp3" preload="none"></audio>
-				<audio id="audio2" src="media/audio/sample.mp3" preload="none"></audio>
-				<audio id="audio3" src="media/audio/sample.mp3" preload="none"></audio>
+                <div class="font-mi bubble-box1" style="left:149px; top: 145px;">
+					가난한 백성은 <br />
+					송곳 꽂을 땅도<br />
+					없구나.
+				</div>
             </div>
         </div>
 
@@ -74,10 +70,32 @@
 	</div>
 </div>
 
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal"></button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_19_1a.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/5_1_19_1a.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
 <!-- page -->
-<script type="text/javascript" src="js/interaction.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
 </body>
 </html>

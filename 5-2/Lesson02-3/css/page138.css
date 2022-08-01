@@ -1,0 +1,10 @@
+@charset "utf-8";
+.varied-header {margin-left: -25px}
+.varied-header button {position: absolute; right: 0; margin: 0}
+.word-bubble {padding-left: 15px; padding-right: 7.5px}
+.fwd1 {width: 232.5px; text-align: justify}
+.fwd2 {width: 163.5px}
+.fwd3 {width: 188.5px}
+.fwd5 {width: 221px}
+.font-dt {line-height: 25px}
+.tit {font-size: 12px; line-height: 20px; font-weight: 700; text-indent: 0; text-align: center}

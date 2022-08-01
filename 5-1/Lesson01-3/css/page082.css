@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page082/bg.jpg)}
+.side-btns {top: 166.5px}
+.fwd1 {font-size: 20px}
+.fwd2 {font-size: 16px; color:#fff}
+.label {position: absolute; font-size: 14px}
+[class^=fwd].font-dt {font-size: 13px; line-height: 22.5px}
+.fwd4 {width: 140px}
+.fwd5 {width: 225px; text-indent: 1.5em}
+.fwd6 {width: 217px; text-indent: 1.5em; letter-spacing: -0.026em;}
+.fwd7 {width: 102px; text-indent: 0; letter-spacing: -0.01em;}
+#layer1 {width: 583px;}

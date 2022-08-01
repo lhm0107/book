@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.top-content {align-items: flex-end; padding-left: 50px;}
+.top-content button {margin-bottom: -14px;}
+.word-bubble {margin-top: 22px; margin-right: -7px;}
+.fwd1 {font-size: 18px;}
+.fwd2 {font-size: 25px;}
+.fwd3 {font-size: 14px; line-height: 23px; width: 507px; color: #393939;}
+.icon-enlarge {position: absolute;}
+.mid-content {justify-content: space-between; margin-top: 35px;}
+.mid-content .col-wide {flex: 0 0 493px;}
+.mid-content button {margin-top: 2px; margin-left: -16px;}
+.inform {width: 143px;font-size: 13px; line-height: 18px;}
+.inform:after {width: 18px; height: 51px;}
+.explanation.layer-limit {width: 203px;}
+#layerSelfWrite01{left: -50px}

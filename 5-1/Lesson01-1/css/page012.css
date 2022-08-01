@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page012/bg.jpg)}
+.ch-1-text {margin-top: 40px;}
+.ch-goal-title {margin-bottom: 13px;}
+.ch-ani{position: absolute;top: 0px;right: 52px;animation: fadeInLeft 2s both}
+.ch-ani img{animation: bounce 2.5s infinite both}
+@keyframes bounce{
+    50%{transform: translateY(10px)}
+}
+.ch-goal-list>li {padding-bottom: 10px;}
+.font-mi {line-height: 20px;}
+
+[class^=area]{background-repeat: no-repeat;background-size: auto 100%}
+.area1{width: 104px;height: 136px;background-image: url(../images/page012/drag1.png)}
+.area2{width: 78px;height: 141px;background-image: url(../images/page012/drag2.png)}
+.area3{width: 126px;height: 111px;background-image: url(../images/page012/drag3.png)}
+.area4{width: 105px;height: 110px;background-image: url(../images/page012/drag4.png)}
+.area5{width: 113px;height: 89px;background-image: url(../images/page012/drag5.png)}
+.area6{width: 112px;height: 110px;background-image: url(../images/page012/drag6.png)}
+.area7{width: 128px;height: 107px;background-image: url(../images/page012/drag7.png)}
+.area8{width: 141px;height: 89px;background-image: url(../images/page012/drag8.png)}
+.area9{width: 137px;height: 95px;background-image: url(../images/page012/drag9.png)}
+.area10{width: 86px;height: 92px;background-image: url(../images/page012/drag10.png)}
+.area11{width: 86px;height: 100px;background-image: url(../images/page012/drag11.png)}
+.area12{width: 112px;height: 73px;background-image: url(../images/page012/drag12.png)}
+.area13{width: 121px;height: 89px;background-image: url(../images/page012/drag13.png)}
+.area14{width: 85px;height: 56px;background-image: url(../images/page012/drag14.png)}
+
+.dragging .area1, .ui-draggable-disabled .area1{background-image: url(../images/page012/drag1_off.png)}
+.dragging .area2, .ui-draggable-disabled .area2{background-image: url(../images/page012/drag2_off.png)}
+.dragging .area3, .ui-draggable-disabled .area3{background-image: url(../images/page012/drag3_off.png)}
+.dragging .area4, .ui-draggable-disabled .area4{background-image: url(../images/page012/drag4_off.png)}
+.dragging .area5, .ui-draggable-disabled .area5{background-image: url(../images/page012/drag5_off.png)}
+.dragging .area6, .ui-draggable-disabled .area6{background-image: url(../images/page012/drag6_off.png)}
+.dragging .area7, .ui-draggable-disabled .area7{background-image: url(../images/page012/drag7_off.png)}
+.dragging .area8, .ui-draggable-disabled .area8{background-image: url(../images/page012/drag8_off.png)}
+.dragging .area9, .ui-draggable-disabled .area9{background-image: url(../images/page012/drag9_off.png)}
+.dragging .area10, .ui-draggable-disabled .area10{background-image: url(../images/page012/drag10_off.png)}
+.dragging .area11, .ui-draggable-disabled .area11{background-image: url(../images/page012/drag11_off.png)}
+.dragging .area12, .ui-draggable-disabled .area12{background-image: url(../images/page012/drag12_off.png)}
+.dragging .area13, .ui-draggable-disabled .area13{background-image: url(../images/page012/drag13_off.png)}
+.dragging .area14, .ui-draggable-disabled .area14{background-image: url(../images/page012/drag14_off.png)}
+
+
+.swiper-slide{height: auto;display: flex;align-items: center;justify-content: center}
+.drag-area{margin: 20px 0 30px}
+.drop-refresh{position: absolute;top: 0;right: 0}
+
+.map{width: 285px;height: 567px;background: url(../images/page012/bg.png) no-repeat 0 0/100% auto;margin: 0 auto;position: relative}
+.drop-fix{position: absolute}
+.drop-type-box.ui-droppable-hover, .drop-fix.ui-droppable-hover{background: none !important}
+
+.drop1{width: 114px;height: 147px;top: 0;left: 161px}
+.drop2{width: 112px;height: 186px;top: 55px;left: 102px}
+.drop3{width: 89px;height: 104px;top: 75px;left: 22px}
+.drop4{width: 93px;height: 90px;top: 157px;left: 34px}
+.drop5{width: 104px;height: 82px;top: 217px;left: 19px}
+.drop6{width: 124px;height: 117px;top: 217px;left: 106px}
+.drop7{width: 81px;height: 79px;top: 263px;left: 83px}
+.drop8{width: 71px;height: 63px;top: 334px;left: 83px}
+.drop9{width: 85px;height: 73px;top: 417px;left: 75px}
+.drop10{width: 84px;height: 92px;top: 323px;left: 155px}
+.drop11{width: 65px;height: 70px;top: 319px;left: 127px}
+.drop12{width: 71px;height: 55px;top: 377px;left: 94px}
+.drop13{width: 84px;height: 65px;top: 398px;left: 142px}
+.drop14{width: 62px;height: 42px;top: 513px;left: 69px}
+
+.drop-fix-bg>div{position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-repeat: no-repeat;background-size: 100% auto;display: none;animation: fadeIn 1s both;}
+.bg1{background-image: url(../images/page012/drop1.png)}
+.bg2{background-image: url(../images/page012/drop2.png)}
+.bg3{background-image: url(../images/page012/drop3.png)}
+.bg4{background-image: url(../images/page012/drop4.png)}
+.bg5{background-image: url(../images/page012/drop5.png)}
+.bg6{background-image: url(../images/page012/drop6.png)}
+.bg7{background-image: url(../images/page012/drop7.png)}
+.bg8{background-image: url(../images/page012/drop8.png)}
+.bg9{background-image: url(../images/page012/drop9.png)}
+.bg10{background-image: url(../images/page012/drop10.png)}
+.bg11{background-image: url(../images/page012/drop11.png)}
+.bg12{background-image: url(../images/page012/drop12.png)}
+.bg13{background-image: url(../images/page012/drop13.png)}
+.bg14{background-image: url(../images/page012/drop14.png)}

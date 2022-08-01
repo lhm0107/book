@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page097/bg.jpg)}
+.bottom-content{height: 505px;}
+.bottom-content .layer-wrp:not(.layer-wrp-inter) {margin-top:173px; margin-left:23px}
+.fwd.font-dt{line-height: 25px !important;}
+.fwd.font-dt.fs12{line-height: 20px !important;text-indent: 0 !important;width: 193px;}
+.fwd.font-mi{line-height: 18px !important;}
+
+.w195{width: 195px;margin-left: 20px;}
+.w410{width: 410px;}
+
+.bubble{font-size: 20px !important;line-height: 1em !important;}
+#layer1 .bubble{width:141px;height:83px;background-image: url(../images/page097/b1.png);padding-bottom: 4px}

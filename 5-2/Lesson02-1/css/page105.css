@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.col-wide{flex:0 0 511px;width:511px}
+.bx-color-label{position: relative;width:285px;height:217px;border-radius: 20px;background-color: #ccf2f0;padding:20px}
+.color-label{width:204px;height:25px;background-position:50% 50%;background-size: 100% 100%;background-repeat: no-repeat;background-image: url(../images/page105/1.png);font-family: 'Katuri',serif !important;font-size: 15px;display: flex;align-items: center;justify-content: center;position: absolute;left:50%;transform: translateX(-50%);top:-12px;color:#fff}
+.bx-color-label.grn{background-color:#e9f7d2;}
+.bx-color-label.grn .color-label{background-image: url(../images/page105/2.png);}
+.bx-color-label ul li{font-size: 15px;line-height: 25px;}
+.lst-type-bull>li:before{background:#000;}

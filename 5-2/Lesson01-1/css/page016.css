@@ -3,7 +3,7 @@
 #wrap{background-image: url(../images/page016/bg.jpg)}
 .curiosity-hd{display: flex;}
 .curiosity-label{width: 155px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0;flex-shrink: 0;margin-right: -11px;}
-.curiosity-title{margin-top: 20px;font-family: 'Katuri',sans-serif;font-size: 21px;color:#213d5d;line-height:1.6190;}
+.curiosity-title{margin-top: 20px;font-size: 21px;color: #213d5d;line-height: 34px}
 .curiosity-hd>.col {margin-top: -8px;padding-left: 11px;}
 .curiosity-hd .para{text-indent: .9em;font-family: 'KoPubDotum',sans-serif}
 

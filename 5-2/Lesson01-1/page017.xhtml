@@ -7,14 +7,16 @@
 <link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
 <link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
 <script type="text/javascript" src="js/DTCaliperSensor.js"></script>
 <!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
 <link rel="stylesheet" type="text/css" href="css/page017.css" />
 </head>
 <body>
-<div id="wrap" class="social-5-2 page-odd">
+<div id="wrap" class="page-odd">
 	<div class="wrapper">
-		<div class="word-bubble">
+		<div class="word-bubble layer-wrp">
 			<span class="font-coo" style="top: 34px;left: 8px;">3</span>
         	<p class="fwd1" style="top: 36px;left: 37px;">어느 날, 곰과 호랑이가 환웅을 찾아와
 			사람이 되게 해 달라고 빌었다. 환웅은
@@ -24,22 +26,97 @@
 			<p class="fwd2" style="top: 86px;left: 379px;">곰은 이를 잘 지켜 여자로 변해 웅녀가
 			되었다. 웅녀는 환웅과 결혼해 아들을
 			<span class="text-nowrap">낳았고,</span> 그 아들이 나중에 <span class="btn-dic dic-right">단군왕검</span>이 <span class="text-nowrap">되었다.</span> 단군왕검은 평양성에 도읍을 <span class="text-nowrap">정하고</span> 나라 이름을 (고)조선이라고 <span class="text-nowrap">하였다.</span></p>
+
+            <button type="button" class="btn-subject position-absolute" data-toggle="modal" data-target="#modalVideo" style="left: 365px; top:23px"><i class="icon-btn-hvideo"></i><span>고조선의 건국이야기</span></button>
 		</div>
-		<div class="bottom-content">
+		<div class="bottom-content row">
             <div class="col-wide">
 				<div class="para">
 					환웅이 하늘에서 내려왔다는 것은 고조선의 지배층이 스스로를 <span class="text-nowrap">하늘의</span> 자손으로 내세웠음을 나타낸다. 환웅이 바람, 비, 구름을 다스<span class="text-nowrap">리는</span> 신하를 거느리고 인간 세상을 다스렸다는 것은 고조선이 농사를 <span class="text-nowrap">중요하게</span> 생각하였음을 나타낸다. 또 사람으로 변한 곰이 환웅과 결혼 했다는 것은 곰을 섬기는 부족이 하늘의 자손임을 내세우는 환웅 부족과 함께 고조선을 건국하였음을 나타낸다.
 				</div>
 			</div>
+            <div class="col">
+                <button type="button" class="btn-subject mt5" data-toggle="modal" data-target="#modalWrite"><i class="icon-btn-pencil"></i><span>고조선의 건국 <br />이야기<br />알아보기</span></button>
+            </div>
         </div>
-		
+
 		<!-- paging -->
 		<footer id="num" class="font-dt"><b>17</b>1. 나라의 등장과 발전</footer>
+	</div>
+</div>
+
+<!-- 써보기 -->
+<div id="modalWrite" class="modal">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<h2 class="modal-title"><i class="icon-modal-write"></i>고조선의 건국 이야기 알아보기</h2>
+		</div>
+		<div class="modal-body">
+			<p class="media-title">교과서 16~17쪽에 있는 고조선의 건국 이야기를 읽고, 물음에 답해 보세요.</p>
+			<section class="sect numbering layer-wrp">
+				<b class="num">1</b>
+				<div class="media-body">
+					<p class="media-title">환웅이 하늘에서 내려왔다고 한 까닭은 무엇일까요?
+					<button type="button" title="정답보기" class="icon-btn-chk float-right" data-toggle="layer" data-layer-accordion="true" data-target="#layer_017_01">확인</button></p>
+					<textarea id="textarea_017_01" class="form-control" title="입력"></textarea>
+					<div id="layer_017_01" class="layer w-100" data-toggle="layerClse">
+						<div class="layer-body">
+							<strong class="title">예시 답안</strong>
+							<ul class="lst-type-bull">
+								<li>고조선의 지배층이 스스로를 하늘의 자손이라고 내세우기 위해서입니다.</li>
+								<li>환인의 아들이 환웅이고, 환웅의 아들이 단군왕검이므로 단군왕검이 세운 고조선이 신성한 나라라는 점을 알리기 위해서입니다.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sect numbering layer-wrp">
+				<b class="num">2</b>
+				<div class="media-body">
+					<p class="media-title col">환웅이 바람, 비, 구름을 다스리는 신하를 거느리고 인간 세상을 다스렸다는 이야기를 통해 알 수 있는 고조선의 사회 모습은 무엇인가요?
+					<button type="button" title="정답보기" class="icon-btn-chk float-right" data-toggle="layer" data-layer-accordion="true" data-target="#layer_017_02">확인</button></p>
+					<textarea id="textarea_017_02" class="form-control" title="입력"></textarea>
+					<div id="layer_017_02" class="layer w-100" data-toggle="layerClse">
+						<div class="layer-body">
+							<strong class="title">예시 답안</strong>
+							<ul class="lst-type-bull">
+								<li>고조선 사람들이 농사짓는 일을 중요하게 생각하였음을 알 수 있습니다.</li>
+								<li>고조선 사람들이 농사를 지으며 생활하였음을 알 수 있습니다.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_2_16_1a.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/5_2_16_1a.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
 	</div>
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
 </body>
 </html>

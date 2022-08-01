@@ -1,23 +1,56 @@
 $(function(){
 	"use strict";
+
+	if($('.layer-ttakji .swiper-container').length){
+		var slides = $('.layer-ttakji .swiper-container').data('slides') || 5;
+		var dragdropSwiper = new Swiper('.layer-ttakji .swiper-container', {
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			slidesPerView: slides,
+			slidesPerGroup: slides,
+			observer: true,
+			observeParents: true,
+			shortSwipes:false,
+			longSwipes:false,
+			followFinger:false,
+			touchMoveStopPropagation:false,
+			observer: true,
+			observeParents: true,
+			threshold: 10,
+			preventClicks : false,
+			preventClicksPropagation : false,
+			simulateTouch : false,
+			allowTouchMove : false,
+		});
+	}
+
 	var $dragItem = $('.drag-fix');
 	var $dropBox = $('.drop-fix');
+	var target = 'parent';
 
 	$dragItem.on('touchmove',function(event){
 		event.preventDefault();
 		event.stopPropagation();
 	});
 
-	$dragItem.draggable({
-		helper: 'clone',
-		scope: 'fbox',
-		revertDuration: 0,
-		start: function(){
-			$(this).addClass('dragging');
-		},
-		stop: function(){
-			$(this).removeClass('dragging');
+	$dragItem.each(function(){
+		var $t = $(this);
+		if($t.closest('.layer-ttakji').length){
+			target = $t.closest('.layer-ttakji');
 		}
+
+		$t.draggable({
+			helper: 'clone',
+			scope: 'fbox',
+			revertDuration: 0,
+			appendTo: target,
+			start: function(){
+				$(this).addClass('dragging');
+			},
+			stop: function(){
+				$(this).removeClass('dragging');
+			}
+		});
 	});
 
 	$dropBox.droppable({
@@ -26,24 +59,25 @@ $(function(){
 		drop: function(e, ui){
 			var $dropItem = $(this);
 			var $dragItem = $(ui.draggable);
+			var dropArr = String($dropItem.data('drop')).indexOf(',') !== -1 && $dropItem.data('drop').split(',');
+			var dropChance = $dropItem.data('chance');
 
-			console.log($dragItem.data('drop') === $dropItem.data('drop'))
-
-			if($dragItem.data('drop') === $dropItem.data('drop')){
+			if(($dragItem.data('drop') === $dropItem.data('drop')) || $.inArray(String($dragItem.data('drop')),dropArr)>-1){
 				effectAudio.play('correct');
 				$dropItem.append(ui.draggable.html());
 				$dragItem.draggable('option', 'disabled', true);
-				$dropItem.droppable('option', 'disabled', true);
+
+				(!dropChance || $dropItem.children().length === dropChance) && $dropItem.droppable('option', 'disabled', true);
 
 				var inputVal = $dragItem.attr('data-text') || $dragItem.text();
 
-				if($dropItem.prev().val()){
+				if(dropChance && $dropItem.prev().val()){
 					$dropItem.prev().val($dropItem.prev().val()+', '+inputVal)
 				}else{
 					$dropItem.prev().val(inputVal);
 				}
 
-				$dragItem.closest('.layer-ttakji').length && $('.ttakji-refresh').show();
+				$dragItem.closest('.layer-ttakji').length && $('.ttakji-refresh[data-target="#'+$dragItem.closest('.layer-ttakji').attr('id')+'"]').show();
 			}else{
 				effectAudio.play('again');
 			}
@@ -51,7 +85,7 @@ $(function(){
     });
 
 	$('.drop-refresh').click(function(){
-		var target = this.dataset.target ? $(this.dataset.target) : $('body');
+		var target = this.dataset.refresh ? $(this.dataset.refresh) : $('body');
 		target.find('.drop-fix').droppable('option', 'disabled', false).empty();
 		target.find('.drag-fix').draggable('option', 'disabled', false);
 

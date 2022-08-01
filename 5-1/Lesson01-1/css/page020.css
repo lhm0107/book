@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.icon-btn-pencil{position: absolute;right:0;top:0}
+#small_020_01 .form-control{width: 164px}
+.drag-fix{width: 140px}
+.drop-fix{position: absolute;width: 100px;height: 53px;top: 0;left: 0;z-index: 100;display: flex;align-items: center;justify-content: center;text-align: center;font-weight: 700;font-size: 15px;line-height: 20px}
+#layer0{width: 550px;}
+.layer-ttakji{z-index: 110;}
+.ttakji-refresh{right: 35px}
+.drag-fix.ui-draggable-dragging{z-index: 110}

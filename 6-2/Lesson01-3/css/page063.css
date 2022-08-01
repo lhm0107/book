@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* #wrap{background-image: url(../images/page063/bg1.jpg)} */
+
+.word-bubble {margin-top:25px; margin-right:-15px}
+.word-bubble+.word-bubble {margin-top:33px}
+.word-bubble .font-dt {font-size: 14px;}
+.word-bubble .font-ka span {display: inline-block; margin-left:6px; color: #fff;}
+
+.input-group {display: inline-flex;}
+.input-group .form-control {max-width: 70px;}
+table tr>*>.form-control {height: 30px; border: 1px solid #a8b6bd; border-radius: 3px;}

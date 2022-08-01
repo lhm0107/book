@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.lst-type-text{ text-align: left;}
+.lst-type-text li{display: flex;}
+.lst-type-text li>*:first-child{-ms-flex: 0 0 auto;flex: 0 0 auto;padding-right: 1em;width: auto;max-width: 100%;}
+#layerSubject.layer{left: 0;}
+.content-bottom{position: relative;margin-top: 19px;}
+.content-bottom>*:not(img){position: absolute;top: 0;left: 0;}
+.fwd.font-jalnan{letter-spacing: -0.03em;}
+.fwd.font-jalnan strong{letter-spacing: -0.05em;}
+.para-wrap{width: 460px;font-size: 15px;}
+.para-wrap .para{line-height: 25px;}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page041/bg.jpg)}
+.line{position: absolute;overflow: hidden}
+.line.up{width: 272px;height: 209px;background: url(../images/page041/up.png) no-repeat 100% 100%/272px 209px;animation: scale 2.4s linear both;right: 221px;bottom: 332px;}
+.line.left{width: 250px;height: 201px;background: url(../images/page041/left.png) no-repeat 0 0/250px 201px;animation: scale2 1.2s 1.2s linear both;top: 488px;left: 51px;}
+.inter [class*=bubble-]{position: absolute;width: 107px;height: 107px;display: flex;align-items: center;justify-content: center;background: #fff;border-radius: 100%;border: 1px dashed currentColor;text-align: center}
+.bubble-up{color: #e64d25;left: 327px;top: 422px;animation: fadeIn 1s .5s both}
+.bubble-left{color: #14afc2;left: 69px;top: 584px;animation: fadeIn 2s 2s both}
+.icon-hand{position: absolute;bottom: 155px;right: 185px}
+.figcaption{margin-top: 550px;width: 100%}
+
+@keyframes scale{
+    0%{width: 0}
+    50%{width: 272px}
+    100%{width: 272px}
+}
+
+@keyframes scale2{
+    0%{width: 0}
+    100%{width: 250px}
+}
