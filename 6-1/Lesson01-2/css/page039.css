@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page039/bg.jpg)}
+.para{word-break: keep-all; width: 483px;}
+.top-content{align-items: flex-start;}
+.col-wide{flex:0 0 502px;}
+.col-auto{margin-top: 155.5px;}
+.icon-enlarge{width: 30px; height: 30.5px;}
+.notice {display:flex; position: absolute; top: 292px; left:489px; font-size: 12px;line-height: 16px;text-align: center;}
+.notice p{position: absolute; top:14.5px; left: 16.5px; }
