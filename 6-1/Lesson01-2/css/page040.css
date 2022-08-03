@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page040/bg.png)}
+
+.para{word-break: keep-all;}
+.ohyes-title {margin-top: 32px;}
+.icon-btn-pencil {position: absolute; right: 0;}
+.q-label-wrp::before {display: none;}
+.icon-hand{position: absolute; left: 544px; top: 555.5px;}
+.btn-inter-reset{position: absolute; left: 544px; top: 555.5px;}
+.ch-goal-list.font-dt li{position: absolute;}
+.bubble {position: absolute; font-size: 20px; line-height: 20px; text-align: center;}
+.bubble.box1{width:171px;height:106px;background: url(../images/page040/bubble01.png) no-repeat 0 0 / 100% auto; padding-top: 20px}
+.bubble.box2{width:193.5px;height:97px;background: url(../images/page040/bubble02.png) no-repeat 0 0 / 100% auto; padding-top: 15px}
+.bubble.box3{width:199.5px;height:116px;background: url(../images/page040/bubble03.png) no-repeat 0 0 / 100% auto; padding-top: 14px}
+.bubble.box4{width:167.5px;height: 123.5px;background: url(../images/page040/bubble04.png) no-repeat 0 0 / 100% auto; padding-top: 24px}
+.ohyes-wrp{display: flex}
+.ohyes-text{width: 482px;height: 173px;margin-left: 42.5px; margin-right: 16px;letter-spacing: -0.01em;}
+.mt10{padding:25px;word-break: keep-all;letter-spacing: -0.06em; background: url(../images/page040/paper.png);}
+.layer-body .font-dt{margin-top: 25px; letter-spacing: -0.075em;}
+.btn-subject{position: absolute; left: 437px; bottom: 0;}
+.media-title{letter-spacing: -0.03em;}

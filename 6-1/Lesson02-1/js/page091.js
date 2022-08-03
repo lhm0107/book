@@ -70,4 +70,8 @@ $(function(){
 		$dropItem.find('.drag-obj').remove();
 		$dragItem.draggable('option', 'disabled', false);
 	});
+
+	$('.drop-refresh').click(function(){
+		$('.mindmap-top .icon-del').trigger('click');
+	});
 });

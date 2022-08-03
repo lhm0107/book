@@ -63,8 +63,8 @@
 /* 써보기 */
 .layer-write{width: 668px;border-width: 4px;background: #f50068;border: 0;padding: 4px;border-radius: 0 0 6px 6px}
 .layer.layer-write:before{content: '';display: block;position: absolute;width: 100%;height: 62px;background: url(../images/common/layer-write.png) no-repeat 0 0/100% auto;right: auto;left: 0;bottom: 100%;top: auto;margin-bottom: -15px}
-.layer-write .layer-body{padding: 25px 20px 30px;border: 3px solid #c40053;border-radius: 6px;background: #fff;position: relative}
-.layer-write .icon-layer-clse{background: none;top: -27px;right: 16px;width: 30px;height: 30px}
+.layer-write>.layer-body{padding: 25px 20px 30px;border: 3px solid #c40053;border-radius: 6px;background: #fff;position: relative}
+.layer-write>.icon-layer-clse{background: none;top: -27px;right: 16px;width: 30px;height: 30px}
 
 /* 단어 */
 .btn-dic{font-weight: 700;font-size: inherit;white-space: nowrap;color: #f50068 !important;cursor: pointer}
@@ -124,7 +124,7 @@
 
 /* 문항 */
 .numbering{display: flex;align-items: flex-start}
-.numbering>.num{width: 25px;flex-shrink: 0;font-family: 'CookieRun',sans-serif;color: #143861;font-size: 23px;font-weight: 700;text-align: justify;line-height: 27px}
+.numbering>.num{width: 20px;flex-shrink: 0;font-family: 'CookieRun',sans-serif;color: #143861;font-size: 20px;font-weight: 700;text-align: justify;line-height: 27px}
 .numbering>*:nth-child(2){position: relative}
 .media-title{margin-bottom: 10px;position: relative;line-height: 27px;font-weight: 700;font-size: 17px}
 .media-title>.label{margin-top: -3px}
@@ -214,7 +214,7 @@
 .sect-hd{padding: 46px 30px 0 65px;margin-bottom: 15px;background-repeat: no-repeat;background-size: 100% auto}
 .sect-do-content{padding-left: 65px;padding-right: 35px}
 .sect-do-content .layer-side-chk{margin-right: -35px;padding-right: 35px}
-.sect-do-content .numbering>.num{color: #195596;font-size: 20px;width: 20px}
+.sect-do-content .numbering>.num{color: #195596}
 .layer-side-chk .media-body [class*=icon-btn],  .layer-side-chk .media-body .layer{right: -35px}
 .layer-side-chk>.layer{left: 0}
 .sect-do-explore{margin-top: 15px}
@@ -495,7 +495,8 @@ input:checked~.mark:after{display: block}
 .btn-inter-group.pointer-none>.icon-hand, .order-inter-btn{pointer-events: none}
 .order-inter-content .invisible>*{animation: none !important}
 .order-inter-btn>.icon-hand{position: absolute;pointer-events: auto;z-index: 20}
-.scratch{overflow: hidden;position: relative;-webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none}
+.scratch{overflow: hidden;position: relative;}
+.scratch>*{-webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none}
 .scratch:not(.done)>*:not(canvas){visibility: hidden}
 .scratch:not(.done):after{content: '';position: absolute;width: 30px;height: 32px;background: url(../images/common/scratch.png) no-repeat 0 0/auto 100%;top: 50%;left: 50%;transform: translate(-50%,-50%);pointer-events: none}
 .scratch>canvas{position: absolute;top: 0;left: 0}

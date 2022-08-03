@@ -29,7 +29,7 @@
 
 /* content */
 .modal .numbering>.num{font-size: 24px;width: 30px}
-.modal .media-title{font-size: 22px;line-height: 30px;margin-bottom: 15px;text-align: justify}
+.modal .media-title{font-size: 21px;line-height: 30px;margin-bottom: 15px;text-align: justify}
 .modal .media-body>[class*=lst-type-]>li+li{margin-top: 7px}
 .modal .test-item{padding-right: 0}
 .modal .q-line-btn{font-size: 18px;line-height: 30px}
@@ -125,7 +125,7 @@ video::-webkit-media-controls-overlay-play-button, *::-webkit-media-controls-ove
 .modal-verify .modal-body{padding-top: 25px;border-color: #c37592}
 .modal-verify-title{position: absolute;width: 237px;height: 70px;background: url(../images/common/verify-header-arrange.png) no-repeat 0 0/100% auto;color: #fff;font-size: 28px;padding: 0 0 0 83px;line-height: 70px;left: 0;bottom: 100%;margin-bottom: -15px}
 .modal-verify .icon-modal-close{width: 52px;height: 52px;right: 0;bottom: 100%;background: url(../images/common/icon-x.png) no-repeat 50% 50%/23px auto}
-.arrange-cont-title{font-weight: 700;font-family: 'Katuri',sans-serif;align-items: center;margin-bottom: 30px;font-size: 28px;line-height: 30px;color: #143861;padding: 8px 0 14px 65px;background: url(../images/common/arrange-cont-title.png) no-repeat 0 100%/100% auto}
+.arrange-cont-title{font-weight: 700;font-family: 'Katuri',sans-serif;align-items: center;margin-bottom: 30px;font-size: 26px;line-height: 30px;color: #143861;padding: 8px 0 14px 65px;background: url(../images/common/arrange-cont-title.png) no-repeat 0 100%/100% auto}
 
 /* 잠깐 체크 */
 #modalSmallEvlt{padding-top: 10px}

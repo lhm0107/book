@@ -1,0 +1,7 @@
+
+@charset "utf-8";
+#wrap{background-image: url(../images/page046/bg.png);}
+.wrapper{padding-top: 75px;}
+.col-wide{ flex: 0 0 550px; max-width: 550px;padding-right: 20px;}
+.col-wide .para{font-size:15px ;line-height: 25px;}
+[class*=fwd].font-mi{font-size: 21px;line-height: 0.9em;} 

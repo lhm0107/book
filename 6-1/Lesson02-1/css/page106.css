@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/* 공통css 102,106,108 페이지*/
-.icon-face-wr{width: 26px;height: 27px; background-image: url(../images/common/icon-face-wr.png)}
-/* ----이미지 다시 받아서 넣어야 함 */
-
 .bottom-content{margin-bottom: 15px;}
 .bottom-content .img-wrap>*:not(img), .inform, .icon-btn-pencil{position: absolute;top: 0;left: 0;}
 .para-wrap{width: 368px;font-size: 15px;}

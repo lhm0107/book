@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.word-bubble{max-width: 645px;margin:0 auto}
+.layer-wrp-01{position: absolute;right:10px;top:-3px}
+.fwd.font-mi{font-size: 21px;line-height: 20px;letter-spacing: -0.02em;}
+.layer-wrp-02{position: absolute;bottom:13px;right:-8px}
+.layer-wrp-02 .icon-btn-pencil{position: absolute;right:0;top:0}
+.layer-wrp-02 .font-dt{font-size: 12px;line-height: 16px;text-indent: 0 !important;top:9px;left:9px}
+.icon-btn-video{position: absolute;left:20px;top:63px}

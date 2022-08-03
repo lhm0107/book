@@ -61,37 +61,58 @@
             <h2 class="modal-title"><i class="icon-modal-idea"></i>생각을 여는 질문</h2>
         </div>
         <div class="modal-body">
-            <p class="media-title">우리나라는 사계절이 나타나 계절에 따라 사람들의 옷차림, 먹는 음식, 사용하는 물건 등의 생활 모습이 달라집니다. 여름과 겨울에 사람들의 생활 모습을 고르세요. <button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh float-right" data-target="#">다시 풀기</button></p>
-            <div class="bx drag-area">
-                <div class="drag-fix" data-text="선풍기" data-drop="1">
-                    <img src="images/page034/d1.png" height="120" alt="" />
+            <div id="small_024_02" class="no-answered" data-qtype="checkbox">
+            <assessmentItem data-qid="checkbox_024_01" data-response-type="multipleChoice">
+                <div class="text-right">
+                    <button type="button" title="정답보기" class="icon-btn-chk chk-data-button" style="top:-15px" data-toggle="answer-final" data-target="#small_024_02">확인</button>
                 </div>
-                <div class="drag-fix" data-text="털옷" data-drop="2">
-                    <img src="images/page034/d2.png" height="120" alt="" />
-                </div>
-                <div class="drag-fix" data-text="바캉스옷" data-drop="1">
-                    <img src="images/page034/d3.png" height="120" alt="" />
-                </div>
-                <div class="drag-fix" data-text="수확">
-                    <img src="images/page034/d4.png" height="120" alt="" />
-                </div>
-                <div class="drag-fix" data-text="썰매" data-drop="2">
-                    <img src="images/page034/d5.png" height="120" alt="" />
-                </div>
-            </div>
-            <div class="row text-center mt40">
-                <div class="col-6 pr10">
-                    <strong class="fs20">여름</strong>
-                    <input type="text" id="text_034_01" class="sr-only" />
-                    <div class="drop-fix" data-drop="1" data-chance="5"></div>
-                </div>
-                <div class="col-6 pl10">
-                    <strong class="fs20">겨울</strong>
-                    <input type="text" id="text_034_02" class="sr-only" />
-                    <div class="drop-fix" data-drop="2" data-chance="5"></div>
-                </div>
-            </div>
-        </div>
+                <itemBody>
+                    <div class="title">
+                        <div class="media-body media-title">다음 퀴즈 대회에서 질문에 올바른 답을 말한 사람을 골라 ∨ 표 하세요.</div>
+                        <div class="questions">
+                            <div class="bubble">
+                                <p class="ch-1-bubble font-mi" style="top: 98.5px ;left: 150.5px">서로의 생각을 존중하면서 문제를 해결하는 방법은 무엇일까요?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="answersheet row">
+                        <li class="col-6">
+                            <label class="text-flex align-items-center">
+                                <img src="./images/page036/yr.png" alt="예린" />                                   
+                                <p class="sect-title font-mi" style="top:46.5px">학급 회의를 열어 급식 먹는 <br />순서를 결정해요.</p>
+                                <input type="checkbox" name="checkbox_024_01" value="1" id="checkbox_024_01" data-answer="" />
+                                <span class="checkbox mr10"></span>
+                            </label>
+                        </li>
+                        <li class="col-6">
+                            <label class="text-flex align-items-center">
+                                <img src="./images/page036/jw.png" alt="주원" />                                   
+                                <p class="sect-title font-mi" style="top:46.5px">힘이 있는 몇몇 사람들이<br /> 모여 지역 문제를 해결해요.</p>
+                                <input type="checkbox" name="checkbox_024_01" value="2" id="checkbox_024_02" data-answer="" />
+                                <span class="checkbox mr10"></span>
+                            </label>
+                        </li>
+                        <li class="col-6 mt50">
+                            <label class="text-flex align-items-center">
+                                <img src="./images/page036/sh.png" alt="소희" />                                   
+                                <p class="sect-title font-mi" style="top:36px">내가 반장이니까<br />내 마음대로 자리 배치<br />방법을 정해요.</p>
+                                <input type="checkbox" name="checkbox_024_01" value="3" id="checkbox_024_03" data-answer="" />
+                                <span class="checkbox mr10"></span>
+                            </label>
+                        </li>
+                        <li class="col-6 mt50">
+                            <label class="text-flex align-items-center">
+                                <img src="./images/page036/ds.png" alt="동수" />                                   
+                                <p class="sect-title font-mi" style="top:35.5px">가족 회의를 열어 집안일을<br />어떻게 나누어 맡으면<br />좋을지 정해요.</p>
+                                <input type="checkbox" name="checkbox_024_01" value="4" id="checkbox_024_04" />
+                                <span class="checkbox mr10"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </itemBody>
+            </assessmentItem>
+		</div>
+    </div>
     </div>
 </div>
 

@@ -26,7 +26,6 @@ html.magnifying > body {
   box-shadow: none;
   display: inline-block;
   z-index: inherit;
-  vertical-align: top;
 }
 .magnify > .magnify-lens { /* Magnifying lens */
   position: absolute;

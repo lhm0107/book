@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page054/bg.jpg)}
+.ch-1-hd {padding-left: 130px; justify-content: space-between}
+.btn-ch-idea {z-index: 9;}
+.ch-goal {width: auto;}
+.ch-goal-title {margin: 0; margin-bottom: 20px}
+.ch-goal-list>li {padding-bottom: 15px}
+.think-title {position: absolute; left: 0; top: 400px;}
+.icon-hand {margin-left: 11px}
+.think-title .font-dt{text-shadow: -1px 0px rgb(255 255 255 / 80%), 0px 1px rgb(255 255 255 / 80%), 1px 0px rgb(255 255 255 / 80%), 0px -1px rgb(255 255 255 / 80%);}
+.ch-1-bubble{font-size: 21px;line-height: 20px;letter-spacing: -0.02em;}
+
+.deco-item{position: absolute;right:0;top:0}
+.deco-item:first-of-type{animation:bubble01 5s infinite both;}
+.deco-item:last-of-type{animation:bubble02 7s infinite both;}
+@keyframes bubble01{
+	50%{transform:translate(-2%,-8%)}
+	100%{transform:none}
+}
+@keyframes bubble02{
+	0%,100%{transform:translate(0%,-5%)}
+	50%{transform:translate(2%,5%)}
+}
+
+/* 5-2 중단원 추가사항 */
+.social-5-2 .ch-goal .ch-goal-title{color:#143861}
+.social-5-2 .ch-goal .ch-goal-title>span{color:#00a5b1}
+.social-5-2 #num>span{background-color:#21b8c5}
+/* 생각이 활짝 캐릭터 없는거 파란색 */
+.social-5-2 .think-title>strong.sm{width: 70px;height:59px;background: url(../images/common/page-think-label-blue-02.png) no-repeat 0 0 / 100% auto}
+.social-5-2 .think-title>strong.sm+.font-dt{padding:15px 0 0 18px}
+
+/* list style */
+.ch-goal-list.ch-goal-list-bul>li{width: 100%;border-top: 0;font-size: 15px;font-weight:400;position: relative;padding-top: 0}
+.ch-goal-list.ch-goal-list-bul>li::before{content:"";position: absolute;left:0;top:1px;width:13px;height: 13px;border:4px solid #fff;border-radius: 50%}
+
+.answer-wrp {display: block; text-align: center; margin-top:5px;}
+.answersheet input {position: relative; height: 30px; border: 1px solid #a8b6bd; padding:4px; margin:0}
+.answersheet .col-6 {padding:0 15px}

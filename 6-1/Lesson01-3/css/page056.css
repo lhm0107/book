@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.ch-2-title{margin-bottom:0;padding-bottom: 0;}
+.content-bottom .layer-wrp .layer{position: absolute;left:0;top:0}
+/* .content-bottom .layer-wrp .layer .word-bubble{position: absolute;left:0;bottom:0} */
+.content-bottom .layer-wrp .icon-hand{position: absolute;left:408px;top:106px;z-index: 99;}
+.content-bottom .layer-wrp .icon-hand.off{top:45px}
+.content-bottom .layer-wrp .word-bubble .font-coo{font-size: 15px;line-height: 20px;font-weight: 700;}
+.content-bottom .layer-wrp .word-bubble dt{margin-bottom: 7px;color:#775159}
+.content-bottom .layer-wrp .word-bubble .font-mi{font-size: 21px;}
