@@ -1,0 +1,7 @@
+
+@charset "utf-8";
+.icon-btn-pencil{position: absolute; right: 0;}
+[class*=fwd].font-mi{line-height: 0.9em;} 
+.ohyes-cont-wrp{line-height: 1.58;}
+.img-text{position: relative; margin-left: 100px;margin-top: 5px;font-size: 15px;padding-left: 20px;letter-spacing: -0.025em;}
+.img-text::after{content: "";background: url(../images/page049/arr.png)no-repeat center center/contain ;position: absolute;top: 3px;left: 0;width: 13px;height: 15px;}

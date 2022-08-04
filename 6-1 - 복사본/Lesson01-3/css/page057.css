@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+.word-bubble .font-mi{font-size: 21px;}
+.word-bubble .fwd{left:0;top:0}
+.swiper-slide .font-ka{font-size: 17px;transform:rotate(-4deg);color: #fff;}
+.swiper-slide .font-dt{font-size: 16px;line-height: 25px;text-indent: 0 !important;}

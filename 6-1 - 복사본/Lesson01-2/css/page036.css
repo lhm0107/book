@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page036/bg.jpg)}
+#wrap::after{content: "";position: absolute;top: 0;right: 128.5px; width: 182.5px;height: 140.5px ;background:url(../images/page036/1.png) no-repeat top left / cover;}
+#wrap::before{content: "";position: absolute;top: -9.5px;left: 399px;width: 232.5px;height: 212px;background:url(../images/page036/light.png)no-repeat top left / cover;filter: blur(13px);animation: light 3s infinite both;}
+
+.ch-1-text {margin-top: 40px;}
+.ch-goal-list>li {line-height: 20px;}
+.think-title .font-dt {text-shadow: -2px -2px 4px rgba(255, 255, 255, 0.8), 2px 2px 4px rgba(255, 255, 255, 0.8) ;padding-top: 20px;}
+.title{padding-top:32.5px}
+.media-title{letter-spacing: -0.025em;}
+.questions{height:55px; margin-left: 132px;}
+.questions .bubble {width:413px;height: 52px; background: url(../images/page036/bubble.png) no-repeat top left / cover;}
+.questions .bubble::before{content: "";display: block;position: absolute;left: 65px; width: 55px;height: 58.5px ;background:url(../images/page036/mic.png) no-repeat top left / cover;}
+.bubble .ch-1-bubble.font-mi{font-size: 23px;}
+img {width: 320px; height: 240px;margin-bottom: 15px; }
+.text-flex {flex-direction: column;}
+.sect-title {position: absolute; line-height: 20px;text-align: center;}
+
+
+@keyframes light{
+    0% , 100%{opacity:1;}
+    50%{opacity: 0;}
+}
+

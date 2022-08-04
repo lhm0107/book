@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#interaction{position: relative;margin: 25px auto 0;width: 602px;height: 615px;background: url(../images/page090/bg.jpg) no-repeat 0 0/auto 100%}
+#interaction>*{position: absolute}
+
+.before, .after{top: 0;right:0;bottom:0;left:0;background: url(../images/page090/before.png) no-repeat 0 0/auto 100%}
+.after{background-image: url(../images/page090/after.png);animation: fadeIn 1s both;display: none}
+.before .fwd{color: #fff;font-size: 18px}
+.after .font-ka{color: #775159}
+.active>.after{display: block}
+.active>.before{display: none}
+.after>div, .after .next{background-repeat: no-repeat;position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-size: auto 100%;animation: fadeIn 1s both}
+.after>div:nth-child(1){background-image: url(../images/page090/1.png);animation-delay: 1s}
+.after>div:nth-child(2){background-image: url(../images/page090/2.png);animation-delay: 3s}
+.after>div:nth-child(3){background-image: url(../images/page090/3.png);animation-delay: 5s}
+.after>div:nth-child(4){background-image: url(../images/page090/4.png);animation-delay: 7s}
+.after>div:nth-child(5){background-image: url(../images/page090/5.png);animation-delay: 9s}
+.after>div:nth-child(6){background-image: url(../images/page090/6.png);animation-delay: 11s}
+.after>div:nth-child(7){background-image: url(../images/page090/7.png);animation-delay: 13s}
+.after>div:nth-child(8){background-image: url(../images/page090/8.png);;animation-delay: 15s}
+.after>div:nth-child(1) .next{background-image: url(../images/page090/1-1.png);animation-delay: 2s}
+.after>div:nth-child(2) .next{background-image: url(../images/page090/2-1.png);animation-delay: 4s}
+.after>div:nth-child(3) .next{background-image: url(../images/page090/3-1.png);animation-delay: 6s}
+.after>div:nth-child(4) .next{background-image: url(../images/page090/4-1.png);animation-delay: 8s}
+.after>div:nth-child(5) .next{background-image: url(../images/page090/5-1.png);animation-delay: 10s}
+.after>div:nth-child(6) .next{background-image: url(../images/page090/6-1.png);animation-delay: 12s}
+.after>div:nth-child(7) .next{background-image: url(../images/page090/7-1.png);animation-delay: 14s}
+.after>div:nth-child(8) .next{background-image: url(../images/page090/8-1.png);animation-delay: 16s}
+.next .font-coo{font-size: 13px;color: #fff;position: absolute;text-align: center;line-height: 15px}
+.icon-hand{top: 60%;left: 50%;margin-left: -13px}
+.icon-hand.re{top: 50%;margin-top: -20px}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+.word-bubble{max-width: 557px;margin-left: auto;}
+.word-bubble .layer-wrp{position: absolute;}
+.layer-wrp-01{right:0;bottom:10px}
+.layer{position: absolute;left:0;top:0;line-height: 25px;}
+.layer-wrp-02 .layer{width:300px}
+.layer-wrp-02 .layer{width:400px}
+.layer-wrp-01 .icon-btn-pencil{position: absolute;right: 0;top:0}
+.layer-wrp-01 .font-dt{text-indent: 0 !important;font-size: 12px;text-align: center;line-height: 16px;left:13px;top:9px}

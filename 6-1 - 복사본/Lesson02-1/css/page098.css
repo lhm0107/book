@@ -1,0 +1,8 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page098/bg.png);}
+
+.bottom-content .layer-wrp{position: absolute;top: 0;left: 0;}
+[class*=fwd].font-jalnan{font-size: 17px; color: #516d9c;letter-spacing: -0.025em;}
+.layer1{display: none;}
+[class*=fwd].font-mi{font-size: 21px;}
+.icon-hand{position: absolute;top: 64px;left: 148px;z-index: 110;}

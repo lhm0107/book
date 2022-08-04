@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page095/bg.jpg)}
+.row>.col-wide:first-child:last-child {margin-left:0}
+.fwd span {font-size: 30px;}
+.fwd1 {transform: rotate(5deg);}
+.icon-btn-pencil {position: absolute; top:78px; left:525px}
+.layer-write {margin-top:55px}

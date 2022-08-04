@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page086/bg.jpg)}
+.btn-ch-idea {position: absolute; top:73px; right:151px}
+.ch-1-text {margin-top:0;}
+.ch-goal-list>li {padding:8px 3px}
+.think-title .font-dt {padding-left:15px;text-indent: 1rem;}
+
+.ch-ani{position: absolute;top: 371px;left: 151px;animation: fadeInLeft 2s both}
+.ch-ani img{animation: bounce 2.5s infinite both}
+@keyframes bounce{
+    50%{transform: translateY(10px)}
+}

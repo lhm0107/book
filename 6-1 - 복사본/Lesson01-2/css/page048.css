@@ -1,0 +1,5 @@
+
+@charset "utf-8";
+.media-body .num {font-weight: 700;font-family: 'CookieRun',sans-serif;color: #195596;font-size: 20px;width: 20px;line-height: 27px;vertical-align: middle;}
+.tab-content .sect{margin-top: 15px;}
+[class*=fwd].font-mi{line-height: 0.9em;} 

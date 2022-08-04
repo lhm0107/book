@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page092/bg.jpg)}
+.curiosity-hd{display: flex;}
+.curiosity-label{width: 155px;height: 82px;background: url(../images/common/curiosity_label.png) no-repeat 0 0/auto 100%;-ms-flex-negative: 0;flex-shrink: 0;margin-right: -11px;}
+.curiosity-title{margin-top: 20px;font-size: 21px;color: #213d5d;line-height: 34px}
+.curiosity-hd>.col {margin-top: 36px;padding-left: 11px;}
+[class*=fwd] {text-indent: 0; text-align: center;}
+.fwd1 {transform: rotate(3deg);}
+.word-bubble>*{position: absolute;}
+.text-dot{right: 0;top: 123px;position: absolute}
+.scratch{position: absolute}
+.scratch1{width: 330px;height: 226px;left: 300px; top: 200px}
+.tit1{position: absolute;left: 430px; top: 194px;z-index: 10;pointer-events: none}
+.scratch2{top: 570px;left: 111px;width: 330px;height: 40px;text-align: center;font-size: 15px;line-height: 20px;font-weight: 500}

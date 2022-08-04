@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.sect-do-explore .sect-hd.wide-right{padding-left: 90px}
+.sect-do-explore .sect-do-content{margin-top: -20px;}
+
+#tab1 .form-control{height: 180px;margin-bottom: 30px}
+
+.note{width: 566px;height: 452px;background: url(../images/page105/bg.png) no-repeat 0 0/auto 100%;padding: 58px 0 0 42px;margin-left: -20px}
+.note .col-auto{width: 235px}
+.note .col-auto>p{font-size: 14px;line-height: 20px}
+.note .font-ka{font-size: 17px;color: #fff;transform: rotate(-5deg);}
+.note .form-control{height: 310px;margin-top: 15px}
+.note .icon-btn-chk{right: -37px}
+.note .label{margin-top: -2px}
+#layer3{right: -37px;left: 0}

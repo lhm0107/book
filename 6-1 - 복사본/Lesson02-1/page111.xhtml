@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/game.css" />
+<link rel="stylesheet" type="text/css" href="css/page111.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+	<div class="wrapper">
+		<div class="numbering font-dt">
+			<b class="num fs23">2</b>
+			<p class="media-body media-title">
+				다음 내용이 맞으면 ‘O’, 틀리면 ‘X’를 따라가며 미로를 탈출해 보자.
+				<button type="button" class="icon-btn-refresh btn-game-refresh">인터랙션</button>
+                <button type="button" class="icon-btn-inter" title="인터렉션" data-toggle="layer" data-target="#layer1">인터렉션</button>
+			</p>
+		</div>
+
+		<!-- 길찾기 -->
+		<div id="miroh">
+			<button type="button" class="btn-game-start"><i class="icon-game-start"></i></button>
+			<ol xmlns="http://www.w3.org/1999/xhtml" id="quest" class="font-dt">
+				<li class="quest" style="left: 389px; top: 277px;">
+					<div class="question">
+						<span class="text-circle">1</span>가계는 소득과<br />  상관없이 소비를<br />  할수있다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_01" class="sr-only" name="radio_111_01" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_02" class="sr-only" name="radio_111_01" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 105px; top: 242px;">
+					<div class="question">
+						<span class="text-circle">2</span>기업은 이윤을<br />  얻으려고 경제활동을<br />  한다. 
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_03" class="sr-only" name="radio_111_03" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_04" class="sr-only" name="radio_111_03" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 208px; top: 418px;">
+					<div class="question">
+						<span class="text-circle">3</span>가계와 기업은<br /> 시장에서 만나<br />  경제활동을 한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_05" class="sr-only" name="radio_111_05" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_06" class="sr-only" name="radio_111_05" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 406px; top: 434px;">
+					<div class="question">
+						<span class="text-circle">4</span>가계의 합리적 선택은 <br />  상황에 따라 달라질 수<br />  있다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_07" class="sr-only" name="radio_111_07" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_08" class="sr-only" name="radio_111_07" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 459px; top: 580px;">
+					<div class="question">
+						<span class="text-circle">5</span>우리나라는 모든 경제활동이<br />  정부의 지시에 따라<br />  이루어진다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_09" class="sr-only" name="radio_111_09" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_10" class="sr-only" name="radio_111_09" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+				<li class="quest" style="left: 159px; top: 646px;">
+					<div class="question">
+						<span class="text-circle">6</span>기업의 경젱은 기술<br /> 개발로 이어지기도<br /> 한다.
+					</div>
+					<div class="ox-game">
+						<label class="ox-game-o">
+							<input type="radio" id="radio_111_11" class="sr-only" name="radio_111_11" data-answer="" />
+							<span class="text-hide">○</span>
+						</label>
+						<label class="ox-game-x">
+							<input type="radio" id="radio_111_12" class="sr-only" name="radio_111_11" />
+							<span class="text-hide">×</span>
+						</label>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>111</b>뚝딱뚝딱 정리하기</footer>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+</body>
+</html>

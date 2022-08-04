@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 공통css 102,106,108 페이지*/
+.icon-face-wr{width: 26px;height: 27px; background-image: url(../images/common/icon-face-wr.png)}
+/* ----이미지 다시 받아서 넣어야 함 */
+.bottom-content{margin-bottom: 34px;}
+.bottom-content img{margin-left: 29px;}
+.layer-wrp-interFadeIn, .icon-hand, .btn-inter-reset, .inform, .icon-btn-pencil{position: absolute;}
+.bubble-box{background-position: 0 0; background-repeat: no-repeat; background-size: 100% auto;font-family: 'SDMiSaeng',sans-serif !important;font-size: 21px;line-height: 18px;}
+.bubble-box1{padding: 17px 0 0 18px;width:159px;height:83px;background-image: url(../images/page102/bubble1.png);}
+.bubble-box2{padding: 13px 0 0 0;width:119px;height:81px;background-image: url(../images/page102/bubble2.png);}
+.bubble-box3{padding: 18px 0 0 16px;width:149px;height:71px;background-image: url(../images/page102/bubble3.png);}
+.bubble-box4{padding: 27px 0 0 4px;width:128px;height:86px;background-image: url(../images/page102/bubble4.png);}
+.bubble-box5{padding: 17px 0 0 7px;width:149px;height:71px;background-image: url(../images/page102/bubble5.png);}
+.layer.layer-write{top: -377px; left: 0;}

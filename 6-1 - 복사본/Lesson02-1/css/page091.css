@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.col .btn-subject {margin-top:60px}
+.sect-do-explore {margin-top: 16px}
+.media-title .icon-btn-chk {right:-21px}
+.sect-do-content textarea.form-control{height: 60px}
+
+
+.note .font-ka{font-size: 17px;color: #fff;transform: rotate(-5deg);}
+.note{width: 583px;height: 153px;background: url(../images/page091/note.png) no-repeat 0 0/auto 100%;margin-right: -35px;padding: 45px 0 0 38px;flex-wrap: nowrap;}
+.note .icon-btn-chk{top: 3px}
+.note .col-auto{ width: 220px;margin-right: 50px}
+.ex-txt{font-size: 13px;white-space: nowrap;margin-bottom: 5px}
+
+#textarea_091_01, #textarea_091_02{height: 85px}
+.mindmap{background: none;height: 795px;margin-top: 0;padding: 0}
+.mindmap-top{height: 70px}
+.mindmap .sketchbook{border: 1px solid #b9cbd4;box-shadow: none}
+.mindmap .drag-obj{display: block;height: auto;background: none;border-radius: 0;box-shadow: none}
+
+#drawHelper{bottom: 0;margin: 0 !important}
+td:first-child{border-left: 0 !important}
+.layer td{vertical-align: top}
