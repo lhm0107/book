@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.wrapper{margin-top:-14px;}
+.icon-btn-help{position: absolute;top: 0;right: 0}
+.bx{margin:6px -2px 0px 4px;padding:42px 18px 0 25px;border: 2px dotted #96a9b3;border-radius: 15px;}
+.bx .label{position: absolute;top: 13px;left: 13px;padding: 0 7px;}
+.bx .lst-type-bull>li{padding-left: 11px;font-size: 15px;}
+.bx [class^=line]{font-size: 15px;}
+.line1{height: 40px;margin-bottom: 20px;padding: 13px 0 0 27px;background: url(../images/page130/line1.png) no-repeat bottom left / auto 30px;}
+.line2{height: 92px;margin-bottom: 35px;padding-left:27px;background: url(../images/page130/line2.png) no-repeat bottom left / auto 83px;line-height: 3.1;}
+.bx [class*=fwd]:not(.font-mi, .font-jalnan){font-size: 14px;text-align: center;}
+.bx .word-bubble{margin-left: -3px;padding-top: 33px;}
+.bx .font-jalnan{top:0;left:0;width:100%;font-size: 20px;color:#435e89;text-indent: 0;text-align: center;}
+
+#num{margin-top: 34px;}

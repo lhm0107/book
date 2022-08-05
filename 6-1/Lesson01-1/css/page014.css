@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page014/bg-0.png);}
+.icon-btn-video {position: absolute; left: 0px; top: 93px;}
+.fwd1 {transform: rotate(-4deg); letter-spacing: -0.014em; color:#fff}
+.fwd2 {font-size: 27px; transform: rotate(-4deg); font-weight: 700; color:#fff}
+.fwd4 {font-size: 15px; line-height: 23px; width: 217px; text-indent: 1em;}
+.fwd4.v3 {width: 229px; letter-spacing: -0.02em;}
+.fwd4.v2 {letter-spacing: -0.012em;}

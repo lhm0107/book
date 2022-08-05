@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page116/bg.png);}
+.varied-header .col.row{justify-content: space-between;}
+.para.font-dt{width: 467px; margin: 10px 0 0 49px; font-size: 15px; line-height: 23px;}
+[class*=fwd]{font-size: 14px;line-height: 22px;text-indent: 0;}

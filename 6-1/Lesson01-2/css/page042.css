@@ -1,0 +1,5 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page042/bg.jpg)}
+.ch-2-title {margin-top: 8px;align-items: flex-start;}
+.para{word-break: keep-all;}
+.icon-btn-video{position: absolute; top:106.5px; left: 32.5px;}

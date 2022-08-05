@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page118/bg.png);}
+.content-top{justify-content: space-between;}
+.content-top .col-wide{ms-flex: 0 0 452px;flex: 0 0 452px;max-width: 452px;}
+.content-top .layer-wrp{margin-top: 244px;}
+
+.content-bottom{margin-top: 117px;}
+.swiper-container{width: 610px;}
+[id^=interFadeIn]>img{position: absolute;}
+[id^=interFadeIn] [class*=fwd]{font-size: 16px;}

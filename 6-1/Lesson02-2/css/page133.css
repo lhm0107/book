@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page133/bg.jpg)}
+.wrapper{padding-top: 84px}
+
+.cross-word{width: 384px;height: 384px;margin: 21px auto 0;background: url(../images/page133/cross-word.png) no-repeat 0 0/auto 100%;}
+.cross-word-input>li{width: 61px;height: 40px}
+.cross-word-key{justify-content: space-between;margin-top: 32px;}
+.cross-word-key>.col-auto{width: 320px;height: 326px;border: 2px dashed #c4b3b4 !important;}
+
+.icon-btn-chk{display:block}
+.point1 [class^=icon-btn], .point2 [class^=icon-btn]{margin-left: 61px}
+
+
+.tit{display: inline-block;position: absolute;top: -20px;left: 9px;width: 91px;height: 34px;background: url(../images/page133/key1.png) no-repeat center / 100% auto;}
+
+.ver-key .tit{background-image: url(../images/page133/key2.png) }

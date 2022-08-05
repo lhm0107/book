@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.drop-area{position: relative;}
+.box-blue{display: flex;position: absolute;left:0;top:0;width:140px;height:48px;border-radius: 10px;border:2px solid #b1dde3;background: #fff;align-items: center;padding:7px 5px}
+.drop-type-box:before, .drop-type-circle:before{display: none;}
+.badge-char{display: inline-flex; width: 17px;height:17px;background-color:#143861;border-radius: 50%;color:#fff;justify-content: center;align-items: center;font-size: 13px;vertical-align: middle;font-weight: 400;}
+.drop-type-box{border:1px solid #a8b6bd;border-radius:3px;flex-grow: 1;height: 30px;margin-left: 4px;}
+.drag-type-box{border:0;color:#222;box-shadow:none;font-size: 16px;}
+ .drag-type-box::after{display: none;}
+.drag-area .drag-type-box{margin:9px 20px;width:168px;background-color: #e0e7eb;}
+.bx.drag-area{padding:11px 0;border:1px solid #b4c0c6;background-color: #fff;}
+.ui-droppable-disabled .drag-type-box{background: transparent;width: 100%;}
+#tab1 .icon-btn-refresh{position: absolute;right:0;top:0}
+.fwd.font-mi{font-size: 21px;line-height: 18px;}
+.sect-do-explore input[type="text"]{height:42px}
+.icon-btn-help{position: absolute;right:0;top:0}

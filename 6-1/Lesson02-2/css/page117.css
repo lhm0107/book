@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.sect-do-content>.row>[class^=col]{display: flex;align-items: center;flex-direction: column;}
+.bx{padding: 21px 0 0 16px;width: 265px;height: 112px;border: 0;background: url(../images/page117/act-bx.png) no-repeat 100% / 100% 100%;font-size: 15px;text-align: center;line-height: 23px;}
+.bx+.bx{margin-top: 15px;}
+.sect-do-content>.row>.col{max-width: 43px;}
+.sect-do-content>.row>.col img:first-child{margin-top: 89px;}
+.sect-do-content>.row>.col img+img{margin-top: 100px;}
+
+.layer-wrp .bx{padding: 10px;border: 1px dashed #7b6faa;background: #fff;}

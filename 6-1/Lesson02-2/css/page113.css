@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page113/bg.png)}
+
+.fwd.font-dt{text-indent: 0;}
+[class*=fwd].font-mi{font-size:21px;}
+.icon-btn-play{top: 38.5%;}
+.text-mark{text-shadow: 1px 1px 1px #fff}

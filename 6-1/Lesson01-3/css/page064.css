@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page064/bg.jpg)}
+.bottom-content{bottom:138px}
+.scratch{position: absolute;border-radius: 10px;width:473px;height:182px;padding:5px}
+.bottom-content .layer-wrp{position: absolute;left:0;top:20px}
+.bottom-content .fwd.font-dt{text-indent: 0;font-size: 14px;}
+.bottom-content .layer-wrp .fwd.font-dt{font-size:12px;line-height: 16px;text-align: center;}
+.bottom-content .layer-wrp .icon-btn-pencil{position: absolute;right:0;top:0}
+.word-wrp{display: flex;flex-wrap: wrap;margin-left:-5px;margin-right: -5px;justify-content: center;}
+.word-wrp .word-item{flex:0 0 25%;padding-left:5px;padding-right:5px;font-size: 14px;text-align: center;margin-bottom:5px}
+.word-wrp .word-item p{height: 30px;border-radius: 10px;background-color: #dbebc6;display: flex;align-items: center;justify-content: center;}
+.bottom-content .fwd.font-dt.text-white{font-weight: 700;}
+.fwd.font-mi{font-size: 21px;line-height: 20px;}
+.icon-enlarge{bottom:31px;left:50%;transform: translateX(-50%);}

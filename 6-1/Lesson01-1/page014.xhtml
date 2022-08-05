@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page014.css" />
+</head>
+<body>
+<div id="wrap">
+	<div class="wrapper">
+		<header class="ch-2-hd row">
+			<div class="col">
+				<img src="images/page014/ch-1-1.png" width="122" alt="1"  data-dtext_index="dtext_cls_image"/>
+			</div>
+			<div class="col-wide">
+				<h1 class="ch-2-title">
+					<span><strong>4·19 혁명</strong>과 시민들의 노력을<br /> 알아볼까요</span>
+				</h1>
+				<div class="layer-wrp layer-wrp-left">
+					<button type="button" class="btn-icon" data-toggle="layer" data-target="#unitGoal" onclick="toggleAudioPlay('Audio1', this)"><i class="icon-btn-light"></i>이 주제를 공부하면</button>
+                    <audio id="Audio1" src="media/page014/014_00.mp3" preload="none"></audio>
+					<div id="unitGoal" class="layer" data-toggle="layerClse">
+                		<div class="layer-body">
+							<ul class="lst-type-bull bull-primary">
+	 							<li>이승만 정부의 장기 집권 시도 과정을 설명할 수 있어요.</li>
+	 							<li>4·19 혁명 당시 시민들의 노력을 파악할 수 있어요.</li>
+	 						</ul>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-wide">
+                <strong class="para-title">이승만 정부의 장기 집권 시도</strong>
+				<div class="para">
+					우리나라의 초대 대통령이었던 이승만은 계속해서 권력을 유지하고자 하였다. 이를 위해 헌법을 바꿔 가며 대통령에 잇달아 당선되었다.
+				</div>
+			</div>
+		</div>
+        <div class="word-bubble">
+			<button type="button" class="icon-btn-video" data-toggle="modal" data-target="#modalVideo">비디오</button>
+
+			<span class="fwd1 font-ka" style="left:40px;top: 15px;">이승만 정부의</span>
+            <span class="fwd2 font-ka" style="left:32px;top: 40px;">헌법</span>
+            <span class="fwd2 font-ka" style="left:81px;top: 38px;">개정</span>
+            <span class="fwd font-mi" style="left:521px;top: 41px;">반대하는 사람은<br /> 없겠지?</span>
+            <span class="fwd font-mi" style="left:494px;top: 102px;">찬성</span>
+            <span class="fwd font-mi" style="left:634px;top: 116px;">찬성</span>
+            <span class="fwd font-mi" style="left:16px;top: 295px;">헌법을 바꾸기 위한<br /> 찬성 인원이 1명 부족하여<br /> 헌법을 바꿀 수 없습니다.</span>
+            <span class="fwd font-mi" style="left:168px;top: 297px;">사사오입(반올림)하면 <br /> 찬성 인원이 부족하지 않으므로<br /> 헌법을 바꾸겠습니다.</span>
+            <span class="fwd4 font-dt" style="left:123px;top: 223px;">기존 헌법에는 대통령을 간선제로 뽑았다.</span>
+            <span class="fwd4 font-dt v2" style="left:447px;top: 229px;">이승만은 간선제로 다시 대통령이  되기 어렵다고 판단하고, 공포 분위기 를 조성하여 대통령 간선제를 <span class="btn-dic dic-right">직선제</span>로 바꾸었다(1952년).</span>
+            <span class="fwd4 font-dt v3" style="left:67px;top: 534px">직선제로 당선된 이승만은 이어서 <span class="text-nowrap">자신</span>이 대통령을 계속 할 수 있도록 하는 내용의 개헌안을 통과시켰다(1954년).</span>
+            <span class="fwd4 font-dt" style="left:447px;top: 588px;">이러한 헌법 개정을 거쳐 이승만은 연이어 대통령이 되었다.</span>
+        </div>
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>14</b><span>1</span> 세계 여러 나라의 자연과 문화</footer>
+	</div>
+</div>
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_18_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/5_1_18_1e.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

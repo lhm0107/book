@@ -1,0 +1,15 @@
+@charset "utf-8";
+.arrange-label p.position-absolute{transform: translateY(calc(-100% + 1px));top: 0;}
+.line1,
+.line3,
+.line4{position: absolute; right: -30px;} 
+.line4{right: -33px !important; margin-top: -7px;}
+.arrange-answer:not(:last-child){margin-bottom: 20px;}
+.arrange-label-line+*{line-height: 1.6;}
+.arrange-label-line.v2{padding-top: 6px;padding-bottom: 6px;}
+.line2{position: relative; width: 465px;height: 100px; background:url(../images/page052/line2.png) no-repeat center center / 100% 100%; }
+.line2 p{font-weight: 700; font-size: 16px;line-height: 21px;}
+
+#final_052_02 .fwd{font-size: 23px;line-height: 25px;;}
+#modalFinalEvlt .drop-type-box{width: 85px;}
+#final_052_03 .input-group{display: inline-flex;vertical-align: middle;}

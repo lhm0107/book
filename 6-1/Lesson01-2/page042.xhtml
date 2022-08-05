@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/lesson.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page042.css" />
+</head>
+<body>
+	<div id="wrap">
+	<div class="wrapper">
+		<header class="ch-2-hd row">
+			<div class="col">
+				<img src="images/page042/ch-2-2.png" width="122" alt="1" data-dtext_index="dtext_cls_image" />
+			</div>
+			<div class="col-wide">
+				<h1 class="ch-2-title">
+					<span><strong>민주주의를 실천</strong>하는<br />바람직한 태도는 무엇일까요</span>
+				</h1>
+				<div class="layer-wrp layer-wrp-left">
+					<button type="button" class="btn-icon" data-toggle="layer" data-target="#unitGoal" onclick="toggleAudioPlay('Audio1', this)"><i class="icon-btn-light"></i>이 주제를 공부하면</button>
+                    <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+					<div id="unitGoal" class="layer" data-toggle="layerClse">
+						<div class="layer-body">
+							<ul class="lst-type-bull bull-primary">
+								<li>민주주의를 실천하는 바람직한 태도를 설명할 수 있어요.</li>
+								<li>생활 속에서 민주주의를 실천하는 태도를 함양할 수 있어요.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="fwd font-mi" style="top:326px; left:96px">하나의 줄로 묶인 조랑말 두 마리가 있었습니다.</p>
+			<p class="fwd font-mi" style="top:321px; left:398.5px">검은 조랑말은 물을 먹고 싶었고, 흰 조랑말은 <br />풀을 먹고 싶었습니다.  </p>
+			<p class="fwd font-mi" style="top:556px; left:96px"> 각자 먹고 싶은 것을 발견한 두 조랑말은 달리기 시작했고, 서로의 목에 매인 줄은 팽팽해지기만 했습니다.</p>
+			<p class="fwd font-mi" style="top:747px; left:202px">결국 두 조랑말은 물 한 모금, 풀 한 포기도 먹지 못했습니다.</p>
+		</header>
+		<div class="row">
+			<div class="col-auto">
+				<button type="button" class="icon-btn-video" data-toggle="modal" data-target="#modalVideo">비디오</button>
+			</div>
+		</div>
+        <div class="row">
+			<div class="col-wide">
+                <div class="para">
+                    모두가 동등하게 의사 결정에 참여하는 민주주의 국가에서 문제를 원만하게 해결하려면 어떤 태도가 필요할까? 다음 이야기를 보며 생 각해 보자. 
+					<button type="button" class="icon-btn-pencil" data-toggle="layer" data-target="#layerSelfWrite01" data-layer-accordion="true">써보기</button>
+                </div>
+				<div id="layerSelfWrite01" class="layer layer-write" data-toggle="layerClse">
+					<div class="layer-body">
+						<div id="answer_045_01">
+							<p class="media-title">그림에서 두 조랑말이 모두 만족하려면 어떻게 해야 할지 써 보세요.<button type="button" title="정답보기" class="icon-btn-chk float-right" data-toggle="answer" data-target="#answer_045_01">확인</button></p>
+							<textarea id="textarea_045_01" class="form-control" title="입력"></textarea>
+							<div class="ex-answer-box">
+								<strong class="ex-answer-title">예시 답안</strong>
+								<p>서로 양보해야 합니다.</p>
+								<p>순서를 정하여 한 마리씩 먹으면 됩니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+		<!-- paging -->
+		<footer id="num" class="font-dt"><b>42</b><span>1</span>우리나라의 정치 발전</footer>
+	</div>
+</div>
+<!-- 비디오 모달 -->
+<div id="modalVideo" class="modal modal-video">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-body">
+            <!-- 비디오 -->
+            <video poster="media/poster/5_1_39_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="어린이날">
+				<source src="media/sample.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+</div>
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

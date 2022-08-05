@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.top-content .col-auto .btn-subject{margin: 65px 0 0 22px;}
+.image-caption{margin: 10px 0 0 6px;font-family: 'KoPubDotum',sans-serif;font-size: 15px;}
+.image-caption i{margin: 2px 5px 0 0;display: inline-block;width: 13px;height: 15px;background: url(../images/page119/img-caption.png)no-repeat 100% / 100%;}
+
+.content-bottom{margin-top: 53px;}
+.content-bottom .swiper-container{width: 620px;}

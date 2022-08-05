@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page067/bg.jpg)}
+.swiper-slide .layer{position: absolute;bottom:0;left:50%;transform: translateX(-50%);top:auto;width:100%;font-size: 15px;}
+.swiper-slide{position: relative;}
+.icon-hand{position: absolute;right:80px;bottom:16px}
+.slider-wrap{width:535px;margin:0 auto;top:87px}
+.bottom-content{bottom:255px;left:47px}
+.fwd.font-dt.fs15{bottom:171px;right:82px;text-indent: 0;}

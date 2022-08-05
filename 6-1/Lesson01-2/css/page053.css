@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#wrap {background-image: url(../images/page053/bg.jpg)}
+.wrapper{padding-top: 80px}
+.icon-btn-chk{display: block;position: static;}
+.cross-word{width: 383px;height: 383px;background: url(../images/page053/cross-word.png) no-repeat 0 0/auto 100%;margin-top: 35px;margin-left: 15px;}
+.cross-word input{}
+.cross-word-input>li{width: 47px;height: 47px;}
+.cross-word-key{padding-left: 20px;}
+.cross-word-key>div{width: 250px}
+.hor-key,
+.ver-key{position: relative;background-color: #fff;border:1px dashed #c4b3b4 ; border-radius: 1rem;padding:20px 18px 15px 20px;margin-top: 35px;}
+.cross-word-key .font-netmarble{text-indent: -9999px;line-height: 0;border-radius: 0;}
+.cross-word-key .hor-key>.font-netmarble {width: 94;height: 34px;  background: transparent url(../images/page053/badge1.png) no-repeat 0 0  / contain;}
+.cross-word-key .ver-key>.font-netmarble {width: 94;height: 34px;  background: transparent url(../images/page053/badge2.png) no-repeat 0 0  / contain;}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.nav-tabs>.active{background: #4a516c;}
+.nav-tabs>.active:last-child{background: #6d4d57;}
+
+.tab-content .layer-wrp{padding: 0 3px 0 10px;}
+.tab-content .inner{position: relative;}
+
+#modalWrite .media-title{position: relative;}
+#modalWrite .icon-btn-refresh{position: absolute;right: 0;}

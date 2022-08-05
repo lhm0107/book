@@ -37,7 +37,7 @@
 .modal .q-line-btn button:before{content: '';position: absolute;top: 50%;left: 50%;width: 8px;height: 8px;border-radius: 100%;margin: -4px;background: inherit}
 .modal .q-label-wrp:before{display: none}
 .modal .answered .tx-a{font-size: 18px;margin-top: 4px}
-.modal .tb tr>*{font-size: 17px}
+.modal .tb tr>*{font-size: 16px}
 .sect{margin-top: 30px}
 .sect .tb{width: 95%}
 .modal-body>.sect:first-child{margin-top: 0}
@@ -199,7 +199,8 @@ video::-webkit-media-controls-overlay-play-button, *::-webkit-media-controls-ove
 
 /* modal-확대 */
 .modal-enlarge .modal-content{width: 668px;padding: 2px;background: #f50068;border-radius: 6px;cursor: pointer}
-.modal-enlarge .modal-body{padding: 25px;border-radius: 6px;border: 0}
+.modal-enlarge .modal-body{padding: 25px;border-radius: 6px;border: 0;text-align: center;}
+.modal-enlarge .modal-body p{text-align: left}
 .modal-enlarge .icon-modal-close{width: 26px;height: 26px;top: -4px;right: -4px;background-image: url(../images/common/close.png)}
 .modal-enlarge .swiper-slide{padding-left: 50px;padding-right: 50px}
 .modal-enlarge .slider-wrap{margin-left: -15px;margin-right: -15px}

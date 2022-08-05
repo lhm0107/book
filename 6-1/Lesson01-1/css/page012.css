@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page012/bg.jpg);}
+.ch-ani{position: absolute;left: 506px; top: -5px;animation: fadeInDown 1.5s both}
+.ch-ani img{animation: swing 2.5s infinite both}
+.think-title {width: 519px; font-size: 17px; margin-top: -14px;}
+.think-title .font-dt {padding-top: 36px;}
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+#modalInteraction .bx {width: 320px; height: 250px; display: flex; justify-content: flex-end; align-items: center; flex-direction: column; padding: 0 20px 15px 20px;}
+#modalInteraction .text-flex {font-size: 14px; line-height: 20px; color: #6d6d6d; margin-top: 15px; text-align: left;}
+.answersheet .checkbox {position: absolute; left: 50%; top: 258px; transform: translateX(-50%); width: 30px; height: 30px; background-size: 30px auto;}

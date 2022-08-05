@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page121/bg.png)}
+
+.image-caption{display: flex;margin: 10px 0 0 6px;font-family: 'KoPubDotum',sans-serif;font-size: 15px;}
+.image-caption i{margin: 2px 5px 0 0;display: inline-block;width: 13px;height: 15px;background: url(../images/page121/img-caption.png)no-repeat 100% / 100%;}
+.bottom-content{height: 660px;}
+[id^=interFadeIn]{position: relative;}
+[id^=interFadeIn]>*{position: absolute;}
+.position-relative>*{position: absolute;}

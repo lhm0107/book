@@ -129,3 +129,30 @@ li:not(.able)>.lst-or{pointer-events: none}
 #mirohStep li:last-child::before{display: none}
 #mirohStep li.active:last-child>.latest{visibility: visible;}
 #mirohStep .latest::after{display: block;left: -50%;bottom: 50%}
+
+
+/* 십자말풀이 */
+.cross-word{position: relative}
+.cross-word #stamp{margin: 0 0 -73px -71px;bottom: 50%}
+.cross-word .layer{margin: 0;top: -22px;right: -22px;z-index: 50}
+.layer .cross-word{margin: 0;color: #f00;font-weight: 700}
+.cross-word-input>li, .point [class*=icon-btn]{position: absolute}
+.cross-word-input>li{display: flex;align-items: center;justify-content: center;text-align: center}
+.point.right [class*=icon-btn]{left: 100%;top: 50%;margin-top: -15px}
+.point.left [class*=icon-btn]{right: 100%;top: 50%;margin-top: -15px}
+.point.btm [class*=icon-btn]{top: 100%;left: 50%;margin-left: -15px}
+.point.top [class*=icon-btn]{bottom: 100%;left: 50%;margin-left: -15px}
+.cross-word input{text-align: center;width: 100%;height: 100%;color: #00f;font-weight: 700}
+.cross-word .wrong{color: #c60}
+.cross-word-key{justify-content: space-around}
+.cross-word-key>.col-auto{background: #fff;border-radius: 20px;border: 2px solid #deba9c;padding: 15px 16px 0}
+.cross-word-key>.ver-key{border-color: #95bae7}
+.cross-word-key .font-netmarble{position: absolute;width: 76px;line-height: 25px;font-size: 15px;text-align: center;border-radius: 2em;background: #773044;color: #fff;left: 16px;top: -13px}
+.ver-key .font-netmarble{background: #223d5e}
+.hor-key .text-circle{background: #8c644e}
+.ver-key .text-circle{background: #3d6ba3}
+.icon-page{width: 10px;height: 11px;background-image: url(../images/game/icon-page.png);margin-top: -1px}
+.cross-word-key .page{float: right;font-size: 13px}
+.cross-word-key .lst-type-num>li+li{margin-top: 3px;clear: right}
+.cross-word-key .lst-type-num>li{padding-left: 24px;font-size: 15px;line-height: 22px}
+.cross-word-key .lst-type-num>li>.text-circle:first-child{width: 18px;height: 18px;line-height: 18px;font-size: 14px;margin: 2px 0 0 -24px}

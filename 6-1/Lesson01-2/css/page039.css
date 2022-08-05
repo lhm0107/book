@@ -7,4 +7,6 @@
 .col-auto{margin-top: 155.5px;}
 .icon-enlarge{width: 30px; height: 30.5px;}
 .notice {display:flex; position: absolute; top: 292px; left:489px; font-size: 12px;line-height: 16px;text-align: center;}
-.notice p{position: absolute; top:14.5px; left: 16.5px; }
+.notice span{position: absolute; top:14.5px; left: 16.5px; }
+.modal-dialog-centered{display: flex;flex-direction: column; align-items: center;}
+p.font-dt{display: inline-block;width: 530px;width:421px;margin-top: 20px;text-align: left;word-break: keep-all;}

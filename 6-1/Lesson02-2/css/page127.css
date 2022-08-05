@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page127/bg.png);}
+
+.para-wrap{margin: 11px 33px 0 47px;font-size: 15px;font-family: 'KoPubDotum',sans-serif}
+.para-wrap .para{line-height: 22px;}
+
+.position-relative{height: 750px;}
+.layer-transparent{position: relative;top: 0;left: 0;}
+.layer-transparent>*{position: absolute;}
+.layer-transparent .fwd{font-size: 14px;text-align: center;}

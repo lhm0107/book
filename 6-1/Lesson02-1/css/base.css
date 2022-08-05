@@ -330,6 +330,10 @@ table tr>*>.form-control{margin: -10px -15px;padding: 5px 10px;width: -webkit-ca
 .table-round-wrp .tb tr>*+*{border-left: 1px solid #a8b2b7}
 .table-round-wrp .tb tr>*:first-child{border-left: 0}
 .tb .form-control{background: none}
+.backslash{position: relative;background:#e9f2f6 url(../images/common/backslash.png) no-repeat center / cover !important}
+.backslash span{position:absolute}
+.backslash span:first-child{top: 3px;right: 8px;}
+.backslash span:last-child{bottom: 3px;left: 8px;}
 
 /* List */
 .list-inline{padding-left:0;list-style:none;font-size:0}

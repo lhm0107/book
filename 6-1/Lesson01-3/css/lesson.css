@@ -16,3 +16,11 @@
 .think-title{margin: 0 0 0 61px}
 
 .ohyes-title+.icon-btn-pencil{position: absolute;top:0;right:0}
+
+.ani-delay05{animation-delay: .5s;}
+.ani-delay10{animation-delay: 1s;}
+.ani-delay15{animation-delay: 1.5s;}
+.ani-delay20{animation-delay: 2s;}
+.ani-delay25{animation-delay: 2.5s;}
+.ani-delay30{animation-delay: 3s;}
+.ani-delay35{animation-delay: 3.5s;}

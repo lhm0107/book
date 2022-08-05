@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page115/bg.png);}
+.top-content{justify-content: space-between;margin-bottom: 22px;}
+#layerSubject table td{text-align: left;}
+.icon-btn-pencil {position: absolute;top: 0;right: 0;}
+.ohyes-text{margin-left: 42px;}
