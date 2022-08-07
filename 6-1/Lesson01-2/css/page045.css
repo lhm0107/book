@@ -1,0 +1,11 @@
+@charset "utf-8";
+#wrap{background-image: url(../images/page045/bg.jpg)}
+.ch-2-title {margin-top: 11.5px;margin-bottom: 1.5px;align-items: flex-start;}
+.row{justify-content: space-between;}
+.row>.col-wide:first-child:last-child {margin-left: 0;}
+.mt10{width: 614px;height: 352px;word-break: keep-all;letter-spacing: -0.06em; background: url(../images/page045/paper.jpg)no-repeat 0 0 /cover;}
+.font-serif{margin: 63px 60px 0 30px;}
+.fwd.font-dt{width: 492px;font-size: 14px;letter-spacing: -0.2px;}
+.para{word-break: keep-all;}
+.icon-btn-video{position: absolute; top:33px}
+.text-mark{position: absolute;top:861px;left: 27px;}
