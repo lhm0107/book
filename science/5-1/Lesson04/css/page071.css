@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page071/bg.jpg)}
+.semester-num{padding: 16.5px 10px 0 0}
+.semester-num .num{animation: swing 1s both}
+.semester-title{animation: pulse 1s .5s both}
+.nav-unit{width: 404px;}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(6deg);
+        transform: rotate(6deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg)
+    }
+
+    80% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}

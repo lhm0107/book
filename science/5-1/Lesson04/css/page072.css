@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page072/bg.jpg)}
+.para{letter-spacing: -.035em; word-break: keep-all;}
+.icon-hand, .btn-inter-reset, .inform, .icon-btn-pencil{position: absolute;}
+.bubble-box{position: absolute; background-position: 0 0; background-repeat: no-repeat; background-size: 100% auto;font-family: 'SDMiSaeng',sans-serif !important;font-size: 21px;line-height: 18px;}
+.bubble-box1{padding: 14px 0 0 16.5px;width:135px;height:64.5px;background-image: url(../images/page072/bubble01.png);}
+.bubble-box2{padding: 15.5px 0 0 31.5px;width:135px;height:64.5px;background-image: url(../images/page072/bubble02.png);}
+.bubble-box3{padding: 22px 0 0 16px;width:107.5px;height:58px;background-image: url(../images/page072/bubble03.png);}
+
+.wrapper>.font-ka{font-size: 15px;color: #274f6b}
+.wrapper>.font-dt{font-size: 14px;line-height: 19px;letter-spacing: -.025em;text-align: center}

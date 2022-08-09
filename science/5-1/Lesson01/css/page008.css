@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page008/bg.png)}
+.col-wide {-ms-flex: 0 0 538px;flex: 0 0 538px;max-width: 538px;}
+.char1{position: relative;padding-left: 42px;background: url(../images/page008/b1.png) no-repeat 0 0 / 100% 100%; width:258px ;height:  123px;margin-top: 60px;margin-right: 23px;}
+.char1 .icon-hand{margin-left: 90px;margin-top: 20px;}
+.inform{position: absolute;text-align: center;}
+.inform .icon-hand{position: absolute;}
+.inform [class*=fwd]{position: relative;}
+.inform.b1 p{background: url(../images/page008/b2.png) no-repeat 0 0 / 100% 100%;width: 79px; height: 65.5px; }
+.inform.b2 p{background: url(../images/page008/b3.png) no-repeat 0 0 / 100% 100%;width: 91.5px; height: 65.5px; }
+.inform.b3 p{background: url(../images/page008/b4.png) no-repeat 0 0 / 100% 100%;width: 98.5px; height: 67px; }
+.inform.b4 p{background: url(../images/page008/b5.png) no-repeat 0 0 / 100% 100%;width: 120px; height: 48px; }

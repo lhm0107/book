@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page042/bg.jpg)}
+.page-title>span:nth-child(2){padding-right: 62px}
+#unitGoal{left: -155px}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/page035.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-content mb5">
+                <strong class="arrange-title font-ka">정리해 볼까요</strong>
+                <p class="text-flex text-dot">
+                    <i class="dot"></i>
+                    <span class="col-auto">고체 물질의 종류에 따라 열이 이동하는 빠르기는 어떠한가요?</span>
+                    <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp"><i class="icon-btn icon-pencil"></i><span>실험 관찰</span></button>
+                </p>
+            </div>
+            <button type="button" class="btn-img text-hide btn-result" data-toggle="modal" data-target="#modalVideo1">실험 영상 결과</button>
+            <button type="button" class="btn-img text-hide btn-self ml5" data-toggle="modal" data-target="#modalSelf">스스로 평가해요</button>
+        </div>
+        <div class="row mt10">
+            <div class="col-content">
+                <p class="para">고체 물질의 종류에 따라 열이 이동하는 빠르기가 다릅니다. 유리나 나무에서보다 금속에서 열이 더 빠르게 이동하고, 금속의 종류에 따라 서도 열이 이동하는 빠르기가 다릅니다.</p>
+            </div>
+            <div class="col pl25">
+                <div class="layer-wrp">
+                    <button type="button" class="btn-img text-hide btn-helper" data-toggle="layer" data-target="#layer">궁금 도우미</button>
+                    <div id="layer" class="layer layer-sm" data-toggle="layerClse">
+                        <div class="layer-body">
+                            <h2 class="helper-title font-ka"><span>궁금</span> 도우미</h2>
+                            <strong>어떤 물질이 열을 잘 전도할까요 </strong>
+                            <p class="mt5">물질마다 열을 전도하는 정도가 달라요. 나무, 구리, 유리, 철 중 에서 구리 > 철 > 유리 > 나무 순으로 열을 잘 전도해요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-content">
+                <p class="para">우리 생활에서는 고체 물질의 종류에 따라 열이 이동하는 빠르기가 다른 <span class="btn-dic" data-toggle="modal" data-target="#modalSmallDic">성질</span>을 이용해 물건을 만들기도 합니다. 예를 들어 전기다리미, 냄비, 주전자 등은 열이 이동하는 빠르기가 서로 다른 고체 물질로 만들어 생활에 편리하게 이용합니다.</p>
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn" data-toggle="modal" data-target="#modalReference"><i class="icon-folder"></i>보충 자료</button>
+            </div>
+        </div>
+
+        <div class="bottom-content">
+            <h2 class="title font-ka">고체 물질의 종류에 따라 열이 이동하는 <br />빠르기가 다른 성질을 이용한 예</h2>
+            <div id="draw035Answer" class="painting-area text-center">
+                <img src="images/page035/img.png" width="580" alt="" />
+                <img src="images/page035/img_answer.png" class="img-answer" width="580" alt="" />
+                <canvas id="draw_035_01" class="draw" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="668" height="383"></canvas>
+                <span class="fwd" style="left: 48px; top: 256px;">손잡이</span>
+                <span class="fwd" style="left: 234px; top: 155px;">옷을 다리는 <br />부분</span>
+                <span class="fwd" style="left: 325px; top: 72px;">손잡이</span>
+                <span class="fwd" style="left: 435px; top: 195px;">손잡이</span>
+            </div>
+            <div class="side-btns layer-wrp layer-wrp-btm">
+                <button type="button" class="icon-btn icon-chk chk-data-button" data-toggle="answer" data-target="#draw035Answer">정답확인</button>
+                <button type="button" class="icon-btn icon-pendraw" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+                <div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+                    <div class="draw-option">
+                        <input id="spectrumInsert" type="color" value="#00b050" data-target="#draw_035_01" />
+                        <div class="colorchart">
+                            <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('#draw_035_01', '#000000')">색상 변경</button>
+                            <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('#draw_035_01', '#ff0000')">색상 변경</button>
+                            <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('#draw_035_01', '#0000ff')">색상 변경</button>
+                            <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('#draw_035_01', '#fdce54')">색상 변경</button>
+                        </div>
+                        <div class="linewidth">
+                            <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('#draw_035_01', 1)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('#draw_035_01', 4)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('#draw_035_01', 7)">굵기 변경</button>
+                            <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('#draw_035_01', 14)">굵기 변경</button>
+                        </div>
+                        <div class="btns">
+                            <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('#draw_035_01',this);">펜 쓰기 영역 부분 삭제</button>
+                            <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('#draw_035_01');">펜 쓰기 영역 전체 삭제</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-auto">
+                    <p class="text-flex figcaption">
+                        <i class="icon-up"></i>
+                        <span class="col"><strong>전기다리미</strong> 옷을 다리는 부분은 금속으로 만들어 열이 잘 이동하게 하고, 손잡이는 플라스틱으로 만들어 열이 잘 이동하지 않게 합니다.</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <p class="text-flex figcaption">
+                        <i class="icon-up"></i>
+                        <span class="col"><strong>냄비와 주전자</strong> 바닥은 금속으로 만들어 열이 잘 이동하게 하고, 손잡이는 플라스틱이나 나무로 만들어 열이 잘 이동하지 않게 합니다.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="num">35</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+			<h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 스스로 평가해요 -->
+<div id="modalSelf" class="modal modal-self modal-half">
+	<div class="modal-content">
+		<div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<strong class="self-check-title"><span class="text-hide">스스로</span> 평가해요</strong>
+			<p class="check-pencil font-mi">학습한 내용을 생각하며 색칠해 봅시다.</p>
+			<ul class="self-check-list">
+				<li class="row">
+					<p class="col">고체 물질의 종류에 따라 열이 이동하는 빠르기를 비교할 때 안전에 주의했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_035_01" value="self_035_01" id="self_035_01" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_035_01" value="self_035_02" id="self_035_02" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_035_01" value="self_035_03" id="self_035_03" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+				<li class="row">
+					<p class="col">고체 물질의 종류에 따라 열이 이동하는 빠르기를 비교했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_035_04" value="self_035_04" id="self_035_04" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_035_04" value="self_035_05" id="self_035_05" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_035_04" value="self_035_06" id="self_035_06" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 20 쪽</span>
+            <h2 class="modal-title">고체 물질의 열전도 빠르기 비교하기</h2>
+        </div>
+        <div class="modal-body">
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane active">
+                    <div class="question text-dot">
+                        <span class="dot"></span>
+                        <div class="col">
+                            고체 물질의 종류에 따라 열이 이동하는 빠르기는 어떠한가요?
+                        </div>
+                    </div>
+                    <textarea id="textarea_035_01" class="form-control" placeholder="고체 물질의 종류에 따라"></textarea>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <div class="text-blue">열이 이동하는 빠르기가 다르다.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 보충자료 -->
+<div id="modalReference" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-folder"></i>보충 자료</h2>
+        </div>
+		<div class="reference modal-body">
+            <div class="reference-title">
+                <strong>계절별 태양의 고도와 기온을 비교하는 방법</strong>
+            </div>
+            <div class="reference-content">
+                <p>태양이 뜨고 짐에 따라 태양의 위치는 하루 동안 계속 변합니다. 이에 따라 태양의 고도는 하루 동안 높아졌다가 낮아지기를 반복합니다. 따라서 계절별로 태양의 고도가 어떻게 달라지는지 알아보기 위해서는 하루의 태양 고도 중에서 가장 높은 값인 태양의 남중 고도를 측정하여 비교합니다. 기온 역시 하루 동안 계속 변하기 때문에 하루의 기온 중에서 가장 높은 값인 최고 기온을 측정하여 비교합니다.</p>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 용어 사전 -->
+<div id="modalSmallDic" class="modal modal-half modal-small-dic">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<span class="btn"><i class="icon-dic"></i>용어 사전</span>
+            <strong class="dic-title">성질</strong>
+            <p class="dic-txt">단열재는 단열을 위해 사용하는 재료에요.</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>

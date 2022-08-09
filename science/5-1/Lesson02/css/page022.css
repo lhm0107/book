@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page022/bg.jpg)}
+.lst-num>li+li{margin-top: 6px}
+.supplies-wrap>.btn{position: absolute;top: 0;right: 100%;margin-right: 10px}
+th .icon-hand{width: 21px;height: 29px;background-size: 21px auto;top: 45px;right: 10px}
+.row .label-pack{position: absolute;top: 5px;right: 5px}
+
+.ex-answer-box .tb tr>td{padding: 4px 10px}

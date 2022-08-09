@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page026/bg.jpg)}
+.explore{margin-top: 22px}
+.lst-num>li+li{margin-top: 8px}
+.supplies-wrap{margin-bottom: 10px}

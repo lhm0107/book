@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page020.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <h1 class="open-unit-heading text-hide">단원 열기</h1>
+
+        <div class="row">
+            <div class="col-wide">
+                <h2 class="page-title pb7">
+                    <span><span class="text-pink">따뜻하거나 차가운 정도</span>가</span>
+                    <span>보이는 물체</span>
+                </h2>
+                <div class="flex-center-between">
+                    <div class="layer-wrp">
+                        <button type="button" class="btn-img text-hide btn-this-time" data-toggle="layer" data-target="#unitGoal">이번 시간에는</button>
+                        <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                        <div id="unitGoal" class="layer layer-unit" data-toggle="layerClse">
+                    		<div class="layer-body layer-body-unit">
+                                <div class="unit-character">
+                                    <img src="images/common/unit-character.png" height="90" alt="" />
+                                    <button type="button" class="icon-audio" data-audio="Audio1">오디오 재생</button>
+                                    <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                                </div>
+                                <ul class="lst-type-bull">
+    	 							<li>열 변색 붙임딱지를 사용해 안전 컵을 만들 수 있습니다.</li>
+                                    <li>안전 컵에 차가운 물이나 따뜻한 물을 부을 때 색깔 변화를 관찰해 따뜻하거나 차가운 정도에 관심을 가질 수 있습니다.</li>
+    	 						</ul>
+    			            </div>
+    			        </div>
+                    </div>
+
+                </div>
+                <p class="para mt8 mb8">우리는 일상생활에서 따뜻한 물체를 사용하기도 하고 차가운 물체를 사용 하기도 합니다. 이때 물체의 따뜻하거나 차가운 정도를 눈으로 확인할 수 있다면 물체를 편리하고 <span class="btn-dic" data-toggle="modal" data-target="#modalSmallDic">안전</span>하게 사용할 수 있습니다. 어떻게 하면 따뜻하거나 차가운 정도를 눈으로 확인할 수 있을까요? 안전 컵을 만들어 따뜻하거나 차가운 정도를 눈으로 확인하고 안전하게 사용해 봅시다.</p>
+                <button type="button" class="btn-img text-hide btn-start" data-toggle="modal" data-target="#modalStart">시작해요</button>
+            </div>
+        </div>
+
+        <strong class="position-absolute font-ka" style="left: 356px; top: 322px;">색깔이 변하는 컵</strong>
+        <p class="position-absolute font-dt" style="left: 299px; top: 492px;">컵에 차가운 음료를 담으면<br />
+        컵의 색깔이 변해 음료의 차가운 정도를<br />
+        눈으로 확인할 수 있습니다.</p>
+
+        <strong class="position-absolute font-ka" style="left: 117px; top: 598px;">색깔이 변하는 열판</strong>
+        <p class="position-absolute font-dt" style="left: 117px; top: 760px;">전기 기구의 전원을 켜면<br />
+        열판의 색깔이 변해 열판의 뜨거운 정도를<br />
+        눈으로 확인할 수 있습니다.</p>
+
+        <button type="button" class="icon-btn icon-vod position-absolute" data-toggle="modal" data-target="#modalVideo1" style="top: 346px;left: 490px;">영상보기</button>
+        <button type="button" class="icon-btn icon-vod position-absolute" data-toggle="modal" data-target="#modalVideo2" style="top: 631px;left: 103px;">영상보기</button>
+
+        <div id="num">20</div>
+    </div>
+</div>
+
+<!-- 용어 사전 -->
+<div id="modalSmallDic" class="modal modal-half modal-small-dic">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<span class="btn"><i class="icon-dic"></i>용어 사전</span>
+            <strong class="dic-title">안전</strong>
+            <p class="dic-txt">단열재는 단열을 위해 사용하는 재료에요.</p>
+            <div class="dic-ex">
+                <strong class="label-ex font-ka">예시</strong>
+                <p>벽면 공사에 사용하는 단열재</p>
+                <img src="images/dictionary/020_01.jpg" alt="안전" />
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </div>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo1" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<div id="modalVideo2" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

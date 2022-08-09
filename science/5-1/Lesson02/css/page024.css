@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page024/bg.jpg)}
+.painting-area{display: inline-block;vertical-align: top}
+.layer-wrp-draw{position: absolute;right: 10px}
+#exp1 .layer-wrp-draw{top: 145px}
+#exp3 .layer-wrp-draw{top: 250px}

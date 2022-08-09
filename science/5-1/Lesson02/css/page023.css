@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.inform{width: 109px;height: 133px;background: url(../images/page023/inform.png) no-repeat 0 0/100% auto}
+.inform .icon-hand{position: absolute;left: 50%;top: 50%;margin-left: -14px}
+.wrapper>.tit{font-size: 18px;color: #fff;width: 296px;height: 60px;background: url(../images/page023/fwd.png) no-repeat 0 0/auto 100%;display: block;line-height: 45px;padding-left: 20px;text-align: center;margin: 40px 0 10px}
+.caption{position: relative;margin-top: -52px;margin-bottom: 52px}
+
+#test01 .bx{line-height: 35px}

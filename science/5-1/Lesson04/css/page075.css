@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page075/bg.jpg)}
+.para{word-break: keep-all; width: 548px;}
+.icon-alert{margin:2px 0 0 -25px ;}
+.btn-concept{width: 101px; background-image: url(../images/page075/btn-concept.png);}
+
+.explore{margin-top: -6px;}
+.ch-2-img{margin-top: 0;}
+.lst-num>li+li{margin-top: 6px}
+.icon-safe-glass{background-image: url(../images/page074/glass.png)}
+.icon-safe-trash{background-image: url(../images/page074/trash.png)}
+.supplies-wrap>.btn{position: absolute;top: 0;right: 100%;margin-right: 10px}
+th .icon-hand{width: 21px;height: 29px;background-size: 21px auto;top: 45px;right: 10px}
+
+.row .label-pack{position: absolute;top: 5px;right: 5px}
+
+.ex-answer-box .tb tr>td{padding: 4px 10px}
+.number{position: absolute;top: 239px ;left:313px; line-height: normal;}
+
+.tb td{height: 100px;}
+.small-safe{width: 130xp;}
+.small-safe .layer-safe {width: 74px; height: 43px; margin-left: 0px; color: #af2a30;border-radius: 20px;background-color: #fbf7c4;}
+.small-safe p {display: inline-block; padding: 10px;margin-top: -20px; background-color: #fbf7c4;border-radius: 0px 20px 20px 20px ;font-size:16px;color: grey;}

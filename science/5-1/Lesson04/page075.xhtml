@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page075.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+            <div class="row">
+                <ul class="lst-num mt10 mb3">
+                <li class="text-flex text-num">
+                    <span class="num font-coo">4</span>
+                    <div class="col">
+                        각 유리병의 뚜껑을 닫고 흔들었을 때 나타나는 변화를 관찰해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-btn icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+                <li>
+                    <p class="text-info mt8">
+                        <i class="icon-info"></i>
+                        <span class="col">유리병을 흔들기 전에 뚜껑이 잘 닫혔는지 확인해요.</span>
+                    </p>
+                </li>
+                <li>
+                    <p class="text-info mt8">
+                        <i class="icon-alert"></i>
+                        <span class="col">유리병을 세게 흔들다가 놓치면 유리병이 다른 사람에게 날아가거나 깨질 수 있으니 주의해요.</span>
+                    </p>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">5</span>
+                    <div class="col">
+                        각 유리병을 책상에 내려놓고 2 분 정도 가만히 두었을 때 나타나는 변화를 관찰
+                        <br /> 하여 비교해 봅시다.
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">6</span>
+                    <div class="col">
+                        <span class="num font-coo">5</span>에서 관찰한 결과를 그림과 글로 나타내고 발표해 봅시다.
+                        <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-btn icon-pencil"></i><span>실험 관찰</span></button>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn-img text-hide btn-result" data-toggle="modal" data-target="#modalVideo2">실험 영상 결과</button>
+            <button type="button" class="btn-img text-hide btn-self ml5" data-toggle="modal" data-target="#modalSelf">스스로 평가해요</button>
+        <div class="row mt30">
+            <div class="col-content">
+                <p class="para">물에 여러 가지 물질을 넣으면 어떤 물질은 잘 녹지만, 어떤 물질은 잘 녹지 않습니다.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-content">
+                <p class="para">소금이나 식용 색소가 물에 녹는 것처럼 어떤 물질이 다른 물질에 녹아 골고루 섞이는 현상을 용해라고 합니다. 이때 물과 같이 다른 물질을 녹이는 물질을 용매라고 하고, 소금이나 식용 색소와 같이 용매에 녹는 물질을 용질이라고 합니다. 그리고 소금물이나 식용 색소 물과 같이 용매와 용질이 골고루 섞여 있는 물질을 용액이라고 합니다. 용액은 용해의 결과로, 오래 두어도 뜨거나 가라앉는 것이 없고 거름 장치로 걸러도 거름종이에 남는 것이 없습니다.</p>
+            </div>
+            <div class="col-auto ml30">
+                <button type="button" class="btn mt3" data-toggle="modal" data-target="#modalReference"><i class="icon-folder"></i>보충 자료</button>
+            </div>
+        </div>
+        </div>
+        <div id="num">75</div>
+    </div>
+</div>
+
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 34 쪽</span>
+            <h2 class="modal-title">다양한 물질의 용해 현상 관찰하기</h2>
+        </div>
+        <div class="modal-body">
+            <nav class="nav nav-circle">
+                <button type="button" data-target="#exp1" class="active" data-toggle="tab">1</button>
+                <button type="button" data-target="#exp2" data-toggle="tab">2</button>
+                <button type="button" data-target="#exp3" data-toggle="tab">3</button>
+            </nav>
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane">
+                    <div class="question">
+                        <span class="num font-coo">1.</span>
+                        <div class="col">
+                            같은 양의 소금, 식용 색소, 화단 흙을 같은 양의 물에 넣고 흔들면 <br/>어떻게 될지 예상해 써 봅시다.
+                        </div>
+                    </div>
+                    <textarea id="textarea_074_01" class="form-control" title="입력"></textarea>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <ul class="lst-type-bull bull-blue">
+                            <li>
+                                <p class="text-blue">소금과 식용 색소는 물에 녹을 것이다.</p>
+                            </li>
+                            <li>
+                                <p class="text-blue">화단 흙은 녹지 않고 물에 뜨거나 가라앉을 것이다.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="exp2" class="tab-pane">
+                    <div class="question mb15">
+                        <span class="num font-coo">2.</span>
+                        <div class="col">
+                            각 유리병의 뚜껑을 닫고 흔들었을 때 나타나는 변화를 써 봅시다.
+                        </div>
+                    </div>
+                    <div class="small-safe">
+                        <div class="layer-safe font-ka">
+                            <i class="icon-alert ml10"></i>
+                            안전
+                        </div>
+                        <p>
+                            유리 기구가 깨지지 <br />않게 주의해요.
+                        </p>
+                    </div>
+                    <div class="table-round-wrp">
+                        <table class="tb">
+                            <thead>
+                                <tr>
+                                    <th>소금</th>
+                                    <th>식용 색소</th>
+                                    <th>화단 흙</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pa0"><input type="text" id="input_075_01" class="form-control overlap" /></td>
+                                    <td class="pa0"><input type="text" id="input_075_02" class="form-control overlap" /></td>
+                                    <td class="pa0"><input type="text" id="input_075_03" class="form-control overlap" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp2">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp2">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">정답</strong>
+                        <div class="table-round-wrp">
+                        <table class="tb">
+                            <thead>
+                                <tr>
+                                    <th>소금</th>
+                                    <th>식용 색소</th>
+                                    <th>화단 흙</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pa10">유리병을 흔들수록 <br />소금이 녹아 사라진다.</td>
+                                    <td class="pa10">유리병을 흔들수록 <br />식용 색소가 녹아 퍼지면서<br />색깔이 나타난다.</td>
+                                    <td class="pa10">유리병을 흔들수록 <br />화단 흙을 섞은 물이 뿌옇게 <br />흐려진다.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                <div id="exp3" class="tab-pane">
+                    <div class="question mb15">
+                        <span class="num font-coo">3.</span>
+                        <div class="col">
+                            각 유리병을 책상에 내려놓고 2 분 정도 가만히 두었을 때 나타나는 결과를 그림과 글로 나타내고 발표해 봅시다.
+                        </div>
+                    </div>
+                    <div class="table-round-wrp">
+                        <table class="tb">
+                            <thead>
+                                <tr>
+                                    <th>소금</th>
+                                    <th>식용 색소</th>
+                                    <th>화단 흙</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pa0"></td>
+                                    <td class="pa0"></td>
+                                    <td class="pa0"></td>
+                                </tr>
+                                <tr>
+                                    <td class="pa0"><input type="text" id="input_075_01" class="form-control overlap" /></td>
+                                    <td class="pa0"><input type="text" id="input_075_02" class="form-control overlap" /></td>
+                                    <td class="pa0"><input type="text" id="input_075_03" class="form-control overlap" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp3">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp3">다시 하기</button>
+                    </div>
+                    <div class="ex-answer-box">
+                        <strong class="label-answer-ex font-ka">정답</strong>
+                        <div class="table-round-wrp">
+                        <table class="tb">
+                            <thead>
+                                <tr>
+                                    <th>소금</th>
+                                    <th>식용 색소</th>
+                                    <th>화단 흙</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pa10">유리병을 흔들수록 <br />소금이 녹아 사라진다.</td>
+                                    <td class="pa10">유리병을 흔들수록 <br />식용 색소가 녹아 퍼지면서<br />색깔이 나타난다.</td>
+                                    <td class="pa10">유리병을 흔들수록 <br />화단 흙을 섞은 물이 뿌옇게 <br />흐려진다.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 스스로 평가해요 -->
+<div id="modalSelf" class="modal modal-self modal-half">
+	<div class="modal-content">
+		<div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<strong class="self-check-title"><span class="text-hide">스스로</span> 평가해요</strong>
+			<p class="check-pencil font-mi">학습한 내용을 생각하며 색칠해 봅시다.</p>
+			<ul class="self-check-list">
+				<li class="row">
+					<p class="col">따뜻하거나 차가운 정도를 어림할 때보다 측정할 때 좋은 점을 모둠원과 이야기하는 과정에 적극적으로 참여했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_074_01" value="self_074_01" id="self_074_01" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_074_01" value="self_074_02" id="self_074_02" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_074_01" value="self_074_03" id="self_074_03" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+				<li class="row">
+					<p class="col">우리 생활에서 따뜻하거나 차가운 정도를 정확하게 측정해야 하는 상황을 조사했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_074_04" value="self_074_04" id="self_074_04" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_074_04" value="self_074_05" id="self_074_05" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_074_04" value="self_074_06" id="self_074_06" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <header class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </header>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 꾸러미 -->
+<div id="modalPack1" class="modal modal-pack modal-half" data-backdrop="static">
+    <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+            <div class="pack-title">
+                <div class="font-ka">
+                    <div>『과학』 22 쪽</div>
+                    <div class="text-white">꾸러미</div>
+                </div>
+                <h3 class="tit">상황 카드</h3>
+            </div>
+            <p>『실험 관찰』 <span class="font-serif">75</span> 쪽에 있는 동서남북 붙임딱지를 사용하세요.</p>
+            <div class="slider-wrap mt20">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/page074/1.jpg" alt="" width="400" data-dtext_index="dtext_cls_image" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/page074/2.jpg" alt="" width="400" data-dtext_index="dtext_cls_image" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalPack2" class="modal modal-pack modal-half" data-backdrop="static">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="pack-title">
+                <div class="font-ka">
+                    <div>『과학』 22 쪽</div>
+                    <div class="text-white">꾸러미</div>
+                </div>
+                <h3 class="tit">건강 상태를 확인할 때</h3>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <img src="images/page074/tb1-1.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">어림</span>
+                </div>
+                <div class="col-auto">
+                    <img src="images/page074/tb1-2.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">측정</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalPack3" class="modal modal-pack modal-half" data-backdrop="static">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="pack-title">
+                <div class="font-ka">
+                    <div>『과학』 22 쪽</div>
+                    <div class="text-white">꾸러미</div>
+                </div>
+                <h3 class="tit">고기를 구을 때</h3>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <img src="images/page074/tb3-1.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">어림</span>
+                </div>
+                <div class="col-auto">
+                    <img src="images/page074/tb3-2.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">측정</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalPack4" class="modal modal-pack modal-half" data-backdrop="static">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="pack-title">
+                <div class="font-ka">
+                    <div>『과학』 22 쪽</div>
+                    <div class="text-white">꾸러미</div>
+                </div>
+                <h3 class="tit">음료수 캔을 때</h3>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <img src="images/page074/tb2-1.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">어림</span>
+                </div>
+                <div class="col-auto">
+                    <img src="images/page074/tb2-2.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">측정</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalPack5" class="modal modal-pack modal-half" data-backdrop="static">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="pack-title">
+                <div class="font-ka">
+                    <div>『과학』 22 쪽</div>
+                    <div class="text-white">꾸러미</div>
+                </div>
+                <h3 class="tit">어항의 물을 갈 때</h3>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <img src="images/page074/tb4-1.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">어림</span>
+                </div>
+                <div class="col-auto">
+                    <img src="images/page074/tb4-2.jpg" alt="" height="331" data-dtext_index="dtext_cls_image" />
+                    <span class="label-pack font-ka">측정</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 정답팝업 -->
+<div id="exp1Answer" class="modal modal-half">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="ex-answer-box d-block mt0">
+                <strong class="label-answer-ex font-ka">예시 답안</strong>
+                <div class="table-round-wrp">
+                    <table class="tb">
+                        <colgroup>
+                            <col style="width: 140px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">
+                                    건강 상태를 <br />확인할 때
+                                </th>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">어림</span>
+                                        <div class="col">이마를 짚어 어림할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">측정</span>
+                                        <div class="col">체온계로 측정할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">
+                                    고기를 <br />구울 때
+                                </th>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">어림</span>
+                                        <div class="col">고기의 색깔을 보고 어림할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">측정</span>
+                                        <div class="col">온도계로 측정할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">
+                                    음료수 캔을 <br />고를 때
+                                </th>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">어림</span>
+                                        <div class="col">음료수 캔에 맺힌 물방울을 보고 어림할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">측정</span>
+                                        <div class="col">온도계로 측정할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">
+                                    어항의 <br />물을 갈 때
+                                </th>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">어림</span>
+                                        <div class="col">물에 손을 넣어 어림할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pa10">
+                                    <div class="text-flex align-items-center">
+                                        <span class="label-pack font-ka mr10">측정</span>
+                                        <div class="col">온도계로 측정할 수 있다.</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 보충자료 -->
+<div id="modalReference" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-folder"></i>보충 자료</h2>
+        </div>
+		<div class="reference modal-body">
+            <div class="reference-title">
+                <strong>계절별 태양의 고도와 기온을 비교하는 방법</strong>
+            </div>
+            <div class="reference-content">
+                <p>태양이 뜨고 짐에 따라 태양의 위치는 하루 동안 계속 변합니다. 이에 따라 태양의 고도는 하루 동안 높아졌다가 낮아지기를 반복합니다. 따라서 계절별로 태양의 고도가 어떻게 달라지는지 알아보기 위해서는 하루의 태양 고도 중에서 가장 높은 값인 태양의 남중 고도를 측정하여 비교합니다. 기온 역시 하루 동안 계속 변하기 때문에 하루의 기온 중에서 가장 높은 값인 최고 기온을 측정하여 비교합니다.</p>
+            </div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/basic-slider.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

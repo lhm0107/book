@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page096/bg.jpg)}
+.page-title{letter-spacing: -.07em;}
+.para{letter-spacing: -.025em}
+
+/* 인터랙션 */
+#interaction{height: 661px;}
+#interaction>img{max-width: 700px;margin-left: -16px;}
+#interaction .font-mi[class*=fwd]{font-size: 21px;}
+
+#interaction .layer{display: block;top: auto;right: auto;bottom: -4px;left: 0;width:644px;border: 0;background: transparent;}
+.dragzone{position: absolute;bottom: 0;display: flex;justify-content: space-between;width: 100%;max-width: 643px;}
+.drag-fix{display: flex;align-items: center;justify-content: center;width: 200px;height: 74px;background: linear-gradient(155deg, #ffefe1 72%, #ffe5cf 28%);box-shadow: 0px 5px 0 rgb(0 0 0 / 20%);border: 3px solid #f65a0e;border-radius: 15px;font-size: 20px;    font-weight: 700;color: #f65a0e;text-align: center;}

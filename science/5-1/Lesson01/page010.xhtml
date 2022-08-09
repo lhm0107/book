@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page010.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <header class="ch-1-hd row">
+			<div class="col font-coo">2</div>
+			<div class="col-content">
+				<h1 class="ch-1-title">과학자는 어떻게 실험을 계획할까요</h1>
+                <div class="row justify-content-between"> 
+                    <div class="layer-wrp">
+                        <button type="button" class="btn-img text-hide btn-this-time" data-toggle="layer" data-target="#unitGoal">이번 시간에는</button>
+                        <div id="unitGoal" class="layer layer-unit" data-toggle="layerClse">
+                            <div class="layer-body layer-body-unit">
+                                <div class="unit-character">
+                                    <img src="images/common/unit-character.png" height="90" alt="" data-dtext_index="dtext_cls_image" />
+                                    <button type="button" class="icon-audio" data-audio="Audio1">오디오 재생</button>
+                                    <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                                </div>
+                                <ul class="lst-type-bull">
+                                    <li>탐구 문제를 해결하기 위한 가설을 세울 수 있습니다.</li>
+                                    <li>변인을 통제하며 가설을 검증할 수 있는 실험을 계획할 수 있습니다.</li>
+                                    <li>가설 설정과 변인 통제의 뜻을 설명할 수 있습니다. </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn-img text-hide btn-start" data-toggle="modal" data-target="#modalStart">시작해요</button>
+                    </div>
+                </div>
+			</div>
+		</header>
+
+        <div class="row"> 
+            <div class="col-wide">
+                <p class="para">
+                    독성이 약한 콜레라균을 주사한 닭들이 건강해진 까닭이 궁금해진 <span class="text-nowrap">파스퇴르는</span> 다음과 같은 탐구 문제를 정했습니다.
+                </p>
+                <div class="exp-bx">
+                    <p class="font-ka text-white pt5 pl30">탐구 문제</p>
+                    <p class="font-dt desc"><strong>왜 독성이 약한 콜레라균을 주사한 닭들은 건강해졌을까?</strong></p>
+                </div>
+                <p class="para">
+                    파스퇴르는 탐구 문제를 해결하려고 다음과 같은 가설을 세웠습니다. <br />
+                    그리고 이 가설이 맞는지 확인하려면 어떻게 실험하는 것이 좋을지 실험 <span class="text-nowrap">계획을</span> 세웠습니다.
+                </p>
+            </div> 
+        </div> 
+        <div class="position-relative"> 
+            <div class="speech-t1 speech-toggle">
+                <p class="speech font-mi">가설이 맞는지<br /> 확인하려면 어떻게<br /> 실험을 해야 할까?</p>
+                <button type="button" class="icon-hand mt15" data-audio="Audio1">내용보기</button>
+                <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+            </div>
+            <div class="board-wrap"> 
+                <p class="pr40">파스퇴르가 세운 가설</p>
+                <div class="speech-t2 speech-toggle pt25 ">
+                    <div class="speech text-white">
+                        <p class="pr40">
+                            독성이 약한 콜레라균을 주사한 닭은
+                        </p>
+                        <p class="text-right pt10">것이다.</p>
+                    </div>
+                    <button type="button" class="icon-hand mt20 mr40" data-audio="Audio2">내용보기</button>
+                    <audio id="Audio2" src="media/sample.mp3" preload="none"></audio>
+                </div>
+                
+                <p>파스퇴르의 실험 조건</p>
+                <div class="speech-t3 speech-toggle">
+                    <div class="speech text-white">
+                        <p class="pl15">다르게 해야 할 조건:  </p>
+                        <p class="pl15 pt20 ">같게 해야 할 조건: 닭의 종류와 크기,</p>
+                    </div>
+                    <button type="button" class="icon-hand mt15" data-audio="Audio3">내용보기</button>
+                    <audio id="Audio3" src="media/sample.mp3" preload="none"></audio>
+                </div>
+            </div>
+        </div>
+        
+        <div id="num">10</div>
+    </div>
+</div>
+
+<!-- 용어 사전 -->
+<div id="modalSmallDic1" class="modal modal-half modal-small-dic">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<span class="btn"><i class="icon-dic"></i>용어 사전</span>
+            <strong class="dic-title">콜레라균</strong>
+            <p class="dic-txt">content</p>
+            <div class="dic-ex">
+                <strong class="label-ex font-ka">예시</strong>
+                <p>content</p>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+<!-- 보충자료 -->
+<div id="modalReference" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-folder"></i>보충 자료</h2>
+        </div>
+		<div class="reference modal-body">
+            <div class="reference-title">
+                <strong>title</strong>
+            </div>
+            <div class="reference-content">
+                <p>content</p>
+            </div>
+		</div>
+	</div>
+</div> 
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </div>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_10_1a.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/basic-slider.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

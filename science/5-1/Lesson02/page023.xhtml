@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/page023.css" />
+</head>
+<body>
+<div id="wrap" class="page-odd">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-content">
+                <p class="para para-first">물체의 따뜻하거나 차가운 정도는 <span class="font-dt font-weight-bold">온도</span>로 나타냅니다. 온도계를 사용하면 물체의 온도를 정확하게 측정할 수 있습니다. 우리가 생활에서 주로 사용하는 온도의 단위는 ℃(섭씨도)입니다.</p>
+                <p class="para">일상생활에서는 다양한 상황에서 온도를 측정합니다. 사람들의 건강 상태를 확인할 때 체온을 측정합니다. 요리할 때 알맞은 조리 온도를 알기 위해 온도를 측정하고, 식물을 재배할 때 식물이 잘 자라는 온도를 유지 하기 위해 온도를 측정합니다. 이처럼 온도가 우리 생활에 미치는 영향이 크기 때문에 온도를 정확하게 측정해야 합니다.</p>
+            </div>
+            <div class="col-auto ml-auto">
+                <div class="inform speech-toggle">
+                    <p id="txt" class="speech fwd font-mi" style="left: 13px;top: 52px;">공기의 온도는 기온, <br />물의 온도는 수온,<br /> 몸의 온도는 <br />체온이라고 해요.</p>
+                    <button type="button" class="icon-hand" data-audio="Audio1">내용보기</button>
+                    <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                </div>
+            </div>
+        </div>
+
+        <strong class="tit font-ka">일상생활에서 온도를 측정하는 모습</strong>
+
+        <div class="slider-wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/page023/1.jpg" alt="" width="563" data-dtext_index="dtext_cls_image" />
+                        <p class="caption"><i class="icon-up"></i>건강 상태를 확인할 때 체온을 측정하는 모습</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/page023/2.jpg" alt="" width="563" data-dtext_index="dtext_cls_image" />
+                        <p class="caption"><i class="icon-up"></i>요리할 때 온도를 측정하는 모습</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/page023/3.jpg" alt="" width="563" data-dtext_index="dtext_cls_image" />
+                        <p class="caption"><i class="icon-up"></i>식물을 재배할 때 온도를 측정하는 모습</p>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="bottom-buttons">
+            <button type="button" class="btn-img text-hide btn-self-check" data-toggle="modal" data-target="#modalSelfCheck">스스로 확인해요</button>
+            <button type="button" class="btn-img text-hide btn-arrange" data-toggle="modal" data-target="#modalArrange">정리 문제</button>
+        </div>
+
+        <div id="num">23</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 스스로확인해요 -->
+<div id="modalSelfCheck" class="modal modal-self-check">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+		<div class="modal-body">
+            <h2 class="self-check-title"><span class="text-hide">스스로</span> 확인해요</h2>
+            <div id="selfCheck01" class="no-answered" data-qtype="text">
+                <assessmentItem data-qid="text_023_01" data-response-type="fillInTheBlank">
+                    <itemBody>
+                        <div class="question">
+                            <span class="num font-coo">1.</span>
+                            <div class="col">
+                                <div class="text-q" data-answer="온도">
+                                    물체의 따뜻하거나 차가운 정도는
+                                    <input type="text" id="text_023_01" class="form-control itx" />(으)로 나타냅니다.
+                                </div>
+                            </div>
+                            <div class="test-buttons">
+                                <button type="button" title="정답보기" class="icon-btn icon-chk chk-data-button" data-toggle="answer-final" data-target="#selfCheck01" data-chance="1">확인</button>
+                                <button type="button" title="다시하기" class="icon-btn icon-re" data-toggle="answer-refresh" data-target="#selfCheck01">다시하기</button>
+                            </div>
+                        </div>
+                    </itemBody>
+                    <correctResponse><span class="sr-only">온도</span></correctResponse>
+                </assessmentItem>
+                <div class="answer-box">
+                    <div class="answer-wrap">
+                        <strong class="label-answer font-ka">정답</strong>
+                        <div class="col text-blue">온도</div>
+                    </div>
+                </div>
+            </div>
+            <div id="selfCheck02" class="no-answered" data-qtype="etc">
+                <assessmentItem data-qid="textarea_023_01" data-response-type="essay">
+                    <itemBody>
+                        <div class="question">
+                            <span class="num font-coo">2.</span>
+                            <div class="col">
+                                <p class="text-q">
+                                    <span class="badge">사고력</span> 냉장 식품을 보관하는 곳의 온도를 정확하게 측정하는 까닭을 설명해 봅시다.
+                                </p>
+                                <textarea id="textarea_023_01" class="form-control"></textarea>
+                            </div>
+                            <div class="test-buttons">
+                                <button type="button" title="정답보기" class="icon-btn icon-chk chk-data-button" data-toggle="answer-final" data-target="#selfCheck02">확인</button>
+                                <button type="button" title="다시하기" class="icon-btn icon-re" data-toggle="answer-refresh" data-target="#selfCheck02">다시하기</button>
+                            </div>
+                        </div>
+                    </itemBody>
+                </assessmentItem>
+                <div class="answer-box">
+                    <div class="answer-wrap">
+                        <strong class="label-answer-ex font-ka">예시 답안</strong>
+                        <div class="w-100 text-blue">냉장 식품은 적정 온도를 유지하지 않으면 상하므로 안전하게 보관 중인지 확인하기 위해 온도를 정확하게 측정한다.</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 정리 문제 -->
+<div id="modalArrange" class="modal modal-test">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <header class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-arrange"></i>정리 문제</h2>
+        </header>
+        <nav class="nav nav-test">
+            <button type="button" class="active" data-toggle="tab" data-target="#test01">1</button>
+            <button type="button" data-toggle="tab" data-target="#test02">2</button>
+        </nav>
+		<div class="modal-body">
+            <div class="tab-content">
+                <div id="test01" class="tab-pane no-answered active" data-qtype="text">
+                    <assessmentItem data-qid="text_023_02" data-response-type="fillInTheBlank">
+                        <itemBody>
+                            <div class="question">
+                                <span class="num font-coo">1.</span>
+                                <div class="col">
+                                    <div class="text-q">다음 그래프를 보고 빈칸에 들어갈 알맞은 말을 골라 봅시다.</div>
+                                    <img src="images/page023/q1.jpg" class="d-block mx-auto mt15 mb30" width="435" alt="" />
+                                    <div class="bx">
+                                        태양의 남중 고도가 가장 높은 계절은
+                                        <div class="itx-wrp" data-answer="여름">
+                                            <input type="text" id="text_023_02" class="form-control itx" />
+                                        </div>이고, 낮의 길이가 가장 긴 계절은
+                                        <div class="itx-wrp" data-answer="겨울">
+                                            <input type="text" id="text_023_03" class="form-control itx" />
+                                        </div>입니다.
+                                    </div>
+                                </div>
+                            </div>
+                        </itemBody>
+                        <correctResponse><span class="sr-only">여름,겨울</span></correctResponse>
+                        <modalFeedback><span class="sr-only">태양의 남중 고도는 여름에 가장 높고, 겨울에 가장 낮습니다. 낮의 길이 역시 여름에 가장 길고 겨울에 가장 짧습니다.</span></modalFeedback>
+                    </assessmentItem>
+                    <div class="test-buttons">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer-final" data-target="#test01" data-chance="2">확인하기</button>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#test01">다시하기</button>
+                    </div>
+                    <div class="answer-box" data-answer="hint">
+                        <div class="answer-wrap">
+                            <strong class="label-answer-hint font-ka">힌트</strong>
+                            <div class="w-100">
+                                그래프에서 가장 값이 클 때는 6월이고, 가장 값이 작을 때는 12월입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answer-box">
+                        <div class="answer-wrap">
+                            <strong class="label-answer font-ka">정답</strong>
+                            <div class="w-100">
+                                태양의 남중 고도가 가장 높은 계절은 <span class="text-blue">여름</span>이고, 낮의 길이가 가장 긴 계절은 <span class="text-blue">겨울</span>입니다.
+                            </div>
+                        </div>
+                        <div class="answer-wrap">
+                            <strong class="label-answer-feed font-ka">해설</strong>
+                            <button type="button" class="btn ml-auto" data-toggle="modal" data-target="#modalVideo"><i class="icon-vod"></i>개념 영상</button>
+                            <div class="w-100">
+                                태양의 남중 고도는 여름에 가장 높고, 겨울에 가장 낮습니다. 낮의 길이 역시 여름에 가장 길고 겨울에 가장 짧습니다.
+                            </div>
+                        </div>
+                        <button type="button" class="btn-img btn-next">다음 문제</button>
+                    </div>
+                </div>
+                <div id="test02" class="tab-pane no-answered" data-qtype="">
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 문항 확인 메시지 -->
+<div id="answerMsgCheck" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/answer.png" width="375" alt="예시 답안을 확인해 보세요." />
+	</div>
+</div>
+<div id="answerMsgGood" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/good.png" width="375" alt="정답입니다." />
+	</div>
+</div>
+<div id="answerMsgOnemore" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/onemore.png" width="375" alt="다시 한번 생각해 보세요." />
+	</div>
+</div>
+<div id="answerMsgHint" class="modal modal-alert">
+	<div class="modal-dialog-centered">
+		<img src="images/common/hint.png" width="375" alt="힌트를 참고해 보세요." />
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/basic-slider.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

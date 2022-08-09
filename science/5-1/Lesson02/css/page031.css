@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page031/bg.jpg)}
+.slider-title{font-size: 18px;line-height: 20px;color: #495f27;width: 213px;height: 82px;background: url(../images/page031/slider-title.png) no-repeat 0 0/auto 100%;display: block;padding: 14px 0 0 46px;margin: 60px 0 0}
+.swiper-slide{text-align: right}
+.swiper-slide .font-ka{font-size: 18px}
+.height{color: #e64f28}
+.low{color: #00a8bd}
+.figcaption.lg{width: 403px;margin-left: 130px}

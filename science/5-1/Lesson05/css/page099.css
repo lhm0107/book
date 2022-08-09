@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page099/bg.jpg)}
+
+.wrapper{padding: 46px 53px;}
+.open-unit-order>*{position: absolute;}
+.utility{top: 89px;right: 33px;left: auto;}
+.bottom-content{bottom: 27px;left: 56px;}

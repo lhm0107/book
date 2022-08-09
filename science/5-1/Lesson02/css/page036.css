@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.explore{margin-top: 23px}
+.supplies-wrap{margin-bottom: 10px}
+.text-num{margin-top: 10px}
+.inter{position: relative;margin: -30px -50px 0 -180px;padding-bottom: 245px;pointer-events: none}
+.inter>*:not(img){position: absolute;pointer-events: auto}
+#note1{left: 31px;top: 220px}
+#note1 .font-mi{line-height: 28px;letter-spacing: -.04em;text-align: justify}
+#note2{left: 262px;top: 225px}
+#note3{left: 497px; top: 191px}
+.note{display: none;animation: fadeIn 1s both}
+.icon-re{bottom: 5px;right: 50px;display: none}
+.show~.icon-re{display: block}
+.show+.icon-hand{display: none}

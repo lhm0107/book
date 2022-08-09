@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page032/bg.jpg)}
+.lh22{line-height: 22px}
+.rect{width: 14px;height: 14px;display: inline-block;vertical-align: middle;background: url(../images/page032/rect.png) no-repeat 0 0/100% auto;margin: -2px 4px 0 0}
+.rect.sm{width: 12px;height: 12px}

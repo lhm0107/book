@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page021/bg.jpg)}
+.open-unit{background:transparent;border: none;}
+.open-unit-order{margin-top: 35px}
+.open-unit-order .text-flex, .open-unit-order>.col-auto:last-child{width: 280px}
+.text-info+.text-flex{margin-top: 70px}
+.alert-wrap{width: 210px;float: right;margin: 12px 0 0}
+.text-dot .icon-pencil{margin: -3px 0 0 8px}
+.text-dot>.dot{background: #7a2743}
+#supplies{right: -40px}

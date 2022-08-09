@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page096.css" />
+</head>
+<body>
+<div id="wrap" class="chap-odd">
+    <div class="wrapper">
+        <h1 class="open-unit-heading text-hide">단원 열기</h1>
+        <div class="row">
+            <div class="col-wide">
+                <h2 class="page-title pb10">
+                    우리 주변의
+                    <span class="d-inline-block"><span>다양한 생물</span></span>
+                </h2>
+                <div class="flex-center-between">
+                    <div class="layer-wrp">
+                        <button type="button" class="btn-img text-hide btn-this-time" data-toggle="layer" data-target="#unitGoal">이번 시간에는</button>
+                        <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                        <div id="unitGoal" class="layer layer-unit" data-toggle="layerClse">
+                    		<div class="layer-body layer-body-unit">
+                                <div class="unit-character">
+                                    <img src="images/common/unit-character.png" height="90" alt="" />
+                                    <button type="button" class="icon-audio" data-audio="Audio1">오디오 재생</button>
+                                    <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                                </div>
+                                <ul class="lst-type-bull">
+    	 							<li>동물, 식물, 동물과 식물이 아닌 생물에 흥미와 호기심을 가집니다.</li>
+                                    <li>동물, 식물, 동물과 식물이 아닌 생물을 구분할 수 있습니다.</li>
+    	 						</ul>
+    			            </div>
+    			        </div>
+                    </div>
+                </div>
+                <p class="para mt7">나라는 친구와 학교 곳곳을 돌아다니며 학교에 사는 다양한 생물을 관찰 했습니다. 학교에 사는 다양한 생물을 동물, 식물, 동물과 식물이 아닌 <span class="text-nowrap">생물로</span> 구분하고, 생물 이름 띠 빙고 놀이를 해 봅시다.</p>
+                <button type="button" class="btn-img text-hide btn-start position-absolute" data-toggle="modal" data-target="#modalStart" style="top: 62px;right: 0;">시작해요</button>
+            </div>
+        </div>
+		<!-- 인터랙션(개발 필요) -->
+		<div id="interaction" class="bottom-content">
+			<img src="images/page096/1.png" data-dtext_index="dtext_cls_image" />
+			
+			<span class="fwd font-mi" style="left: 118px;top: 192px;">강아지풀</span>
+			<span class="fwd font-mi" style="left: 38px;top: 358px;">토끼풀</span>
+			<span class="fwd font-mi" style="left: 210px;top: 435px;">민들레</span>
+			<span class="fwd font-mi" style="left: 491px;top: 125px;">고양이</span>
+			<span class="fwd font-mi" style="left: 497px;top: 248px;">달팽이</span>
+			<span class="fwd font-mi" style="left: 454px;top: 351px;">해캄(224 배)</span>
+			<span class="fwd font-mi" style="left: 567px;top: 332px;">짚신벌레(100 배)</span>
+			<div class="dragzone">
+				<div class="drag-item">
+					<div class="drag-fix" data-drop="1">
+						<p>동물</p>
+					</div>
+				</div>
+				<div class="drag-item">
+					<div class="drag-fix" data-drop="1">
+						<p>식물</p>
+					</div>
+				</div>
+				<div class="drag-item">
+					<div class="drag-fix" data-drop="1">
+						<p>동물과 식물이 <br />아닌 생물</p>
+					</div>
+				</div>
+			</div>
+			<button type="button" title="다시 풀기" class="icon-btn-refresh drop-refresh ttakji-refresh" data-target="#layerDragDrop">다시 풀기</button>
+		</div>
+		<!-- // -->
+
+        <div id="num" class="text-white">96</div>
+    </div>
+</div>
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </div>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_96_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/evlt-slider.js"></script>
+<script type="text/javascript" src="js/jquery-ui.custom.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="js/dragdrop.fix.js"></script>
+</body>
+</html>

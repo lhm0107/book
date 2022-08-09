@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page099.css" />
+</head>
+<body>
+<div id="wrap" class="chap-odd page-odd">
+    <div class="wrapper">
+        <p class="text-flex text-num">
+            <span class="num font-coo">2</span>
+            <div class="col font-dt">
+                실체 현미경 사용법을 알아봅시다. 
+                <button type="button" class="btn-img text-hide btn-process" data-toggle="modal" data-target="#modalVideo1">실험 영상 과정</button>
+                <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-btn icon-pencil"></i><span class="left">실험 관찰</span></button>
+            </div>
+        </p>
+        <div class="open-unit-order">
+            <p class="text-flex" style="top: 245px;left: 54px;width: 218px;">
+                <span class="text-circle">1</span>
+                <span class="col">회전판을 돌려 배율이 가장 낮은 대물렌즈가 가운데에 오게 합니다.</span>
+             </p>
+            <p class="text-flex" style="top: 239px;left: 302px;width: 240px;">
+                <span class="text-circle">2</span>
+                <span class="col">관찰 대상이 담긴 페트리 접시를 재물대에 올려놓습니다.</span>
+            </p>
+            <p class="text-flex" style="top: 506px;left: 57px;width: 225px;">
+                <span class="text-circle">3</span>
+                <span class="col">전원을 켜고 조명 조절 나사로 조명의 밝기를 조절합니다.</span>
+            </p>
+            <p class="text-flex" style="top: 506px;left: 303px;">
+                <span class="text-circle">4</span>
+                <span class="col" style="width: 195px;">현미경을 옆에서 보면서 초점 조절나사로 대물렌즈를 관찰 <span class="text-nowrap">대상에 최대한 가깝게 내립니다.</span></span>
+            </p>
+            <span class="font-dt fs14" style=" top: 383px; left: 611px;">초점 조절 <br />나사</span>
+            <p class="text-flex" style="top: 772px;left: 57px;width: 239px;">
+                <span class="text-circle">5</span>
+                <span class="col">접안렌즈로 관찰 대상을 보면서 초점 조절 나사로 대물렌즈를 천천히 올려 초점을 맞춥니다.</span>
+            </p>
+            <p class="text-flex" style="top: 629px;left: 303px;width: 155px;">
+                <span class="text-circle">6</span>
+                <span class="col">현미경으로 관찰한 내용을 그림과 글로 나타냅니다.</span>
+            </p>
+        </div>
+        <div class="utility">
+            <div class="layer-wrp layer-wrp-right">
+                <button type="button" class="btn-img text-hide btn-help" data-toggle="layer" data-layer-accordion="true" data-target="#layerHelp">도움말</button>
+                <div id="layerHelp" class="layer layer-help" data-toggle="layerClse">
+                    <div class="layer-body">
+                        <strong class="title font-ka"><i class="icon-info"></i>도움말</strong>
+                        <ul class="lst-type-bull">
+                            <li>현미경의 배율은 접안렌즈의 배율과 대물렌즈의 배율을 곱해서 계산해요.</li>
+                            <li>낮은 배율로 먼저 관찰한 다음 높은 배율로 관찰해요.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <button type="button" class="btn-img text-hide btn-result" data-toggle="modal" data-target="#modalVideo2">실험 영상 결과</button>
+             <button type="button" class="btn-img text-hide btn-self ml5" data-toggle="modal" data-target="#modalSelf">스스로 평가해요</button>
+        </div>
+
+        <div id="num">99</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo1" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<div id="modalVideo2" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 44 쪽</span>
+            <h2 class="modal-title">실체 현미경 사용법 익히기</h2>
+        </div>
+        <div class="modal-body">
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane active">
+                    <div class="question">
+                        <span class="num font-coo">1.</span>
+                        <div class="col">
+                            『실험 관찰』 91 쪽에 있는 실체 현미경 사용법 붙임딱지를 실체 현미경 사용 순서대로 붙여 봅시다.
+                        </div>
+                    </div>
+                   
+                    <!-- 인터랙션(드래그앤드랍) -->
+
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1" data-modal="#exp1Answer">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 스스로 평가해요 -->
+<div id="modalSelf" class="modal modal-self modal-half">
+	<div class="modal-content">
+		<div class="modal-body">
+            <button type="button" title="닫기" class="icon-layer-clse" data-dismiss="modal"></button>
+			<strong class="self-check-title"><span class="text-hide">스스로</span> 평가해요</strong>
+			<p class="check-pencil font-mi">학습한 내용을 생각하며 색칠해 봅시다.</p>
+			<ul class="self-check-list">
+				<li class="row">
+					<p class="col">실체 현미경 사용법을 익힐 때 흥미와 호기심을 가지고 참여했<span class="text-nowrap">나요?</span></p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_033_01" value="self_033_01" id="self_033_01" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_033_01" value="self_033_02" id="self_033_02" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_033_01" value="self_033_03" id="self_033_03" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+				<li class="row">
+					<p class="col">실체 현미경을 순서에 맞게 사용했나요?</p>
+					<div class="self-button text-hide">
+						<label>
+							<input type="checkbox" name="self_033_04" value="self_033_04" id="self_033_04" class="sr-only" /><span>우수</span>
+						</label>
+						<label class="self-button-2">
+							<input type="checkbox" name="self_033_04" value="self_033_05" id="self_033_05" class="sr-only" /><span>보통</span>
+						</label>
+						<label class="self-button-3">
+							<input type="checkbox" name="self_033_04" value="self_033_06" id="self_033_06" class="sr-only" /><span>미흡</span>
+						</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>

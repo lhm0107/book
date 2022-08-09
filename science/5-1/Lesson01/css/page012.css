@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page012/bg.png)}
+.col-wide {-ms-flex: 0 0 538px;flex: 0 0 538px;max-width: 538px;}
+.exp-bx{background: url(../images/page012/bx.png)no-repeat 0 0  / contain;width: 536px;height: 107px;margin:15px 0}
+.exp-bx .desc{padding-top: 12px; padding-left: 25px;animation: bounceIn 0.5s 1 0.5s both;line-height: 1.58;} 
+
+.ex-process{position: relative;height:525px;margin-top: 5px;}
+.ex-process>p.font-ka{padding:81px 0 0 42px}
+.ex-process ol li.para{position: absolute;line-height: 1.4;}
+.ex-process ol li.para.p1{top: 320px;left: -5px;width: 260px;transform: rotate(-2deg);}
+.ex-process ol li.para.p2{top: 137px;left: 319px;width: 280px;transform: rotate(2.5deg);}
+.ex-process ol li.para.p3{top: 369px;left: 310px;width: 140px;text-indent: 0;}
+
+.char1{position: absolute; background: url(../images/page012/bc.png) no-repeat 0 0 / 100% 100%; width:192px ;height: 107px;padding-top: 46px;}
+.char1 .icon-hand{margin-left: 90px;margin-top: 10px;}
+.inform{position: absolute;text-align: center;}
+.inform .icon-hand{position: absolute;}
+.inform [class*=fwd]{position: relative;}
+.inform.b1 p{background: url(../images/page012/b1.png) no-repeat 0 0 / 100% 100%;width: 135.5px; height: 95.5px; }
+.inform.b2 p{background: url(../images/page012/b2.png) no-repeat 0 0 / 100% 100%;width: 135px; height: 80px; }
+.inform.b3 p{background: url(../images/page012/b3.png) no-repeat 0 0 / 100% 100%;width: 135px; height: 80px; }
+.inform.b4 p{background: url(../images/page012/b4.png) no-repeat 0 0 / 100% 100%;width: 140px; height: 80px; }

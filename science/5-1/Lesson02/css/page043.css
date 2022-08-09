@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page043/bg.jpg)}
+.wrapper{padding: 50px 130px 0 70px}
+.box{position: relative;height: 481px;background: #f0f6e0;border-radius: 15px;padding: 14px 25px;margin: 18px 0 44px}
+.box .para{line-height: 28px;margin-bottom: 20px}
+.box .form-control{border-radius: 10px;height: 253px}
+.box:after{content: '';position: absolute;width: 145px;height: 140px;background: url(../images/page043/img.png) no-repeat 0 0/auto 100%;left :100%;bottom: 0;margin: 0px 0 -16px -24px}
+.icon-pencil{position: absolute;top: 0;right: 0}
+.text-flex .text-circle{margin-top: 4px}
+.bx{border: 2px solid #a6bbc6;border-radius: 10px;height: 70px;display: flex;align-items: center;justify-content: space-between;padding: 0 32px;margin: 10px 0 45px}
+#modalWrite1 .form-control{height: 90px}

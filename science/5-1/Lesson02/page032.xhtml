@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=768, height=1024" name="viewport" />
+<title></title>
+<link rel="preload" href="font/KoPubBatangPMA.woff" type="font/woff" />
+<link rel="preload" href="font/KoPubDotumPMA.woff" type="font/woff" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/DTCaliperSensor.js"></script>
+<!-- page -->
+<link rel="stylesheet" type="text/css" href="css/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<link rel="stylesheet" type="text/css" href="css/page032.css" />
+</head>
+<body>
+<div id="wrap">
+    <div class="wrapper">
+        <header class="ch-2-hd row">
+			<div class="col font-coo">4</div>
+			<div class="col-content">
+				<h1 class="ch-2-title">고체에서 열은 어떻게 이동할까요</h1>
+				<div class="layer-wrp">
+					<button type="button" class="btn-img text-hide btn-this-time" data-toggle="layer" data-target="#unitGoal">이번 시간에는</button>
+					<div id="unitGoal" class="layer layer-unit" data-toggle="layerClse">
+                		<div class="layer-body layer-body-unit">
+                            <div class="unit-character">
+                                <img src="images/common/unit-character.png" height="90" alt="" />
+                                <button type="button" class="icon-audio" data-audio="Audio1">오디오 재생</button>
+                                <audio id="Audio1" src="media/sample.mp3" preload="none"></audio>
+                            </div>
+							<ul class="lst-type-bull">
+                                <li>고체에서의 열의 이동을 관찰할 수 있습니다. </li>
+                                <li>고체에서 열이 이동하는 방법을 설명할 수 있습니다.</li>
+	 						</ul>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</header>
+
+        <div class="row col-content ml-auto">
+            <div class="col">
+                <p class="para">
+                    뜨거운 물이 담긴 컵에 쇠숟가락을 넣어 두면 물에 잠기지 않은 숟가락의 손잡이 부분도 뜨거워집니다. 고체에서 열은 어떻게 이동하는지 알아봅시다.
+                </p>
+            </div>
+            <div class="col-auto ch-2-img">
+                <img src="images/page032/img.jpg" height="159" alt="" data-dtext_index="dtext_cls_image" />
+                <span class="fwd font-mi" style="left: 44.5px; top: -15px;">손잡이가<br />뜨거워.</span>
+                <button type="button" class="btn-img text-hide btn-start" data-toggle="modal" data-target="#modalStart">시작해요</button>
+            </div>
+        </div>
+
+        <!-- 탐구 -->
+        <div class="explore font-dt mt2">
+            <header class="explore-hd">
+                <strong class="sr-only">탐구</strong>
+                <h2 class="tit">고체에서 열의 이동 관찰하기</h2>
+                <span class="font-coo">관찰, 추리</span>
+                <div class="page">『실험 관찰』 18 쪽~ 19 쪽</div>
+                <div class="explore-ability">
+                    <span class="ability"><i class="icon-ability-think"></i>사고력</span>
+                    <i class="split"></i>
+                    <span class="ability"><i class="icon-ability-study"></i>탐구 능력</span>
+                </div>
+            </header>
+            <div class="utility">
+                <div class="layer-wrp layer-wrp-left">
+                    <button type="button" class="btn-img text-hide btn-safe" data-toggle="layer" data-layer-accordion="true" data-target="#layerSafe">안전</button>
+                    <div id="layerSafe" class="layer layer-safe" data-toggle="layerClse">
+                        <div class="layer-body">
+                            <strong class="title font-ka">
+                                <i class="icon-alert"></i><span class="mr10">안전</span>
+                                <i class="icon-safe-hand"></i>
+                                <i class="icon-safe-cloth"></i>
+                                <i class="icon-safe-break"></i>
+                            </strong>
+                            <ul class="safe-check">
+                                <li>
+                                    <label class="custom-input-check">
+                                        <input type="checkbox" id="check_032_15" class="sr-only" />
+                                        <span class="custom-label">구리판을 가열하는 실험을 할 때에는 반드시 면장갑과 실험복을 착용해요. </span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-input-check">
+                                        <input type="checkbox" id="check_032_16" class="sr-only" />
+                                        <span class="custom-label">실험한 뒤 뜨거워진 구리판을 곧바로 만지지 않아요. </span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-input-check">
+                                        <input type="checkbox" id="check_032_17" class="sr-only" />
+                                        <span class="custom-label">불을 다룰 때에는 화재 및 화상에 주의<span class="text-nowrap">해요.</span></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="supplies-wrap layer-wrp">
+                <button type="button" class="btn-img text-hide btn-supplies" data-toggle="layer" data-target="#supplies">준비물</button>
+                <div class="txt">고온용 열 변색 붙임딱지를 붙인 구리판(길게 자른 구리판, 정사각형 구리판, <i class="rect sm mr2"></i>모양 구리판), 삼발이, 쇠그물, 스탠드, 고정 집게, 집게 잡이, 초, 점화기, 면장갑, 실험복</div>
+                <div id="supplies" class="layer layer-full">
+                    <div role="button" class="icon-layer-clse" data-toggle="layerClse">닫기</div>
+                    <div class="layer-body">
+                        <p class="font-ka fs22">준비물을 확인해 보세요.</p>
+                        <ul class="supplies-list row">
+                            <li class="col-8">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_01" class="sr-only" />
+                                    <span class="custom-label">고온용 열 변색 붙임딱지를 붙인 구리판(길게 자른 구리판, 정사각형 구리판, <i class="rect"></i>모양 구리판)</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_02" class="sr-only" />
+                                    <span class="custom-label">삼발이</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_03" class="sr-only" />
+                                    <span class="custom-label">쇠그물</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_04" class="sr-only" />
+                                    <span class="custom-label">스탠드</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_05" class="sr-only" />
+                                    <span class="custom-label">고정 집게</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_06" class="sr-only" />
+                                    <span class="custom-label">집게 잡이</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_07" class="sr-only" />
+                                    <span class="custom-label">초</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_08" class="sr-only" />
+                                    <span class="custom-label">점화기</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_09" class="sr-only" />
+                                    <span class="custom-label">면장갑</span>
+                                </label>
+                            </li>
+                            <li class="col-4">
+                                <label class="custom-input-check">
+                                    <input type="checkbox" id="check_032_10" class="sr-only" />
+                                    <span class="custom-label">실험복</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <strong class="how-title font-ka">어떻게 할까요</strong>
+                <button type="button" class="btn-img text-hide btn-process" data-toggle="modal" data-target="#modalVideo1">실험 영상 과정</button>
+                <button type="button" class="btn ml10 mt2" data-toggle="modal" data-target="#modalVideo3"><i class="icon-vod"></i>가상 실험실</button>
+            </div>
+            <ul class="lst-num mt10 mb10">
+                <li class="text-flex text-num">
+                    <span class="num font-coo">1</span>
+                    <div class="col">
+                         열변색 붙임딱지를 붙인 세 가지 모양의 구리판을 각각 스탠드에 고정합니다.
+                         <button type="button" class="btn-exp ml4" data-toggle="modal" data-target="#modalExp" data-exp="1"><i class="icon-btn icon-pencil"></i><span class="left">실험 관찰</span></button>
+                     </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">2</span>
+                    <div class="col">
+                        길게 자른 구리판의 한쪽 끝부분을 초로 가열하면서 열 변색 붙임딱지의 색깔 변화를 관찰해 봅시다.
+                    </div>
+                </li>
+                <li class="text-flex text-num">
+                    <span class="num font-coo">3</span>
+                    <div class="col">
+                        정사각형 구리판과 <i class="rect"></i>모양 구리판의 한 꼭짓점을 각각 초로 가열하면서 열 변색 붙임딱지의 색깔 변화를 관찰해 봅시다.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <span class="fwd text-center" style="left: 160px; top: 639px;">열 변색 붙임딱지를 <br />붙인 구리판</span>
+        <span class="fwd text-center lh22" style="left: 551px; top: 685px;">정사각형 구리판 <br />가열하기</span>
+        <span class="fwd text-center" style="left: 144px; top: 910px;">길게 자른 구리판 가열하기</span>
+        <span class="fwd text-center lh22" style="left: 559px; top: 870px;"><i class="rect sm mr2"></i>모양 구리판 <br/>가열하기</span>
+
+        <div id="num">32</div>
+    </div>
+</div>
+
+<!-- 비디오 -->
+<div id="modalVideo1" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<div id="modalVideo2" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<div id="modalVideo3" class="modal modal-video">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+            <h2 class="modal-title">영상 제목</h2>
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-narr">자막 보기</button>
+	</div>
+</div>
+
+<!-- 실험관찰탐구 -->
+<div id="modalExp" class="modal modal-exp">
+    <div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <div class="modal-exp-header">
+            <strong class="font-coo">실험 관찰<br />탐구</strong>
+            <span class="exp-label">『실험 관찰』 18 쪽</span>
+            <h2 class="modal-title">고체에서 열의 이동 관찰하기</h2>
+        </div>
+        <div class="modal-body">
+            <div class="tab-content exp-content">
+                <div id="exp1" class="tab-pane active">
+                    <div class="question">
+                        <span class="num font-coo">1.</span>
+                        <div class="col">
+                            세 가지 모양의 구리판을 각각 가열할 때 열 변색 붙임딱지의 색깔이 변하는 방향을 화살표로 그리고, 구리판에서 열이 어느 방향으로 이동하는지 써 봅시다.
+                        </div>
+                    </div>
+                    <div class="layer-wrp layer-wrp-btm clearfix">
+                        <button type="button" class="icon-btn icon-pendraw float-right" title="디교 펜쓰기" data-toggle="layer" data-target="#drawHelper">디교 펜쓰기</button>
+                        <div id="drawHelper" class="layer layer-draw" data-toggle="layerClse">
+                            <div class="draw-option">
+                                <input id="spectrumInsert" type="color" value="#00b050" />
+                                <div class="colorchart">
+                                    <button type="button" title="펜 검은색으로 변경" class="color01 no-style" onclick="changeColorPenDraw('.draw_032', '#000000')">색상 변경</button>
+                                    <button type="button" title="펜 빨간색으로 변경" class="color02 no-style" onclick="changeColorPenDraw('.draw_032', '#ff0000')">색상 변경</button>
+                                    <button type="button" title="펜 파란색으로 변경" class="color03 no-style" onclick="changeColorPenDraw('.draw_032', '#0000ff')">색상 변경</button>
+                                    <button type="button" title="펜 노란색으로 변경" class="color04 no-style" onclick="changeColorPenDraw('.draw_032', '#fdce54')">색상 변경</button>
+                                </div>
+                                <div class="linewidth">
+                                    <button type="button" title="펜 굵기 변경" class="line1 no-style" onclick="changeLineWidthPenDraw('.draw_032', 1)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line2 no-style" onclick="changeLineWidthPenDraw('.draw_032', 4)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line3 no-style" onclick="changeLineWidthPenDraw('.draw_032', 7)">굵기 변경</button>
+                                    <button type="button" title="펜 굵기 변경" class="line4 no-style" onclick="changeLineWidthPenDraw('.draw_032', 14)">굵기 변경</button>
+                                </div>
+                                <div class="btns">
+                                    <button type="button" title="펜 쓰기 영역 부분 삭제" class="icon-eraser ml10 mr10" onclick="eraserPenDraw('.draw_032',this);">펜 쓰기 영역 부분 삭제</button>
+                                    <button type="button" title="펜 쓰기 영역 전체 삭제" class="icon-del" onclick="deletePenDraw('.draw_032');">펜 쓰기 영역 전체 삭제</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-round-wrp">
+                        <table class="tb">
+                            <colgroup>
+                                <col style="width: 140px" />
+                                <col />
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="2">길게 자른 <br />구리판</th>
+                                    <td class="pl0">
+                                        <div class="painting-area">
+                                            <img src="images/page032/tb1.jpg" height="132" alt="" />
+                                            <canvas id="draw_032_01" class="draw draw_032" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="217" height="132"></canvas>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pa0">
+                                        <div class="input-group">
+                                            <span class="pl10">길게 자른 구리판에서 열은</span>
+                                            <input type="text" id="text_032_01" class="form-control overlap" />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">정사각형 <br />구리판</th>
+                                    <td class="pl0">
+                                        <div class="painting-area">
+                                            <img src="images/page032/tb2.jpg" width="217" alt="" />
+                                            <canvas id="draw_032_02" class="draw draw_032" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="217" height="141"></canvas>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pa0">
+                                        <div class="input-group">
+                                            <span class="pl10">정사각형 구리판에서 열은</span>
+                                            <input type="text" id="text_032_01" class="form-control overlap" />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2"><i class="rect"></i>모양 <br />구리판</th>
+                                    <td class="pl0">
+                                        <div class="painting-area">
+                                            <img src="images/page032/tb3.jpg" width="210" alt="" />
+                                            <canvas id="draw_032_03" class="draw draw_032" data-role="drawing" data-lineWidth="4" data-strokeStyle="#00b050" width="217" height="123"></canvas>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pa0">
+                                        <div class="input-group">
+                                            <span class="pl10"><i class="rect"></i>모양 구리판에서 열은</span>
+                                            <input type="text" id="text_032_01" class="form-control overlap" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="test-buttons btn-chk-wrap">
+                        <button type="button" class="btn-img btn-answer-check" data-toggle="answer" data-target="#exp1" data-modal="#exp1Answer">확인하기</button>
+                        <div class="bubble font-mi">스스로 <br />정리해 보세요.</div>
+                        <button type="button" class="btn-img btn-answer-refresh" data-toggle="answer-refresh" data-target="#exp1">다시 하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 시작해요 -->
+<div id="modalStart" class="modal">
+	<div class="modal-content">
+        <button type="button" title="닫기" class="icon-modal-close" data-dismiss="modal">닫기</button>
+        <header class="modal-header">
+            <h2 class="font-coo"><i class="icon-modal-start"></i>시작 해요</h2>
+        </header>
+		<div class="modal-body">
+			<!-- 비디오 -->
+			<video poster="media/poster/5_1_12_1e.jpg" class="video-js" data-content_index="content_cls_video" data-dtext_index="dtext_cls_video" controls="controls" webkit-playsinline="" playsinline="" preload="none" title="">
+				<source src="media/sample.mp4" type="video/mp4" />
+			</video>
+			<!-- 자막 -->
+			<div class="narr d-block">
+				<div class="box">
+					<p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 정답팝업 -->
+<div id="exp1Answer" class="modal modal-half">
+    <div class="modal-content">
+        <div class="modal-body" data-dismiss="modal">
+            <button type="button" title="닫기" class="icon-layer-clse">닫기</button>
+            <div class="ex-answer-box d-block mt0">
+                <strong class="label-answer-ex font-ka">예시 답안</strong>
+                <div class="table-round-wrp">
+                    <table class="tb">
+                        <colgroup>
+                            <col style="width: 140px" />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">길게 자른 <br />구리판</th>
+                                <td class="pl0">
+                                    <img src="images/page032/tb1-1.jpg" width="210" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="text-black">길게 자른 구리판에서 열은</span> 가열한 부분에서 멀어지는 방향으로 이동한다.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">정사각형 <br />구리판</th>
+                                <td class="pl0">
+                                    <img src="images/page032/tb2-1.jpg" width="209" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="text-black">정사각형 구리판에서 열은</span> 가열한 부분에서 멀어지는 방향으로 이동한다.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2"><i class="rect"></i>모양 <br />구리판</th>
+                                <td class="pl0">
+                                    <img src="images/page032/tb3.jpg" width="218" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="span text-black"><i class="rect"></i>모양 구리판에서 열은</span> 가열한 부분에서 멀어지는 방향으로 이동한다. 이때 구리판이 끊겨 있는 부분으로는 열이 이동하지 않<span class="text-nowrap">는다.</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/dic.js"></script>
+<!-- page -->
+<script type="text/javascript" src="js/spectrum.js"></script>
+<script type="text/javascript" src="js/drawing.js"></script>
+<script type="text/javascript" src="js/video-js.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+</body>
+</html>
