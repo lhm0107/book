@@ -278,7 +278,7 @@ button>[class*=icon-]{-ms-flex-negative: 0;flex-shrink: 0;position: relative;top
 .icon-up{width: 13px;height: 15px;background-image: url(../images/common/icon-up.png);margin-right: 6px}
 .icon-hand{width: 30px;height: 37px;background-image: url(../images/common/icon-hand.png);background-size: 27px auto;transition: none}
 .icon-hand.re, .icon-re{background-image: url(../images/common/icon-re.png);background-size: 30px auto}
-
+.icon-scratch{width: 32px;height: 40px;background: url(../images/common/icon-scratch.png) no-repeat center / cover;}
 
 /* Text  */
 [class*=fwd]{position: absolute;font-size: 14px;line-height: 17px;font-family: 'KoPubDotum',sans-serif}

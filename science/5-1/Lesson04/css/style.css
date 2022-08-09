@@ -73,7 +73,7 @@ input:checked+.icon-answerb-x{background-image: url(../images/common/answerb_x_c
 .q-line,.q-line-btn{position:relative}
 .q-line-btn{cursor: pointer;font-size: 15px;line-height: 24px}
 .q-line-btn .box{height: 100%;padding: 10px;border: 1px solid #6e7374;border-radius: 6px}
-.q-line-btn button{display:block; position: absolute;top: 100%;left: 50%;width: 6px;height: 6px;margin: 10px -3px;background: #95a9b3;border-radius: 50%;text-indent: -999em;color: rgba(0,0,0,0)}
+.q-line-btn button{display:block;transition: none; position: absolute;top: 100%;left: 50%;width: 6px;height: 6px;margin: 10px -3px;background: #95a9b3;border-radius: 50%;text-indent: -999em;color: rgba(0,0,0,0)}
 .q-line-btn.top button{top: auto;bottom: 100%}
 .q-line-btn.rt button,.q-line-btn.lt button{top: 50%;left: 100%;margin: -3px 10px}
 .q-line-btn.lt button{left: auto;right: 100%}

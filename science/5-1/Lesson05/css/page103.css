@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page103/bg.jpg)}
+
+.wrapper{padding:46px 56px}
+.open-unit-order>*{position: absolute;}
+.open-unit-order .text-flex .text-circle {width: 20px;background: #fff;border: 1px solid #225d9c;color: #225d9c;}
+.aside{top: 84px;right: 24px;width: 106px;font-size: 14px;text-align:center}
+.aside>div{position:relative}
+.aside span:not(.text-nowrap){position:absolute;top:0;left:0;}
+.aside p{margin-top: 3px;font-weight: 400;text-align: justify;line-height: 1.5;}
+.bottom-content{bottom: 70px;left: 72px;}

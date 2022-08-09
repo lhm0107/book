@@ -59,13 +59,18 @@ $(function(){
 		drop: function(e, ui){
 			var $dropItem = $(this);
 			var $dragItem = $(ui.draggable);
+			var dragItemCnt = $dragItem.attr('data-drop-count') ;
 			var dropArr = String($dropItem.data('drop')).indexOf(',') !== -1 && $dropItem.data('drop').split(',');
 			var dropChance = $dropItem.data('chance');
 
 			if(($dragItem.data('drop') === $dropItem.data('drop')) || $.inArray(String($dragItem.data('drop')),dropArr)>-1){
 				effectAudio.play('correct');
-				$dropItem.append(ui.draggable.html());
-				$dragItem.draggable('option', 'disabled', true);
+				$dropItem.append(ui.draggable.html()); 
+				if (dragItemCnt>1) { // 드래그 아이템  여러번 드래그 필요시
+					$dragItem.attr('data-drop-count' , dragItemCnt - 1 ) ; 
+				} else {
+					$dragItem.draggable('option', 'disabled', true);
+				}
 
 				(!dropChance || $dropItem.children().length === dropChance) && $dropItem.droppable('option', 'disabled', true);
 
@@ -87,7 +92,15 @@ $(function(){
 	$('.drop-refresh').click(function(){
 		var target = this.dataset.refresh ? $(this.dataset.refresh) : $('body');
 		target.find('.drop-fix').droppable('option', 'disabled', false).empty();
-		target.find('.drag-fix').draggable('option', 'disabled', false);
+
+		target.find('.drag-fix').each(function(){
+			$(this).draggable('option', 'disabled', false);
+			if ($(this).data('drop-count')) {
+				var dragVal = $(this).data('drop') ;
+				var dropVal = target.find('.drop-fix[data-drop='+dragVal+']').length  ;
+				$(this).attr('data-drop-count',dropVal) ;
+			}
+		});
 
 		$(this).hasClass('ttakji-refresh') && $(this).hide();
 	});

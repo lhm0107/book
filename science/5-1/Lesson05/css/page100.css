@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page100/bg.jpg)}
+.explore{margin-top:23px;}
+.bx{margin-bottom: 13px;padding: 11px 25px 10px;border:2px dotted #1268b2;}
+.bx .lst-type-bull{display: flex;justify-content: center;}
+.bx .lst-type-bull li+li{margin-top:0;margin-left:70px}
+.bx .lst-type-bull>li:before {width: 3px;height: 3px;}
+.aside{width: 378px;float: right}
+.exp-report{top: 527px}
+
+.inter{position: absolute;left: 255px;top: 675px;width: 427px;height: 185px;}
+.inter .icon-hand{position: absolute;left: -14px;bottom: -81px;}
+.inner img{display: block;animation: scale 1s both;transform-origin:0px 227px}
+.inner .figcaption{position: absolute;right:21px;top: 70px;letter-spacing: -.025em;animation: fadeIn 1s 1s both}
+.inner .icon-up{transform: rotate(-95deg);}
+.inner, .inter.active .icon-hand{display: none}
+.inter.active .inner{display: block}
+.icon-re{margin: -4px 0 0 4px}
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

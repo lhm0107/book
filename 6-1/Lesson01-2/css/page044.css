@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 .box.row{width: 576.5px; height: 436.5px; background: url(../images/page044/paper.jpg) 0 0 /contain no-repeat;    margin: 0 auto;}
 .sect-do-content{padding-right: 0px;}
 .table-round-wrp {border: 0.5px solid #a8b2b7;margin-top: 0;margin-bottom: 44px;}
@@ -10,7 +9,6 @@
 .bubble.box1{width:126px; height:87px; background: url(../images/page041/bubble1.png) no-repeat 0 0 / 100% auto; padding-top: 14px;}
 .bubble.box2{width:147px;height:95px;background: url(../images/page041/bubble2.png) no-repeat 0 0 / 100% auto; padding-top: 9px;}
 .bubble.font-mi{position: absolute;text-align: center; font-size: 21px;letter-spacing: -0.0125em;line-height: 20px;}
-
 
 .text-circle,.text{display: inline-block}
 .media-title{line-height: 24px;}

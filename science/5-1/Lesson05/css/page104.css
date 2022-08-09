@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page104/bg.jpg)}
+.explore{margin-top:23px;}
+.bx{margin:8px 0;padding: 11px 25px 10px;border:2px dotted #1268b2;}
+.bx .lst-type-bull{display: flex;justify-content: center;}
+.bx .lst-type-bull li+li{margin-top:0;margin-left:70px}
+.bx .lst-type-bull>li:before {width: 3px;height: 3px;}
+.aside{width: 378px;float: right}
+.exp-report{top: 527px}
+.lst-num>li+li{margin-top: 12px;}
+
+.inter{position: absolute;left: 304px;top: 559px;width: 229px;height: 245px;}
+.inter .icon-hand{position: absolute;left: -16px;bottom: -18px;}
+.inner img{display: block;animation: scale 1s both;transform-origin:0px 227px}
+.inner .figcaption{position: absolute;right: -132px;top: 148px;letter-spacing: -.025em;animation: fadeIn 1s 1s both;}
+.inner .icon-up{transform: rotate(-95deg);}
+.inner, .inter.active .icon-hand{display: none}
+.inter.active .inner{display: block}
+.icon-re{margin: -4px 0 0 4px}
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

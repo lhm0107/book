@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page105/bg.jpg)}
+
+.col-content {padding-top: 224px;}
+.col-content>.para:first-child{text-indent: 1.5em;}
+.bottom-content{height: 664px;}
+.inter{position: absolute;width: 271px;height: 271px;}
+.inter .icon-hand{position: absolute;}
+.inner img{display: block;animation: scale 1s both;}
+.inner .caption{position: absolute;top: -12px;padding: 3px 13px;background: #fff;border-radius: 19px;font-size: 20px;letter-spacing: -.025em;animation: fadeIn 1s 1s both;}
+
+.inter1{top: 341px;left: 68px;}
+.inter1 .icon-hand{left: 3px;top: 4px;}
+.inter1 img{transform-origin:40px 35px}
+.inter1 .caption{left:86px;}
+
+.inter2{top: 256px;right: 37px;}
+.inter2 .icon-hand{top: 13px;left: 247px;}
+.inter2 img{transform-origin:260px 25px}
+.inter2 .caption{left: 78px;}
+
+.inner .icon-up{transform: rotate(-95deg);}
+.inner, .inter.active .icon-hand{display: none}
+.inter.active .inner{display: block}
+.icon-re{position: absolute;right: 43px;}
+
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

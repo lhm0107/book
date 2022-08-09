@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#wrap{background-image: url(../images/page101/bg.jpg)}
+
+.bottom-content{height: 664px;}
+.inter{position: absolute;width: 294px;height: 271px;}
+.inter .icon-hand{position: absolute;}
+.inner img{display: block;animation: scale 1s both;}
+.inner .caption{position: absolute;top: -10px;padding: 3px 13px;background: #fff;border-radius: 19px;font-size: 20px;letter-spacing: -.025em;animation: fadeIn 1s 1s both;}
+
+.inter1{top: 210px;left: 28px;}
+.inter1 .icon-hand{left: 292px;top: 198px;}
+.inter1 img{transform-origin:294px 190px}
+.inter1 .caption{left:86px;}
+
+.inter2{top: 12px;right: 24px;}
+.inter2 .icon-hand{top: 88px;left: -3px;}
+.inter2 img{transform-origin:0 85px}
+.inter2 .caption{left: 112px;}
+
+.inner .icon-up{transform: rotate(-95deg);}
+.inner, .inter.active .icon-hand{display: none}
+.inter.active .inner{display: block}
+.icon-re{position: absolute;right: 43px;}
+
+
+@keyframes scale {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}

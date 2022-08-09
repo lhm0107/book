@@ -3,7 +3,7 @@
 #wrap{background-image: url(../images/page075/bg.jpg)}
 .para{word-break: keep-all; width: 548px;}
 .icon-alert{margin:2px 0 0 -25px ;}
-.btn-concept{width: 101px; background-image: url(../images/page075/btn-concept.png);}
+
 
 .explore{margin-top: -6px;}
 .ch-2-img{margin-top: 0;}
@@ -18,7 +18,13 @@ th .icon-hand{width: 21px;height: 29px;background-size: 21px auto;top: 45px;righ
 .ex-answer-box .tb tr>td{padding: 4px 10px}
 .number{position: absolute;top: 239px ;left:313px; line-height: normal;}
 
-.tb td{height: 100px;}
-.small-safe{width: 130xp;}
-.small-safe .layer-safe {width: 74px; height: 43px; margin-left: 0px; color: #af2a30;border-radius: 20px;background-color: #fbf7c4;}
-.small-safe p {display: inline-block; padding: 10px;margin-top: -20px; background-color: #fbf7c4;border-radius: 0px 20px 20px 20px ;font-size:16px;color: grey;}
+
+.inter>*:not(img){position: absolute}
+.figcaption{letter-spacing: -.025em}
+.figcaption::before{content: ""; width:11px; height:12.5px;margin-top: 4px;margin-right: 5px; display: inline-block; background: url(../images/page075/smallarrow.png) no-repeat 0 0/100% auto}
+.icon-hand{top: 661.5px;left: 80px}
+
+.arrow{width: 90px;height: 49.5px; animation: fadeIn 1s 1s both}
+.salt{animation: fadeIn 2s 2s both}
+
+.inter:not(.active) .arrow, .inter:not(.active) .salt{display: none}

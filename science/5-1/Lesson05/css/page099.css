@@ -4,5 +4,6 @@
 
 .wrapper{padding: 46px 53px;}
 .open-unit-order>*{position: absolute;}
+.open-unit-order .text-flex .text-circle {width: 20px;background: #fff;border: 1px solid #225d9c;color: #225d9c;}
 .utility{top: 89px;right: 33px;left: auto;}
 .bottom-content{bottom: 27px;left: 56px;}

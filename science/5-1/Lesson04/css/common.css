@@ -102,6 +102,7 @@
 .page-title{font-family: 'CookieRun',sans-serif;font-size: 36px;line-height: 45px;font-weight: 700;letter-spacing: -.05em;padding: 7px 0 32px}
 .page-title>span{display: block}
 .page-title>span:nth-child(2){text-align: right;padding: 0 110px 0 0}
+.page-title>span>span{color:#e84472}
 .how-title, .arrange-title{display: block;font-size: 18px;letter-spacing: -.025em;color: #226a84;width: 108px;padding-left: 5px;margin-right: 10px;line-height: 31px;background: url(../images/common/how-title.png) no-repeat 0 16px/auto 12px}
 .arrange-title{width: 97px;color: #954069;background-image: url(../images/common/arrange-title.png);margin-bottom: 10px}
 .idea-title{display: block;width: 150px;height: 33px;background: url(../images/common/idea-title.svg) no-repeat 0 0/100% auto;color: #fff;font-size: 17px;padding-left: 7px;line-height: 2em}
@@ -112,6 +113,8 @@
 .job-heading{position: absolute;top: -35px;left: -38px;width: 176px;height: 127px;background: url(../images/common/job-heading.png) no-repeat 0 0/auto 100%}
 .helper-title{font-size: 16px;line-height: 23px;color: #666;margin-bottom: 10px}
 .helper-title>span{color: #fff;display: inline-block;vertical-align: top;width: 34px;height: 23px;background: url(../images/common/helper-title.png) no-repeat 0 0/auto 100%;padding-left: 4px}
+/* 홀수 단원 */
+.chap-odd .page-title>span>span{color:#00afb4} 
 
 /* 문항 */
 /* [data-qtype]{position: relative} */
@@ -139,7 +142,7 @@ input:checked~.mark:after{display: block}
 .answersheet>li{position: relative;line-height: 30px;font-weight: 400;margin-bottom: 10px}
 .answersheet .text-flex>b{margin-right: 10px}
 .answersheet input, .test-item input[type=radio], .test-item input[type=checkbox]{position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;overflow: hidden;clip: rect(0,0,0,0);border: 0}
-.q-label-wrp span{font-weight: 700;vertical-align: top;position: relative;-webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none}
+.q-label-wrp span{vertical-align: top;position: relative;-webkit-touch-callout: none;-webkit-user-select: none;-ms-user-select: none;user-select: none}
 .q-label-wrp input + span:before{content: '';position: absolute;top: 50%;left: 50%;height: 40px;border: 2px solid #ff7800;border-radius: 50%;width: 110%;min-width: 40px;transform: translate(-50%,-50%);display: none}
 .q-label-wrp input:checked + span:before{display: block}
 /* .answered .q-label-wrp [data-answer]:not(:checked) + span:before{display: block;border-color: #f60000} */
@@ -158,16 +161,25 @@ input:checked~.mark:after{display: block}
 .nav-unit>li+li{margin-top: 16px}
 .icon-link{width: 18px;height: 24px;background-image: url(../images/common/icon-link.png);margin-left: 5px}
 .btn-dictionary{position: absolute;bottom: 0;left: 0}
+/* 홀수 단원 */
+.chap-odd .nav-unit span{color:#234d68} 
 
 /* 단원열기 */
 .open-unit-heading{position: absolute;top: -50px;left: -50px;background: url(../images/common/open-unit-heading.png) no-repeat 0 0/auto 100%;width: 249px;height: 153px}
-.open-unit{padding: 0 40px}
-.open-unit-hd{display: flex;align-items: center;padding: 14px 0 32px}
+.open-unit{margin-top: 30px;padding: 0 40px;background: #fff;border: 2px dotted #a6bbc6;border-radius: 35px;}
+.open-unit-hd{display: flex;align-items: center;margin-top: -30px;padding: 14px 0 32px}
 .open-unit-hd .tit{font-size: 17px;color: #fff;letter-spacing: -.025em;border-radius: 6px;padding: 0 10px;min-width: 135px;line-height: 32px;background: #7a2743;text-align: center;margin-right: 6px;position: relative}
 .open-unit-hd .tit:before{content: '';position: absolute;bottom: 100%;left: 50%;width: 24px;height: 14px;background: url(../images/common/open-unit-hd-tit.png) no-repeat 50% 0/auto 100%;margin-left: -12px}
 .open-unit-order .text-flex{font-size: 16px;line-height: 26px}
+.open-unit-order .text-flex+.text-flex{margin-top: 6px;}
 .open-unit-order .text-flex .text-circle{margin-top: 4px}
+.open-unit .text-dot>.dot{background: #7a2743;}
 .alert-wrap .lst-type-bull>li{font-size: 14px;line-height: 20px;padding-left: 10px}
+/* 홀수 단원 */
+.chap-odd .open-unit-heading{background-image: url(../images/common/open-unit-heading2.png)} 
+.chap-odd .open-unit-hd .tit{background: #234d68;}
+.chap-odd .open-unit-hd .tit:before{background-image: url(../images/common/open-unit-hd-tit2.png)}
+.chap-odd .open-unit .text-dot>.dot{background: #234d68;}
 
 /* 소단원 */
 .ch-2-hd{margin-bottom: 8px}
@@ -180,6 +192,8 @@ input:checked~.mark:after{display: block}
 .layer-body-unit{display: flex;align-items: center;padding-left: 0}
 .unit-character{flex-shrink: 0;width: 130px;padding-left: 30px;position: relative}
 .unit-character .icon-audio{position: absolute;bottom: 0;left: 88px}
+/* 홀수 단원 */
+.chap-odd .ch-2-hd .font-coo{color:#00afb4;}
 
 /* 탐구 */
 .explore{position: relative;padding-left: 130px}
